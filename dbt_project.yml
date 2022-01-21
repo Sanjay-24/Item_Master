@@ -25,6 +25,9 @@ vars:
 
 models:
   dbtvault_snowflake_demo:
+    DQ_Models:
+      tags:
+        - 'dq_check'
     raw_stage:
       tags:
         - 'raw'

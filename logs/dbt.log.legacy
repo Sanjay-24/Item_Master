@@ -3853,3 +3853,1123 @@ limit 500
 2022-01-21 08:05:43.334710 (Thread-250): handling status request
 2022-01-21 08:05:43.335072 (Thread-250): 08:05:43  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '30df626b-f28b-49ae-b272-e57eaa9cbcfb', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fd59c6e7670>]}
 2022-01-21 08:05:43.335548 (Thread-250): sending response (<Response 1906 bytes [200 OK]>) to 10.0.41.230
+2022-01-21 08:05:45.813786 (Thread-251): 08:05:45  Partial parsing enabled: 0 files deleted, 0 files added, 0 files changed.
+2022-01-21 08:05:45.814009 (Thread-251): 08:05:45  Partial parsing enabled, no changes found, skipping parsing
+2022-01-21 08:05:45.820776 (Thread-251): 08:05:45  Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '30df626b-f28b-49ae-b272-e57eaa9cbcfb', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fd59c1c0550>]}
+2022-01-21 08:05:46.665150 (Thread-252): handling status request
+2022-01-21 08:05:46.665535 (Thread-252): 08:05:46  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '30df626b-f28b-49ae-b272-e57eaa9cbcfb', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fd5f01e43d0>]}
+2022-01-21 08:05:46.666010 (Thread-252): sending response (<Response 1244 bytes [200 OK]>) to 10.0.16.4
+2022-01-21 08:05:46.749656 (Thread-253): handling status request
+2022-01-21 08:05:46.750008 (Thread-253): 08:05:46  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '30df626b-f28b-49ae-b272-e57eaa9cbcfb', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fd59c394d30>]}
+2022-01-21 08:05:46.750537 (Thread-253): sending response (<Response 1244 bytes [200 OK]>) to 10.0.10.237
+2022-01-21 08:06:51.471568 (Thread-254): 08:06:51  Unable to do partial parsing because a project config has changed
+2022-01-21 08:06:51.473514 (Thread-254): 08:06:51  Sending event: {'category': 'dbt', 'action': 'partial_parser', 'label': '30df626b-f28b-49ae-b272-e57eaa9cbcfb', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fd59c2c6f70>]}
+2022-01-21 08:06:51.895418 (Thread-254): 08:06:51  Parsing macros/catalog.sql
+2022-01-21 08:06:51.897644 (Thread-254): 08:06:51  Parsing macros/adapters.sql
+2022-01-21 08:06:51.936257 (Thread-254): 08:06:51  Parsing macros/materializations/merge.sql
+2022-01-21 08:06:51.940402 (Thread-254): 08:06:51  Parsing macros/materializations/table.sql
+2022-01-21 08:06:51.943704 (Thread-254): 08:06:51  Parsing macros/materializations/seed.sql
+2022-01-21 08:06:51.949202 (Thread-254): 08:06:51  Parsing macros/materializations/view.sql
+2022-01-21 08:06:51.957766 (Thread-254): 08:06:51  Parsing macros/materializations/snapshot.sql
+2022-01-21 08:06:51.958753 (Thread-254): 08:06:51  Parsing macros/materializations/incremental.sql
+2022-01-21 08:06:51.967473 (Thread-254): 08:06:51  Parsing macros/get_custom_name/get_custom_alias.sql
+2022-01-21 08:06:51.969085 (Thread-254): 08:06:51  Parsing macros/get_custom_name/get_custom_database.sql
+2022-01-21 08:06:51.970708 (Thread-254): 08:06:51  Parsing macros/get_custom_name/get_custom_schema.sql
+2022-01-21 08:06:51.973219 (Thread-254): 08:06:51  Parsing macros/generic_test_sql/accepted_values.sql
+2022-01-21 08:06:51.980433 (Thread-254): 08:06:51  Parsing macros/generic_test_sql/not_null.sql
+2022-01-21 08:06:51.981063 (Thread-254): 08:06:51  Parsing macros/generic_test_sql/relationships.sql
+2022-01-21 08:06:51.981969 (Thread-254): 08:06:51  Parsing macros/generic_test_sql/unique.sql
+2022-01-21 08:06:51.982771 (Thread-254): 08:06:51  Parsing macros/materializations/configs.sql
+2022-01-21 08:06:51.985317 (Thread-254): 08:06:51  Parsing macros/materializations/hooks.sql
+2022-01-21 08:06:51.989615 (Thread-254): 08:06:51  Parsing macros/materializations/snapshots/strategies.sql
+2022-01-21 08:06:52.007256 (Thread-254): 08:06:52  Parsing macros/materializations/snapshots/snapshot_merge.sql
+2022-01-21 08:06:52.009038 (Thread-254): 08:06:52  Parsing macros/materializations/snapshots/snapshot.sql
+2022-01-21 08:06:52.020539 (Thread-254): 08:06:52  Parsing macros/materializations/snapshots/helpers.sql
+2022-01-21 08:06:52.031499 (Thread-254): 08:06:52  Parsing macros/materializations/seeds/seed.sql
+2022-01-21 08:06:52.037800 (Thread-254): 08:06:52  Parsing macros/materializations/seeds/helpers.sql
+2022-01-21 08:06:52.053675 (Thread-254): 08:06:52  Parsing macros/materializations/models/view/create_view_as.sql
+2022-01-21 08:06:52.056234 (Thread-254): 08:06:52  Parsing macros/materializations/models/view/view.sql
+2022-01-21 08:06:52.063421 (Thread-254): 08:06:52  Parsing macros/materializations/models/view/create_or_replace_view.sql
+2022-01-21 08:06:52.066102 (Thread-254): 08:06:52  Parsing macros/materializations/models/view/helpers.sql
+2022-01-21 08:06:52.067413 (Thread-254): 08:06:52  Parsing macros/materializations/models/table/table.sql
+2022-01-21 08:06:52.074488 (Thread-254): 08:06:52  Parsing macros/materializations/models/table/create_table_as.sql
+2022-01-21 08:06:52.077390 (Thread-254): 08:06:52  Parsing macros/materializations/models/incremental/merge.sql
+2022-01-21 08:06:52.088693 (Thread-254): 08:06:52  Parsing macros/materializations/models/incremental/on_schema_change.sql
+2022-01-21 08:06:52.103664 (Thread-254): 08:06:52  Parsing macros/materializations/models/incremental/column_helpers.sql
+2022-01-21 08:06:52.107945 (Thread-254): 08:06:52  Parsing macros/materializations/models/incremental/incremental.sql
+2022-01-21 08:06:52.117851 (Thread-254): 08:06:52  Parsing macros/materializations/models/incremental/is_incremental.sql
+2022-01-21 08:06:52.119368 (Thread-254): 08:06:52  Parsing macros/materializations/tests/test.sql
+2022-01-21 08:06:52.123705 (Thread-254): 08:06:52  Parsing macros/materializations/tests/where_subquery.sql
+2022-01-21 08:06:52.125569 (Thread-254): 08:06:52  Parsing macros/materializations/tests/helpers.sql
+2022-01-21 08:06:52.127307 (Thread-254): 08:06:52  Parsing macros/etc/statement.sql
+2022-01-21 08:06:52.131608 (Thread-254): 08:06:52  Parsing macros/etc/datetime.sql
+2022-01-21 08:06:52.139941 (Thread-254): 08:06:52  Parsing macros/adapters/indexes.sql
+2022-01-21 08:06:52.142672 (Thread-254): 08:06:52  Parsing macros/adapters/persist_docs.sql
+2022-01-21 08:06:52.147290 (Thread-254): 08:06:52  Parsing macros/adapters/freshness.sql
+2022-01-21 08:06:52.150323 (Thread-254): 08:06:52  Parsing macros/adapters/relation.sql
+2022-01-21 08:06:52.160580 (Thread-254): 08:06:52  Parsing macros/adapters/metadata.sql
+2022-01-21 08:06:52.167718 (Thread-254): 08:06:52  Parsing macros/adapters/columns.sql
+2022-01-21 08:06:52.177337 (Thread-254): 08:06:52  Parsing macros/adapters/schema.sql
+2022-01-21 08:06:52.179535 (Thread-254): 08:06:52  Parsing tests/generic/builtin.sql
+2022-01-21 08:06:52.182626 (Thread-254): 08:06:52  Parsing macros/sql/pivot.sql
+2022-01-21 08:06:52.195136 (Thread-254): 08:06:52  Parsing macros/sql/star.sql
+2022-01-21 08:06:52.199199 (Thread-254): 08:06:52  Parsing macros/sql/surrogate_key.sql
+2022-01-21 08:06:52.213274 (Thread-254): 08:06:52  Parsing macros/sql/get_query_results_as_dict.sql
+2022-01-21 08:06:52.223379 (Thread-254): 08:06:52  Parsing macros/sql/date_spine.sql
+2022-01-21 08:06:52.228159 (Thread-254): 08:06:52  Parsing macros/sql/get_column_values.sql
+2022-01-21 08:06:52.237140 (Thread-254): 08:06:52  Parsing macros/sql/groupby.sql
+2022-01-21 08:06:52.246126 (Thread-254): 08:06:52  Parsing macros/sql/get_tables_by_pattern_sql.sql
+2022-01-21 08:06:52.252202 (Thread-254): 08:06:52  Parsing macros/sql/nullcheck_table.sql
+2022-01-21 08:06:52.257921 (Thread-254): 08:06:52  Parsing macros/sql/get_tables_by_prefix_sql.sql
+2022-01-21 08:06:52.259607 (Thread-254): 08:06:52  Parsing macros/sql/get_relations_by_pattern.sql
+2022-01-21 08:06:52.263023 (Thread-254): 08:06:52  Parsing macros/sql/get_relations_by_prefix.sql
+2022-01-21 08:06:52.266379 (Thread-254): 08:06:52  Parsing macros/sql/safe_add.sql
+2022-01-21 08:06:52.268005 (Thread-254): 08:06:52  Parsing macros/sql/haversine_distance.sql
+2022-01-21 08:06:52.273913 (Thread-254): 08:06:52  Parsing macros/sql/unpivot.sql
+2022-01-21 08:06:52.281571 (Thread-254): 08:06:52  Parsing macros/sql/generate_series.sql
+2022-01-21 08:06:52.285917 (Thread-254): 08:06:52  Parsing macros/sql/nullcheck.sql
+2022-01-21 08:06:52.287619 (Thread-254): 08:06:52  Parsing macros/sql/union.sql
+2022-01-21 08:06:52.295784 (Thread-254): 08:06:52  Parsing macros/materializations/insert_by_period_materialization.sql
+2022-01-21 08:06:52.319397 (Thread-254): 08:06:52  Parsing macros/jinja_helpers/pretty_time.sql
+2022-01-21 08:06:52.320710 (Thread-254): 08:06:52  Parsing macros/jinja_helpers/slugify.sql
+2022-01-21 08:06:52.321923 (Thread-254): 08:06:52  Parsing macros/jinja_helpers/log_info.sql
+2022-01-21 08:06:52.323046 (Thread-254): 08:06:52  Parsing macros/jinja_helpers/pretty_log_format.sql
+2022-01-21 08:06:52.324205 (Thread-254): 08:06:52  Parsing macros/web/get_url_parameter.sql
+2022-01-21 08:06:52.325814 (Thread-254): 08:06:52  Parsing macros/web/get_url_path.sql
+2022-01-21 08:06:52.328362 (Thread-254): 08:06:52  Parsing macros/web/get_url_host.sql
+2022-01-21 08:06:52.330325 (Thread-254): 08:06:52  Parsing macros/schema_tests/expression_is_true.sql
+2022-01-21 08:06:52.332140 (Thread-254): 08:06:52  Parsing macros/schema_tests/not_constant.sql
+2022-01-21 08:06:52.333465 (Thread-254): 08:06:52  Parsing macros/schema_tests/sequential_values.sql
+2022-01-21 08:06:52.336198 (Thread-254): 08:06:52  Parsing macros/schema_tests/not_null_proportion.sql
+2022-01-21 08:06:52.346047 (Thread-254): 08:06:52  Parsing macros/schema_tests/at_least_one.sql
+2022-01-21 08:06:52.354725 (Thread-254): 08:06:52  Parsing macros/schema_tests/equality.sql
+2022-01-21 08:06:52.358280 (Thread-254): 08:06:52  Parsing macros/schema_tests/test_not_null_where.sql
+2022-01-21 08:06:52.364188 (Thread-254): 08:06:52  Parsing macros/schema_tests/equal_rowcount.sql
+2022-01-21 08:06:52.372900 (Thread-254): 08:06:52  Parsing macros/schema_tests/not_accepted_values.sql
+2022-01-21 08:06:52.374974 (Thread-254): 08:06:52  Parsing macros/schema_tests/test_unique_where.sql
+2022-01-21 08:06:52.376499 (Thread-254): 08:06:52  Parsing macros/schema_tests/mutually_exclusive_ranges.sql
+2022-01-21 08:06:52.385038 (Thread-254): 08:06:52  Parsing macros/schema_tests/relationships_where.sql
+2022-01-21 08:06:52.387209 (Thread-254): 08:06:52  Parsing macros/schema_tests/accepted_range.sql
+2022-01-21 08:06:52.389680 (Thread-254): 08:06:52  Parsing macros/schema_tests/fewer_rows_than.sql
+2022-01-21 08:06:52.391340 (Thread-254): 08:06:52  Parsing macros/schema_tests/unique_combination_of_columns.sql
+2022-01-21 08:06:52.394172 (Thread-254): 08:06:52  Parsing macros/schema_tests/recency.sql
+2022-01-21 08:06:52.395943 (Thread-254): 08:06:52  Parsing macros/schema_tests/cardinality_equality.sql
+2022-01-21 08:06:52.397935 (Thread-254): 08:06:52  Parsing macros/cross_db_utils/split_part.sql
+2022-01-21 08:06:52.399776 (Thread-254): 08:06:52  Parsing macros/cross_db_utils/length.sql
+2022-01-21 08:06:52.401131 (Thread-254): 08:06:52  Parsing macros/cross_db_utils/current_timestamp.sql
+2022-01-21 08:06:52.404694 (Thread-254): 08:06:52  Parsing macros/cross_db_utils/right.sql
+2022-01-21 08:06:52.406924 (Thread-254): 08:06:52  Parsing macros/cross_db_utils/hash.sql
+2022-01-21 08:06:52.408361 (Thread-254): 08:06:52  Parsing macros/cross_db_utils/replace.sql
+2022-01-21 08:06:52.409669 (Thread-254): 08:06:52  Parsing macros/cross_db_utils/cast_bool_to_text.sql
+2022-01-21 08:06:52.411097 (Thread-254): 08:06:52  Parsing macros/cross_db_utils/concat.sql
+2022-01-21 08:06:52.412129 (Thread-254): 08:06:52  Parsing macros/cross_db_utils/_is_relation.sql
+2022-01-21 08:06:52.413309 (Thread-254): 08:06:52  Parsing macros/cross_db_utils/identifier.sql
+2022-01-21 08:06:52.415119 (Thread-254): 08:06:52  Parsing macros/cross_db_utils/datediff.sql
+2022-01-21 08:06:52.424749 (Thread-254): 08:06:52  Parsing macros/cross_db_utils/dateadd.sql
+2022-01-21 08:06:52.427666 (Thread-254): 08:06:52  Parsing macros/cross_db_utils/datatypes.sql
+2022-01-21 08:06:52.433636 (Thread-254): 08:06:52  Parsing macros/cross_db_utils/position.sql
+2022-01-21 08:06:52.435245 (Thread-254): 08:06:52  Parsing macros/cross_db_utils/literal.sql
+2022-01-21 08:06:52.436258 (Thread-254): 08:06:52  Parsing macros/cross_db_utils/_is_ephemeral.sql
+2022-01-21 08:06:52.438216 (Thread-254): 08:06:52  Parsing macros/cross_db_utils/width_bucket.sql
+2022-01-21 08:06:52.443360 (Thread-254): 08:06:52  Parsing macros/cross_db_utils/date_trunc.sql
+2022-01-21 08:06:52.444977 (Thread-254): 08:06:52  Parsing macros/cross_db_utils/except.sql
+2022-01-21 08:06:52.446094 (Thread-254): 08:06:52  Parsing macros/cross_db_utils/safe_cast.sql
+2022-01-21 08:06:52.448111 (Thread-254): 08:06:52  Parsing macros/cross_db_utils/last_day.sql
+2022-01-21 08:06:52.451685 (Thread-254): 08:06:52  Parsing macros/cross_db_utils/intersect.sql
+2022-01-21 08:06:52.452816 (Thread-254): 08:06:52  Parsing macros/materialisations/incremental_pit_materialization.sql
+2022-01-21 08:06:52.458640 (Thread-254): 08:06:52  Parsing macros/materialisations/incremental_bridge_materialization.sql
+2022-01-21 08:06:52.463923 (Thread-254): 08:06:52  Parsing macros/materialisations/period_mat_helpers.sql
+2022-01-21 08:06:52.482119 (Thread-254): 08:06:52  Parsing macros/materialisations/vault_insert_by_period_materialization.sql
+2022-01-21 08:06:52.498194 (Thread-255): handling status request
+2022-01-21 08:06:52.500831 (Thread-254): 08:06:52  Parsing macros/materialisations/incremental_bridge_helpers.sql
+2022-01-21 08:06:52.501280 (Thread-255): 08:06:52  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '30df626b-f28b-49ae-b272-e57eaa9cbcfb', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fd59c2c6d00>]}
+2022-01-21 08:06:52.504061 (Thread-254): 08:06:52  Parsing macros/materialisations/rank_mat_helpers.sql
+2022-01-21 08:06:52.504638 (Thread-255): sending response (<Response 185 bytes [200 OK]>) to 10.0.23.130
+2022-01-21 08:06:52.511243 (Thread-254): 08:06:52  Parsing macros/materialisations/incremental_pit_helper.sql
+2022-01-21 08:06:52.514305 (Thread-254): 08:06:52  Parsing macros/materialisations/shared_helpers.sql
+2022-01-21 08:06:52.516501 (Thread-254): 08:06:52  Parsing macros/materialisations/vault_insert_by_rank_materialization.sql
+2022-01-21 08:06:52.530869 (Thread-254): 08:06:52  Parsing macros/staging/hash_columns.sql
+2022-01-21 08:06:52.534675 (Thread-254): 08:06:52  Parsing macros/staging/stage.sql
+2022-01-21 08:06:52.544824 (Thread-254): 08:06:52  Parsing macros/staging/rank_columns.sql
+2022-01-21 08:06:52.553125 (Thread-254): 08:06:52  Parsing macros/staging/derive_columns.sql
+2022-01-21 08:06:52.565513 (Thread-254): 08:06:52  Parsing macros/staging/source_columns.sql
+2022-01-21 08:06:52.566779 (Thread-254): 08:06:52  Parsing macros/internal/alias_all.sql
+2022-01-21 08:06:52.569181 (Thread-254): 08:06:52  Parsing macros/internal/alias.sql
+2022-01-21 08:06:52.572560 (Thread-254): 08:06:52  Parsing macros/internal/prepend_generated_by.sql
+2022-01-21 08:06:52.572982 (Thread-254): 08:06:52  Parsing macros/internal/stage_processing_macros.sql
+2022-01-21 08:06:52.581917 (Thread-254): 08:06:52  Parsing macros/internal/multikey.sql
+2022-01-21 08:06:52.586982 (Thread-254): 08:06:52  Parsing macros/internal/is_checks.sql
+2022-01-21 08:06:52.589880 (Thread-254): 08:06:52  Parsing macros/internal/expand_column_list.sql
+2022-01-21 08:06:52.593062 (Thread-254): 08:06:52  Parsing macros/internal/as_constant.sql
+2022-01-21 08:06:52.595387 (Thread-254): 08:06:52  Parsing macros/internal/check_required_parameters.sql
+2022-01-21 08:06:52.595901 (Thread-256): handling status request
+2022-01-21 08:06:52.597616 (Thread-254): 08:06:52  Parsing macros/tables/link.sql
+2022-01-21 08:06:52.597929 (Thread-256): 08:06:52  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '30df626b-f28b-49ae-b272-e57eaa9cbcfb', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fd59c367940>]}
+2022-01-21 08:06:52.610639 (Thread-254): 08:06:52  Parsing macros/tables/sat.sql
+2022-01-21 08:06:52.611126 (Thread-256): sending response (<Response 185 bytes [200 OK]>) to 10.0.16.4
+2022-01-21 08:06:52.620139 (Thread-254): 08:06:52  Parsing macros/tables/eff_sat.sql
+2022-01-21 08:06:52.633987 (Thread-254): 08:06:52  Parsing macros/tables/xts.sql
+2022-01-21 08:06:52.641435 (Thread-254): 08:06:52  Parsing macros/tables/hub.sql
+2022-01-21 08:06:52.652785 (Thread-254): 08:06:52  Parsing macros/tables/ma_sat.sql
+2022-01-21 08:06:52.665179 (Thread-254): 08:06:52  Parsing macros/tables/pit.sql
+2022-01-21 08:06:52.684811 (Thread-254): 08:06:52  Parsing macros/tables/bridge.sql
+2022-01-21 08:06:52.719250 (Thread-254): 08:06:52  Parsing macros/tables/t_link.sql
+2022-01-21 08:06:52.724860 (Thread-254): 08:06:52  Parsing macros/supporting/max_datetime.sql
+2022-01-21 08:06:52.725880 (Thread-254): 08:06:52  Parsing macros/supporting/current_timestamp.sql
+2022-01-21 08:06:52.727556 (Thread-254): 08:06:52  Parsing macros/supporting/prefix.sql
+2022-01-21 08:06:52.732840 (Thread-254): 08:06:52  Parsing macros/supporting/hash.sql
+2022-01-21 08:06:52.739592 (Thread-254): 08:06:52  Parsing macros/supporting/datatypes.sql
+2022-01-21 08:06:53.259635 (Thread-254): 08:06:53  1603: static parser failed on DQ_Models/DQ_Config_table_run.sql
+2022-01-21 08:06:53.265069 (Thread-254): 08:06:53  1602: parser fallback to jinja rendering on DQ_Models/DQ_Config_table_run.sql
+2022-01-21 08:06:53.266356 (Thread-254): 08:06:53  1603: static parser failed on stage/v_stg_inventory.sql
+2022-01-21 08:06:53.289294 (Thread-254): 08:06:53  1602: parser fallback to jinja rendering on stage/v_stg_inventory.sql
+2022-01-21 08:06:53.290425 (Thread-254): 08:06:53  1603: static parser failed on stage/v_stg_transactions.sql
+2022-01-21 08:06:53.299926 (Thread-254): 08:06:53  1602: parser fallback to jinja rendering on stage/v_stg_transactions.sql
+2022-01-21 08:06:53.301099 (Thread-254): 08:06:53  1603: static parser failed on stage/v_stg_orders.sql
+2022-01-21 08:06:53.329501 (Thread-254): 08:06:53  1602: parser fallback to jinja rendering on stage/v_stg_orders.sql
+2022-01-21 08:06:53.330992 (Thread-254): 08:06:53  1603: static parser failed on raw_vault/t_links/t_link_transactions.sql
+2022-01-21 08:06:53.338127 (Thread-254): 08:06:53  1602: parser fallback to jinja rendering on raw_vault/t_links/t_link_transactions.sql
+2022-01-21 08:06:53.339261 (Thread-254): 08:06:53  1603: static parser failed on raw_vault/hubs/hub_supplier.sql
+2022-01-21 08:06:53.347040 (Thread-254): 08:06:53  1602: parser fallback to jinja rendering on raw_vault/hubs/hub_supplier.sql
+2022-01-21 08:06:53.348175 (Thread-254): 08:06:53  1603: static parser failed on raw_vault/hubs/hub_region.sql
+2022-01-21 08:06:53.356075 (Thread-254): 08:06:53  1602: parser fallback to jinja rendering on raw_vault/hubs/hub_region.sql
+2022-01-21 08:06:53.357231 (Thread-254): 08:06:53  1603: static parser failed on raw_vault/hubs/hub_order.sql
+2022-01-21 08:06:53.363600 (Thread-254): 08:06:53  1602: parser fallback to jinja rendering on raw_vault/hubs/hub_order.sql
+2022-01-21 08:06:53.364833 (Thread-254): 08:06:53  1603: static parser failed on raw_vault/hubs/hub_customer.sql
+2022-01-21 08:06:53.371285 (Thread-254): 08:06:53  1602: parser fallback to jinja rendering on raw_vault/hubs/hub_customer.sql
+2022-01-21 08:06:53.372440 (Thread-254): 08:06:53  1603: static parser failed on raw_vault/hubs/hub_nation.sql
+2022-01-21 08:06:53.381192 (Thread-254): 08:06:53  1602: parser fallback to jinja rendering on raw_vault/hubs/hub_nation.sql
+2022-01-21 08:06:53.382320 (Thread-254): 08:06:53  1603: static parser failed on raw_vault/hubs/hub_lineitem.sql
+2022-01-21 08:06:53.388887 (Thread-254): 08:06:53  1602: parser fallback to jinja rendering on raw_vault/hubs/hub_lineitem.sql
+2022-01-21 08:06:53.390067 (Thread-254): 08:06:53  1603: static parser failed on raw_vault/hubs/hub_part.sql
+2022-01-21 08:06:53.397988 (Thread-254): 08:06:53  1602: parser fallback to jinja rendering on raw_vault/hubs/hub_part.sql
+2022-01-21 08:06:53.399163 (Thread-254): 08:06:53  1603: static parser failed on raw_vault/links/link_customer_order.sql
+2022-01-21 08:06:53.406118 (Thread-254): 08:06:53  1602: parser fallback to jinja rendering on raw_vault/links/link_customer_order.sql
+2022-01-21 08:06:53.407242 (Thread-254): 08:06:53  1603: static parser failed on raw_vault/links/link_inventory_allocation.sql
+2022-01-21 08:06:53.413903 (Thread-254): 08:06:53  1602: parser fallback to jinja rendering on raw_vault/links/link_inventory_allocation.sql
+2022-01-21 08:06:53.415110 (Thread-254): 08:06:53  1603: static parser failed on raw_vault/links/link_inventory.sql
+2022-01-21 08:06:53.422614 (Thread-254): 08:06:53  1602: parser fallback to jinja rendering on raw_vault/links/link_inventory.sql
+2022-01-21 08:06:53.423761 (Thread-254): 08:06:53  1603: static parser failed on raw_vault/links/link_customer_nation.sql
+2022-01-21 08:06:53.430258 (Thread-254): 08:06:53  1602: parser fallback to jinja rendering on raw_vault/links/link_customer_nation.sql
+2022-01-21 08:06:53.431378 (Thread-254): 08:06:53  1603: static parser failed on raw_vault/links/link_order_lineitem.sql
+2022-01-21 08:06:53.438128 (Thread-254): 08:06:53  1602: parser fallback to jinja rendering on raw_vault/links/link_order_lineitem.sql
+2022-01-21 08:06:53.439756 (Thread-254): 08:06:53  1603: static parser failed on raw_vault/links/link_nation_region.sql
+2022-01-21 08:06:53.448208 (Thread-254): 08:06:53  1602: parser fallback to jinja rendering on raw_vault/links/link_nation_region.sql
+2022-01-21 08:06:53.449379 (Thread-254): 08:06:53  1603: static parser failed on raw_vault/links/link_supplier_nation.sql
+2022-01-21 08:06:53.456876 (Thread-254): 08:06:53  1602: parser fallback to jinja rendering on raw_vault/links/link_supplier_nation.sql
+2022-01-21 08:06:53.458040 (Thread-254): 08:06:53  1603: static parser failed on raw_vault/sats/sat_inv_inventory_details.sql
+2022-01-21 08:06:53.467141 (Thread-254): 08:06:53  1602: parser fallback to jinja rendering on raw_vault/sats/sat_inv_inventory_details.sql
+2022-01-21 08:06:53.468298 (Thread-254): 08:06:53  1603: static parser failed on raw_vault/sats/sat_order_cust_nation_details.sql
+2022-01-21 08:06:53.477059 (Thread-254): 08:06:53  1602: parser fallback to jinja rendering on raw_vault/sats/sat_order_cust_nation_details.sql
+2022-01-21 08:06:53.478228 (Thread-254): 08:06:53  1603: static parser failed on raw_vault/sats/sat_order_lineitem_details.sql
+2022-01-21 08:06:53.489978 (Thread-254): 08:06:53  1602: parser fallback to jinja rendering on raw_vault/sats/sat_order_lineitem_details.sql
+2022-01-21 08:06:53.491131 (Thread-254): 08:06:53  1603: static parser failed on raw_vault/sats/sat_inv_supplier_details.sql
+2022-01-21 08:06:53.501515 (Thread-254): 08:06:53  1602: parser fallback to jinja rendering on raw_vault/sats/sat_inv_supplier_details.sql
+2022-01-21 08:06:53.502676 (Thread-254): 08:06:53  1603: static parser failed on raw_vault/sats/sat_inv_supp_nation_details.sql
+2022-01-21 08:06:53.511505 (Thread-254): 08:06:53  1602: parser fallback to jinja rendering on raw_vault/sats/sat_inv_supp_nation_details.sql
+2022-01-21 08:06:53.512714 (Thread-254): 08:06:53  1603: static parser failed on raw_vault/sats/sat_inv_supp_region_details.sql
+2022-01-21 08:06:53.521687 (Thread-254): 08:06:53  1602: parser fallback to jinja rendering on raw_vault/sats/sat_inv_supp_region_details.sql
+2022-01-21 08:06:53.522851 (Thread-254): 08:06:53  1603: static parser failed on raw_vault/sats/sat_order_order_details.sql
+2022-01-21 08:06:53.533117 (Thread-254): 08:06:53  1602: parser fallback to jinja rendering on raw_vault/sats/sat_order_order_details.sql
+2022-01-21 08:06:53.534286 (Thread-254): 08:06:53  1603: static parser failed on raw_vault/sats/sat_inv_part_details.sql
+2022-01-21 08:06:53.545888 (Thread-254): 08:06:53  1602: parser fallback to jinja rendering on raw_vault/sats/sat_inv_part_details.sql
+2022-01-21 08:06:53.547054 (Thread-254): 08:06:53  1603: static parser failed on raw_vault/sats/sat_order_customer_details.sql
+2022-01-21 08:06:53.557030 (Thread-254): 08:06:53  1602: parser fallback to jinja rendering on raw_vault/sats/sat_order_customer_details.sql
+2022-01-21 08:06:53.558193 (Thread-254): 08:06:53  1603: static parser failed on raw_vault/sats/sat_order_cust_region_details.sql
+2022-01-21 08:06:53.566884 (Thread-254): 08:06:53  1602: parser fallback to jinja rendering on raw_vault/sats/sat_order_cust_region_details.sql
+2022-01-21 08:06:53.568124 (Thread-254): 08:06:53  1603: static parser failed on raw_stage/raw_transactions.sql
+2022-01-21 08:06:53.572072 (Thread-254): 08:06:53  1602: parser fallback to jinja rendering on raw_stage/raw_transactions.sql
+2022-01-21 08:06:53.573508 (Thread-254): 08:06:53  1603: static parser failed on raw_stage/raw_orders.sql
+2022-01-21 08:06:53.579881 (Thread-254): 08:06:53  1602: parser fallback to jinja rendering on raw_stage/raw_orders.sql
+2022-01-21 08:06:53.581438 (Thread-254): 08:06:53  1699: static parser successfully parsed raw_stage/raw_inventory.sql
+2022-01-21 08:06:53.714573 (Thread-254): 08:06:53  Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '30df626b-f28b-49ae-b272-e57eaa9cbcfb', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fd59c74ff70>]}
+2022-01-21 08:06:54.160644 (Thread-257): handling status request
+2022-01-21 08:06:54.161021 (Thread-257): 08:06:54  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '30df626b-f28b-49ae-b272-e57eaa9cbcfb', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fd59c720ee0>]}
+2022-01-21 08:06:54.163116 (Thread-257): sending response (<Response 63954 bytes [200 OK]>) to 10.0.32.229
+2022-01-21 08:06:54.219370 (Thread-258): handling status request
+2022-01-21 08:06:54.219610 (Thread-258): 08:06:54  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '30df626b-f28b-49ae-b272-e57eaa9cbcfb', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fd59c3e9a90>]}
+2022-01-21 08:06:54.221309 (Thread-258): sending response (<Response 63954 bytes [200 OK]>) to 10.0.16.4
+2022-01-21 08:07:14.538360 (Thread-259): handling status request
+2022-01-21 08:07:14.538754 (Thread-259): 08:07:14  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '30df626b-f28b-49ae-b272-e57eaa9cbcfb', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fd59c6b84c0>]}
+2022-01-21 08:07:14.540937 (Thread-259): sending response (<Response 63954 bytes [200 OK]>) to 10.0.9.34
+2022-01-21 08:07:15.117721 (Thread-260): handling status request
+2022-01-21 08:07:15.118060 (Thread-260): 08:07:15  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '30df626b-f28b-49ae-b272-e57eaa9cbcfb', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fd59c759cd0>]}
+2022-01-21 08:07:15.120113 (Thread-260): sending response (<Response 63954 bytes [200 OK]>) to 10.0.1.200
+2022-01-21 08:07:15.209172 (Thread-261): handling docs.generate request
+2022-01-21 08:07:15.209478 (Thread-261): 08:07:15  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '30df626b-f28b-49ae-b272-e57eaa9cbcfb', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fd59c109ca0>]}
+2022-01-21 08:07:17.407796 (Thread-261): sending response (<Response 138 bytes [200 OK]>) to 10.0.27.219
+2022-01-21 08:07:17.448886 (MainThread): 08:07:17  Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': '8ed780e9-6a55-4f50-9b0e-4a15a371ef98', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7feef2f3f070>]}
+2022-01-21 08:07:17.449182 (MainThread): 08:07:17  Found 32 models, 0 tests, 1 snapshot, 0 analyses, 447 macros, 0 operations, 0 seed files, 8 sources, 0 exposures, 0 metrics
+2022-01-21 08:07:17.451338 (MainThread): 08:07:17  
+2022-01-21 08:07:17.451501 (MainThread): 08:07:17  Acquiring new snowflake connection "master"
+2022-01-21 08:07:17.453474 (ThreadPoolExecutor-0_0): 08:07:17  Acquiring new snowflake connection "list_DEMO_DB_snapshots"
+2022-01-21 08:07:17.454215 (ThreadPoolExecutor-0_1): 08:07:17  Acquiring new snowflake connection "list_DEMO_DB_DEMO"
+2022-01-21 08:07:17.497222 (ThreadPoolExecutor-0_1): 08:07:17  Parsing macros/catalog.sql
+2022-01-21 08:07:17.500778 (ThreadPoolExecutor-0_1): 08:07:17  Parsing macros/adapters.sql
+2022-01-21 08:07:17.517886 (ThreadPoolExecutor-0_0): 08:07:17  Parsing macros/catalog.sql
+2022-01-21 08:07:17.540727 (ThreadPoolExecutor-0_1): 08:07:17  Parsing macros/materializations/merge.sql
+2022-01-21 08:07:17.544495 (ThreadPoolExecutor-0_0): 08:07:17  Parsing macros/adapters.sql
+2022-01-21 08:07:17.554939 (ThreadPoolExecutor-0_1): 08:07:17  Parsing macros/materializations/table.sql
+2022-01-21 08:07:17.568436 (ThreadPoolExecutor-0_1): 08:07:17  Parsing macros/materializations/seed.sql
+2022-01-21 08:07:17.594334 (ThreadPoolExecutor-0_1): 08:07:17  Parsing macros/materializations/view.sql
+2022-01-21 08:07:17.596771 (ThreadPoolExecutor-0_0): 08:07:17  Parsing macros/materializations/merge.sql
+2022-01-21 08:07:17.601714 (ThreadPoolExecutor-0_1): 08:07:17  Parsing macros/materializations/snapshot.sql
+2022-01-21 08:07:17.602781 (ThreadPoolExecutor-0_0): 08:07:17  Parsing macros/materializations/table.sql
+2022-01-21 08:07:17.607225 (ThreadPoolExecutor-0_0): 08:07:17  Parsing macros/materializations/seed.sql
+2022-01-21 08:07:17.612285 (ThreadPoolExecutor-0_1): 08:07:17  Parsing macros/materializations/incremental.sql
+2022-01-21 08:07:17.621993 (ThreadPoolExecutor-0_0): 08:07:17  Parsing macros/materializations/view.sql
+2022-01-21 08:07:17.624084 (ThreadPoolExecutor-0_0): 08:07:17  Parsing macros/materializations/snapshot.sql
+2022-01-21 08:07:17.625414 (ThreadPoolExecutor-0_0): 08:07:17  Parsing macros/materializations/incremental.sql
+2022-01-21 08:07:17.638396 (ThreadPoolExecutor-0_1): 08:07:17  Parsing macros/get_custom_name/get_custom_alias.sql
+2022-01-21 08:07:17.640204 (ThreadPoolExecutor-0_0): 08:07:17  Parsing macros/get_custom_name/get_custom_alias.sql
+2022-01-21 08:07:17.641874 (ThreadPoolExecutor-0_1): 08:07:17  Parsing macros/get_custom_name/get_custom_database.sql
+2022-01-21 08:07:17.643840 (ThreadPoolExecutor-0_0): 08:07:17  Parsing macros/get_custom_name/get_custom_database.sql
+2022-01-21 08:07:17.645715 (ThreadPoolExecutor-0_1): 08:07:17  Parsing macros/get_custom_name/get_custom_schema.sql
+2022-01-21 08:07:17.648387 (ThreadPoolExecutor-0_1): 08:07:17  Parsing macros/generic_test_sql/accepted_values.sql
+2022-01-21 08:07:17.649854 (ThreadPoolExecutor-0_0): 08:07:17  Parsing macros/get_custom_name/get_custom_schema.sql
+2022-01-21 08:07:17.653703 (ThreadPoolExecutor-0_0): 08:07:17  Parsing macros/generic_test_sql/accepted_values.sql
+2022-01-21 08:07:17.655761 (ThreadPoolExecutor-0_1): 08:07:17  Parsing macros/generic_test_sql/not_null.sql
+2022-01-21 08:07:17.656590 (ThreadPoolExecutor-0_1): 08:07:17  Parsing macros/generic_test_sql/relationships.sql
+2022-01-21 08:07:17.657751 (ThreadPoolExecutor-0_0): 08:07:17  Parsing macros/generic_test_sql/not_null.sql
+2022-01-21 08:07:17.658600 (ThreadPoolExecutor-0_1): 08:07:17  Parsing macros/generic_test_sql/unique.sql
+2022-01-21 08:07:17.659487 (ThreadPoolExecutor-0_1): 08:07:17  Parsing macros/materializations/configs.sql
+2022-01-21 08:07:17.661850 (ThreadPoolExecutor-0_0): 08:07:17  Parsing macros/generic_test_sql/relationships.sql
+2022-01-21 08:07:17.662973 (ThreadPoolExecutor-0_1): 08:07:17  Parsing macros/materializations/hooks.sql
+2022-01-21 08:07:17.666947 (ThreadPoolExecutor-0_0): 08:07:17  Parsing macros/generic_test_sql/unique.sql
+2022-01-21 08:07:17.667997 (ThreadPoolExecutor-0_0): 08:07:17  Parsing macros/materializations/configs.sql
+2022-01-21 08:07:17.670334 (ThreadPoolExecutor-0_1): 08:07:17  Parsing macros/materializations/snapshots/strategies.sql
+2022-01-21 08:07:17.687573 (ThreadPoolExecutor-0_0): 08:07:17  Parsing macros/materializations/hooks.sql
+2022-01-21 08:07:17.691887 (ThreadPoolExecutor-0_1): 08:07:17  Parsing macros/materializations/snapshots/snapshot_merge.sql
+2022-01-21 08:07:17.693812 (ThreadPoolExecutor-0_0): 08:07:17  Parsing macros/materializations/snapshots/strategies.sql
+2022-01-21 08:07:17.712490 (ThreadPoolExecutor-0_1): 08:07:17  Parsing macros/materializations/snapshots/snapshot.sql
+2022-01-21 08:07:17.723736 (ThreadPoolExecutor-0_0): 08:07:17  Parsing macros/materializations/snapshots/snapshot_merge.sql
+2022-01-21 08:07:17.726036 (ThreadPoolExecutor-0_1): 08:07:17  Parsing macros/materializations/snapshots/helpers.sql
+2022-01-21 08:07:17.736386 (ThreadPoolExecutor-0_0): 08:07:17  Parsing macros/materializations/snapshots/snapshot.sql
+2022-01-21 08:07:17.750490 (ThreadPoolExecutor-0_1): 08:07:17  Parsing macros/materializations/seeds/seed.sql
+2022-01-21 08:07:17.756591 (ThreadPoolExecutor-0_0): 08:07:17  Parsing macros/materializations/snapshots/helpers.sql
+2022-01-21 08:07:17.767998 (ThreadPoolExecutor-0_1): 08:07:17  Parsing macros/materializations/seeds/helpers.sql
+2022-01-21 08:07:17.784852 (ThreadPoolExecutor-0_0): 08:07:17  Parsing macros/materializations/seeds/seed.sql
+2022-01-21 08:07:17.791017 (ThreadPoolExecutor-0_1): 08:07:17  Parsing macros/materializations/models/view/create_view_as.sql
+2022-01-21 08:07:17.793719 (ThreadPoolExecutor-0_0): 08:07:17  Parsing macros/materializations/seeds/helpers.sql
+2022-01-21 08:07:17.811789 (ThreadPoolExecutor-0_1): 08:07:17  Parsing macros/materializations/models/view/view.sql
+2022-01-21 08:07:17.816892 (ThreadPoolExecutor-0_0): 08:07:17  Parsing macros/materializations/models/view/create_view_as.sql
+2022-01-21 08:07:17.821596 (ThreadPoolExecutor-0_0): 08:07:17  Parsing macros/materializations/models/view/view.sql
+2022-01-21 08:07:17.826708 (ThreadPoolExecutor-0_1): 08:07:17  Parsing macros/materializations/models/view/create_or_replace_view.sql
+2022-01-21 08:07:17.832362 (ThreadPoolExecutor-0_0): 08:07:17  Parsing macros/materializations/models/view/create_or_replace_view.sql
+2022-01-21 08:07:17.835191 (ThreadPoolExecutor-0_1): 08:07:17  Parsing macros/materializations/models/view/helpers.sql
+2022-01-21 08:07:17.836787 (ThreadPoolExecutor-0_0): 08:07:17  Parsing macros/materializations/models/view/helpers.sql
+2022-01-21 08:07:17.838339 (ThreadPoolExecutor-0_1): 08:07:17  Parsing macros/materializations/models/table/table.sql
+2022-01-21 08:07:17.843403 (ThreadPoolExecutor-0_0): 08:07:17  Parsing macros/materializations/models/table/table.sql
+2022-01-21 08:07:17.852860 (ThreadPoolExecutor-0_0): 08:07:17  Parsing macros/materializations/models/table/create_table_as.sql
+2022-01-21 08:07:17.857126 (ThreadPoolExecutor-0_1): 08:07:17  Parsing macros/materializations/models/table/create_table_as.sql
+2022-01-21 08:07:17.860222 (ThreadPoolExecutor-0_1): 08:07:17  Parsing macros/materializations/models/incremental/merge.sql
+2022-01-21 08:07:17.865322 (ThreadPoolExecutor-0_0): 08:07:17  Parsing macros/materializations/models/incremental/merge.sql
+2022-01-21 08:07:17.883051 (ThreadPoolExecutor-0_1): 08:07:17  Parsing macros/materializations/models/incremental/on_schema_change.sql
+2022-01-21 08:07:17.893396 (ThreadPoolExecutor-0_0): 08:07:17  Parsing macros/materializations/models/incremental/on_schema_change.sql
+2022-01-21 08:07:17.914055 (ThreadPoolExecutor-0_1): 08:07:17  Parsing macros/materializations/models/incremental/column_helpers.sql
+2022-01-21 08:07:17.918489 (ThreadPoolExecutor-0_0): 08:07:17  Parsing macros/materializations/models/incremental/column_helpers.sql
+2022-01-21 08:07:17.923181 (ThreadPoolExecutor-0_1): 08:07:17  Parsing macros/materializations/models/incremental/incremental.sql
+2022-01-21 08:07:17.928254 (ThreadPoolExecutor-0_0): 08:07:17  Parsing macros/materializations/models/incremental/incremental.sql
+2022-01-21 08:07:17.986754 (ThreadPoolExecutor-0_1): 08:07:17  Parsing macros/materializations/models/incremental/is_incremental.sql
+2022-01-21 08:07:17.988365 (ThreadPoolExecutor-0_0): 08:07:17  Parsing macros/materializations/models/incremental/is_incremental.sql
+2022-01-21 08:07:17.990054 (ThreadPoolExecutor-0_1): 08:07:17  Parsing macros/materializations/tests/test.sql
+2022-01-21 08:07:17.994551 (ThreadPoolExecutor-0_1): 08:07:17  Parsing macros/materializations/tests/where_subquery.sql
+2022-01-21 08:07:18.002261 (Thread-262): handling poll request
+2022-01-21 08:07:18.002660 (Thread-262): 08:07:18  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '30df626b-f28b-49ae-b272-e57eaa9cbcfb', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fd59c3b1970>]}
+2022-01-21 08:07:18.004378 (Thread-262): sending response (<Response 23808 bytes [200 OK]>) to 10.0.2.79
+2022-01-21 08:07:17.996380 (ThreadPoolExecutor-0_0): 08:07:17  Parsing macros/materializations/tests/test.sql
+2022-01-21 08:07:18.000795 (ThreadPoolExecutor-0_1): 08:07:18  Parsing macros/materializations/tests/helpers.sql
+2022-01-21 08:07:18.002753 (ThreadPoolExecutor-0_1): 08:07:18  Parsing macros/etc/statement.sql
+2022-01-21 08:07:18.007351 (ThreadPoolExecutor-0_0): 08:07:18  Parsing macros/materializations/tests/where_subquery.sql
+2022-01-21 08:07:18.009707 (ThreadPoolExecutor-0_0): 08:07:18  Parsing macros/materializations/tests/helpers.sql
+2022-01-21 08:07:18.011486 (ThreadPoolExecutor-0_1): 08:07:18  Parsing macros/etc/datetime.sql
+2022-01-21 08:07:18.019959 (ThreadPoolExecutor-0_1): 08:07:18  Parsing macros/adapters/indexes.sql
+2022-01-21 08:07:18.022723 (ThreadPoolExecutor-0_0): 08:07:18  Parsing macros/etc/statement.sql
+2022-01-21 08:07:18.027178 (ThreadPoolExecutor-0_1): 08:07:18  Parsing macros/adapters/persist_docs.sql
+2022-01-21 08:07:18.031704 (ThreadPoolExecutor-0_0): 08:07:18  Parsing macros/etc/datetime.sql
+2022-01-21 08:07:18.040237 (ThreadPoolExecutor-0_1): 08:07:18  Parsing macros/adapters/freshness.sql
+2022-01-21 08:07:18.043349 (ThreadPoolExecutor-0_0): 08:07:18  Parsing macros/adapters/indexes.sql
+2022-01-21 08:07:18.046216 (ThreadPoolExecutor-0_1): 08:07:18  Parsing macros/adapters/relation.sql
+2022-01-21 08:07:18.055768 (ThreadPoolExecutor-0_0): 08:07:18  Parsing macros/adapters/persist_docs.sql
+2022-01-21 08:07:18.060334 (ThreadPoolExecutor-0_1): 08:07:18  Parsing macros/adapters/metadata.sql
+2022-01-21 08:07:18.067417 (ThreadPoolExecutor-0_0): 08:07:18  Parsing macros/adapters/freshness.sql
+2022-01-21 08:07:18.070836 (ThreadPoolExecutor-0_1): 08:07:18  Parsing macros/adapters/columns.sql
+2022-01-21 08:07:18.081096 (ThreadPoolExecutor-0_0): 08:07:18  Parsing macros/adapters/relation.sql
+2022-01-21 08:07:18.090867 (ThreadPoolExecutor-0_1): 08:07:18  Parsing macros/adapters/schema.sql
+2022-01-21 08:07:18.093342 (ThreadPoolExecutor-0_0): 08:07:18  Parsing macros/adapters/metadata.sql
+2022-01-21 08:07:18.100555 (ThreadPoolExecutor-0_0): 08:07:18  Parsing macros/adapters/columns.sql
+2022-01-21 08:07:18.110507 (ThreadPoolExecutor-0_0): 08:07:18  Parsing macros/adapters/schema.sql
+2022-01-21 08:07:18.122145 (ThreadPoolExecutor-0_0): 08:07:18  Parsing macros/sql/pivot.sql
+2022-01-21 08:07:18.126387 (ThreadPoolExecutor-0_1): 08:07:18  Parsing macros/sql/pivot.sql
+2022-01-21 08:07:18.131128 (ThreadPoolExecutor-0_0): 08:07:18  Parsing macros/sql/star.sql
+2022-01-21 08:07:18.135993 (ThreadPoolExecutor-0_1): 08:07:18  Parsing macros/sql/star.sql
+2022-01-21 08:07:18.140712 (ThreadPoolExecutor-0_0): 08:07:18  Parsing macros/sql/surrogate_key.sql
+2022-01-21 08:07:18.144805 (ThreadPoolExecutor-0_1): 08:07:18  Parsing macros/sql/surrogate_key.sql
+2022-01-21 08:07:18.148805 (ThreadPoolExecutor-0_0): 08:07:18  Parsing macros/sql/get_query_results_as_dict.sql
+2022-01-21 08:07:18.151730 (ThreadPoolExecutor-0_1): 08:07:18  Parsing macros/sql/get_query_results_as_dict.sql
+2022-01-21 08:07:18.154714 (ThreadPoolExecutor-0_0): 08:07:18  Parsing macros/sql/date_spine.sql
+2022-01-21 08:07:18.159879 (ThreadPoolExecutor-0_1): 08:07:18  Parsing macros/sql/date_spine.sql
+2022-01-21 08:07:18.165089 (ThreadPoolExecutor-0_0): 08:07:18  Parsing macros/sql/get_column_values.sql
+2022-01-21 08:07:18.171023 (ThreadPoolExecutor-0_1): 08:07:18  Parsing macros/sql/get_column_values.sql
+2022-01-21 08:07:18.176908 (ThreadPoolExecutor-0_0): 08:07:18  Parsing macros/sql/groupby.sql
+2022-01-21 08:07:18.178936 (ThreadPoolExecutor-0_1): 08:07:18  Parsing macros/sql/groupby.sql
+2022-01-21 08:07:18.181003 (ThreadPoolExecutor-0_0): 08:07:18  Parsing macros/sql/get_tables_by_pattern_sql.sql
+2022-01-21 08:07:18.187887 (ThreadPoolExecutor-0_1): 08:07:18  Parsing macros/sql/get_tables_by_pattern_sql.sql
+2022-01-21 08:07:18.194753 (ThreadPoolExecutor-0_0): 08:07:18  Parsing macros/sql/nullcheck_table.sql
+2022-01-21 08:07:18.197118 (ThreadPoolExecutor-0_1): 08:07:18  Parsing macros/sql/nullcheck_table.sql
+2022-01-21 08:07:18.199564 (ThreadPoolExecutor-0_0): 08:07:18  Parsing macros/sql/get_tables_by_prefix_sql.sql
+2022-01-21 08:07:18.202189 (ThreadPoolExecutor-0_1): 08:07:18  Parsing macros/sql/get_tables_by_prefix_sql.sql
+2022-01-21 08:07:18.204852 (ThreadPoolExecutor-0_0): 08:07:18  Parsing macros/sql/get_relations_by_pattern.sql
+2022-01-21 08:07:18.208815 (ThreadPoolExecutor-0_1): 08:07:18  Parsing macros/sql/get_relations_by_pattern.sql
+2022-01-21 08:07:18.212848 (ThreadPoolExecutor-0_0): 08:07:18  Parsing macros/sql/get_relations_by_prefix.sql
+2022-01-21 08:07:18.216847 (ThreadPoolExecutor-0_1): 08:07:18  Parsing macros/sql/get_relations_by_prefix.sql
+2022-01-21 08:07:18.220825 (ThreadPoolExecutor-0_0): 08:07:18  Parsing macros/sql/safe_add.sql
+2022-01-21 08:07:18.223197 (ThreadPoolExecutor-0_1): 08:07:18  Parsing macros/sql/safe_add.sql
+2022-01-21 08:07:18.225511 (ThreadPoolExecutor-0_0): 08:07:18  Parsing macros/sql/haversine_distance.sql
+2022-01-21 08:07:18.231800 (ThreadPoolExecutor-0_1): 08:07:18  Parsing macros/sql/haversine_distance.sql
+2022-01-21 08:07:18.238610 (ThreadPoolExecutor-0_0): 08:07:18  Parsing macros/sql/unpivot.sql
+2022-01-21 08:07:18.247273 (ThreadPoolExecutor-0_1): 08:07:18  Parsing macros/sql/unpivot.sql
+2022-01-21 08:07:18.256705 (ThreadPoolExecutor-0_0): 08:07:18  Parsing macros/sql/generate_series.sql
+2022-01-21 08:07:18.261746 (ThreadPoolExecutor-0_1): 08:07:18  Parsing macros/sql/generate_series.sql
+2022-01-21 08:07:18.266862 (ThreadPoolExecutor-0_0): 08:07:18  Parsing macros/sql/nullcheck.sql
+2022-01-21 08:07:18.269274 (ThreadPoolExecutor-0_1): 08:07:18  Parsing macros/sql/nullcheck.sql
+2022-01-21 08:07:18.271681 (ThreadPoolExecutor-0_0): 08:07:18  Parsing macros/sql/union.sql
+2022-01-21 08:07:18.280972 (ThreadPoolExecutor-0_1): 08:07:18  Parsing macros/sql/union.sql
+2022-01-21 08:07:18.289792 (ThreadPoolExecutor-0_0): 08:07:18  Parsing macros/materializations/insert_by_period_materialization.sql
+2022-01-21 08:07:18.313852 (ThreadPoolExecutor-0_1): 08:07:18  Parsing macros/materializations/insert_by_period_materialization.sql
+2022-01-21 08:07:18.338311 (ThreadPoolExecutor-0_0): 08:07:18  Parsing macros/jinja_helpers/pretty_time.sql
+2022-01-21 08:07:18.340365 (ThreadPoolExecutor-0_1): 08:07:18  Parsing macros/jinja_helpers/pretty_time.sql
+2022-01-21 08:07:18.342303 (ThreadPoolExecutor-0_0): 08:07:18  Parsing macros/jinja_helpers/slugify.sql
+2022-01-21 08:07:18.344163 (ThreadPoolExecutor-0_1): 08:07:18  Parsing macros/jinja_helpers/slugify.sql
+2022-01-21 08:07:18.346092 (ThreadPoolExecutor-0_0): 08:07:18  Parsing macros/jinja_helpers/log_info.sql
+2022-01-21 08:07:18.347902 (ThreadPoolExecutor-0_1): 08:07:18  Parsing macros/jinja_helpers/log_info.sql
+2022-01-21 08:07:18.350061 (ThreadPoolExecutor-0_0): 08:07:18  Parsing macros/jinja_helpers/pretty_log_format.sql
+2022-01-21 08:07:18.351818 (ThreadPoolExecutor-0_1): 08:07:18  Parsing macros/jinja_helpers/pretty_log_format.sql
+2022-01-21 08:07:18.353658 (ThreadPoolExecutor-0_0): 08:07:18  Parsing macros/web/get_url_parameter.sql
+2022-01-21 08:07:18.355873 (ThreadPoolExecutor-0_1): 08:07:18  Parsing macros/web/get_url_parameter.sql
+2022-01-21 08:07:18.358121 (ThreadPoolExecutor-0_0): 08:07:18  Parsing macros/web/get_url_path.sql
+2022-01-21 08:07:18.361484 (ThreadPoolExecutor-0_1): 08:07:18  Parsing macros/web/get_url_path.sql
+2022-01-21 08:07:18.364851 (ThreadPoolExecutor-0_0): 08:07:18  Parsing macros/web/get_url_host.sql
+2022-01-21 08:07:18.367402 (ThreadPoolExecutor-0_1): 08:07:18  Parsing macros/web/get_url_host.sql
+2022-01-21 08:07:18.370076 (ThreadPoolExecutor-0_0): 08:07:18  Parsing macros/schema_tests/expression_is_true.sql
+2022-01-21 08:07:18.372657 (ThreadPoolExecutor-0_1): 08:07:18  Parsing macros/schema_tests/expression_is_true.sql
+2022-01-21 08:07:18.375178 (ThreadPoolExecutor-0_0): 08:07:18  Parsing macros/schema_tests/not_constant.sql
+2022-01-21 08:07:18.377109 (ThreadPoolExecutor-0_1): 08:07:18  Parsing macros/schema_tests/not_constant.sql
+2022-01-21 08:07:18.379077 (ThreadPoolExecutor-0_0): 08:07:18  Parsing macros/schema_tests/sequential_values.sql
+2022-01-21 08:07:18.382336 (ThreadPoolExecutor-0_1): 08:07:18  Parsing macros/schema_tests/sequential_values.sql
+2022-01-21 08:07:18.385843 (ThreadPoolExecutor-0_0): 08:07:18  Parsing macros/schema_tests/not_null_proportion.sql
+2022-01-21 08:07:18.390108 (ThreadPoolExecutor-0_1): 08:07:18  Parsing macros/schema_tests/not_null_proportion.sql
+2022-01-21 08:07:18.393253 (ThreadPoolExecutor-0_0): 08:07:18  Parsing macros/schema_tests/at_least_one.sql
+2022-01-21 08:07:18.395295 (ThreadPoolExecutor-0_1): 08:07:18  Parsing macros/schema_tests/at_least_one.sql
+2022-01-21 08:07:18.397525 (ThreadPoolExecutor-0_0): 08:07:18  Parsing macros/schema_tests/equality.sql
+2022-01-21 08:07:18.401847 (ThreadPoolExecutor-0_1): 08:07:18  Parsing macros/schema_tests/equality.sql
+2022-01-21 08:07:18.406201 (ThreadPoolExecutor-0_0): 08:07:18  Parsing macros/schema_tests/test_not_null_where.sql
+2022-01-21 08:07:18.408330 (ThreadPoolExecutor-0_1): 08:07:18  Parsing macros/schema_tests/test_not_null_where.sql
+2022-01-21 08:07:18.410456 (ThreadPoolExecutor-0_0): 08:07:18  Parsing macros/schema_tests/equal_rowcount.sql
+2022-01-21 08:07:18.412830 (ThreadPoolExecutor-0_1): 08:07:18  Parsing macros/schema_tests/equal_rowcount.sql
+2022-01-21 08:07:18.415199 (ThreadPoolExecutor-0_0): 08:07:18  Parsing macros/schema_tests/not_accepted_values.sql
+2022-01-21 08:07:18.418416 (ThreadPoolExecutor-0_1): 08:07:18  Parsing macros/schema_tests/not_accepted_values.sql
+2022-01-21 08:07:18.421075 (ThreadPoolExecutor-0_0): 08:07:18  Parsing macros/schema_tests/test_unique_where.sql
+2022-01-21 08:07:18.423137 (ThreadPoolExecutor-0_1): 08:07:18  Parsing macros/schema_tests/test_unique_where.sql
+2022-01-21 08:07:18.425187 (ThreadPoolExecutor-0_0): 08:07:18  Parsing macros/schema_tests/mutually_exclusive_ranges.sql
+2022-01-21 08:07:18.434156 (ThreadPoolExecutor-0_1): 08:07:18  Parsing macros/schema_tests/mutually_exclusive_ranges.sql
+2022-01-21 08:07:18.442615 (ThreadPoolExecutor-0_0): 08:07:18  Parsing macros/schema_tests/relationships_where.sql
+2022-01-21 08:07:18.445384 (ThreadPoolExecutor-0_1): 08:07:18  Parsing macros/schema_tests/relationships_where.sql
+2022-01-21 08:07:18.448443 (ThreadPoolExecutor-0_0): 08:07:18  Parsing macros/schema_tests/accepted_range.sql
+2022-01-21 08:07:18.451501 (ThreadPoolExecutor-0_1): 08:07:18  Parsing macros/schema_tests/accepted_range.sql
+2022-01-21 08:07:18.454833 (ThreadPoolExecutor-0_0): 08:07:18  Parsing macros/schema_tests/fewer_rows_than.sql
+2022-01-21 08:07:18.457243 (ThreadPoolExecutor-0_1): 08:07:18  Parsing macros/schema_tests/fewer_rows_than.sql
+2022-01-21 08:07:18.459737 (ThreadPoolExecutor-0_0): 08:07:18  Parsing macros/schema_tests/unique_combination_of_columns.sql
+2022-01-21 08:07:18.464405 (ThreadPoolExecutor-0_1): 08:07:18  Parsing macros/schema_tests/unique_combination_of_columns.sql
+2022-01-21 08:07:18.468524 (ThreadPoolExecutor-0_0): 08:07:18  Parsing macros/schema_tests/recency.sql
+2022-01-21 08:07:18.470872 (ThreadPoolExecutor-0_1): 08:07:18  Parsing macros/schema_tests/recency.sql
+2022-01-21 08:07:18.473301 (ThreadPoolExecutor-0_0): 08:07:18  Parsing macros/schema_tests/cardinality_equality.sql
+2022-01-21 08:07:18.476031 (ThreadPoolExecutor-0_1): 08:07:18  Parsing macros/schema_tests/cardinality_equality.sql
+2022-01-21 08:07:18.478719 (ThreadPoolExecutor-0_0): 08:07:18  Parsing macros/cross_db_utils/split_part.sql
+2022-01-21 08:07:18.481275 (ThreadPoolExecutor-0_1): 08:07:18  Parsing macros/cross_db_utils/split_part.sql
+2022-01-21 08:07:18.483754 (ThreadPoolExecutor-0_0): 08:07:18  Parsing macros/cross_db_utils/length.sql
+2022-01-21 08:07:18.485799 (ThreadPoolExecutor-0_1): 08:07:18  Parsing macros/cross_db_utils/length.sql
+2022-01-21 08:07:18.487938 (ThreadPoolExecutor-0_0): 08:07:18  Parsing macros/cross_db_utils/current_timestamp.sql
+2022-01-21 08:07:18.492004 (ThreadPoolExecutor-0_1): 08:07:18  Parsing macros/cross_db_utils/current_timestamp.sql
+2022-01-21 08:07:18.496012 (ThreadPoolExecutor-0_0): 08:07:18  Parsing macros/cross_db_utils/right.sql
+2022-01-21 08:07:18.499143 (ThreadPoolExecutor-0_1): 08:07:18  Parsing macros/cross_db_utils/right.sql
+2022-01-21 08:07:18.502034 (ThreadPoolExecutor-0_0): 08:07:18  Parsing macros/cross_db_utils/hash.sql
+2022-01-21 08:07:18.504114 (ThreadPoolExecutor-0_1): 08:07:18  Parsing macros/cross_db_utils/hash.sql
+2022-01-21 08:07:18.506370 (ThreadPoolExecutor-0_0): 08:07:18  Parsing macros/cross_db_utils/replace.sql
+2022-01-21 08:07:18.508307 (ThreadPoolExecutor-0_1): 08:07:18  Parsing macros/cross_db_utils/replace.sql
+2022-01-21 08:07:18.510222 (ThreadPoolExecutor-0_0): 08:07:18  Parsing macros/cross_db_utils/cast_bool_to_text.sql
+2022-01-21 08:07:18.512321 (ThreadPoolExecutor-0_1): 08:07:18  Parsing macros/cross_db_utils/cast_bool_to_text.sql
+2022-01-21 08:07:18.514427 (ThreadPoolExecutor-0_0): 08:07:18  Parsing macros/cross_db_utils/concat.sql
+2022-01-21 08:07:18.516162 (ThreadPoolExecutor-0_1): 08:07:18  Parsing macros/cross_db_utils/concat.sql
+2022-01-21 08:07:18.518210 (ThreadPoolExecutor-0_0): 08:07:18  Parsing macros/cross_db_utils/_is_relation.sql
+2022-01-21 08:07:18.519961 (ThreadPoolExecutor-0_1): 08:07:18  Parsing macros/cross_db_utils/_is_relation.sql
+2022-01-21 08:07:18.522001 (ThreadPoolExecutor-0_0): 08:07:18  Parsing macros/cross_db_utils/identifier.sql
+2022-01-21 08:07:18.524328 (ThreadPoolExecutor-0_1): 08:07:18  Parsing macros/cross_db_utils/identifier.sql
+2022-01-21 08:07:18.526687 (ThreadPoolExecutor-0_0): 08:07:18  Parsing macros/cross_db_utils/datediff.sql
+2022-01-21 08:07:18.536667 (ThreadPoolExecutor-0_1): 08:07:18  Parsing macros/cross_db_utils/datediff.sql
+2022-01-21 08:07:18.546791 (ThreadPoolExecutor-0_0): 08:07:18  Parsing macros/cross_db_utils/dateadd.sql
+2022-01-21 08:07:18.550209 (ThreadPoolExecutor-0_1): 08:07:18  Parsing macros/cross_db_utils/dateadd.sql
+2022-01-21 08:07:18.553647 (ThreadPoolExecutor-0_0): 08:07:18  Parsing macros/cross_db_utils/datatypes.sql
+2022-01-21 08:07:18.560305 (ThreadPoolExecutor-0_1): 08:07:18  Parsing macros/cross_db_utils/datatypes.sql
+2022-01-21 08:07:18.567615 (ThreadPoolExecutor-0_0): 08:07:18  Parsing macros/cross_db_utils/position.sql
+2022-01-21 08:07:18.569846 (ThreadPoolExecutor-0_1): 08:07:18  Parsing macros/cross_db_utils/position.sql
+2022-01-21 08:07:18.572039 (ThreadPoolExecutor-0_0): 08:07:18  Parsing macros/cross_db_utils/literal.sql
+2022-01-21 08:07:18.573716 (ThreadPoolExecutor-0_1): 08:07:18  Parsing macros/cross_db_utils/literal.sql
+2022-01-21 08:07:18.575279 (ThreadPoolExecutor-0_0): 08:07:18  Parsing macros/cross_db_utils/_is_ephemeral.sql
+2022-01-21 08:07:18.577827 (ThreadPoolExecutor-0_1): 08:07:18  Parsing macros/cross_db_utils/_is_ephemeral.sql
+2022-01-21 08:07:18.580684 (ThreadPoolExecutor-0_0): 08:07:18  Parsing macros/cross_db_utils/width_bucket.sql
+2022-01-21 08:07:18.586293 (ThreadPoolExecutor-0_1): 08:07:18  Parsing macros/cross_db_utils/width_bucket.sql
+2022-01-21 08:07:18.593151 (ThreadPoolExecutor-0_0): 08:07:18  Parsing macros/cross_db_utils/date_trunc.sql
+2022-01-21 08:07:18.595290 (ThreadPoolExecutor-0_1): 08:07:18  Parsing macros/cross_db_utils/date_trunc.sql
+2022-01-21 08:07:18.597452 (ThreadPoolExecutor-0_0): 08:07:18  Parsing macros/cross_db_utils/except.sql
+2022-01-21 08:07:18.599302 (ThreadPoolExecutor-0_1): 08:07:18  Parsing macros/cross_db_utils/except.sql
+2022-01-21 08:07:18.601066 (ThreadPoolExecutor-0_0): 08:07:18  Parsing macros/cross_db_utils/safe_cast.sql
+2022-01-21 08:07:18.603726 (ThreadPoolExecutor-0_1): 08:07:18  Parsing macros/cross_db_utils/safe_cast.sql
+2022-01-21 08:07:18.606216 (ThreadPoolExecutor-0_0): 08:07:18  Parsing macros/cross_db_utils/last_day.sql
+2022-01-21 08:07:18.610483 (ThreadPoolExecutor-0_1): 08:07:18  Parsing macros/cross_db_utils/last_day.sql
+2022-01-21 08:07:18.614740 (ThreadPoolExecutor-0_0): 08:07:18  Parsing macros/cross_db_utils/intersect.sql
+2022-01-21 08:07:18.616560 (ThreadPoolExecutor-0_1): 08:07:18  Parsing macros/cross_db_utils/intersect.sql
+2022-01-21 08:07:18.625002 (ThreadPoolExecutor-0_1): 08:07:18  Parsing macros/materialisations/incremental_pit_materialization.sql
+2022-01-21 08:07:18.630340 (ThreadPoolExecutor-0_0): 08:07:18  Parsing macros/materialisations/incremental_pit_materialization.sql
+2022-01-21 08:07:18.637698 (ThreadPoolExecutor-0_0): 08:07:18  Parsing macros/materialisations/incremental_bridge_materialization.sql
+2022-01-21 08:07:18.642938 (ThreadPoolExecutor-0_1): 08:07:18  Parsing macros/materialisations/incremental_bridge_materialization.sql
+2022-01-21 08:07:18.649991 (ThreadPoolExecutor-0_1): 08:07:18  Parsing macros/materialisations/period_mat_helpers.sql
+2022-01-21 08:07:18.660399 (ThreadPoolExecutor-0_0): 08:07:18  Parsing macros/materialisations/period_mat_helpers.sql
+2022-01-21 08:07:18.688327 (ThreadPoolExecutor-0_1): 08:07:18  Parsing macros/materialisations/vault_insert_by_period_materialization.sql
+2022-01-21 08:07:18.707262 (ThreadPoolExecutor-0_0): 08:07:18  Parsing macros/materialisations/vault_insert_by_period_materialization.sql
+2022-01-21 08:07:18.725587 (ThreadPoolExecutor-0_1): 08:07:18  Parsing macros/materialisations/incremental_bridge_helpers.sql
+2022-01-21 08:07:18.728946 (ThreadPoolExecutor-0_0): 08:07:18  Parsing macros/materialisations/incremental_bridge_helpers.sql
+2022-01-21 08:07:18.732325 (ThreadPoolExecutor-0_1): 08:07:18  Parsing macros/materialisations/rank_mat_helpers.sql
+2022-01-21 08:07:18.739760 (ThreadPoolExecutor-0_0): 08:07:18  Parsing macros/materialisations/rank_mat_helpers.sql
+2022-01-21 08:07:18.747085 (ThreadPoolExecutor-0_1): 08:07:18  Parsing macros/materialisations/incremental_pit_helper.sql
+2022-01-21 08:07:18.750378 (ThreadPoolExecutor-0_0): 08:07:18  Parsing macros/materialisations/incremental_pit_helper.sql
+2022-01-21 08:07:18.753745 (ThreadPoolExecutor-0_1): 08:07:18  Parsing macros/materialisations/shared_helpers.sql
+2022-01-21 08:07:18.756566 (ThreadPoolExecutor-0_0): 08:07:18  Parsing macros/materialisations/shared_helpers.sql
+2022-01-21 08:07:18.759460 (ThreadPoolExecutor-0_1): 08:07:18  Parsing macros/materialisations/vault_insert_by_rank_materialization.sql
+2022-01-21 08:07:18.774145 (ThreadPoolExecutor-0_0): 08:07:18  Parsing macros/materialisations/vault_insert_by_rank_materialization.sql
+2022-01-21 08:07:18.789010 (ThreadPoolExecutor-0_1): 08:07:18  Parsing macros/staging/hash_columns.sql
+2022-01-21 08:07:18.793415 (ThreadPoolExecutor-0_0): 08:07:18  Parsing macros/staging/hash_columns.sql
+2022-01-21 08:07:18.797923 (ThreadPoolExecutor-0_1): 08:07:18  Parsing macros/staging/stage.sql
+2022-01-21 08:07:18.809226 (ThreadPoolExecutor-0_0): 08:07:18  Parsing macros/staging/stage.sql
+2022-01-21 08:07:18.820537 (ThreadPoolExecutor-0_1): 08:07:18  Parsing macros/staging/rank_columns.sql
+2022-01-21 08:07:18.829338 (ThreadPoolExecutor-0_0): 08:07:18  Parsing macros/staging/rank_columns.sql
+2022-01-21 08:07:18.838627 (ThreadPoolExecutor-0_1): 08:07:18  Parsing macros/staging/derive_columns.sql
+2022-01-21 08:07:18.845184 (ThreadPoolExecutor-0_0): 08:07:18  Parsing macros/staging/derive_columns.sql
+2022-01-21 08:07:18.851551 (ThreadPoolExecutor-0_1): 08:07:18  Parsing macros/staging/source_columns.sql
+2022-01-21 08:07:18.853537 (ThreadPoolExecutor-0_0): 08:07:18  Parsing macros/staging/source_columns.sql
+2022-01-21 08:07:18.855432 (ThreadPoolExecutor-0_1): 08:07:18  Parsing macros/internal/alias_all.sql
+2022-01-21 08:07:18.858566 (ThreadPoolExecutor-0_0): 08:07:18  Parsing macros/internal/alias_all.sql
+2022-01-21 08:07:18.861582 (ThreadPoolExecutor-0_1): 08:07:18  Parsing macros/internal/alias.sql
+2022-01-21 08:07:18.865679 (ThreadPoolExecutor-0_0): 08:07:18  Parsing macros/internal/alias.sql
+2022-01-21 08:07:18.869855 (ThreadPoolExecutor-0_1): 08:07:18  Parsing macros/internal/prepend_generated_by.sql
+2022-01-21 08:07:18.870879 (ThreadPoolExecutor-0_0): 08:07:18  Parsing macros/internal/prepend_generated_by.sql
+2022-01-21 08:07:18.871894 (ThreadPoolExecutor-0_1): 08:07:18  Parsing macros/internal/stage_processing_macros.sql
+2022-01-21 08:07:18.882078 (ThreadPoolExecutor-0_0): 08:07:18  Parsing macros/internal/stage_processing_macros.sql
+2022-01-21 08:07:18.891914 (ThreadPoolExecutor-0_1): 08:07:18  Parsing macros/internal/multikey.sql
+2022-01-21 08:07:18.897773 (ThreadPoolExecutor-0_0): 08:07:18  Parsing macros/internal/multikey.sql
+2022-01-21 08:07:18.903505 (ThreadPoolExecutor-0_1): 08:07:18  Parsing macros/internal/is_checks.sql
+2022-01-21 08:07:18.907097 (ThreadPoolExecutor-0_0): 08:07:18  Parsing macros/internal/is_checks.sql
+2022-01-21 08:07:18.910702 (ThreadPoolExecutor-0_1): 08:07:18  Parsing macros/internal/expand_column_list.sql
+2022-01-21 08:07:18.914815 (ThreadPoolExecutor-0_0): 08:07:18  Parsing macros/internal/expand_column_list.sql
+2022-01-21 08:07:18.918612 (ThreadPoolExecutor-0_1): 08:07:18  Parsing macros/internal/as_constant.sql
+2022-01-21 08:07:18.921441 (ThreadPoolExecutor-0_0): 08:07:18  Parsing macros/internal/as_constant.sql
+2022-01-21 08:07:18.924208 (ThreadPoolExecutor-0_1): 08:07:18  Parsing macros/internal/check_required_parameters.sql
+2022-01-21 08:07:18.926473 (ThreadPoolExecutor-0_0): 08:07:18  Parsing macros/internal/check_required_parameters.sql
+2022-01-21 08:07:18.928680 (ThreadPoolExecutor-0_1): 08:07:18  Parsing macros/tables/link.sql
+2022-01-21 08:07:18.941715 (ThreadPoolExecutor-0_0): 08:07:18  Parsing macros/tables/link.sql
+2022-01-21 08:07:18.955293 (ThreadPoolExecutor-0_1): 08:07:18  Parsing macros/tables/sat.sql
+2022-01-21 08:07:18.965214 (ThreadPoolExecutor-0_0): 08:07:18  Parsing macros/tables/sat.sql
+2022-01-21 08:07:18.975097 (ThreadPoolExecutor-0_1): 08:07:18  Parsing macros/tables/eff_sat.sql
+2022-01-21 08:07:18.989352 (ThreadPoolExecutor-0_0): 08:07:18  Parsing macros/tables/eff_sat.sql
+2022-01-21 08:07:19.003534 (ThreadPoolExecutor-0_1): 08:07:19  Parsing macros/tables/xts.sql
+2022-01-21 08:07:19.011745 (ThreadPoolExecutor-0_0): 08:07:19  Parsing macros/tables/xts.sql
+2022-01-21 08:07:19.019810 (ThreadPoolExecutor-0_1): 08:07:19  Parsing macros/tables/hub.sql
+2022-01-21 08:07:19.031980 (ThreadPoolExecutor-0_0): 08:07:19  Parsing macros/tables/hub.sql
+2022-01-21 08:07:19.044360 (ThreadPoolExecutor-0_1): 08:07:19  Parsing macros/tables/ma_sat.sql
+2022-01-21 08:07:19.057755 (ThreadPoolExecutor-0_0): 08:07:19  Parsing macros/tables/ma_sat.sql
+2022-01-21 08:07:19.071056 (ThreadPoolExecutor-0_1): 08:07:19  Parsing macros/tables/pit.sql
+2022-01-21 08:07:19.092264 (ThreadPoolExecutor-0_0): 08:07:19  Parsing macros/tables/pit.sql
+2022-01-21 08:07:19.112996 (ThreadPoolExecutor-0_1): 08:07:19  Parsing macros/tables/bridge.sql
+2022-01-21 08:07:19.147896 (ThreadPoolExecutor-0_0): 08:07:19  Parsing macros/tables/bridge.sql
+2022-01-21 08:07:19.174745 (ThreadPoolExecutor-0_1): 08:07:19  Parsing macros/tables/t_link.sql
+2022-01-21 08:07:19.189967 (ThreadPoolExecutor-0_1): 08:07:19  Parsing macros/supporting/max_datetime.sql
+2022-01-21 08:07:19.191844 (ThreadPoolExecutor-0_0): 08:07:19  Parsing macros/tables/t_link.sql
+2022-01-21 08:07:19.198340 (ThreadPoolExecutor-0_1): 08:07:19  Parsing macros/supporting/current_timestamp.sql
+2022-01-21 08:07:19.200801 (ThreadPoolExecutor-0_0): 08:07:19  Parsing macros/supporting/max_datetime.sql
+2022-01-21 08:07:19.202466 (ThreadPoolExecutor-0_1): 08:07:19  Parsing macros/supporting/prefix.sql
+2022-01-21 08:07:19.208686 (ThreadPoolExecutor-0_0): 08:07:19  Parsing macros/supporting/current_timestamp.sql
+2022-01-21 08:07:19.211310 (ThreadPoolExecutor-0_1): 08:07:19  Parsing macros/supporting/hash.sql
+2022-01-21 08:07:19.218996 (ThreadPoolExecutor-0_0): 08:07:19  Parsing macros/supporting/prefix.sql
+2022-01-21 08:07:19.225285 (ThreadPoolExecutor-0_1): 08:07:19  Parsing macros/supporting/datatypes.sql
+2022-01-21 08:07:19.239054 (ThreadPoolExecutor-0_1): 08:07:19  Using snowflake connection "list_DEMO_DB_DEMO"
+2022-01-21 08:07:19.239195 (ThreadPoolExecutor-0_1): 08:07:19  On list_DEMO_DB_DEMO: show terse objects in DEMO_DB.DEMO
+2022-01-21 08:07:19.239286 (ThreadPoolExecutor-0_1): 08:07:19  Opening a new connection, currently in state init
+2022-01-21 08:07:19.239743 (ThreadPoolExecutor-0_0): 08:07:19  Parsing macros/supporting/hash.sql
+2022-01-21 08:07:19.249577 (ThreadPoolExecutor-0_0): 08:07:19  Parsing macros/supporting/datatypes.sql
+2022-01-21 08:07:19.253516 (ThreadPoolExecutor-0_0): 08:07:19  Using snowflake connection "list_DEMO_DB_snapshots"
+2022-01-21 08:07:19.253638 (ThreadPoolExecutor-0_0): 08:07:19  On list_DEMO_DB_snapshots: show terse objects in DEMO_DB.snapshots
+2022-01-21 08:07:19.253722 (ThreadPoolExecutor-0_0): 08:07:19  Opening a new connection, currently in state init
+2022-01-21 08:07:19.722605 (Thread-263): handling poll request
+2022-01-21 08:07:19.722994 (Thread-263): 08:07:19  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '30df626b-f28b-49ae-b272-e57eaa9cbcfb', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fd59c792400>]}
+2022-01-21 08:07:19.725622 (Thread-263): sending response (<Response 69647 bytes [200 OK]>) to 10.0.23.171
+2022-01-21 08:07:20.298111 (ThreadPoolExecutor-0_1): 08:07:20  Snowflake adapter: Snowflake query id: 01a1c607-0b02-8d12-0001-e4f60002909a
+2022-01-21 08:07:20.298360 (ThreadPoolExecutor-0_1): 08:07:20  Snowflake adapter: Snowflake error: 002043 (02000): SQL compilation error:
+Object does not exist, or operation cannot be performed.
+2022-01-21 08:07:20.298597 (ThreadPoolExecutor-0_1): 08:07:20  Snowflake adapter: Error running SQL: macro list_relations_without_caching
+2022-01-21 08:07:20.298671 (ThreadPoolExecutor-0_1): 08:07:20  Snowflake adapter: Rolling back transaction.
+2022-01-21 08:07:20.298902 (ThreadPoolExecutor-0_1): 08:07:20  On list_DEMO_DB_DEMO: Close
+2022-01-21 08:07:20.355085 (ThreadPoolExecutor-0_0): 08:07:20  Snowflake adapter: Snowflake query id: 01a1c607-0b02-8d5b-0001-e4f600028092
+2022-01-21 08:07:20.355246 (ThreadPoolExecutor-0_0): 08:07:20  Snowflake adapter: Snowflake error: 002043 (02000): SQL compilation error:
+Object does not exist, or operation cannot be performed.
+2022-01-21 08:07:20.355421 (ThreadPoolExecutor-0_0): 08:07:20  Snowflake adapter: Error running SQL: macro list_relations_without_caching
+2022-01-21 08:07:20.355494 (ThreadPoolExecutor-0_0): 08:07:20  Snowflake adapter: Rolling back transaction.
+2022-01-21 08:07:20.355652 (ThreadPoolExecutor-0_0): 08:07:20  On list_DEMO_DB_snapshots: Close
+2022-01-21 08:07:20.509119 (MainThread): 08:07:20  Concurrency: 7 threads (target='default')
+2022-01-21 08:07:20.509319 (MainThread): 08:07:20  
+2022-01-21 08:07:20.512671 (Thread-1): 08:07:20  Began running node model.dbtvault_snowflake_demo.DQ_Config_table_run
+2022-01-21 08:07:20.512923 (Thread-1): 08:07:20  Acquiring new snowflake connection "model.dbtvault_snowflake_demo.DQ_Config_table_run"
+2022-01-21 08:07:20.513026 (Thread-1): 08:07:20  Began compiling node model.dbtvault_snowflake_demo.DQ_Config_table_run
+2022-01-21 08:07:20.513165 (Thread-1): 08:07:20  Compiling model.dbtvault_snowflake_demo.DQ_Config_table_run
+2022-01-21 08:07:20.514634 (Thread-2): 08:07:20  Began running node model.dbtvault_snowflake_demo.raw_orders
+2022-01-21 08:07:20.514818 (Thread-2): 08:07:20  Acquiring new snowflake connection "model.dbtvault_snowflake_demo.raw_orders"
+2022-01-21 08:07:20.514906 (Thread-2): 08:07:20  Began compiling node model.dbtvault_snowflake_demo.raw_orders
+2022-01-21 08:07:20.514990 (Thread-2): 08:07:20  Compiling model.dbtvault_snowflake_demo.raw_orders
+2022-01-21 08:07:20.519428 (Thread-3): 08:07:20  Began running node model.dbtvault_snowflake_demo.raw_transactions
+2022-01-21 08:07:20.519622 (Thread-3): 08:07:20  Acquiring new snowflake connection "model.dbtvault_snowflake_demo.raw_transactions"
+2022-01-21 08:07:20.519714 (Thread-3): 08:07:20  Began compiling node model.dbtvault_snowflake_demo.raw_transactions
+2022-01-21 08:07:20.519795 (Thread-3): 08:07:20  Compiling model.dbtvault_snowflake_demo.raw_transactions
+2022-01-21 08:07:20.523304 (Thread-3): 08:07:20  Writing injected SQL for node "model.dbtvault_snowflake_demo.raw_transactions"
+2022-01-21 08:07:20.524947 (Thread-2): 08:07:20  Writing injected SQL for node "model.dbtvault_snowflake_demo.raw_orders"
+2022-01-21 08:07:20.531124 (Thread-1): 08:07:20  Using snowflake connection "model.dbtvault_snowflake_demo.DQ_Config_table_run"
+2022-01-21 08:07:20.531241 (Thread-1): 08:07:20  On model.dbtvault_snowflake_demo.DQ_Config_table_run: SELECT Query FROM "DEMO_DB"."TEST"."DQ_CONFIG"
+2022-01-21 08:07:20.531337 (Thread-1): 08:07:20  Opening a new connection, currently in state closed
+2022-01-21 08:07:20.538935 (Thread-2): 08:07:20  finished collecting timing info
+2022-01-21 08:07:20.539102 (Thread-2): 08:07:20  Began executing node model.dbtvault_snowflake_demo.raw_orders
+2022-01-21 08:07:20.539219 (Thread-2): 08:07:20  finished collecting timing info
+2022-01-21 08:07:20.539378 (Thread-2): 08:07:20  Finished running node model.dbtvault_snowflake_demo.raw_orders
+2022-01-21 08:07:20.539565 (Thread-3): 08:07:20  finished collecting timing info
+2022-01-21 08:07:20.539701 (Thread-3): 08:07:20  Began executing node model.dbtvault_snowflake_demo.raw_transactions
+2022-01-21 08:07:20.539793 (Thread-3): 08:07:20  finished collecting timing info
+2022-01-21 08:07:20.539927 (Thread-3): 08:07:20  Finished running node model.dbtvault_snowflake_demo.raw_transactions
+2022-01-21 08:07:20.540766 (Thread-5): 08:07:20  Began running node model.dbtvault_snowflake_demo.raw_inventory
+2022-01-21 08:07:20.540937 (Thread-5): 08:07:20  Acquiring new snowflake connection "model.dbtvault_snowflake_demo.raw_inventory"
+2022-01-21 08:07:20.541022 (Thread-5): 08:07:20  Began compiling node model.dbtvault_snowflake_demo.raw_inventory
+2022-01-21 08:07:20.541104 (Thread-5): 08:07:20  Compiling model.dbtvault_snowflake_demo.raw_inventory
+2022-01-21 08:07:20.545240 (Thread-5): 08:07:20  Writing injected SQL for node "model.dbtvault_snowflake_demo.raw_inventory"
+2022-01-21 08:07:20.545555 (Thread-6): 08:07:20  Began running node model.dbtvault_snowflake_demo.v_stg_orders
+2022-01-21 08:07:20.545728 (Thread-6): 08:07:20  Acquiring new snowflake connection "model.dbtvault_snowflake_demo.v_stg_orders"
+2022-01-21 08:07:20.545811 (Thread-6): 08:07:20  Began compiling node model.dbtvault_snowflake_demo.v_stg_orders
+2022-01-21 08:07:20.545891 (Thread-6): 08:07:20  Compiling model.dbtvault_snowflake_demo.v_stg_orders
+2022-01-21 08:07:20.550626 (Thread-7): 08:07:20  Began running node model.dbtvault_snowflake_demo.v_stg_transactions
+2022-01-21 08:07:20.550792 (Thread-7): 08:07:20  Acquiring new snowflake connection "model.dbtvault_snowflake_demo.v_stg_transactions"
+2022-01-21 08:07:20.550875 (Thread-7): 08:07:20  Began compiling node model.dbtvault_snowflake_demo.v_stg_transactions
+2022-01-21 08:07:20.550954 (Thread-7): 08:07:20  Compiling model.dbtvault_snowflake_demo.v_stg_transactions
+2022-01-21 08:07:20.602991 (Thread-5): 08:07:20  finished collecting timing info
+2022-01-21 08:07:20.603182 (Thread-5): 08:07:20  Began executing node model.dbtvault_snowflake_demo.raw_inventory
+2022-01-21 08:07:20.603287 (Thread-5): 08:07:20  finished collecting timing info
+2022-01-21 08:07:20.603439 (Thread-5): 08:07:20  Finished running node model.dbtvault_snowflake_demo.raw_inventory
+2022-01-21 08:07:20.613619 (Thread-6): 08:07:20  Using snowflake connection "model.dbtvault_snowflake_demo.v_stg_orders"
+2022-01-21 08:07:20.613749 (Thread-6): 08:07:20  On model.dbtvault_snowflake_demo.v_stg_orders: describe table DEMO_DB.DEMO.raw_orders
+2022-01-21 08:07:20.613837 (Thread-6): 08:07:20  Opening a new connection, currently in state init
+2022-01-21 08:07:20.618421 (Thread-7): 08:07:20  Using snowflake connection "model.dbtvault_snowflake_demo.v_stg_transactions"
+2022-01-21 08:07:20.618536 (Thread-7): 08:07:20  On model.dbtvault_snowflake_demo.v_stg_transactions: describe table DEMO_DB.DEMO.raw_transactions
+2022-01-21 08:07:20.618617 (Thread-7): 08:07:20  Opening a new connection, currently in state init
+2022-01-21 08:07:20.620946 (Thread-2): 08:07:20  Began running node model.dbtvault_snowflake_demo.v_stg_inventory
+2022-01-21 08:07:20.621116 (Thread-2): 08:07:20  Acquiring new snowflake connection "model.dbtvault_snowflake_demo.v_stg_inventory"
+2022-01-21 08:07:20.621205 (Thread-2): 08:07:20  Began compiling node model.dbtvault_snowflake_demo.v_stg_inventory
+2022-01-21 08:07:20.621291 (Thread-2): 08:07:20  Compiling model.dbtvault_snowflake_demo.v_stg_inventory
+2022-01-21 08:07:20.634775 (Thread-2): 08:07:20  Using snowflake connection "model.dbtvault_snowflake_demo.v_stg_inventory"
+2022-01-21 08:07:20.634891 (Thread-2): 08:07:20  On model.dbtvault_snowflake_demo.v_stg_inventory: describe table DEMO_DB.DEMO.raw_inventory
+2022-01-21 08:07:20.634974 (Thread-2): 08:07:20  Opening a new connection, currently in state closed
+2022-01-21 08:07:21.307309 (Thread-264): handling poll request
+2022-01-21 08:07:21.307671 (Thread-264): 08:07:21  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '30df626b-f28b-49ae-b272-e57eaa9cbcfb', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fd59c6a2c70>]}
+2022-01-21 08:07:21.308953 (Thread-264): sending response (<Response 28658 bytes [200 OK]>) to 10.0.23.171
+2022-01-21 08:07:21.856290 (Thread-1): 08:07:21  SQL status: SUCCESS 1 in 1.32 seconds
+2022-01-21 08:07:21.858275 (Thread-1): 08:07:21  Using snowflake connection "model.dbtvault_snowflake_demo.DQ_Config_table_run"
+2022-01-21 08:07:21.858390 (Thread-1): 08:07:21  On model.dbtvault_snowflake_demo.DQ_Config_table_run: UPDATE "DEMO_DB"."TEST"."DQ_CONFIG" SET OUTPUT_RESULT = (SELECT * FROM (SELECT COUNT(*) FROM "DV_PROTOTYPE_DB"."DBT_VAULT"."SAT_ORDER_ORDER_DETAILS" WHERE ORDERPRIORITY = '3-MEDIUM'))
+2022-01-21 08:07:21.887580 (Thread-7): 08:07:21  Snowflake adapter: Snowflake query id: 01a1c607-0b02-8d12-0001-e4f6000290a2
+2022-01-21 08:07:21.887703 (Thread-7): 08:07:21  Snowflake adapter: Snowflake error: 002003 (02000): SQL compilation error:
+Schema 'DEMO_DB.DEMO' does not exist or not authorized.
+2022-01-21 08:07:21.887851 (Thread-7): 08:07:21  Snowflake adapter: Error running SQL: macro get_columns_in_relation
+2022-01-21 08:07:21.887923 (Thread-7): 08:07:21  Snowflake adapter: Rolling back transaction.
+2022-01-21 08:07:21.914576 (Thread-7): 08:07:21  Using snowflake connection "model.dbtvault_snowflake_demo.v_stg_transactions"
+2022-01-21 08:07:21.914693 (Thread-7): 08:07:21  On model.dbtvault_snowflake_demo.v_stg_transactions: describe table DEMO_DB.DEMO.raw_transactions
+2022-01-21 08:07:22.005677 (Thread-2): 08:07:22  Snowflake adapter: Snowflake query id: 01a1c607-0b02-8d38-0001-e4f6000260a6
+2022-01-21 08:07:22.005790 (Thread-2): 08:07:22  Snowflake adapter: Snowflake error: 002003 (02000): SQL compilation error:
+Schema 'DEMO_DB.DEMO' does not exist or not authorized.
+2022-01-21 08:07:22.005919 (Thread-2): 08:07:22  Snowflake adapter: Error running SQL: macro get_columns_in_relation
+2022-01-21 08:07:22.005989 (Thread-2): 08:07:22  Snowflake adapter: Rolling back transaction.
+2022-01-21 08:07:22.008709 (Thread-2): 08:07:22  Using snowflake connection "model.dbtvault_snowflake_demo.v_stg_inventory"
+2022-01-21 08:07:22.008886 (Thread-2): 08:07:22  On model.dbtvault_snowflake_demo.v_stg_inventory: describe table DEMO_DB.DEMO.raw_inventory
+2022-01-21 08:07:22.034330 (Thread-7): 08:07:22  Snowflake adapter: Snowflake query id: 01a1c607-0b02-8d12-0001-e4f6000290aa
+2022-01-21 08:07:22.034444 (Thread-7): 08:07:22  Snowflake adapter: Snowflake error: 002003 (02000): SQL compilation error:
+Schema 'DEMO_DB.DEMO' does not exist or not authorized.
+2022-01-21 08:07:22.034570 (Thread-7): 08:07:22  Snowflake adapter: Error running SQL: macro get_columns_in_relation
+2022-01-21 08:07:22.034639 (Thread-7): 08:07:22  Snowflake adapter: Rolling back transaction.
+2022-01-21 08:07:22.068616 (Thread-7): 08:07:22  Writing injected SQL for node "model.dbtvault_snowflake_demo.v_stg_transactions"
+2022-01-21 08:07:22.069207 (Thread-6): 08:07:22  Snowflake adapter: Snowflake query id: 01a1c607-0b02-8d5b-0001-e4f600028096
+2022-01-21 08:07:22.069328 (Thread-6): 08:07:22  Snowflake adapter: Snowflake error: 002003 (02000): SQL compilation error:
+Schema 'DEMO_DB.DEMO' does not exist or not authorized.
+2022-01-21 08:07:22.069459 (Thread-6): 08:07:22  Snowflake adapter: Error running SQL: macro get_columns_in_relation
+2022-01-21 08:07:22.069531 (Thread-6): 08:07:22  Snowflake adapter: Rolling back transaction.
+2022-01-21 08:07:22.072357 (Thread-6): 08:07:22  Using snowflake connection "model.dbtvault_snowflake_demo.v_stg_orders"
+2022-01-21 08:07:22.072478 (Thread-6): 08:07:22  On model.dbtvault_snowflake_demo.v_stg_orders: describe table DEMO_DB.DEMO.raw_orders
+2022-01-21 08:07:22.079880 (Thread-7): 08:07:22  finished collecting timing info
+2022-01-21 08:07:22.080035 (Thread-7): 08:07:22  Began executing node model.dbtvault_snowflake_demo.v_stg_transactions
+2022-01-21 08:07:22.080141 (Thread-7): 08:07:22  finished collecting timing info
+2022-01-21 08:07:22.080248 (Thread-7): 08:07:22  On model.dbtvault_snowflake_demo.v_stg_transactions: Close
+2022-01-21 08:07:22.082962 (Thread-2): 08:07:22  Snowflake adapter: Snowflake query id: 01a1c607-0b02-8d12-0001-e4f6000290ae
+2022-01-21 08:07:22.083071 (Thread-2): 08:07:22  Snowflake adapter: Snowflake error: 002003 (02000): SQL compilation error:
+Schema 'DEMO_DB.DEMO' does not exist or not authorized.
+2022-01-21 08:07:22.083205 (Thread-2): 08:07:22  Snowflake adapter: Error running SQL: macro get_columns_in_relation
+2022-01-21 08:07:22.083278 (Thread-2): 08:07:22  Snowflake adapter: Rolling back transaction.
+2022-01-21 08:07:22.095159 (Thread-2): 08:07:22  Writing injected SQL for node "model.dbtvault_snowflake_demo.v_stg_inventory"
+2022-01-21 08:07:22.123830 (Thread-2): 08:07:22  finished collecting timing info
+2022-01-21 08:07:22.123971 (Thread-2): 08:07:22  Began executing node model.dbtvault_snowflake_demo.v_stg_inventory
+2022-01-21 08:07:22.124068 (Thread-2): 08:07:22  finished collecting timing info
+2022-01-21 08:07:22.124167 (Thread-2): 08:07:22  On model.dbtvault_snowflake_demo.v_stg_inventory: Close
+2022-01-21 08:07:22.202544 (Thread-7): 08:07:22  Finished running node model.dbtvault_snowflake_demo.v_stg_transactions
+2022-01-21 08:07:22.203163 (Thread-4): 08:07:22  Began running node model.dbtvault_snowflake_demo.t_link_transactions
+2022-01-21 08:07:22.203359 (Thread-4): 08:07:22  Acquiring new snowflake connection "model.dbtvault_snowflake_demo.t_link_transactions"
+2022-01-21 08:07:22.203448 (Thread-4): 08:07:22  Began compiling node model.dbtvault_snowflake_demo.t_link_transactions
+2022-01-21 08:07:22.203532 (Thread-4): 08:07:22  Compiling model.dbtvault_snowflake_demo.t_link_transactions
+2022-01-21 08:07:22.262814 (Thread-4): 08:07:22  Writing injected SQL for node "model.dbtvault_snowflake_demo.t_link_transactions"
+2022-01-21 08:07:22.275442 (Thread-4): 08:07:22  finished collecting timing info
+2022-01-21 08:07:22.275578 (Thread-4): 08:07:22  Began executing node model.dbtvault_snowflake_demo.t_link_transactions
+2022-01-21 08:07:22.275672 (Thread-4): 08:07:22  finished collecting timing info
+2022-01-21 08:07:22.275804 (Thread-4): 08:07:22  Finished running node model.dbtvault_snowflake_demo.t_link_transactions
+2022-01-21 08:07:22.360080 (Thread-6): 08:07:22  Snowflake adapter: Snowflake query id: 01a1c607-0b02-8d12-0001-e4f6000290b2
+2022-01-21 08:07:22.360189 (Thread-6): 08:07:22  Snowflake adapter: Snowflake error: 002003 (02000): SQL compilation error:
+Schema 'DEMO_DB.DEMO' does not exist or not authorized.
+2022-01-21 08:07:22.360325 (Thread-6): 08:07:22  Snowflake adapter: Error running SQL: macro get_columns_in_relation
+2022-01-21 08:07:22.360398 (Thread-6): 08:07:22  Snowflake adapter: Rolling back transaction.
+2022-01-21 08:07:22.381238 (Thread-6): 08:07:22  Writing injected SQL for node "model.dbtvault_snowflake_demo.v_stg_orders"
+2022-01-21 08:07:22.405321 (Thread-6): 08:07:22  finished collecting timing info
+2022-01-21 08:07:22.405460 (Thread-6): 08:07:22  Began executing node model.dbtvault_snowflake_demo.v_stg_orders
+2022-01-21 08:07:22.405557 (Thread-6): 08:07:22  finished collecting timing info
+2022-01-21 08:07:22.405660 (Thread-6): 08:07:22  On model.dbtvault_snowflake_demo.v_stg_orders: Close
+2022-01-21 08:07:22.489522 (Thread-2): 08:07:22  Finished running node model.dbtvault_snowflake_demo.v_stg_inventory
+2022-01-21 08:07:22.490331 (Thread-3): 08:07:22  Began running node model.dbtvault_snowflake_demo.link_inventory
+2022-01-21 08:07:22.490524 (Thread-3): 08:07:22  Acquiring new snowflake connection "model.dbtvault_snowflake_demo.link_inventory"
+2022-01-21 08:07:22.490617 (Thread-3): 08:07:22  Began compiling node model.dbtvault_snowflake_demo.link_inventory
+2022-01-21 08:07:22.490705 (Thread-3): 08:07:22  Compiling model.dbtvault_snowflake_demo.link_inventory
+2022-01-21 08:07:22.495418 (Thread-7): 08:07:22  Began running node model.dbtvault_snowflake_demo.link_supplier_nation
+2022-01-21 08:07:22.495636 (Thread-7): 08:07:22  Acquiring new snowflake connection "model.dbtvault_snowflake_demo.link_supplier_nation"
+2022-01-21 08:07:22.495775 (Thread-7): 08:07:22  Began compiling node model.dbtvault_snowflake_demo.link_supplier_nation
+2022-01-21 08:07:22.495905 (Thread-7): 08:07:22  Compiling model.dbtvault_snowflake_demo.link_supplier_nation
+2022-01-21 08:07:22.505814 (Thread-5): 08:07:22  Began running node model.dbtvault_snowflake_demo.sat_inv_inventory_details
+2022-01-21 08:07:22.505975 (Thread-5): 08:07:22  Acquiring new snowflake connection "model.dbtvault_snowflake_demo.sat_inv_inventory_details"
+2022-01-21 08:07:22.506061 (Thread-5): 08:07:22  Began compiling node model.dbtvault_snowflake_demo.sat_inv_inventory_details
+2022-01-21 08:07:22.506140 (Thread-5): 08:07:22  Compiling model.dbtvault_snowflake_demo.sat_inv_inventory_details
+2022-01-21 08:07:22.521073 (Thread-4): 08:07:22  Began running node model.dbtvault_snowflake_demo.sat_inv_part_details
+2022-01-21 08:07:22.521236 (Thread-4): 08:07:22  Acquiring new snowflake connection "model.dbtvault_snowflake_demo.sat_inv_part_details"
+2022-01-21 08:07:22.521324 (Thread-4): 08:07:22  Began compiling node model.dbtvault_snowflake_demo.sat_inv_part_details
+2022-01-21 08:07:22.521405 (Thread-4): 08:07:22  Compiling model.dbtvault_snowflake_demo.sat_inv_part_details
+2022-01-21 08:07:22.611380 (Thread-2): 08:07:22  Began running node model.dbtvault_snowflake_demo.sat_inv_supp_nation_details
+2022-01-21 08:07:22.611575 (Thread-2): 08:07:22  Acquiring new snowflake connection "model.dbtvault_snowflake_demo.sat_inv_supp_nation_details"
+2022-01-21 08:07:22.611664 (Thread-2): 08:07:22  Began compiling node model.dbtvault_snowflake_demo.sat_inv_supp_nation_details
+2022-01-21 08:07:22.611747 (Thread-2): 08:07:22  Compiling model.dbtvault_snowflake_demo.sat_inv_supp_nation_details
+2022-01-21 08:07:22.621150 (Thread-7): 08:07:22  Writing injected SQL for node "model.dbtvault_snowflake_demo.link_supplier_nation"
+2022-01-21 08:07:22.646913 (Thread-3): 08:07:22  Writing injected SQL for node "model.dbtvault_snowflake_demo.link_inventory"
+2022-01-21 08:07:22.677419 (Thread-4): 08:07:22  Writing injected SQL for node "model.dbtvault_snowflake_demo.sat_inv_part_details"
+2022-01-21 08:07:22.686952 (Thread-5): 08:07:22  Writing injected SQL for node "model.dbtvault_snowflake_demo.sat_inv_inventory_details"
+2022-01-21 08:07:22.687736 (Thread-2): 08:07:22  Writing injected SQL for node "model.dbtvault_snowflake_demo.sat_inv_supp_nation_details"
+2022-01-21 08:07:22.688966 (Thread-6): 08:07:22  Finished running node model.dbtvault_snowflake_demo.v_stg_orders
+2022-01-21 08:07:22.689130 (Thread-6): 08:07:22  Began running node model.dbtvault_snowflake_demo.sat_inv_supp_region_details
+2022-01-21 08:07:22.689257 (Thread-6): 08:07:22  Acquiring new snowflake connection "model.dbtvault_snowflake_demo.sat_inv_supp_region_details"
+2022-01-21 08:07:22.689342 (Thread-6): 08:07:22  Began compiling node model.dbtvault_snowflake_demo.sat_inv_supp_region_details
+2022-01-21 08:07:22.689423 (Thread-6): 08:07:22  Compiling model.dbtvault_snowflake_demo.sat_inv_supp_region_details
+2022-01-21 08:07:22.694101 (Thread-7): 08:07:22  finished collecting timing info
+2022-01-21 08:07:22.694233 (Thread-7): 08:07:22  Began executing node model.dbtvault_snowflake_demo.link_supplier_nation
+2022-01-21 08:07:22.694329 (Thread-7): 08:07:22  finished collecting timing info
+2022-01-21 08:07:22.694462 (Thread-7): 08:07:22  Finished running node model.dbtvault_snowflake_demo.link_supplier_nation
+2022-01-21 08:07:22.694571 (Thread-7): 08:07:22  Began running node model.dbtvault_snowflake_demo.sat_inv_supplier_details
+2022-01-21 08:07:22.694684 (Thread-7): 08:07:22  Acquiring new snowflake connection "model.dbtvault_snowflake_demo.sat_inv_supplier_details"
+2022-01-21 08:07:22.694762 (Thread-7): 08:07:22  Began compiling node model.dbtvault_snowflake_demo.sat_inv_supplier_details
+2022-01-21 08:07:22.694838 (Thread-7): 08:07:22  Compiling model.dbtvault_snowflake_demo.sat_inv_supplier_details
+2022-01-21 08:07:22.704317 (Thread-6): 08:07:22  Writing injected SQL for node "model.dbtvault_snowflake_demo.sat_inv_supp_region_details"
+2022-01-21 08:07:22.709042 (Thread-7): 08:07:22  Writing injected SQL for node "model.dbtvault_snowflake_demo.sat_inv_supplier_details"
+2022-01-21 08:07:22.713615 (Thread-2): 08:07:22  finished collecting timing info
+2022-01-21 08:07:22.713756 (Thread-2): 08:07:22  Began executing node model.dbtvault_snowflake_demo.sat_inv_supp_nation_details
+2022-01-21 08:07:22.713853 (Thread-2): 08:07:22  finished collecting timing info
+2022-01-21 08:07:22.713996 (Thread-2): 08:07:22  Finished running node model.dbtvault_snowflake_demo.sat_inv_supp_nation_details
+2022-01-21 08:07:22.714136 (Thread-2): 08:07:22  Began running node model.dbtvault_snowflake_demo.hub_customer
+2022-01-21 08:07:22.714255 (Thread-2): 08:07:22  Acquiring new snowflake connection "model.dbtvault_snowflake_demo.hub_customer"
+2022-01-21 08:07:22.714336 (Thread-2): 08:07:22  Began compiling node model.dbtvault_snowflake_demo.hub_customer
+2022-01-21 08:07:22.714413 (Thread-2): 08:07:22  Compiling model.dbtvault_snowflake_demo.hub_customer
+2022-01-21 08:07:22.718943 (Thread-4): 08:07:22  finished collecting timing info
+2022-01-21 08:07:22.719071 (Thread-4): 08:07:22  Began executing node model.dbtvault_snowflake_demo.sat_inv_part_details
+2022-01-21 08:07:22.719176 (Thread-4): 08:07:22  finished collecting timing info
+2022-01-21 08:07:22.719312 (Thread-4): 08:07:22  Finished running node model.dbtvault_snowflake_demo.sat_inv_part_details
+2022-01-21 08:07:22.719420 (Thread-4): 08:07:22  Began running node model.dbtvault_snowflake_demo.hub_lineitem
+2022-01-21 08:07:22.719530 (Thread-4): 08:07:22  Acquiring new snowflake connection "model.dbtvault_snowflake_demo.hub_lineitem"
+2022-01-21 08:07:22.719609 (Thread-4): 08:07:22  Began compiling node model.dbtvault_snowflake_demo.hub_lineitem
+2022-01-21 08:07:22.719685 (Thread-4): 08:07:22  Compiling model.dbtvault_snowflake_demo.hub_lineitem
+2022-01-21 08:07:22.739544 (Thread-5): 08:07:22  finished collecting timing info
+2022-01-21 08:07:22.739682 (Thread-5): 08:07:22  Began executing node model.dbtvault_snowflake_demo.sat_inv_inventory_details
+2022-01-21 08:07:22.739780 (Thread-5): 08:07:22  finished collecting timing info
+2022-01-21 08:07:22.739912 (Thread-5): 08:07:22  Finished running node model.dbtvault_snowflake_demo.sat_inv_inventory_details
+2022-01-21 08:07:22.740030 (Thread-5): 08:07:22  Began running node model.dbtvault_snowflake_demo.hub_order
+2022-01-21 08:07:22.740141 (Thread-5): 08:07:22  Acquiring new snowflake connection "model.dbtvault_snowflake_demo.hub_order"
+2022-01-21 08:07:22.740220 (Thread-5): 08:07:22  Began compiling node model.dbtvault_snowflake_demo.hub_order
+2022-01-21 08:07:22.740296 (Thread-5): 08:07:22  Compiling model.dbtvault_snowflake_demo.hub_order
+2022-01-21 08:07:22.744998 (Thread-3): 08:07:22  finished collecting timing info
+2022-01-21 08:07:22.745129 (Thread-3): 08:07:22  Began executing node model.dbtvault_snowflake_demo.link_inventory
+2022-01-21 08:07:22.745225 (Thread-3): 08:07:22  finished collecting timing info
+2022-01-21 08:07:22.745360 (Thread-3): 08:07:22  Finished running node model.dbtvault_snowflake_demo.link_inventory
+2022-01-21 08:07:22.745481 (Thread-3): 08:07:22  Began running node model.dbtvault_snowflake_demo.link_customer_nation
+2022-01-21 08:07:22.745594 (Thread-3): 08:07:22  Acquiring new snowflake connection "model.dbtvault_snowflake_demo.link_customer_nation"
+2022-01-21 08:07:22.745675 (Thread-3): 08:07:22  Began compiling node model.dbtvault_snowflake_demo.link_customer_nation
+2022-01-21 08:07:22.745752 (Thread-3): 08:07:22  Compiling model.dbtvault_snowflake_demo.link_customer_nation
+2022-01-21 08:07:22.756640 (Thread-3): 08:07:22  Writing injected SQL for node "model.dbtvault_snowflake_demo.link_customer_nation"
+2022-01-21 08:07:22.769369 (Thread-4): 08:07:22  Writing injected SQL for node "model.dbtvault_snowflake_demo.hub_lineitem"
+2022-01-21 08:07:22.769557 (Thread-7): 08:07:22  finished collecting timing info
+2022-01-21 08:07:22.769687 (Thread-7): 08:07:22  Began executing node model.dbtvault_snowflake_demo.sat_inv_supplier_details
+2022-01-21 08:07:22.769782 (Thread-7): 08:07:22  finished collecting timing info
+2022-01-21 08:07:22.769913 (Thread-7): 08:07:22  Finished running node model.dbtvault_snowflake_demo.sat_inv_supplier_details
+2022-01-21 08:07:22.770030 (Thread-7): 08:07:22  Began running node model.dbtvault_snowflake_demo.link_customer_order
+2022-01-21 08:07:22.770138 (Thread-7): 08:07:22  Acquiring new snowflake connection "model.dbtvault_snowflake_demo.link_customer_order"
+2022-01-21 08:07:22.770215 (Thread-7): 08:07:22  Began compiling node model.dbtvault_snowflake_demo.link_customer_order
+2022-01-21 08:07:22.770291 (Thread-7): 08:07:22  Compiling model.dbtvault_snowflake_demo.link_customer_order
+2022-01-21 08:07:22.787024 (Thread-7): 08:07:22  Writing injected SQL for node "model.dbtvault_snowflake_demo.link_customer_order"
+2022-01-21 08:07:22.794449 (Thread-2): 08:07:22  Writing injected SQL for node "model.dbtvault_snowflake_demo.hub_customer"
+2022-01-21 08:07:22.796264 (Thread-5): 08:07:22  Writing injected SQL for node "model.dbtvault_snowflake_demo.hub_order"
+2022-01-21 08:07:22.798457 (Thread-4): 08:07:22  finished collecting timing info
+2022-01-21 08:07:22.798579 (Thread-4): 08:07:22  Began executing node model.dbtvault_snowflake_demo.hub_lineitem
+2022-01-21 08:07:22.798674 (Thread-4): 08:07:22  finished collecting timing info
+2022-01-21 08:07:22.798805 (Thread-4): 08:07:22  Finished running node model.dbtvault_snowflake_demo.hub_lineitem
+2022-01-21 08:07:22.798930 (Thread-4): 08:07:22  Began running node model.dbtvault_snowflake_demo.link_inventory_allocation
+2022-01-21 08:07:22.799040 (Thread-4): 08:07:22  Acquiring new snowflake connection "model.dbtvault_snowflake_demo.link_inventory_allocation"
+2022-01-21 08:07:22.799118 (Thread-4): 08:07:22  Began compiling node model.dbtvault_snowflake_demo.link_inventory_allocation
+2022-01-21 08:07:22.799194 (Thread-4): 08:07:22  Compiling model.dbtvault_snowflake_demo.link_inventory_allocation
+2022-01-21 08:07:22.803817 (Thread-3): 08:07:22  finished collecting timing info
+2022-01-21 08:07:22.803945 (Thread-3): 08:07:22  Began executing node model.dbtvault_snowflake_demo.link_customer_nation
+2022-01-21 08:07:22.804041 (Thread-3): 08:07:22  finished collecting timing info
+2022-01-21 08:07:22.804174 (Thread-3): 08:07:22  Finished running node model.dbtvault_snowflake_demo.link_customer_nation
+2022-01-21 08:07:22.804293 (Thread-3): 08:07:22  Began running node model.dbtvault_snowflake_demo.link_order_lineitem
+2022-01-21 08:07:22.804404 (Thread-3): 08:07:22  Acquiring new snowflake connection "model.dbtvault_snowflake_demo.link_order_lineitem"
+2022-01-21 08:07:22.804507 (Thread-3): 08:07:22  Began compiling node model.dbtvault_snowflake_demo.link_order_lineitem
+2022-01-21 08:07:22.804582 (Thread-3): 08:07:22  Compiling model.dbtvault_snowflake_demo.link_order_lineitem
+2022-01-21 08:07:22.810339 (Thread-3): 08:07:22  Writing injected SQL for node "model.dbtvault_snowflake_demo.link_order_lineitem"
+2022-01-21 08:07:22.811905 (Thread-4): 08:07:22  Writing injected SQL for node "model.dbtvault_snowflake_demo.link_inventory_allocation"
+2022-01-21 08:07:22.812094 (Thread-6): 08:07:22  finished collecting timing info
+2022-01-21 08:07:22.812224 (Thread-6): 08:07:22  Began executing node model.dbtvault_snowflake_demo.sat_inv_supp_region_details
+2022-01-21 08:07:22.812319 (Thread-6): 08:07:22  finished collecting timing info
+2022-01-21 08:07:22.812483 (Thread-6): 08:07:22  Finished running node model.dbtvault_snowflake_demo.sat_inv_supp_region_details
+2022-01-21 08:07:22.812607 (Thread-6): 08:07:22  Began running node model.dbtvault_snowflake_demo.sat_order_cust_nation_details
+2022-01-21 08:07:22.812717 (Thread-6): 08:07:22  Acquiring new snowflake connection "model.dbtvault_snowflake_demo.sat_order_cust_nation_details"
+2022-01-21 08:07:22.812795 (Thread-6): 08:07:22  Began compiling node model.dbtvault_snowflake_demo.sat_order_cust_nation_details
+2022-01-21 08:07:22.812871 (Thread-6): 08:07:22  Compiling model.dbtvault_snowflake_demo.sat_order_cust_nation_details
+2022-01-21 08:07:22.822132 (Thread-6): 08:07:22  Writing injected SQL for node "model.dbtvault_snowflake_demo.sat_order_cust_nation_details"
+2022-01-21 08:07:22.822332 (Thread-5): 08:07:22  finished collecting timing info
+2022-01-21 08:07:22.822461 (Thread-5): 08:07:22  Began executing node model.dbtvault_snowflake_demo.hub_order
+2022-01-21 08:07:22.822556 (Thread-5): 08:07:22  finished collecting timing info
+2022-01-21 08:07:22.822686 (Thread-5): 08:07:22  Finished running node model.dbtvault_snowflake_demo.hub_order
+2022-01-21 08:07:22.822804 (Thread-5): 08:07:22  Began running node model.dbtvault_snowflake_demo.sat_order_cust_region_details
+2022-01-21 08:07:22.822912 (Thread-5): 08:07:22  Acquiring new snowflake connection "model.dbtvault_snowflake_demo.sat_order_cust_region_details"
+2022-01-21 08:07:22.822990 (Thread-5): 08:07:22  Began compiling node model.dbtvault_snowflake_demo.sat_order_cust_region_details
+2022-01-21 08:07:22.823064 (Thread-5): 08:07:22  Compiling model.dbtvault_snowflake_demo.sat_order_cust_region_details
+2022-01-21 08:07:22.831183 (Thread-5): 08:07:22  Writing injected SQL for node "model.dbtvault_snowflake_demo.sat_order_cust_region_details"
+2022-01-21 08:07:22.831376 (Thread-7): 08:07:22  finished collecting timing info
+2022-01-21 08:07:22.831506 (Thread-7): 08:07:22  Began executing node model.dbtvault_snowflake_demo.link_customer_order
+2022-01-21 08:07:22.831599 (Thread-7): 08:07:22  finished collecting timing info
+2022-01-21 08:07:22.831729 (Thread-7): 08:07:22  Finished running node model.dbtvault_snowflake_demo.link_customer_order
+2022-01-21 08:07:22.831846 (Thread-7): 08:07:22  Began running node model.dbtvault_snowflake_demo.sat_order_customer_details
+2022-01-21 08:07:22.831956 (Thread-7): 08:07:22  Acquiring new snowflake connection "model.dbtvault_snowflake_demo.sat_order_customer_details"
+2022-01-21 08:07:22.832033 (Thread-7): 08:07:22  Began compiling node model.dbtvault_snowflake_demo.sat_order_customer_details
+2022-01-21 08:07:22.832109 (Thread-7): 08:07:22  Compiling model.dbtvault_snowflake_demo.sat_order_customer_details
+2022-01-21 08:07:22.841732 (Thread-7): 08:07:22  Writing injected SQL for node "model.dbtvault_snowflake_demo.sat_order_customer_details"
+2022-01-21 08:07:22.845783 (Thread-2): 08:07:22  finished collecting timing info
+2022-01-21 08:07:22.845911 (Thread-2): 08:07:22  Began executing node model.dbtvault_snowflake_demo.hub_customer
+2022-01-21 08:07:22.846008 (Thread-2): 08:07:22  finished collecting timing info
+2022-01-21 08:07:22.846140 (Thread-2): 08:07:22  Finished running node model.dbtvault_snowflake_demo.hub_customer
+2022-01-21 08:07:22.846259 (Thread-2): 08:07:22  Began running node model.dbtvault_snowflake_demo.sat_order_lineitem_details
+2022-01-21 08:07:22.846368 (Thread-2): 08:07:22  Acquiring new snowflake connection "model.dbtvault_snowflake_demo.sat_order_lineitem_details"
+2022-01-21 08:07:22.846447 (Thread-2): 08:07:22  Began compiling node model.dbtvault_snowflake_demo.sat_order_lineitem_details
+2022-01-21 08:07:22.846524 (Thread-2): 08:07:22  Compiling model.dbtvault_snowflake_demo.sat_order_lineitem_details
+2022-01-21 08:07:22.850896 (Thread-3): 08:07:22  finished collecting timing info
+2022-01-21 08:07:22.851022 (Thread-3): 08:07:22  Began executing node model.dbtvault_snowflake_demo.link_order_lineitem
+2022-01-21 08:07:22.851116 (Thread-3): 08:07:22  finished collecting timing info
+2022-01-21 08:07:22.851246 (Thread-3): 08:07:22  Finished running node model.dbtvault_snowflake_demo.link_order_lineitem
+2022-01-21 08:07:22.851351 (Thread-3): 08:07:22  Began running node model.dbtvault_snowflake_demo.sat_order_order_details
+2022-01-21 08:07:22.851458 (Thread-3): 08:07:22  Acquiring new snowflake connection "model.dbtvault_snowflake_demo.sat_order_order_details"
+2022-01-21 08:07:22.851535 (Thread-3): 08:07:22  Began compiling node model.dbtvault_snowflake_demo.sat_order_order_details
+2022-01-21 08:07:22.851609 (Thread-3): 08:07:22  Compiling model.dbtvault_snowflake_demo.sat_order_order_details
+2022-01-21 08:07:22.866336 (Thread-4): 08:07:22  finished collecting timing info
+2022-01-21 08:07:22.866462 (Thread-4): 08:07:22  Began executing node model.dbtvault_snowflake_demo.link_inventory_allocation
+2022-01-21 08:07:22.866558 (Thread-4): 08:07:22  finished collecting timing info
+2022-01-21 08:07:22.866690 (Thread-4): 08:07:22  Finished running node model.dbtvault_snowflake_demo.link_inventory_allocation
+2022-01-21 08:07:22.866809 (Thread-4): 08:07:22  Began running node model.dbtvault_snowflake_demo.hub_nation
+2022-01-21 08:07:22.866921 (Thread-4): 08:07:22  Acquiring new snowflake connection "model.dbtvault_snowflake_demo.hub_nation"
+2022-01-21 08:07:22.866997 (Thread-4): 08:07:22  Began compiling node model.dbtvault_snowflake_demo.hub_nation
+2022-01-21 08:07:22.867071 (Thread-4): 08:07:22  Compiling model.dbtvault_snowflake_demo.hub_nation
+2022-01-21 08:07:22.871985 (Thread-6): 08:07:22  finished collecting timing info
+2022-01-21 08:07:22.872104 (Thread-6): 08:07:22  Began executing node model.dbtvault_snowflake_demo.sat_order_cust_nation_details
+2022-01-21 08:07:22.872197 (Thread-6): 08:07:22  finished collecting timing info
+2022-01-21 08:07:22.872326 (Thread-6): 08:07:22  Finished running node model.dbtvault_snowflake_demo.sat_order_cust_nation_details
+2022-01-21 08:07:22.872493 (Thread-6): 08:07:22  Began running node model.dbtvault_snowflake_demo.hub_part
+2022-01-21 08:07:22.872615 (Thread-6): 08:07:22  Acquiring new snowflake connection "model.dbtvault_snowflake_demo.hub_part"
+2022-01-21 08:07:22.872710 (Thread-6): 08:07:22  Began compiling node model.dbtvault_snowflake_demo.hub_part
+2022-01-21 08:07:22.872786 (Thread-6): 08:07:22  Compiling model.dbtvault_snowflake_demo.hub_part
+2022-01-21 08:07:22.877091 (Thread-5): 08:07:22  finished collecting timing info
+2022-01-21 08:07:22.877215 (Thread-5): 08:07:22  Began executing node model.dbtvault_snowflake_demo.sat_order_cust_region_details
+2022-01-21 08:07:22.877309 (Thread-5): 08:07:22  finished collecting timing info
+2022-01-21 08:07:22.877459 (Thread-5): 08:07:22  Finished running node model.dbtvault_snowflake_demo.sat_order_cust_region_details
+2022-01-21 08:07:22.877571 (Thread-5): 08:07:22  Began running node model.dbtvault_snowflake_demo.hub_region
+2022-01-21 08:07:22.877682 (Thread-5): 08:07:22  Acquiring new snowflake connection "model.dbtvault_snowflake_demo.hub_region"
+2022-01-21 08:07:22.877760 (Thread-5): 08:07:22  Began compiling node model.dbtvault_snowflake_demo.hub_region
+2022-01-21 08:07:22.877836 (Thread-5): 08:07:22  Compiling model.dbtvault_snowflake_demo.hub_region
+2022-01-21 08:07:22.884893 (Thread-6): 08:07:22  Writing injected SQL for node "model.dbtvault_snowflake_demo.hub_part"
+2022-01-21 08:07:22.888104 (Thread-2): 08:07:22  Writing injected SQL for node "model.dbtvault_snowflake_demo.sat_order_lineitem_details"
+2022-01-21 08:07:22.888958 (Thread-3): 08:07:22  Writing injected SQL for node "model.dbtvault_snowflake_demo.sat_order_order_details"
+2022-01-21 08:07:22.891324 (Thread-4): 08:07:22  Writing injected SQL for node "model.dbtvault_snowflake_demo.hub_nation"
+2022-01-21 08:07:22.894872 (Thread-5): 08:07:22  Writing injected SQL for node "model.dbtvault_snowflake_demo.hub_region"
+2022-01-21 08:07:22.899510 (Thread-7): 08:07:22  finished collecting timing info
+2022-01-21 08:07:22.899648 (Thread-7): 08:07:22  Began executing node model.dbtvault_snowflake_demo.sat_order_customer_details
+2022-01-21 08:07:22.899741 (Thread-7): 08:07:22  finished collecting timing info
+2022-01-21 08:07:22.899874 (Thread-7): 08:07:22  Finished running node model.dbtvault_snowflake_demo.sat_order_customer_details
+2022-01-21 08:07:22.899991 (Thread-7): 08:07:22  Began running node model.dbtvault_snowflake_demo.hub_supplier
+2022-01-21 08:07:22.900100 (Thread-7): 08:07:22  Acquiring new snowflake connection "model.dbtvault_snowflake_demo.hub_supplier"
+2022-01-21 08:07:22.900178 (Thread-7): 08:07:22  Began compiling node model.dbtvault_snowflake_demo.hub_supplier
+2022-01-21 08:07:22.900253 (Thread-7): 08:07:22  Compiling model.dbtvault_snowflake_demo.hub_supplier
+2022-01-21 08:07:22.904842 (Thread-6): 08:07:22  finished collecting timing info
+2022-01-21 08:07:22.904968 (Thread-6): 08:07:22  Began executing node model.dbtvault_snowflake_demo.hub_part
+2022-01-21 08:07:22.905060 (Thread-6): 08:07:22  finished collecting timing info
+2022-01-21 08:07:22.905190 (Thread-6): 08:07:22  Finished running node model.dbtvault_snowflake_demo.hub_part
+2022-01-21 08:07:22.905296 (Thread-6): 08:07:22  Began running node model.dbtvault_snowflake_demo.link_nation_region
+2022-01-21 08:07:22.905412 (Thread-6): 08:07:22  Acquiring new snowflake connection "model.dbtvault_snowflake_demo.link_nation_region"
+2022-01-21 08:07:22.905488 (Thread-6): 08:07:22  Began compiling node model.dbtvault_snowflake_demo.link_nation_region
+2022-01-21 08:07:22.905562 (Thread-6): 08:07:22  Compiling model.dbtvault_snowflake_demo.link_nation_region
+2022-01-21 08:07:22.910007 (Thread-2): 08:07:22  finished collecting timing info
+2022-01-21 08:07:22.910134 (Thread-2): 08:07:22  Began executing node model.dbtvault_snowflake_demo.sat_order_lineitem_details
+2022-01-21 08:07:22.910228 (Thread-2): 08:07:22  finished collecting timing info
+2022-01-21 08:07:22.910360 (Thread-2): 08:07:22  Finished running node model.dbtvault_snowflake_demo.sat_order_lineitem_details
+2022-01-21 08:07:22.910524 (Thread-3): 08:07:22  finished collecting timing info
+2022-01-21 08:07:22.910656 (Thread-3): 08:07:22  Began executing node model.dbtvault_snowflake_demo.sat_order_order_details
+2022-01-21 08:07:22.910751 (Thread-3): 08:07:22  finished collecting timing info
+2022-01-21 08:07:22.910884 (Thread-3): 08:07:22  Finished running node model.dbtvault_snowflake_demo.sat_order_order_details
+2022-01-21 08:07:22.914450 (Thread-7): 08:07:22  Writing injected SQL for node "model.dbtvault_snowflake_demo.hub_supplier"
+2022-01-21 08:07:22.917657 (Thread-6): 08:07:22  Writing injected SQL for node "model.dbtvault_snowflake_demo.link_nation_region"
+2022-01-21 08:07:22.918940 (Thread-2): 08:07:22  Began running node snapshot.dbtvault_snowflake_demo.orders_snapshot
+2022-01-21 08:07:22.919083 (Thread-2): 08:07:22  Acquiring new snowflake connection "snapshot.dbtvault_snowflake_demo.orders_snapshot"
+2022-01-21 08:07:22.919167 (Thread-2): 08:07:22  Began compiling node snapshot.dbtvault_snowflake_demo.orders_snapshot
+2022-01-21 08:07:22.919245 (Thread-2): 08:07:22  Compiling snapshot.dbtvault_snowflake_demo.orders_snapshot
+2022-01-21 08:07:22.922143 (Thread-2): 08:07:22  finished collecting timing info
+2022-01-21 08:07:22.922275 (Thread-2): 08:07:22  Began executing node snapshot.dbtvault_snowflake_demo.orders_snapshot
+2022-01-21 08:07:22.922379 (Thread-2): 08:07:22  finished collecting timing info
+2022-01-21 08:07:22.922510 (Thread-2): 08:07:22  Finished running node snapshot.dbtvault_snowflake_demo.orders_snapshot
+2022-01-21 08:07:22.923177 (Thread-4): 08:07:22  finished collecting timing info
+2022-01-21 08:07:22.923313 (Thread-4): 08:07:22  Began executing node model.dbtvault_snowflake_demo.hub_nation
+2022-01-21 08:07:22.923462 (Thread-4): 08:07:22  finished collecting timing info
+2022-01-21 08:07:22.923665 (Thread-4): 08:07:22  Finished running node model.dbtvault_snowflake_demo.hub_nation
+2022-01-21 08:07:22.924001 (Thread-5): 08:07:22  finished collecting timing info
+2022-01-21 08:07:22.924136 (Thread-5): 08:07:22  Began executing node model.dbtvault_snowflake_demo.hub_region
+2022-01-21 08:07:22.924237 (Thread-5): 08:07:22  finished collecting timing info
+2022-01-21 08:07:22.924367 (Thread-5): 08:07:22  Finished running node model.dbtvault_snowflake_demo.hub_region
+2022-01-21 08:07:22.925160 (Thread-1): 08:07:22  SQL status: SUCCESS 1 in 1.07 seconds
+2022-01-21 08:07:22.926414 (Thread-1): 08:07:22  Writing injected SQL for node "model.dbtvault_snowflake_demo.DQ_Config_table_run"
+2022-01-21 08:07:22.931698 (Thread-6): 08:07:22  finished collecting timing info
+2022-01-21 08:07:22.931835 (Thread-6): 08:07:22  Began executing node model.dbtvault_snowflake_demo.link_nation_region
+2022-01-21 08:07:22.931933 (Thread-6): 08:07:22  finished collecting timing info
+2022-01-21 08:07:22.932067 (Thread-6): 08:07:22  Finished running node model.dbtvault_snowflake_demo.link_nation_region
+2022-01-21 08:07:22.932243 (Thread-7): 08:07:22  finished collecting timing info
+2022-01-21 08:07:22.932370 (Thread-7): 08:07:22  Began executing node model.dbtvault_snowflake_demo.hub_supplier
+2022-01-21 08:07:22.932496 (Thread-7): 08:07:22  finished collecting timing info
+2022-01-21 08:07:22.932633 (Thread-7): 08:07:22  Finished running node model.dbtvault_snowflake_demo.hub_supplier
+2022-01-21 08:07:22.939855 (Thread-1): 08:07:22  finished collecting timing info
+2022-01-21 08:07:22.939996 (Thread-1): 08:07:22  Began executing node model.dbtvault_snowflake_demo.DQ_Config_table_run
+2022-01-21 08:07:22.940093 (Thread-1): 08:07:22  finished collecting timing info
+2022-01-21 08:07:22.940199 (Thread-1): 08:07:22  On model.dbtvault_snowflake_demo.DQ_Config_table_run: Close
+2022-01-21 08:07:23.271473 (Thread-265): handling poll request
+2022-01-21 08:07:23.271806 (Thread-265): 08:07:23  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '30df626b-f28b-49ae-b272-e57eaa9cbcfb', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fd59c138280>]}
+2022-01-21 08:07:23.275046 (Thread-265): sending response (<Response 129313 bytes [200 OK]>) to 10.0.9.34
+2022-01-21 08:07:23.314785 (Thread-1): 08:07:23  Finished running node model.dbtvault_snowflake_demo.DQ_Config_table_run
+2022-01-21 08:07:23.316236 (MainThread): 08:07:23  Connection 'master' was properly closed.
+2022-01-21 08:07:23.316363 (MainThread): 08:07:23  Connection 'model.dbtvault_snowflake_demo.DQ_Config_table_run' was properly closed.
+2022-01-21 08:07:23.316463 (MainThread): 08:07:23  Connection 'snapshot.dbtvault_snowflake_demo.orders_snapshot' was properly closed.
+2022-01-21 08:07:23.316534 (MainThread): 08:07:23  Connection 'model.dbtvault_snowflake_demo.sat_order_order_details' was properly closed.
+2022-01-21 08:07:23.316600 (MainThread): 08:07:23  Connection 'model.dbtvault_snowflake_demo.hub_region' was properly closed.
+2022-01-21 08:07:23.316664 (MainThread): 08:07:23  Connection 'model.dbtvault_snowflake_demo.link_nation_region' was properly closed.
+2022-01-21 08:07:23.316727 (MainThread): 08:07:23  Connection 'model.dbtvault_snowflake_demo.hub_supplier' was properly closed.
+2022-01-21 08:07:23.316790 (MainThread): 08:07:23  Connection 'model.dbtvault_snowflake_demo.hub_nation' was properly closed.
+2022-01-21 08:07:23.407489 (MainThread): 08:07:23  Done.
+2022-01-21 08:07:23.443717 (MainThread): 08:07:23  Acquiring new snowflake connection "generate_catalog"
+2022-01-21 08:07:23.443845 (MainThread): 08:07:23  Building catalog
+2022-01-21 08:07:23.448720 (ThreadPoolExecutor-3_0): 08:07:23  Acquiring new snowflake connection "DEMO_DB.information_schema"
+2022-01-21 08:07:23.456922 (ThreadPoolExecutor-3_0): 08:07:23  Using snowflake connection "DEMO_DB.information_schema"
+2022-01-21 08:07:23.457030 (ThreadPoolExecutor-3_0): 08:07:23  On DEMO_DB.information_schema: with tables as (
+
+          select
+              table_catalog as "table_database",
+              table_schema as "table_schema",
+              table_name as "table_name",
+              table_type as "table_type",
+              comment as "table_comment",
+
+              -- note: this is the _role_ that owns the table
+              table_owner as "table_owner",
+
+              'Clustering Key' as "stats:clustering_key:label",
+              clustering_key as "stats:clustering_key:value",
+              'The key used to cluster this table' as "stats:clustering_key:description",
+              (clustering_key is not null) as "stats:clustering_key:include",
+
+              'Row Count' as "stats:row_count:label",
+              row_count as "stats:row_count:value",
+              'An approximate count of rows in this table' as "stats:row_count:description",
+              (row_count is not null) as "stats:row_count:include",
+
+              'Approximate Size' as "stats:bytes:label",
+              bytes as "stats:bytes:value",
+              'Approximate size of the table as reported by Snowflake' as "stats:bytes:description",
+              (bytes is not null) as "stats:bytes:include",
+
+              'Last Modified' as "stats:last_modified:label",
+              to_varchar(convert_timezone('UTC', last_altered), 'yyyy-mm-dd HH24:MI'||'UTC') as "stats:last_modified:value",
+              'The timestamp for last update/change' as "stats:last_modified:description",
+              (last_altered is not null and table_type='BASE TABLE') as "stats:last_modified:include"
+
+          from DEMO_DB.INFORMATION_SCHEMA.tables
+
+      ),
+
+      columns as (
+
+          select
+              table_catalog as "table_database",
+              table_schema as "table_schema",
+              table_name as "table_name",
+
+              column_name as "column_name",
+              ordinal_position as "column_index",
+              data_type as "column_type",
+              comment as "column_comment"
+
+          from DEMO_DB.INFORMATION_SCHEMA.columns
+      )
+
+      select *
+      from tables
+      join columns using ("table_database", "table_schema", "table_name")
+      where (upper("table_schema") = upper('demo') or upper("table_schema") = upper('snapshots'))
+      order by "column_index"
+2022-01-21 08:07:23.457118 (ThreadPoolExecutor-3_0): 08:07:23  Opening a new connection, currently in state init
+2022-01-21 08:07:23.457987 (ThreadPoolExecutor-3_1): 08:07:23  Acquiring new snowflake connection "SNOWFLAKE_SAMPLE_DATA.information_schema"
+2022-01-21 08:07:23.460858 (ThreadPoolExecutor-3_1): 08:07:23  Using snowflake connection "SNOWFLAKE_SAMPLE_DATA.information_schema"
+2022-01-21 08:07:23.460961 (ThreadPoolExecutor-3_1): 08:07:23  On SNOWFLAKE_SAMPLE_DATA.information_schema: with tables as (
+
+          select
+              table_catalog as "table_database",
+              table_schema as "table_schema",
+              table_name as "table_name",
+              table_type as "table_type",
+              comment as "table_comment",
+
+              -- note: this is the _role_ that owns the table
+              table_owner as "table_owner",
+
+              'Clustering Key' as "stats:clustering_key:label",
+              clustering_key as "stats:clustering_key:value",
+              'The key used to cluster this table' as "stats:clustering_key:description",
+              (clustering_key is not null) as "stats:clustering_key:include",
+
+              'Row Count' as "stats:row_count:label",
+              row_count as "stats:row_count:value",
+              'An approximate count of rows in this table' as "stats:row_count:description",
+              (row_count is not null) as "stats:row_count:include",
+
+              'Approximate Size' as "stats:bytes:label",
+              bytes as "stats:bytes:value",
+              'Approximate size of the table as reported by Snowflake' as "stats:bytes:description",
+              (bytes is not null) as "stats:bytes:include",
+
+              'Last Modified' as "stats:last_modified:label",
+              to_varchar(convert_timezone('UTC', last_altered), 'yyyy-mm-dd HH24:MI'||'UTC') as "stats:last_modified:value",
+              'The timestamp for last update/change' as "stats:last_modified:description",
+              (last_altered is not null and table_type='BASE TABLE') as "stats:last_modified:include"
+
+          from SNOWFLAKE_SAMPLE_DATA.INFORMATION_SCHEMA.tables
+
+      ),
+
+      columns as (
+
+          select
+              table_catalog as "table_database",
+              table_schema as "table_schema",
+              table_name as "table_name",
+
+              column_name as "column_name",
+              ordinal_position as "column_index",
+              data_type as "column_type",
+              comment as "column_comment"
+
+          from SNOWFLAKE_SAMPLE_DATA.INFORMATION_SCHEMA.columns
+      )
+
+      select *
+      from tables
+      join columns using ("table_database", "table_schema", "table_name")
+      where (upper("table_schema") = upper('tpch_sf10'))
+      order by "column_index"
+2022-01-21 08:07:23.461044 (ThreadPoolExecutor-3_1): 08:07:23  Opening a new connection, currently in state init
+2022-01-21 08:07:25.097121 (Thread-266): handling poll request
+2022-01-21 08:07:25.097484 (Thread-266): 08:07:25  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '30df626b-f28b-49ae-b272-e57eaa9cbcfb', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fd59c659550>]}
+2022-01-21 08:07:25.098165 (Thread-266): sending response (<Response 11403 bytes [200 OK]>) to 10.0.41.230
+2022-01-21 08:07:25.939712 (ThreadPoolExecutor-3_0): 08:07:25  SQL status: SUCCESS 0 in 2.48 seconds
+2022-01-21 08:07:25.941900 (ThreadPoolExecutor-3_0): 08:07:25  On DEMO_DB.information_schema: Close
+2022-01-21 08:07:26.018368 (ThreadPoolExecutor-3_1): 08:07:26  SQL status: SUCCESS 61 in 2.56 seconds
+2022-01-21 08:07:26.033920 (ThreadPoolExecutor-3_1): 08:07:26  On SNOWFLAKE_SAMPLE_DATA.information_schema: Close
+2022-01-21 08:07:26.416007 (MainThread): 08:07:26  Catalog written to /usr/src/develop/user-54848/environment-60784/repository-49192/target/catalog.json
+2022-01-21 08:07:26.718276 (Thread-267): handling poll request
+2022-01-21 08:07:26.718661 (Thread-267): 08:07:26  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '30df626b-f28b-49ae-b272-e57eaa9cbcfb', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fd59c659c10>]}
+2022-01-21 08:07:26.719720 (Thread-267): sending response (<Response 14850 bytes [200 OK]>) to 10.0.32.229
+2022-01-21 08:07:27.909166 (Thread-268): handling status request
+2022-01-21 08:07:27.909539 (Thread-268): 08:07:27  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '30df626b-f28b-49ae-b272-e57eaa9cbcfb', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fd59c1f6a90>]}
+2022-01-21 08:07:27.911751 (Thread-268): sending response (<Response 63954 bytes [200 OK]>) to 10.0.2.79
+2022-01-21 08:07:28.075758 (Thread-269): handling status request
+2022-01-21 08:07:28.076131 (Thread-269): 08:07:28  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '30df626b-f28b-49ae-b272-e57eaa9cbcfb', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fd59c1fadc0>]}
+2022-01-21 08:07:28.078081 (Thread-269): sending response (<Response 63954 bytes [200 OK]>) to 10.0.45.110
+2022-01-21 08:07:28.367890 (Thread-270): handling status request
+2022-01-21 08:07:28.368259 (Thread-270): 08:07:28  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '30df626b-f28b-49ae-b272-e57eaa9cbcfb', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fd59c2c8790>]}
+2022-01-21 08:07:28.370205 (Thread-270): sending response (<Response 63954 bytes [200 OK]>) to 10.0.45.110
+2022-01-21 08:58:14.431068 (Thread-271): handling status request
+2022-01-21 08:58:14.431453 (Thread-271): 08:58:14  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '30df626b-f28b-49ae-b272-e57eaa9cbcfb', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fd59c64ab20>]}
+2022-01-21 08:58:14.433432 (Thread-271): sending response (<Response 63954 bytes [200 OK]>) to 10.0.39.207
+2022-01-21 08:58:14.437520 (Thread-272): handling status request
+2022-01-21 08:58:14.437769 (Thread-272): 08:58:14  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '30df626b-f28b-49ae-b272-e57eaa9cbcfb', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fd59c64af70>]}
+2022-01-21 08:58:14.439420 (Thread-272): sending response (<Response 63954 bytes [200 OK]>) to 10.0.24.101
+2022-01-21 08:58:14.472049 (Thread-273): handling status request
+2022-01-21 08:58:14.472440 (Thread-273): 08:58:14  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '30df626b-f28b-49ae-b272-e57eaa9cbcfb', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fd59c64ad60>]}
+2022-01-21 08:58:14.474575 (Thread-273): sending response (<Response 63954 bytes [200 OK]>) to 10.0.41.230
+2022-01-21 08:58:14.555330 (Thread-274): handling ps request
+2022-01-21 08:58:14.555737 (Thread-274): 08:58:14  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '30df626b-f28b-49ae-b272-e57eaa9cbcfb', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fd59c647f40>]}
+2022-01-21 08:58:14.558006 (Thread-274): sending response (<Response 24317 bytes [200 OK]>) to 10.0.9.34
+2022-01-21 08:58:15.564083 (Thread-275): handling poll request
+2022-01-21 08:58:15.564523 (Thread-275): 08:58:15  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '30df626b-f28b-49ae-b272-e57eaa9cbcfb', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fd59c1cc940>]}
+2022-01-21 08:58:15.572241 (Thread-275): sending response (<Response 276210 bytes [200 OK]>) to 10.0.2.79
+2022-01-21 08:58:18.510388 (Thread-276): handling status request
+2022-01-21 08:58:18.510742 (Thread-276): 08:58:18  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '30df626b-f28b-49ae-b272-e57eaa9cbcfb', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fd59c7928e0>]}
+2022-01-21 08:58:18.512738 (Thread-276): sending response (<Response 63932 bytes [200 OK]>) to 10.0.13.140
+2022-01-21 08:58:18.519584 (Thread-277): handling list request
+2022-01-21 08:58:18.519822 (Thread-277): 08:58:18  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '30df626b-f28b-49ae-b272-e57eaa9cbcfb', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fd59c650820>]}
+2022-01-21 08:58:18.562124 (Thread-277): 08:58:18  Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': '30df626b-f28b-49ae-b272-e57eaa9cbcfb', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fd59c138970>]}
+2022-01-21 08:58:18.562423 (Thread-277): 08:58:18  Found 32 models, 0 tests, 1 snapshot, 0 analyses, 447 macros, 0 operations, 0 seed files, 8 sources, 0 exposures, 0 metrics
+2022-01-21 08:58:18.565701 (Thread-277): 08:58:18  The selection criterion '+1642755497565/__unsaved/Statement' does not match any nodes
+2022-01-21 08:58:18.566032 (Thread-277): 08:58:18  The selection criterion '1.sql+' does not match any nodes
+2022-01-21 08:58:18.566156 (Thread-277): 08:58:18  No nodes selected!
+2022-01-21 08:58:18.567728 (Thread-277): sending response (<Response 2353 bytes [200 OK]>) to 10.0.13.140
+2022-01-21 08:58:19.781592 (Thread-278): handling status request
+2022-01-21 08:58:19.781997 (Thread-278): 08:58:19  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '30df626b-f28b-49ae-b272-e57eaa9cbcfb', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fd5f028ad60>]}
+2022-01-21 08:58:19.784077 (Thread-278): sending response (<Response 63932 bytes [200 OK]>) to 10.0.13.140
+2022-01-21 08:58:19.790263 (Thread-279): handling list request
+2022-01-21 08:58:19.790499 (Thread-279): 08:58:19  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '30df626b-f28b-49ae-b272-e57eaa9cbcfb', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fd59c138ee0>]}
+2022-01-21 08:58:19.827780 (Thread-279): 08:58:19  Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': '30df626b-f28b-49ae-b272-e57eaa9cbcfb', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fd59c334d90>]}
+2022-01-21 08:58:19.828057 (Thread-279): 08:58:19  Found 32 models, 0 tests, 1 snapshot, 0 analyses, 447 macros, 0 operations, 0 seed files, 8 sources, 0 exposures, 0 metrics
+2022-01-21 08:58:19.829638 (Thread-279): 08:58:19  The selection criterion '+1642755497565/__unsaved/Statement' does not match any nodes
+2022-01-21 08:58:19.829943 (Thread-279): 08:58:19  The selection criterion '1.sql+' does not match any nodes
+2022-01-21 08:58:19.830059 (Thread-279): 08:58:19  No nodes selected!
+2022-01-21 08:58:19.831625 (Thread-279): sending response (<Response 2353 bytes [200 OK]>) to 10.0.13.140
+2022-01-21 08:58:37.981955 (Thread-280): handling status request
+2022-01-21 08:58:37.982326 (Thread-280): 08:58:37  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '30df626b-f28b-49ae-b272-e57eaa9cbcfb', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fd59c2ac520>]}
+2022-01-21 08:58:37.984393 (Thread-280): sending response (<Response 63954 bytes [200 OK]>) to 10.0.33.223
