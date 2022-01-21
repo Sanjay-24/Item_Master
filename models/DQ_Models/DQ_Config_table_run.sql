@@ -4,12 +4,10 @@
 
 {%- set Query_statement = load_result('DQ_CONFIG')['data'][0][0] -%}
 
-{%- call statement('DQ_Check', fetch_result=True) -%}
-    UPDATE 'DEMO_DB'.'TEST'.'DQ_CONFIG' SET OUTPUT_RESULT = SELECT * FROM ( {{Query_statement}});
-
+{%- call statement('DQ_RESULT', fetch_result=True) -%}
+    UPDATE "DEMO_DB"."TEST"."DQ_CONFIG" SET OUTPUT_RESULT = (SELECT * FROM ({{Query_statement}}))
 {%- endcall -%}
 
-{%- set query_result = load_result('DQ_Check')['data'][0][0] -%}
-
+{%- set Query_statement = load_result('DQ_CONFIG') -%}
 
 select 1 as temp
