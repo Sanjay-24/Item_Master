@@ -20,7 +20,7 @@ test-paths:
 target-path: target
 
 vars:
-  load_date: '1992-01-08'
+  load_date: '1992-01-09'
   tpch_size: 10 #1, 10, 100, 1000, 10000
 
 models:
@@ -31,12 +31,12 @@ models:
     raw_stage:
       tags:
         - 'raw'
-      materialized: view
+      materialized: table
     stage:
       tags:
         - 'stage'
       enabled: true
-      materialized: view
+      materialized: table
     raw_vault:
       tags:
         - 'raw_vault'

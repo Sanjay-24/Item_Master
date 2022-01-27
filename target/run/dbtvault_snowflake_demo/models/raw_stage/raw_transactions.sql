@@ -1,5 +1,7 @@
 
-  create or replace  view DV_PROTOTYPE_DB.DEMO.raw_transactions  as (
+  create or replace  view DEMO_DB.DEMO.raw_transactions 
+  
+   as (
     SELECT
     b.O_ORDERKEY AS ORDER_ID,
     b.O_CUSTKEY AS CUSTOMER_ID,

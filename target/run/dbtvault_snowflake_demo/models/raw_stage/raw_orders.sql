@@ -1,6 +1,7 @@
 
-  create or replace  view DV_PROTOTYPE_DB.DEMO.raw_orders  as (
-    SELECT
+
+      create or replace transient table DEMO_DB.DEMO.raw_orders  as
+      (SELECT
     a.L_ORDERKEY AS ORDERKEY,
     a.L_PARTKEY AS PARTKEY ,
     a.L_SUPPKEY AS SUPPLIERKEY,
@@ -54,5 +55,6 @@ LEFT JOIN SNOWFLAKE_SAMPLE_DATA.TPCH_SF10.NATION AS j
     ON h.S_NATIONKEY = j.N_NATIONKEY
 LEFT JOIN SNOWFLAKE_SAMPLE_DATA.TPCH_SF10.REGION AS k
     ON j.N_REGIONKEY = k.R_REGIONKEY
-WHERE b.O_ORDERDATE = TO_DATE('1992-01-08')
-  );
+WHERE b.O_ORDERDATE = TO_DATE('1992-01-09')
+      );
+    
