@@ -12,7 +12,7 @@
 
 {%- set currdate = load_result('currenttime')['data'][0][0] -%}
 
-{% if False %}
+{% if True %}
 
     select final.* from {{this}} as final
     left outer join
@@ -20,7 +20,7 @@
     on final.PART_PK=delta.PART_PK
     where delta.PART_PK is null
     union all
-    select delta.*,to_varchar({{currdate}}) as Valid_from,Null as Valid_to from {{this}} as final
+    select delta.*,to_varchar('{{currdate}}') as Valid_from,'' as Valid_to from {{this}} as final
     Right outer join
     {{ref('v_stg_inventory')}} as delta
     on final.PART_PK=delta.PART_PK
@@ -33,13 +33,13 @@
     on final.PART_PK=delta.PART_PK
     where final.hashdiff = delta.hashdiff
     union all
-    select delta.*,NULL as Valid_from,to_varchar({{currdate}}) as Valid_to from {{this}} as final
+    select delta.*,'' as Valid_from,to_varchar('{{currdate}}') as Valid_to from {{this}} as final
     inner join 
     {{ref('v_stg_inventory')}} as delta
     on final.PART_PK=delta.PART_PK
     where final.hashdiff <> delta.hashdiff
     union all
-    select delta.*,final.Valid_from,to_varchar({{currdate}}) as Valid_to from {{this}} as final
+    select delta.*,final.Valid_from,to_varchar('{{currdate}}') as Valid_to from {{this}} as final
     inner join 
     {{ref('v_stg_inventory')}} as delta
     on final.PART_PK=delta.PART_PK
@@ -48,7 +48,7 @@
 
 {% else %}
 	Select PART_PK,PART_HASHDIFF,PART_NAME,PART_MFGR,PART_BRAND,PART_TYPE,PART_SIZE,PART_CONTAINER,PART_RETAILPRICE,PART_COMMENT,
-    to_varchar({{currdate}}) as VALID_FROM, Null as Valid_to 
+    to_varchar('{{currdate}}') as VALID_FROM, '' as Valid_to 
     from {{ref('v_stg_inventory')}}
     
 {% endif %}
