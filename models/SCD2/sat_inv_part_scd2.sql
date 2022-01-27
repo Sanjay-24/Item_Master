@@ -5,40 +5,51 @@
 
 {%- set Query_statement = load_result('Exist_query')['data'][0][0] -%}
 
-{%- set currdate = sysdate() -%}
+{%- call statement('currenttime', fetch_result=True) -%}
+    SELECT sysdate()
 
-{% if Query_statement %}
+{%- endcall -%}
+
+{%- set currdate = load_result('currenttime')['data'][0][0] -%}
+
+{% if False %}
 
     select final.* from {{this}} as final
     left outer join
     {{ref('v_stg_inventory')}} as delta
-    on final.pk=delta.pk
-    where delta.pk is null
+    on final.PART_PK=delta.PART_PK
+    where delta.PART_PK is null
     union all
-    select delta.*,{{currdate}} as Valid_from,Null as Valid_to from {{this}} as final
+    select delta.*,to_varchar({{currdate}}) as Valid_from,Null as Valid_to from {{this}} as final
     Right outer join
     {{ref('v_stg_inventory')}} as delta
-    on final.pk=delta.pk
-    where final.pk is null
+    on final.PART_PK=delta.PART_PK
+    where final.PART_PK is null
     union all
-    {
+    (
     select final.* from {{this}} as final
     inner join 
     {{ref('v_stg_inventory')}} as delta
-    on final.pk=delta.pk
+    on final.PART_PK=delta.PART_PK
     where final.hashdiff = delta.hashdiff
     union all
-    select delta.*,Valid_from,{{'current_time'}} as Valid_to from {{this}} as final
+    select delta.*,NULL as Valid_from,to_varchar({{currdate}}) as Valid_to from {{this}} as final
     inner join 
     {{ref('v_stg_inventory')}} as delta
-    on final.pk=delta.pk
+    on final.PART_PK=delta.PART_PK
     where final.hashdiff <> delta.hashdiff
-    }
+    union all
+    select delta.*,final.Valid_from,to_varchar({{currdate}}) as Valid_to from {{this}} as final
+    inner join 
+    {{ref('v_stg_inventory')}} as delta
+    on final.PART_PK=delta.PART_PK
+    where final.hashdiff <> delta.hashdiff
+    )
 
 {% else %}
 	Select PART_PK,PART_HASHDIFF,PART_NAME,PART_MFGR,PART_BRAND,PART_TYPE,PART_SIZE,PART_CONTAINER,PART_RETAILPRICE,PART_COMMENT,
-    sysdate() as VALID_FROM, Null as Valid_to 
-    from {{ref{'v_stg_inventory'}}}
+    to_varchar({{currdate}}) as VALID_FROM, Null as Valid_to 
+    from {{ref('v_stg_inventory')}}
     
-{% end if %}
+{% endif %}
 

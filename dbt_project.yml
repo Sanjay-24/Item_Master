@@ -25,6 +25,8 @@ vars:
 
 models:
   dbtvault_snowflake_demo:
+    SCD2 :
+      materialized: incremental
     DQ_Models:
       tags:
         - 'dq_check'

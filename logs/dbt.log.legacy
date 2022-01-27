@@ -15846,3 +15846,1421 @@ The `data-paths` config has been renamed to `seed-paths`. Please update your
 2022-01-27 12:58:44.456018 (Thread-36): handling status request
 2022-01-27 12:58:44.456475 (Thread-36): 12:58:44  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '243d172d-88b4-4cb5-a678-18d7a7b739e9', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fac0417ca90>]}
 2022-01-27 12:58:44.457005 (Thread-36): sending response (<Response 1316 bytes [200 OK]>) to 10.0.33.234
+2022-01-27 12:58:48.270746 (Thread-37): 12:58:48  Partial parsing enabled: 0 files deleted, 0 files added, 1 files changed.
+2022-01-27 12:58:48.271279 (Thread-37): 12:58:48  Partial parsing: updated file: dbtvault_snowflake_demo://models/SCD2/sat_inv_part_scd2.sql
+2022-01-27 12:58:48.277452 (Thread-37): 12:58:48  1603: static parser failed on SCD2/sat_inv_part_scd2.sql
+2022-01-27 12:58:49.178672 (Thread-38): handling status request
+2022-01-27 12:58:49.179059 (Thread-38): 12:58:49  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '243d172d-88b4-4cb5-a678-18d7a7b739e9', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fac0436f220>]}
+2022-01-27 12:58:49.179554 (Thread-38): sending response (<Response 1316 bytes [200 OK]>) to 10.0.3.212
+2022-01-27 12:58:49.226684 (Thread-39): handling status request
+2022-01-27 12:58:49.226949 (Thread-39): 12:58:49  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '243d172d-88b4-4cb5-a678-18d7a7b739e9', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fac0412f430>]}
+2022-01-27 12:58:49.227330 (Thread-39): sending response (<Response 1316 bytes [200 OK]>) to 10.0.4.24
+2022-01-27 13:02:34.941808 (Thread-40): handling status request
+2022-01-27 13:02:34.943788 (Thread-40): 13:02:34  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '243d172d-88b4-4cb5-a678-18d7a7b739e9', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fac0417cbb0>]}
+2022-01-27 13:02:34.944314 (Thread-40): sending response (<Response 1294 bytes [200 OK]>) to 10.0.17.247
+2022-01-27 13:02:36.335086 (Thread-41): handling status request
+2022-01-27 13:02:36.335444 (Thread-41): 13:02:36  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '243d172d-88b4-4cb5-a678-18d7a7b739e9', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fac0431ac10>]}
+2022-01-27 13:02:36.335893 (Thread-41): sending response (<Response 1294 bytes [200 OK]>) to 10.0.17.247
+2022-01-27 13:02:38.724211 (Thread-42): handling status request
+2022-01-27 13:02:38.724592 (Thread-42): 13:02:38  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '243d172d-88b4-4cb5-a678-18d7a7b739e9', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fac415a8cd0>]}
+2022-01-27 13:02:38.725080 (Thread-42): sending response (<Response 1294 bytes [200 OK]>) to 10.0.17.247
+2022-01-27 13:02:43.139421 (Thread-43): handling status request
+2022-01-27 13:02:43.139828 (Thread-43): 13:02:43  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '243d172d-88b4-4cb5-a678-18d7a7b739e9', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fac04178d30>]}
+2022-01-27 13:02:43.140329 (Thread-43): sending response (<Response 1294 bytes [200 OK]>) to 10.0.17.247
+2022-01-27 13:03:24.726376 (Thread-44): handling status request
+2022-01-27 13:03:24.726745 (Thread-44): 13:03:24  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '243d172d-88b4-4cb5-a678-18d7a7b739e9', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fac040c9b50>]}
+2022-01-27 13:03:24.727202 (Thread-44): sending response (<Response 1294 bytes [200 OK]>) to 10.0.17.247
+2022-01-27 13:03:26.117914 (Thread-45): handling status request
+2022-01-27 13:03:26.118325 (Thread-45): 13:03:26  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '243d172d-88b4-4cb5-a678-18d7a7b739e9', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fac0417ce80>]}
+2022-01-27 13:03:26.118804 (Thread-45): sending response (<Response 1294 bytes [200 OK]>) to 10.0.17.247
+2022-01-27 13:03:28.511354 (Thread-46): handling status request
+2022-01-27 13:03:28.511762 (Thread-46): 13:03:28  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '243d172d-88b4-4cb5-a678-18d7a7b739e9', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fac04178c70>]}
+2022-01-27 13:03:28.512250 (Thread-46): sending response (<Response 1294 bytes [200 OK]>) to 10.0.17.247
+2022-01-27 13:03:32.902945 (Thread-47): handling status request
+2022-01-27 13:03:32.903385 (Thread-47): 13:03:32  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '243d172d-88b4-4cb5-a678-18d7a7b739e9', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fac040c9ee0>]}
+2022-01-27 13:03:32.903857 (Thread-47): sending response (<Response 1294 bytes [200 OK]>) to 10.0.17.247
+2022-01-27 13:06:19.020727 (Thread-48): handling status request
+2022-01-27 13:06:19.022494 (Thread-48): 13:06:19  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '243d172d-88b4-4cb5-a678-18d7a7b739e9', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fac040cb580>]}
+2022-01-27 13:06:19.022997 (Thread-48): sending response (<Response 1294 bytes [200 OK]>) to 10.0.17.247
+2022-01-27 13:06:20.428874 (Thread-49): handling status request
+2022-01-27 13:06:20.429242 (Thread-49): 13:06:20  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '243d172d-88b4-4cb5-a678-18d7a7b739e9', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fac040cb760>]}
+2022-01-27 13:06:20.429709 (Thread-49): sending response (<Response 1294 bytes [200 OK]>) to 10.0.17.247
+2022-01-27 13:06:22.804252 (Thread-50): handling status request
+2022-01-27 13:06:22.804661 (Thread-50): 13:06:22  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '243d172d-88b4-4cb5-a678-18d7a7b739e9', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fac040c9eb0>]}
+2022-01-27 13:06:22.805124 (Thread-50): sending response (<Response 1294 bytes [200 OK]>) to 10.0.17.247
+2022-01-27 13:08:45.701994 (Thread-51): handling status request
+2022-01-27 13:08:45.703690 (Thread-51): 13:08:45  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '243d172d-88b4-4cb5-a678-18d7a7b739e9', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fac040cb9d0>]}
+2022-01-27 13:08:45.704374 (Thread-51): sending response (<Response 1294 bytes [200 OK]>) to 10.0.17.247
+2022-01-27 13:09:21.876618 (Thread-52): handling status request
+2022-01-27 13:09:21.876989 (Thread-52): 13:09:21  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '243d172d-88b4-4cb5-a678-18d7a7b739e9', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fac040cbf70>]}
+2022-01-27 13:09:21.877458 (Thread-52): sending response (<Response 1316 bytes [200 OK]>) to 10.0.31.49
+2022-01-27 13:09:22.455162 (Thread-53): handling compile_sql request
+2022-01-27 13:09:22.455527 (Thread-53): 13:09:22  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '243d172d-88b4-4cb5-a678-18d7a7b739e9', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fac040d6130>]}
+2022-01-27 13:09:22.455934 (Thread-53): sending response (<Response 711 bytes [200 OK]>) to 10.0.35.131
+2022-01-27 13:09:24.858236 (Thread-54): 13:09:24  Partial parsing enabled: 0 files deleted, 0 files added, 1 files changed.
+2022-01-27 13:09:24.858774 (Thread-54): 13:09:24  Partial parsing: updated file: dbtvault_snowflake_demo://models/SCD2/sat_inv_part_scd2.sql
+2022-01-27 13:09:24.864798 (Thread-54): 13:09:24  1603: static parser failed on SCD2/sat_inv_part_scd2.sql
+2022-01-27 13:09:25.136343 (Thread-55): handling status request
+2022-01-27 13:09:25.136735 (Thread-55): 13:09:25  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '243d172d-88b4-4cb5-a678-18d7a7b739e9', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fac04131700>]}
+2022-01-27 13:09:25.137222 (Thread-55): sending response (<Response 1316 bytes [200 OK]>) to 10.0.15.206
+2022-01-27 13:09:25.201681 (Thread-56): handling status request
+2022-01-27 13:09:25.201986 (Thread-56): 13:09:25  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '243d172d-88b4-4cb5-a678-18d7a7b739e9', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fac0436faf0>]}
+2022-01-27 13:09:25.202430 (Thread-56): sending response (<Response 1316 bytes [200 OK]>) to 10.0.31.49
+2022-01-27 13:12:38.028060 (Thread-57): 13:12:38  Partial parsing enabled: 0 files deleted, 0 files added, 1 files changed.
+2022-01-27 13:12:38.029757 (Thread-57): 13:12:38  Partial parsing: updated file: dbtvault_snowflake_demo://models/SCD2/sat_inv_part_scd2.sql
+2022-01-27 13:12:38.036181 (Thread-57): 13:12:38  1603: static parser failed on SCD2/sat_inv_part_scd2.sql
+2022-01-27 13:12:38.438454 (Thread-58): handling status request
+2022-01-27 13:12:38.438840 (Thread-58): 13:12:38  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '243d172d-88b4-4cb5-a678-18d7a7b739e9', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fabfc5adee0>]}
+2022-01-27 13:12:38.439328 (Thread-58): sending response (<Response 1316 bytes [200 OK]>) to 10.0.4.24
+2022-01-27 13:12:38.609340 (Thread-59): handling status request
+2022-01-27 13:12:38.609707 (Thread-59): 13:12:38  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '243d172d-88b4-4cb5-a678-18d7a7b739e9', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fabfc5b11f0>]}
+2022-01-27 13:12:38.610184 (Thread-59): sending response (<Response 1316 bytes [200 OK]>) to 10.0.8.119
+2022-01-27 13:12:43.065461 (Thread-60): handling status request
+2022-01-27 13:12:43.065840 (Thread-60): 13:12:43  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '243d172d-88b4-4cb5-a678-18d7a7b739e9', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fabfc5b1550>]}
+2022-01-27 13:12:43.066297 (Thread-60): sending response (<Response 1316 bytes [200 OK]>) to 10.0.17.152
+2022-01-27 13:12:43.582178 (Thread-61): handling compile_sql request
+2022-01-27 13:12:43.582540 (Thread-61): 13:12:43  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '243d172d-88b4-4cb5-a678-18d7a7b739e9', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fabfc5b18e0>]}
+2022-01-27 13:12:43.583571 (Thread-61): sending response (<Response 711 bytes [200 OK]>) to 10.0.35.131
+2022-01-27 13:13:18.457963 (Thread-62): handling status request
+2022-01-27 13:13:18.458333 (Thread-62): 13:13:18  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '243d172d-88b4-4cb5-a678-18d7a7b739e9', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fac0437b7f0>]}
+2022-01-27 13:13:18.458798 (Thread-62): sending response (<Response 1316 bytes [200 OK]>) to 10.0.26.16
+2022-01-27 13:13:18.989132 (Thread-63): handling compile_sql request
+2022-01-27 13:13:18.989504 (Thread-63): 13:13:18  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '243d172d-88b4-4cb5-a678-18d7a7b739e9', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fac04365df0>]}
+2022-01-27 13:13:18.989896 (Thread-63): sending response (<Response 711 bytes [200 OK]>) to 10.0.34.212
+2022-01-27 13:13:20.908843 (Thread-64): 13:13:20  Partial parsing enabled: 0 files deleted, 0 files added, 1 files changed.
+2022-01-27 13:13:20.909357 (Thread-64): 13:13:20  Partial parsing: updated file: dbtvault_snowflake_demo://models/SCD2/sat_inv_part_scd2.sql
+2022-01-27 13:13:20.915708 (Thread-64): 13:13:20  1603: static parser failed on SCD2/sat_inv_part_scd2.sql
+2022-01-27 13:13:21.475262 (Thread-65): handling status request
+2022-01-27 13:13:21.475676 (Thread-65): 13:13:21  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '243d172d-88b4-4cb5-a678-18d7a7b739e9', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fac0450d580>]}
+2022-01-27 13:13:21.476241 (Thread-65): sending response (<Response 1316 bytes [200 OK]>) to 10.0.33.234
+2022-01-27 13:13:21.505352 (Thread-66): handling status request
+2022-01-27 13:13:21.505688 (Thread-66): 13:13:21  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '243d172d-88b4-4cb5-a678-18d7a7b739e9', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fac04375c70>]}
+2022-01-27 13:13:21.506114 (Thread-66): sending response (<Response 1316 bytes [200 OK]>) to 10.0.34.212
+2022-01-27 13:13:23.573416 (Thread-67): handling status request
+2022-01-27 13:13:23.573802 (Thread-67): 13:13:23  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '243d172d-88b4-4cb5-a678-18d7a7b739e9', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fac0409b6d0>]}
+2022-01-27 13:13:23.574269 (Thread-67): sending response (<Response 1316 bytes [200 OK]>) to 10.0.26.26
+2022-01-27 13:13:24.207746 (Thread-68): handling compile_sql request
+2022-01-27 13:13:24.208129 (Thread-68): 13:13:24  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '243d172d-88b4-4cb5-a678-18d7a7b739e9', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fac041f06d0>]}
+2022-01-27 13:13:24.208524 (Thread-68): sending response (<Response 711 bytes [200 OK]>) to 10.0.5.67
+2022-01-27 13:18:38.285072 (Thread-69): 13:18:38  Partial parsing enabled: 0 files deleted, 0 files added, 1 files changed.
+2022-01-27 13:18:38.286559 (Thread-69): 13:18:38  Partial parsing: updated file: dbtvault_snowflake_demo://models/SCD2/sat_inv_part_scd2.sql
+2022-01-27 13:18:38.292386 (Thread-69): 13:18:38  1603: static parser failed on SCD2/sat_inv_part_scd2.sql
+2022-01-27 13:18:38.771370 (Thread-70): handling status request
+2022-01-27 13:18:38.771757 (Thread-70): 13:18:38  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '243d172d-88b4-4cb5-a678-18d7a7b739e9', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fabfc3e52e0>]}
+2022-01-27 13:18:38.792989 (Thread-70): sending response (<Response 1316 bytes [200 OK]>) to 10.0.17.152
+2022-01-27 13:18:38.795257 (Thread-71): handling status request
+2022-01-27 13:18:38.795517 (Thread-71): 13:18:38  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '243d172d-88b4-4cb5-a678-18d7a7b739e9', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fac042c39a0>]}
+2022-01-27 13:18:38.795887 (Thread-71): sending response (<Response 1316 bytes [200 OK]>) to 10.0.14.82
+2022-01-27 13:18:42.161572 (Thread-72): handling status request
+2022-01-27 13:18:42.161958 (Thread-72): 13:18:42  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '243d172d-88b4-4cb5-a678-18d7a7b739e9', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fabfc54d850>]}
+2022-01-27 13:18:42.162436 (Thread-72): sending response (<Response 1316 bytes [200 OK]>) to 10.0.14.82
+2022-01-27 13:18:42.638131 (Thread-73): handling compile_sql request
+2022-01-27 13:18:42.638514 (Thread-73): 13:18:42  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '243d172d-88b4-4cb5-a678-18d7a7b739e9', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fabfc54d070>]}
+2022-01-27 13:18:42.638931 (Thread-73): sending response (<Response 711 bytes [200 OK]>) to 10.0.35.236
+2022-01-27 13:19:03.079297 (Thread-74): 13:19:03  Partial parsing enabled: 0 files deleted, 0 files added, 1 files changed.
+2022-01-27 13:19:03.079856 (Thread-74): 13:19:03  Partial parsing: updated file: dbtvault_snowflake_demo://models/SCD2/sat_inv_part_scd2.sql
+2022-01-27 13:19:03.086504 (Thread-74): 13:19:03  1603: static parser failed on SCD2/sat_inv_part_scd2.sql
+2022-01-27 13:19:03.666789 (Thread-75): handling status request
+2022-01-27 13:19:03.667164 (Thread-75): 13:19:03  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '243d172d-88b4-4cb5-a678-18d7a7b739e9', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fabfc47d670>]}
+2022-01-27 13:19:03.667652 (Thread-75): sending response (<Response 1381 bytes [200 OK]>) to 10.0.4.24
+2022-01-27 13:19:03.779310 (Thread-76): handling status request
+2022-01-27 13:19:03.779669 (Thread-76): 13:19:03  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '243d172d-88b4-4cb5-a678-18d7a7b739e9', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fabfc47d8b0>]}
+2022-01-27 13:19:03.780158 (Thread-76): sending response (<Response 1381 bytes [200 OK]>) to 10.0.32.193
+2022-01-27 13:19:08.410365 (Thread-77): handling status request
+2022-01-27 13:19:08.410737 (Thread-77): 13:19:08  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '243d172d-88b4-4cb5-a678-18d7a7b739e9', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fabfc47db20>]}
+2022-01-27 13:19:08.411208 (Thread-77): sending response (<Response 1381 bytes [200 OK]>) to 10.0.31.49
+2022-01-27 13:19:08.900882 (Thread-78): handling compile_sql request
+2022-01-27 13:19:08.901257 (Thread-78): 13:19:08  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '243d172d-88b4-4cb5-a678-18d7a7b739e9', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fabfc47de50>]}
+2022-01-27 13:19:08.901685 (Thread-78): sending response (<Response 841 bytes [200 OK]>) to 10.0.17.152
+2022-01-27 13:19:43.764231 (Thread-79): 13:19:43  Partial parsing enabled: 0 files deleted, 0 files added, 1 files changed.
+2022-01-27 13:19:43.764754 (Thread-79): 13:19:43  Partial parsing: updated file: dbtvault_snowflake_demo://models/SCD2/sat_inv_part_scd2.sql
+2022-01-27 13:19:43.772667 (Thread-79): 13:19:43  1603: static parser failed on SCD2/sat_inv_part_scd2.sql
+2022-01-27 13:19:44.277127 (Thread-80): handling status request
+2022-01-27 13:19:44.277507 (Thread-80): 13:19:44  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '243d172d-88b4-4cb5-a678-18d7a7b739e9', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fabfc47adf0>]}
+2022-01-27 13:19:44.277990 (Thread-80): sending response (<Response 1383 bytes [200 OK]>) to 10.0.14.82
+2022-01-27 13:19:44.304003 (Thread-81): handling status request
+2022-01-27 13:19:44.304320 (Thread-81): 13:19:44  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '243d172d-88b4-4cb5-a678-18d7a7b739e9', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fabfc47af10>]}
+2022-01-27 13:19:44.304744 (Thread-81): sending response (<Response 1383 bytes [200 OK]>) to 10.0.5.67
+2022-01-27 13:19:46.928130 (Thread-82): handling status request
+2022-01-27 13:19:46.928502 (Thread-82): 13:19:46  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '243d172d-88b4-4cb5-a678-18d7a7b739e9', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fabfc442e80>]}
+2022-01-27 13:19:46.928968 (Thread-82): sending response (<Response 1383 bytes [200 OK]>) to 10.0.26.26
+2022-01-27 13:19:47.498972 (Thread-83): handling compile_sql request
+2022-01-27 13:19:47.499334 (Thread-83): 13:19:47  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '243d172d-88b4-4cb5-a678-18d7a7b739e9', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fabfc445160>]}
+2022-01-27 13:19:47.499718 (Thread-83): sending response (<Response 845 bytes [200 OK]>) to 10.0.31.49
+2022-01-27 13:20:01.933248 (Thread-84): 13:20:01  Partial parsing enabled: 0 files deleted, 0 files added, 1 files changed.
+2022-01-27 13:20:01.933811 (Thread-84): 13:20:01  Partial parsing: updated file: dbtvault_snowflake_demo://models/SCD2/sat_inv_part_scd2.sql
+2022-01-27 13:20:01.940571 (Thread-84): 13:20:01  1603: static parser failed on SCD2/sat_inv_part_scd2.sql
+2022-01-27 13:20:01.961546 (Thread-84): 13:20:01  1602: parser fallback to jinja rendering on SCD2/sat_inv_part_scd2.sql
+2022-01-27 13:20:02.028255 (Thread-84): 13:20:02  Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '243d172d-88b4-4cb5-a678-18d7a7b739e9', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fac044a3550>]}
+2022-01-27 13:20:02.293701 (Thread-85): handling status request
+2022-01-27 13:20:02.294135 (Thread-85): 13:20:02  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '243d172d-88b4-4cb5-a678-18d7a7b739e9', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fabfc461ca0>]}
+2022-01-27 13:20:02.294653 (Thread-85): sending response (<Response 1880 bytes [200 OK]>) to 10.0.35.131
+2022-01-27 13:20:02.371928 (Thread-86): handling status request
+2022-01-27 13:20:02.372316 (Thread-86): 13:20:02  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '243d172d-88b4-4cb5-a678-18d7a7b739e9', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fabfc46e8e0>]}
+2022-01-27 13:20:02.372825 (Thread-86): sending response (<Response 1880 bytes [200 OK]>) to 10.0.26.16
+2022-01-27 13:20:05.823431 (Thread-87): handling status request
+2022-01-27 13:20:05.823812 (Thread-87): 13:20:05  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '243d172d-88b4-4cb5-a678-18d7a7b739e9', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fabfc47d2e0>]}
+2022-01-27 13:20:05.824341 (Thread-87): sending response (<Response 1880 bytes [200 OK]>) to 10.0.5.67
+2022-01-27 13:20:06.617866 (Thread-88): handling compile_sql request
+2022-01-27 13:20:06.618231 (Thread-88): 13:20:06  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '243d172d-88b4-4cb5-a678-18d7a7b739e9', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fac0417a1c0>]}
+2022-01-27 13:20:08.774196 (Thread-88): sending response (<Response 138 bytes [200 OK]>) to 10.0.17.152
+2022-01-27 13:20:08.811074 (MainThread): 13:20:08  Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': '36e1a58e-b118-41b3-a9cf-a878baca1ef6', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f0b69c91be0>]}
+2022-01-27 13:20:08.811587 (MainThread): 13:20:08  Found 33 models, 0 tests, 1 snapshot, 0 analyses, 447 macros, 0 operations, 0 seed files, 8 sources, 0 exposures, 0 metrics
+2022-01-27 13:20:08.812171 (Thread-1): 13:20:08  Acquiring new snowflake connection "rpc.dbtvault_snowflake_demo.request"
+2022-01-27 13:20:08.812303 (Thread-1): 13:20:08  Began compiling node rpc.dbtvault_snowflake_demo.request
+2022-01-27 13:20:08.812394 (Thread-1): 13:20:08  Compiling rpc.dbtvault_snowflake_demo.request
+2022-01-27 13:20:08.818344 (Thread-1): 13:20:08  Using snowflake connection "rpc.dbtvault_snowflake_demo.request"
+2022-01-27 13:20:08.818448 (Thread-1): 13:20:08  On rpc.dbtvault_snowflake_demo.request: SELECT EXISTS ( SELECT * FROM information_schema.tables WHERE table_name = '!SAT_INV_PART_SCD2' )
+2022-01-27 13:20:08.818531 (Thread-1): 13:20:08  Opening a new connection, currently in state init
+2022-01-27 13:20:09.246812 (Thread-89): handling poll request
+2022-01-27 13:20:09.247259 (Thread-89): 13:20:09  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '243d172d-88b4-4cb5-a678-18d7a7b739e9', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fac04151ee0>]}
+2022-01-27 13:20:09.248177 (Thread-89): sending response (<Response 3096 bytes [200 OK]>) to 10.0.31.169
+2022-01-27 13:20:11.162332 (Thread-90): handling poll request
+2022-01-27 13:20:11.162695 (Thread-90): 13:20:11  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '243d172d-88b4-4cb5-a678-18d7a7b739e9', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fac04151e20>]}
+2022-01-27 13:20:11.163158 (Thread-90): sending response (<Response 399 bytes [200 OK]>) to 10.0.31.169
+2022-01-27 13:20:11.467542 (Thread-1): 13:20:11  SQL status: SUCCESS 1 in 2.65 seconds
+2022-01-27 13:20:11.470419 (Thread-1): 13:20:11  finished collecting timing info
+2022-01-27 13:20:11.470661 (Thread-1): 13:20:11  On rpc.dbtvault_snowflake_demo.request: Close
+2022-01-27 13:20:11.919248 (Thread-1): Got an exception: Compilation Error in rpc request (from remote system)
+  'sysdate' is undefined. This can happen when calling a macro that does not exist. Check for typos and/or install package dependencies with "dbt deps".
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/dbt/clients/jinja.py", line 516, in catch_jinja
+    yield
+  File "/usr/local/lib/python3.8/dist-packages/dbt/clients/jinja.py", line 548, in render_template
+    return template.render(ctx)
+  File "/usr/local/lib/python3.8/dist-packages/jinja2/environment.py", line 1090, in render
+    self.environment.handle_exception()
+  File "/usr/local/lib/python3.8/dist-packages/jinja2/environment.py", line 832, in handle_exception
+    reraise(*rewrite_traceback_stack(source=source))
+  File "/usr/local/lib/python3.8/dist-packages/jinja2/_compat.py", line 28, in reraise
+    raise value.with_traceback(tb)
+  File "<template>", line 8, in top-level template code
+  File "/usr/local/lib/python3.8/dist-packages/jinja2/sandbox.py", line 460, in call
+    if not __self.is_safe_callable(__obj):
+  File "/usr/local/lib/python3.8/dist-packages/jinja2/sandbox.py", line 360, in is_safe_callable
+    getattr(obj, "unsafe_callable", False) or getattr(obj, "alters_data", False)
+jinja2.exceptions.UndefinedError: 'sysdate' is undefined
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/dbt/task/base.py", line 361, in safe_run
+    result = self.compile_and_execute(manifest, ctx)
+  File "/usr/local/lib/python3.8/dist-packages/dbt/task/base.py", line 301, in compile_and_execute
+    ctx.node = self.compile(manifest)
+  File "/usr/local/lib/python3.8/dist-packages/dbt_rpc/rpc/node_runners.py", line 45, in compile
+    return compiler.compile_node(self.node, manifest, {}, write=False)
+  File "/usr/local/lib/python3.8/dist-packages/dbt/compilation.py", line 550, in compile_node
+    node = self._compile_node(node, manifest, extra_context)
+  File "/usr/local/lib/python3.8/dist-packages/dbt/compilation.py", line 388, in _compile_node
+    compiled_node.compiled_sql = jinja.get_rendered(
+  File "/usr/local/lib/python3.8/dist-packages/dbt/clients/jinja.py", line 597, in get_rendered
+    return render_template(template, ctx, node)
+  File "/usr/local/lib/python3.8/dist-packages/dbt/clients/jinja.py", line 548, in render_template
+    return template.render(ctx)
+  File "/usr/lib/python3.8/contextlib.py", line 131, in __exit__
+    self.gen.throw(type, value, traceback)
+  File "/usr/local/lib/python3.8/dist-packages/dbt/clients/jinja.py", line 521, in catch_jinja
+    raise UndefinedMacroException(str(e), node) from e
+dbt.exceptions.UndefinedMacroException: Compilation Error in rpc request (from remote system)
+  'sysdate' is undefined. This can happen when calling a macro that does not exist. Check for typos and/or install package dependencies with "dbt deps".
+2022-01-27 13:20:11.921066 (Thread-1): Got exception RPCException(10004, Compilation Error, {'type': 'UndefinedMacroException', 'message': 'Compilation Error in rpc request (from remote system)\n  \'sysdate\' is undefined. This can happen when calling a macro that does not exist. Check for typos and/or install package dependencies with "dbt deps".', 'raw_sql': "{%- call statement('Exist_query', fetch_result=True) -%}\r\n    SELECT EXISTS ( SELECT * FROM information_schema.tables WHERE table_name = '!SAT_INV_PART_SCD2' )\r\n\r\n{%- endcall -%}\r\n\r\n{%- set Query_statement = load_result('Exist_query')['data'][0][0] -%}\r\n\r\n{%- set currdate = sysdate() -%}\r\n\r\n{% if Query_statement %}\r\n\r\n    select final.* from {{this}} as final\r\n    left outer join\r\n    {{ref('v_stg_inventory')}} as delta\r\n    on final.PART_PK=delta.PART_PK\r\n    where delta.PART_PK is null\r\n    union all\r\n    select delta.*,{{currdate}} as Valid_from,Null as Valid_to from {{this}} as final\r\n    Right outer join\r\n    {{ref('v_stg_inventory')}} as delta\r\n    on final.PART_PK=delta.PART_PK\r\n    where final.PART_PK is null\r\n    union all\r\n    (\r\n    select final.* from {{this}} as final\r\n    inner join \r\n    {{ref('v_stg_inventory')}} as delta\r\n    on final.PART_PK=delta.PART_PK\r\n    where final.hashdiff = delta.hashdiff\r\n    union all\r\n    select delta.*,NULL as Valid_from,{{currdate}} as Valid_to from {{this}} as final\r\n    inner join \r\n    {{ref('v_stg_inventory')}} as delta\r\n    on final.PART_PK=delta.PART_PK\r\n    where final.hashdiff <> delta.hashdiff\r\n    union all\r\n    select delta.*,final.Valid_from,{{currdate}} as Valid_to from {{this}} as final\r\n    inner join \r\n    {{ref('v_stg_inventory')}} as delta\r\n    on final.PART_PK=delta.PART_PK\r\n    where final.hashdiff <> delta.hashdiff\r\n    )\r\n\r\n{% else %}\r\n\tSelect PART_PK,PART_HASHDIFF,PART_NAME,PART_MFGR,PART_BRAND,PART_TYPE,PART_SIZE,PART_CONTAINER,PART_RETAILPRICE,PART_COMMENT,\r\n    sysdate() as VALID_FROM, Null as Valid_to \r\n    from {{ref('v_stg_inventory')}}\r\n    \r\n{% endif %}\nlimit 500\n/* limit added automatically by dbt cloud */", 'compiled_sql': None, 'tags': None}, None)
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/dbt_rpc/task/sql_commands.py", line 147, in _in_thread
+    self.node_results.append(runner.safe_run(self.manifest))
+  File "/usr/local/lib/python3.8/dist-packages/dbt/task/base.py", line 377, in safe_run
+    result = self.error_result(ctx.node, error, started, [])
+  File "/usr/local/lib/python3.8/dist-packages/dbt_rpc/rpc/node_runners.py", line 56, in error_result
+    raise error
+dbt_rpc.rpc.error.RPCException: RPCException(10004, Compilation Error, {'type': 'UndefinedMacroException', 'message': 'Compilation Error in rpc request (from remote system)\n  \'sysdate\' is undefined. This can happen when calling a macro that does not exist. Check for typos and/or install package dependencies with "dbt deps".', 'raw_sql': "{%- call statement('Exist_query', fetch_result=True) -%}\r\n    SELECT EXISTS ( SELECT * FROM information_schema.tables WHERE table_name = '!SAT_INV_PART_SCD2' )\r\n\r\n{%- endcall -%}\r\n\r\n{%- set Query_statement = load_result('Exist_query')['data'][0][0] -%}\r\n\r\n{%- set currdate = sysdate() -%}\r\n\r\n{% if Query_statement %}\r\n\r\n    select final.* from {{this}} as final\r\n    left outer join\r\n    {{ref('v_stg_inventory')}} as delta\r\n    on final.PART_PK=delta.PART_PK\r\n    where delta.PART_PK is null\r\n    union all\r\n    select delta.*,{{currdate}} as Valid_from,Null as Valid_to from {{this}} as final\r\n    Right outer join\r\n    {{ref('v_stg_inventory')}} as delta\r\n    on final.PART_PK=delta.PART_PK\r\n    where final.PART_PK is null\r\n    union all\r\n    (\r\n    select final.* from {{this}} as final\r\n    inner join \r\n    {{ref('v_stg_inventory')}} as delta\r\n    on final.PART_PK=delta.PART_PK\r\n    where final.hashdiff = delta.hashdiff\r\n    union all\r\n    select delta.*,NULL as Valid_from,{{currdate}} as Valid_to from {{this}} as final\r\n    inner join \r\n    {{ref('v_stg_inventory')}} as delta\r\n    on final.PART_PK=delta.PART_PK\r\n    where final.hashdiff <> delta.hashdiff\r\n    union all\r\n    select delta.*,final.Valid_from,{{currdate}} as Valid_to from {{this}} as final\r\n    inner join \r\n    {{ref('v_stg_inventory')}} as delta\r\n    on final.PART_PK=delta.PART_PK\r\n    where final.hashdiff <> delta.hashdiff\r\n    )\r\n\r\n{% else %}\r\n\tSelect PART_PK,PART_HASHDIFF,PART_NAME,PART_MFGR,PART_BRAND,PART_TYPE,PART_SIZE,PART_CONTAINER,PART_RETAILPRICE,PART_COMMENT,\r\n    sysdate() as VALID_FROM, Null as Valid_to \r\n    from {{ref('v_stg_inventory')}}\r\n    \r\n{% endif %}\nlimit 500\n/* limit added automatically by dbt cloud */", 'compiled_sql': None, 'tags': None}, None)
+2022-01-27 13:20:12.701545 (Thread-91): handling poll request
+2022-01-27 13:20:12.701958 (Thread-91): 13:20:12  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '243d172d-88b4-4cb5-a678-18d7a7b739e9', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fac04151250>]}
+2022-01-27 13:20:12.702589 (Thread-91): sending response (<Response 14528 bytes [200 OK]>) to 10.0.35.236
+2022-01-27 13:22:03.276732 (Thread-92): 13:22:03  Partial parsing enabled: 0 files deleted, 0 files added, 1 files changed.
+2022-01-27 13:22:03.278437 (Thread-92): 13:22:03  Partial parsing: updated file: dbtvault_snowflake_demo://models/SCD2/sat_inv_part_scd2.sql
+2022-01-27 13:22:03.284766 (Thread-92): 13:22:03  1603: static parser failed on SCD2/sat_inv_part_scd2.sql
+2022-01-27 13:22:03.293486 (Thread-92): 13:22:03  1602: parser fallback to jinja rendering on SCD2/sat_inv_part_scd2.sql
+2022-01-27 13:22:03.352133 (Thread-92): 13:22:03  Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '243d172d-88b4-4cb5-a678-18d7a7b739e9', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fac0426da00>]}
+2022-01-27 13:22:04.597043 (Thread-93): handling status request
+2022-01-27 13:22:04.597418 (Thread-93): 13:22:04  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '243d172d-88b4-4cb5-a678-18d7a7b739e9', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fac043b4610>]}
+2022-01-27 13:22:04.597922 (Thread-93): sending response (<Response 1880 bytes [200 OK]>) to 10.0.15.206
+2022-01-27 13:22:04.783949 (Thread-94): handling status request
+2022-01-27 13:22:04.784429 (Thread-94): 13:22:04  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '243d172d-88b4-4cb5-a678-18d7a7b739e9', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fac04de1c70>]}
+2022-01-27 13:22:04.784933 (Thread-94): sending response (<Response 1880 bytes [200 OK]>) to 10.0.15.206
+2022-01-27 13:22:07.302300 (Thread-95): handling status request
+2022-01-27 13:22:07.302673 (Thread-95): 13:22:07  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '243d172d-88b4-4cb5-a678-18d7a7b739e9', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fac04dc9ac0>]}
+2022-01-27 13:22:07.303181 (Thread-95): sending response (<Response 1880 bytes [200 OK]>) to 10.0.15.206
+2022-01-27 13:22:07.843369 (Thread-96): handling compile_sql request
+2022-01-27 13:22:07.843781 (Thread-96): 13:22:07  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '243d172d-88b4-4cb5-a678-18d7a7b739e9', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fac36e78670>]}
+2022-01-27 13:22:09.985774 (Thread-96): sending response (<Response 138 bytes [200 OK]>) to 10.0.3.212
+2022-01-27 13:22:10.022713 (MainThread): 13:22:10  Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': '4add071b-ce9c-485e-aa3b-70f2864f41e9', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f4fa1cdf400>]}
+2022-01-27 13:22:10.023251 (MainThread): 13:22:10  Found 33 models, 0 tests, 1 snapshot, 0 analyses, 447 macros, 0 operations, 0 seed files, 8 sources, 0 exposures, 0 metrics
+2022-01-27 13:22:10.023845 (Thread-1): 13:22:10  Acquiring new snowflake connection "rpc.dbtvault_snowflake_demo.request"
+2022-01-27 13:22:10.023976 (Thread-1): 13:22:10  Began compiling node rpc.dbtvault_snowflake_demo.request
+2022-01-27 13:22:10.024069 (Thread-1): 13:22:10  Compiling rpc.dbtvault_snowflake_demo.request
+2022-01-27 13:22:10.030820 (Thread-1): 13:22:10  Using snowflake connection "rpc.dbtvault_snowflake_demo.request"
+2022-01-27 13:22:10.030923 (Thread-1): 13:22:10  On rpc.dbtvault_snowflake_demo.request: SELECT EXISTS ( SELECT * FROM information_schema.tables WHERE table_name = '!SAT_INV_PART_SCD2' )
+2022-01-27 13:22:10.031005 (Thread-1): 13:22:10  Opening a new connection, currently in state init
+2022-01-27 13:22:10.508316 (Thread-97): handling poll request
+2022-01-27 13:22:10.508753 (Thread-97): 13:22:10  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '243d172d-88b4-4cb5-a678-18d7a7b739e9', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fac0425c160>]}
+2022-01-27 13:22:10.509596 (Thread-97): sending response (<Response 3096 bytes [200 OK]>) to 10.0.26.26
+2022-01-27 13:22:11.440768 (Thread-1): 13:22:11  SQL status: SUCCESS 1 in 1.41 seconds
+2022-01-27 13:22:11.443354 (Thread-1): 13:22:11  Using snowflake connection "rpc.dbtvault_snowflake_demo.request"
+2022-01-27 13:22:11.443480 (Thread-1): 13:22:11  On rpc.dbtvault_snowflake_demo.request: SELECT sysdate()
+2022-01-27 13:22:11.572296 (Thread-1): 13:22:11  SQL status: SUCCESS 1 in 0.13 seconds
+2022-01-27 13:22:11.573995 (Thread-1): 13:22:11  finished collecting timing info
+2022-01-27 13:22:11.574173 (Thread-1): 13:22:11  Began executing node rpc.dbtvault_snowflake_demo.request
+2022-01-27 13:22:11.574301 (Thread-1): 13:22:11  finished collecting timing info
+2022-01-27 13:22:11.574431 (Thread-1): 13:22:11  On rpc.dbtvault_snowflake_demo.request: Close
+2022-01-27 13:22:11.979290 (Thread-98): handling poll request
+2022-01-27 13:22:11.979687 (Thread-98): 13:22:11  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '243d172d-88b4-4cb5-a678-18d7a7b739e9', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fac3ce601c0>]}
+2022-01-27 13:22:11.980755 (Thread-98): sending response (<Response 9205 bytes [200 OK]>) to 10.0.31.169
+2022-01-27 13:22:45.337463 (Thread-99): handling status request
+2022-01-27 13:22:45.337840 (Thread-99): 13:22:45  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '243d172d-88b4-4cb5-a678-18d7a7b739e9', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fac0450d160>]}
+2022-01-27 13:22:45.338376 (Thread-99): sending response (<Response 1880 bytes [200 OK]>) to 10.0.31.169
+2022-01-27 13:22:45.483196 (Thread-100): handling status request
+2022-01-27 13:22:45.483586 (Thread-100): 13:22:45  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '243d172d-88b4-4cb5-a678-18d7a7b739e9', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fac0450d250>]}
+2022-01-27 13:22:45.484113 (Thread-100): sending response (<Response 1880 bytes [200 OK]>) to 10.0.35.236
+2022-01-27 13:22:45.894656 (Thread-101): handling cli_args request
+2022-01-27 13:22:45.895013 (Thread-101): 13:22:45  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '243d172d-88b4-4cb5-a678-18d7a7b739e9', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fac0450dc40>]}
+2022-01-27 13:22:48.072266 (Thread-101): sending response (<Response 138 bytes [200 OK]>) to 10.0.3.212
+2022-01-27 13:22:48.453930 (MainThread): 13:22:48  Partial parsing enabled: 0 files deleted, 0 files added, 0 files changed.
+2022-01-27 13:22:48.454350 (MainThread): 13:22:48  Partial parsing enabled, no changes found, skipping parsing
+2022-01-27 13:22:48.462057 (MainThread): 13:22:48  Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '937205b0-30fb-44ea-ad5a-8cd79ed0fb2b', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f46c87980d0>]}
+2022-01-27 13:22:48.495187 (MainThread): 13:22:48  Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': '937205b0-30fb-44ea-ad5a-8cd79ed0fb2b', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f46c88b28b0>]}
+2022-01-27 13:22:48.495423 (MainThread): 13:22:48  Found 33 models, 0 tests, 1 snapshot, 0 analyses, 447 macros, 0 operations, 0 seed files, 8 sources, 0 exposures, 0 metrics
+2022-01-27 13:22:48.497003 (MainThread): 13:22:48  
+2022-01-27 13:22:48.497278 (MainThread): 13:22:48  Acquiring new snowflake connection "master"
+2022-01-27 13:22:48.498014 (ThreadPoolExecutor-0_0): 13:22:48  Acquiring new snowflake connection "list_DEMO_DB"
+2022-01-27 13:22:48.510292 (ThreadPoolExecutor-0_0): 13:22:48  Using snowflake connection "list_DEMO_DB"
+2022-01-27 13:22:48.510396 (ThreadPoolExecutor-0_0): 13:22:48  On list_DEMO_DB: /* {"app": "dbt", "dbt_version": "1.0.1", "profile_name": "user", "target_name": "default", "connection_name": "list_DEMO_DB"} */
+
+    show terse schemas in database DEMO_DB
+    limit 10000
+2022-01-27 13:22:48.510479 (ThreadPoolExecutor-0_0): 13:22:48  Opening a new connection, currently in state init
+2022-01-27 13:22:48.548109 (Thread-102): handling poll request
+2022-01-27 13:22:48.548480 (Thread-102): 13:22:48  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '243d172d-88b4-4cb5-a678-18d7a7b739e9', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fabfc36f520>]}
+2022-01-27 13:22:48.574971 (Thread-102): sending response (<Response 4145 bytes [200 OK]>) to 10.0.35.236
+2022-01-27 13:22:49.571770 (ThreadPoolExecutor-0_0): 13:22:49  SQL status: SUCCESS 5 in 1.06 seconds
+2022-01-27 13:22:49.573790 (ThreadPoolExecutor-0_0): 13:22:49  On list_DEMO_DB: Close
+2022-01-27 13:22:49.726362 (ThreadPoolExecutor-2_0): 13:22:49  Acquiring new snowflake connection "list_DEMO_DB_snapshots"
+2022-01-27 13:22:49.728139 (ThreadPoolExecutor-2_1): 13:22:49  Acquiring new snowflake connection "list_DEMO_DB_DEMO"
+2022-01-27 13:22:49.737527 (ThreadPoolExecutor-2_0): 13:22:49  Using snowflake connection "list_DEMO_DB_snapshots"
+2022-01-27 13:22:49.737649 (ThreadPoolExecutor-2_0): 13:22:49  On list_DEMO_DB_snapshots: /* {"app": "dbt", "dbt_version": "1.0.1", "profile_name": "user", "target_name": "default", "connection_name": "list_DEMO_DB_snapshots"} */
+
+    show terse objects in DEMO_DB.snapshots
+2022-01-27 13:22:49.737747 (ThreadPoolExecutor-2_0): 13:22:49  Opening a new connection, currently in state closed
+2022-01-27 13:22:49.739984 (ThreadPoolExecutor-2_1): 13:22:49  Using snowflake connection "list_DEMO_DB_DEMO"
+2022-01-27 13:22:49.740127 (ThreadPoolExecutor-2_1): 13:22:49  On list_DEMO_DB_DEMO: /* {"app": "dbt", "dbt_version": "1.0.1", "profile_name": "user", "target_name": "default", "connection_name": "list_DEMO_DB_DEMO"} */
+
+    show terse objects in DEMO_DB.DEMO
+2022-01-27 13:22:49.740214 (ThreadPoolExecutor-2_1): 13:22:49  Opening a new connection, currently in state init
+2022-01-27 13:22:50.144652 (Thread-103): handling poll request
+2022-01-27 13:22:50.145016 (Thread-103): 13:22:50  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '243d172d-88b4-4cb5-a678-18d7a7b739e9', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fabfc36d550>]}
+2022-01-27 13:22:50.145616 (Thread-103): sending response (<Response 3698 bytes [200 OK]>) to 10.0.31.169
+2022-01-27 13:22:50.538871 (ThreadPoolExecutor-2_1): 13:22:50  SQL status: SUCCESS 6 in 0.8 seconds
+2022-01-27 13:22:50.540516 (ThreadPoolExecutor-2_1): 13:22:50  On list_DEMO_DB_DEMO: Close
+2022-01-27 13:22:51.173990 (ThreadPoolExecutor-2_0): 13:22:51  SQL status: SUCCESS 1 in 1.44 seconds
+2022-01-27 13:22:51.175312 (ThreadPoolExecutor-2_0): 13:22:51  On list_DEMO_DB_snapshots: Close
+2022-01-27 13:22:51.370687 (MainThread): 13:22:51  Concurrency: 7 threads (target='default')
+2022-01-27 13:22:51.370863 (MainThread): 13:22:51  
+2022-01-27 13:22:51.373876 (Thread-1): 13:22:51  Began running node model.dbtvault_snowflake_demo.sat_inv_part_scd2
+2022-01-27 13:22:51.374180 (Thread-1): 13:22:51  1 of 1 START view model DEMO.sat_inv_part_scd2.................................. [RUN]
+2022-01-27 13:22:51.374436 (Thread-1): 13:22:51  Acquiring new snowflake connection "model.dbtvault_snowflake_demo.sat_inv_part_scd2"
+2022-01-27 13:22:51.374535 (Thread-1): 13:22:51  Began compiling node model.dbtvault_snowflake_demo.sat_inv_part_scd2
+2022-01-27 13:22:51.374640 (Thread-1): 13:22:51  Compiling model.dbtvault_snowflake_demo.sat_inv_part_scd2
+2022-01-27 13:22:51.382124 (Thread-1): 13:22:51  Using snowflake connection "model.dbtvault_snowflake_demo.sat_inv_part_scd2"
+2022-01-27 13:22:51.382251 (Thread-1): 13:22:51  On model.dbtvault_snowflake_demo.sat_inv_part_scd2: /* {"app": "dbt", "dbt_version": "1.0.1", "profile_name": "user", "target_name": "default", "node_id": "model.dbtvault_snowflake_demo.sat_inv_part_scd2"} */
+SELECT EXISTS ( SELECT * FROM information_schema.tables WHERE table_name = '!SAT_INV_PART_SCD2' )
+2022-01-27 13:22:51.382339 (Thread-1): 13:22:51  Opening a new connection, currently in state closed
+2022-01-27 13:22:51.652564 (Thread-104): handling poll request
+2022-01-27 13:22:51.652930 (Thread-104): 13:22:51  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '243d172d-88b4-4cb5-a678-18d7a7b739e9', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fac0426dca0>]}
+2022-01-27 13:22:51.653598 (Thread-104): sending response (<Response 5643 bytes [200 OK]>) to 10.0.32.193
+2022-01-27 13:22:52.951189 (Thread-1): 13:22:52  SQL status: SUCCESS 1 in 1.57 seconds
+2022-01-27 13:22:52.953001 (Thread-1): 13:22:52  Using snowflake connection "model.dbtvault_snowflake_demo.sat_inv_part_scd2"
+2022-01-27 13:22:52.953122 (Thread-1): 13:22:52  On model.dbtvault_snowflake_demo.sat_inv_part_scd2: /* {"app": "dbt", "dbt_version": "1.0.1", "profile_name": "user", "target_name": "default", "node_id": "model.dbtvault_snowflake_demo.sat_inv_part_scd2"} */
+SELECT sysdate()
+2022-01-27 13:22:53.068259 (Thread-1): 13:22:53  SQL status: SUCCESS 1 in 0.12 seconds
+2022-01-27 13:22:53.069731 (Thread-1): 13:22:53  Writing injected SQL for node "model.dbtvault_snowflake_demo.sat_inv_part_scd2"
+2022-01-27 13:22:53.085722 (Thread-1): 13:22:53  finished collecting timing info
+2022-01-27 13:22:53.085893 (Thread-1): 13:22:53  Began executing node model.dbtvault_snowflake_demo.sat_inv_part_scd2
+2022-01-27 13:22:53.110296 (Thread-1): 13:22:53  Writing runtime SQL for node "model.dbtvault_snowflake_demo.sat_inv_part_scd2"
+2022-01-27 13:22:53.126067 (Thread-1): 13:22:53  Using snowflake connection "model.dbtvault_snowflake_demo.sat_inv_part_scd2"
+2022-01-27 13:22:53.126180 (Thread-1): 13:22:53  On model.dbtvault_snowflake_demo.sat_inv_part_scd2: /* {"app": "dbt", "dbt_version": "1.0.1", "profile_name": "user", "target_name": "default", "node_id": "model.dbtvault_snowflake_demo.sat_inv_part_scd2"} */
+
+  create or replace  view DEMO_DB.DEMO.sat_inv_part_scd2 
+  
+   as (
+    
+	Select PART_PK,PART_HASHDIFF,PART_NAME,PART_MFGR,PART_BRAND,PART_TYPE,PART_SIZE,PART_CONTAINER,PART_RETAILPRICE,PART_COMMENT,
+    sysdate() as VALID_FROM, Null as Valid_to 
+    from DEMO_DB.DEMO.v_stg_inventory
+    
+
+  );
+2022-01-27 13:22:53.137761 (Thread-105): handling poll request
+2022-01-27 13:22:53.138082 (Thread-105): 13:22:53  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '243d172d-88b4-4cb5-a678-18d7a7b739e9', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fac04339fa0>]}
+2022-01-27 13:22:53.138681 (Thread-105): sending response (<Response 4781 bytes [200 OK]>) to 10.0.33.234
+2022-01-27 13:22:53.567885 (Thread-1): 13:22:53  SQL status: SUCCESS 1 in 0.44 seconds
+2022-01-27 13:22:53.574428 (Thread-1): 13:22:53  finished collecting timing info
+2022-01-27 13:22:53.574590 (Thread-1): 13:22:53  On model.dbtvault_snowflake_demo.sat_inv_part_scd2: Close
+2022-01-27 13:22:53.734469 (Thread-1): 13:22:53  Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '937205b0-30fb-44ea-ad5a-8cd79ed0fb2b', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f46c8065820>]}
+2022-01-27 13:22:53.734916 (Thread-1): 13:22:53  1 of 1 OK created view model DEMO.sat_inv_part_scd2............................. [SUCCESS 1 in 2.36s]
+2022-01-27 13:22:53.735058 (Thread-1): 13:22:53  Finished running node model.dbtvault_snowflake_demo.sat_inv_part_scd2
+2022-01-27 13:22:53.736767 (MainThread): 13:22:53  Acquiring new snowflake connection "master"
+2022-01-27 13:22:53.737106 (MainThread): 13:22:53  
+2022-01-27 13:22:53.737224 (MainThread): 13:22:53  Finished running 1 view model in 5.24s.
+2022-01-27 13:22:53.737309 (MainThread): 13:22:53  Connection 'master' was properly closed.
+2022-01-27 13:22:53.737378 (MainThread): 13:22:53  Connection 'model.dbtvault_snowflake_demo.sat_inv_part_scd2' was properly closed.
+2022-01-27 13:22:53.737444 (MainThread): 13:22:53  Connection 'list_DEMO_DB_DEMO' was properly closed.
+2022-01-27 13:22:53.822084 (MainThread): 13:22:53  
+2022-01-27 13:22:53.822293 (MainThread): 13:22:53  Completed successfully
+2022-01-27 13:22:53.822393 (MainThread): 13:22:53  
+2022-01-27 13:22:53.822485 (MainThread): 13:22:53  Done. PASS=1 WARN=0 ERROR=0 SKIP=0 TOTAL=1
+2022-01-27 13:22:54.625807 (Thread-106): handling poll request
+2022-01-27 13:22:54.626183 (Thread-106): 13:22:54  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '243d172d-88b4-4cb5-a678-18d7a7b739e9', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fabfc36f820>]}
+2022-01-27 13:22:54.627198 (Thread-106): sending response (<Response 10611 bytes [200 OK]>) to 10.0.44.84
+2022-01-27 13:22:55.633414 (Thread-107): handling status request
+2022-01-27 13:22:55.633823 (Thread-107): 13:22:55  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '243d172d-88b4-4cb5-a678-18d7a7b739e9', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fabfc36f520>]}
+2022-01-27 13:22:55.634357 (Thread-107): sending response (<Response 1880 bytes [200 OK]>) to 10.0.34.212
+2022-01-27 13:22:55.642976 (Thread-108): handling status request
+2022-01-27 13:22:55.643235 (Thread-108): 13:22:55  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '243d172d-88b4-4cb5-a678-18d7a7b739e9', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fabfc36f160>]}
+2022-01-27 13:22:55.643646 (Thread-108): sending response (<Response 1880 bytes [200 OK]>) to 10.0.5.67
+2022-01-27 13:26:14.531059 (Thread-109): 13:26:14  Partial parsing enabled: 0 files deleted, 0 files added, 0 files changed.
+2022-01-27 13:26:14.532203 (Thread-109): 13:26:14  Partial parsing enabled, no changes found, skipping parsing
+2022-01-27 13:26:14.540163 (Thread-109): 13:26:14  Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '243d172d-88b4-4cb5-a678-18d7a7b739e9', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fac041803a0>]}
+2022-01-27 13:26:14.931128 (Thread-110): handling status request
+2022-01-27 13:26:14.931512 (Thread-110): 13:26:14  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '243d172d-88b4-4cb5-a678-18d7a7b739e9', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fac0421e790>]}
+2022-01-27 13:26:14.932065 (Thread-110): sending response (<Response 1244 bytes [200 OK]>) to 10.0.5.67
+2022-01-27 13:26:14.951789 (Thread-111): handling status request
+2022-01-27 13:26:14.952046 (Thread-111): 13:26:14  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '243d172d-88b4-4cb5-a678-18d7a7b739e9', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fac0421e400>]}
+2022-01-27 13:26:14.952504 (Thread-111): sending response (<Response 1244 bytes [200 OK]>) to 10.0.4.24
+2022-01-27 13:27:17.545891 (Thread-112): 13:27:17  Unable to do partial parsing because a project config has changed
+2022-01-27 13:27:17.547280 (Thread-112): 13:27:17  Sending event: {'category': 'dbt', 'action': 'partial_parser', 'label': '243d172d-88b4-4cb5-a678-18d7a7b739e9', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fabfc442a60>]}
+2022-01-27 13:27:17.967026 (Thread-112): 13:27:17  Parsing macros/catalog.sql
+2022-01-27 13:27:17.969407 (Thread-112): 13:27:17  Parsing macros/adapters.sql
+2022-01-27 13:27:18.006472 (Thread-112): 13:27:18  Parsing macros/materializations/merge.sql
+2022-01-27 13:27:18.010173 (Thread-112): 13:27:18  Parsing macros/materializations/table.sql
+2022-01-27 13:27:18.013151 (Thread-112): 13:27:18  Parsing macros/materializations/seed.sql
+2022-01-27 13:27:18.018055 (Thread-112): 13:27:18  Parsing macros/materializations/view.sql
+2022-01-27 13:27:18.019363 (Thread-112): 13:27:18  Parsing macros/materializations/snapshot.sql
+2022-01-27 13:27:18.020349 (Thread-112): 13:27:18  Parsing macros/materializations/incremental.sql
+2022-01-27 13:27:18.028621 (Thread-112): 13:27:18  Parsing macros/get_custom_name/get_custom_alias.sql
+2022-01-27 13:27:18.030078 (Thread-112): 13:27:18  Parsing macros/get_custom_name/get_custom_database.sql
+2022-01-27 13:27:18.031598 (Thread-112): 13:27:18  Parsing macros/get_custom_name/get_custom_schema.sql
+2022-01-27 13:27:18.034006 (Thread-112): 13:27:18  Parsing macros/generic_test_sql/accepted_values.sql
+2022-01-27 13:27:18.035339 (Thread-112): 13:27:18  Parsing macros/generic_test_sql/not_null.sql
+2022-01-27 13:27:18.035907 (Thread-112): 13:27:18  Parsing macros/generic_test_sql/relationships.sql
+2022-01-27 13:27:18.036793 (Thread-112): 13:27:18  Parsing macros/generic_test_sql/unique.sql
+2022-01-27 13:27:18.037489 (Thread-112): 13:27:18  Parsing macros/materializations/configs.sql
+2022-01-27 13:27:18.039711 (Thread-112): 13:27:18  Parsing macros/materializations/hooks.sql
+2022-01-27 13:27:18.048287 (Thread-112): 13:27:18  Parsing macros/materializations/snapshots/strategies.sql
+2022-01-27 13:27:18.064409 (Thread-112): 13:27:18  Parsing macros/materializations/snapshots/snapshot_merge.sql
+2022-01-27 13:27:18.071267 (Thread-112): 13:27:18  Parsing macros/materializations/snapshots/snapshot.sql
+2022-01-27 13:27:18.082029 (Thread-112): 13:27:18  Parsing macros/materializations/snapshots/helpers.sql
+2022-01-27 13:27:18.092551 (Thread-112): 13:27:18  Parsing macros/materializations/seeds/seed.sql
+2022-01-27 13:27:18.098217 (Thread-112): 13:27:18  Parsing macros/materializations/seeds/helpers.sql
+2022-01-27 13:27:18.113681 (Thread-112): 13:27:18  Parsing macros/materializations/models/view/create_view_as.sql
+2022-01-27 13:27:18.115930 (Thread-112): 13:27:18  Parsing macros/materializations/models/view/view.sql
+2022-01-27 13:27:18.122483 (Thread-112): 13:27:18  Parsing macros/materializations/models/view/create_or_replace_view.sql
+2022-01-27 13:27:18.125094 (Thread-112): 13:27:18  Parsing macros/materializations/models/view/helpers.sql
+2022-01-27 13:27:18.126386 (Thread-112): 13:27:18  Parsing macros/materializations/models/table/table.sql
+2022-01-27 13:27:18.133229 (Thread-112): 13:27:18  Parsing macros/materializations/models/table/create_table_as.sql
+2022-01-27 13:27:18.135991 (Thread-112): 13:27:18  Parsing macros/materializations/models/incremental/merge.sql
+2022-01-27 13:27:18.147113 (Thread-112): 13:27:18  Parsing macros/materializations/models/incremental/on_schema_change.sql
+2022-01-27 13:27:18.161773 (Thread-112): 13:27:18  Parsing macros/materializations/models/incremental/column_helpers.sql
+2022-01-27 13:27:18.166091 (Thread-112): 13:27:18  Parsing macros/materializations/models/incremental/incremental.sql
+2022-01-27 13:27:18.176005 (Thread-112): 13:27:18  Parsing macros/materializations/models/incremental/is_incremental.sql
+2022-01-27 13:27:18.177740 (Thread-112): 13:27:18  Parsing macros/materializations/tests/test.sql
+2022-01-27 13:27:18.181990 (Thread-112): 13:27:18  Parsing macros/materializations/tests/where_subquery.sql
+2022-01-27 13:27:18.183772 (Thread-112): 13:27:18  Parsing macros/materializations/tests/helpers.sql
+2022-01-27 13:27:18.185509 (Thread-112): 13:27:18  Parsing macros/etc/statement.sql
+2022-01-27 13:27:18.189762 (Thread-112): 13:27:18  Parsing macros/etc/datetime.sql
+2022-01-27 13:27:18.197788 (Thread-112): 13:27:18  Parsing macros/adapters/indexes.sql
+2022-01-27 13:27:18.200455 (Thread-112): 13:27:18  Parsing macros/adapters/persist_docs.sql
+2022-01-27 13:27:18.204754 (Thread-112): 13:27:18  Parsing macros/adapters/freshness.sql
+2022-01-27 13:27:18.207570 (Thread-112): 13:27:18  Parsing macros/adapters/relation.sql
+2022-01-27 13:27:18.217119 (Thread-112): 13:27:18  Parsing macros/adapters/metadata.sql
+2022-01-27 13:27:18.223919 (Thread-112): 13:27:18  Parsing macros/adapters/columns.sql
+2022-01-27 13:27:18.233434 (Thread-112): 13:27:18  Parsing macros/adapters/schema.sql
+2022-01-27 13:27:18.235616 (Thread-112): 13:27:18  Parsing tests/generic/builtin.sql
+2022-01-27 13:27:18.238566 (Thread-112): 13:27:18  Parsing macros/sql/pivot.sql
+2022-01-27 13:27:18.242435 (Thread-112): 13:27:18  Parsing macros/sql/star.sql
+2022-01-27 13:27:18.246343 (Thread-112): 13:27:18  Parsing macros/sql/surrogate_key.sql
+2022-01-27 13:27:18.249672 (Thread-112): 13:27:18  Parsing macros/sql/get_query_results_as_dict.sql
+2022-01-27 13:27:18.251895 (Thread-112): 13:27:18  Parsing macros/sql/date_spine.sql
+2022-01-27 13:27:18.256512 (Thread-112): 13:27:18  Parsing macros/sql/get_column_values.sql
+2022-01-27 13:27:18.261352 (Thread-112): 13:27:18  Parsing macros/sql/groupby.sql
+2022-01-27 13:27:18.262683 (Thread-112): 13:27:18  Parsing macros/sql/get_tables_by_pattern_sql.sql
+2022-01-27 13:27:18.268588 (Thread-112): 13:27:18  Parsing macros/sql/nullcheck_table.sql
+2022-01-27 13:27:18.270176 (Thread-112): 13:27:18  Parsing macros/sql/get_tables_by_prefix_sql.sql
+2022-01-27 13:27:18.271802 (Thread-112): 13:27:18  Parsing macros/sql/get_relations_by_pattern.sql
+2022-01-27 13:27:18.275063 (Thread-112): 13:27:18  Parsing macros/sql/get_relations_by_prefix.sql
+2022-01-27 13:27:18.278440 (Thread-112): 13:27:18  Parsing macros/sql/safe_add.sql
+2022-01-27 13:27:18.280047 (Thread-112): 13:27:18  Parsing macros/sql/haversine_distance.sql
+2022-01-27 13:27:18.285788 (Thread-112): 13:27:18  Parsing macros/sql/unpivot.sql
+2022-01-27 13:27:18.296164 (Thread-112): 13:27:18  Parsing macros/sql/generate_series.sql
+2022-01-27 13:27:18.304918 (Thread-112): 13:27:18  Parsing macros/sql/nullcheck.sql
+2022-01-27 13:27:18.311787 (Thread-112): 13:27:18  Parsing macros/sql/union.sql
+2022-01-27 13:27:18.320511 (Thread-112): 13:27:18  Parsing macros/materializations/insert_by_period_materialization.sql
+2022-01-27 13:27:18.344867 (Thread-112): 13:27:18  Parsing macros/jinja_helpers/pretty_time.sql
+2022-01-27 13:27:18.346318 (Thread-112): 13:27:18  Parsing macros/jinja_helpers/slugify.sql
+2022-01-27 13:27:18.353703 (Thread-112): 13:27:18  Parsing macros/jinja_helpers/log_info.sql
+2022-01-27 13:27:18.354907 (Thread-112): 13:27:18  Parsing macros/jinja_helpers/pretty_log_format.sql
+2022-01-27 13:27:18.362323 (Thread-112): 13:27:18  Parsing macros/web/get_url_parameter.sql
+2022-01-27 13:27:18.369528 (Thread-112): 13:27:18  Parsing macros/web/get_url_path.sql
+2022-01-27 13:27:18.372055 (Thread-112): 13:27:18  Parsing macros/web/get_url_host.sql
+2022-01-27 13:27:18.377916 (Thread-112): 13:27:18  Parsing macros/schema_tests/expression_is_true.sql
+2022-01-27 13:27:18.385482 (Thread-112): 13:27:18  Parsing macros/schema_tests/not_constant.sql
+2022-01-27 13:27:18.386772 (Thread-112): 13:27:18  Parsing macros/schema_tests/sequential_values.sql
+2022-01-27 13:27:18.389525 (Thread-112): 13:27:18  Parsing macros/schema_tests/not_null_proportion.sql
+2022-01-27 13:27:18.391713 (Thread-112): 13:27:18  Parsing macros/schema_tests/at_least_one.sql
+2022-01-27 13:27:18.393035 (Thread-112): 13:27:18  Parsing macros/schema_tests/equality.sql
+2022-01-27 13:27:18.396662 (Thread-112): 13:27:18  Parsing macros/schema_tests/test_not_null_where.sql
+2022-01-27 13:27:18.398156 (Thread-112): 13:27:18  Parsing macros/schema_tests/equal_rowcount.sql
+2022-01-27 13:27:18.399830 (Thread-112): 13:27:18  Parsing macros/schema_tests/not_accepted_values.sql
+2022-01-27 13:27:18.401957 (Thread-112): 13:27:18  Parsing macros/schema_tests/test_unique_where.sql
+2022-01-27 13:27:18.403471 (Thread-112): 13:27:18  Parsing macros/schema_tests/mutually_exclusive_ranges.sql
+2022-01-27 13:27:18.412185 (Thread-112): 13:27:18  Parsing macros/schema_tests/relationships_where.sql
+2022-01-27 13:27:18.414394 (Thread-112): 13:27:18  Parsing macros/schema_tests/accepted_range.sql
+2022-01-27 13:27:18.414972 (Thread-113): handling status request
+2022-01-27 13:27:18.417504 (Thread-112): 13:27:18  Parsing macros/schema_tests/fewer_rows_than.sql
+2022-01-27 13:27:18.417846 (Thread-113): 13:27:18  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '243d172d-88b4-4cb5-a678-18d7a7b739e9', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fabfc5a72b0>]}
+2022-01-27 13:27:18.419555 (Thread-112): 13:27:18  Parsing macros/schema_tests/unique_combination_of_columns.sql
+2022-01-27 13:27:18.420023 (Thread-113): sending response (<Response 185 bytes [200 OK]>) to 10.0.33.234
+2022-01-27 13:27:18.422896 (Thread-112): 13:27:18  Parsing macros/schema_tests/recency.sql
+2022-01-27 13:27:18.425020 (Thread-112): 13:27:18  Parsing macros/schema_tests/cardinality_equality.sql
+2022-01-27 13:27:18.427193 (Thread-112): 13:27:18  Parsing macros/cross_db_utils/split_part.sql
+2022-01-27 13:27:18.429126 (Thread-112): 13:27:18  Parsing macros/cross_db_utils/length.sql
+2022-01-27 13:27:18.430504 (Thread-112): 13:27:18  Parsing macros/cross_db_utils/current_timestamp.sql
+2022-01-27 13:27:18.434100 (Thread-112): 13:27:18  Parsing macros/cross_db_utils/right.sql
+2022-01-27 13:27:18.436332 (Thread-112): 13:27:18  Parsing macros/cross_db_utils/hash.sql
+2022-01-27 13:27:18.437774 (Thread-112): 13:27:18  Parsing macros/cross_db_utils/replace.sql
+2022-01-27 13:27:18.439042 (Thread-112): 13:27:18  Parsing macros/cross_db_utils/cast_bool_to_text.sql
+2022-01-27 13:27:18.440517 (Thread-112): 13:27:18  Parsing macros/cross_db_utils/concat.sql
+2022-01-27 13:27:18.441547 (Thread-112): 13:27:18  Parsing macros/cross_db_utils/_is_relation.sql
+2022-01-27 13:27:18.442669 (Thread-112): 13:27:18  Parsing macros/cross_db_utils/identifier.sql
+2022-01-27 13:27:18.444493 (Thread-112): 13:27:18  Parsing macros/cross_db_utils/datediff.sql
+2022-01-27 13:27:18.453860 (Thread-112): 13:27:18  Parsing macros/cross_db_utils/dateadd.sql
+2022-01-27 13:27:18.456710 (Thread-112): 13:27:18  Parsing macros/cross_db_utils/datatypes.sql
+2022-01-27 13:27:18.462431 (Thread-112): 13:27:18  Parsing macros/cross_db_utils/position.sql
+2022-01-27 13:27:18.463993 (Thread-112): 13:27:18  Parsing macros/cross_db_utils/literal.sql
+2022-01-27 13:27:18.465000 (Thread-112): 13:27:18  Parsing macros/cross_db_utils/_is_ephemeral.sql
+2022-01-27 13:27:18.466858 (Thread-112): 13:27:18  Parsing macros/cross_db_utils/width_bucket.sql
+2022-01-27 13:27:18.471720 (Thread-112): 13:27:18  Parsing macros/cross_db_utils/date_trunc.sql
+2022-01-27 13:27:18.473289 (Thread-112): 13:27:18  Parsing macros/cross_db_utils/except.sql
+2022-01-27 13:27:18.474673 (Thread-112): 13:27:18  Parsing macros/cross_db_utils/safe_cast.sql
+2022-01-27 13:27:18.475242 (Thread-114): handling status request
+2022-01-27 13:27:18.477176 (Thread-112): 13:27:18  Parsing macros/cross_db_utils/last_day.sql
+2022-01-27 13:27:18.477491 (Thread-114): 13:27:18  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '243d172d-88b4-4cb5-a678-18d7a7b739e9', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fabfc40b430>]}
+2022-01-27 13:27:18.480965 (Thread-112): 13:27:18  Parsing macros/cross_db_utils/intersect.sql
+2022-01-27 13:27:18.481417 (Thread-114): sending response (<Response 185 bytes [200 OK]>) to 10.0.31.49
+2022-01-27 13:27:18.482572 (Thread-112): 13:27:18  Parsing macros/materialisations/incremental_pit_materialization.sql
+2022-01-27 13:27:18.488767 (Thread-112): 13:27:18  Parsing macros/materialisations/incremental_bridge_materialization.sql
+2022-01-27 13:27:18.493913 (Thread-112): 13:27:18  Parsing macros/materialisations/period_mat_helpers.sql
+2022-01-27 13:27:18.511760 (Thread-112): 13:27:18  Parsing macros/materialisations/vault_insert_by_period_materialization.sql
+2022-01-27 13:27:18.528949 (Thread-112): 13:27:18  Parsing macros/materialisations/incremental_bridge_helpers.sql
+2022-01-27 13:27:18.531543 (Thread-112): 13:27:18  Parsing macros/materialisations/rank_mat_helpers.sql
+2022-01-27 13:27:18.537946 (Thread-112): 13:27:18  Parsing macros/materialisations/incremental_pit_helper.sql
+2022-01-27 13:27:18.540592 (Thread-112): 13:27:18  Parsing macros/materialisations/shared_helpers.sql
+2022-01-27 13:27:18.542638 (Thread-112): 13:27:18  Parsing macros/materialisations/vault_insert_by_rank_materialization.sql
+2022-01-27 13:27:18.556558 (Thread-112): 13:27:18  Parsing macros/staging/hash_columns.sql
+2022-01-27 13:27:18.560222 (Thread-112): 13:27:18  Parsing macros/staging/stage.sql
+2022-01-27 13:27:18.570449 (Thread-112): 13:27:18  Parsing macros/staging/rank_columns.sql
+2022-01-27 13:27:18.578798 (Thread-112): 13:27:18  Parsing macros/staging/derive_columns.sql
+2022-01-27 13:27:18.584465 (Thread-112): 13:27:18  Parsing macros/staging/source_columns.sql
+2022-01-27 13:27:18.585733 (Thread-112): 13:27:18  Parsing macros/internal/alias_all.sql
+2022-01-27 13:27:18.588065 (Thread-112): 13:27:18  Parsing macros/internal/alias.sql
+2022-01-27 13:27:18.591480 (Thread-112): 13:27:18  Parsing macros/internal/prepend_generated_by.sql
+2022-01-27 13:27:18.591917 (Thread-112): 13:27:18  Parsing macros/internal/stage_processing_macros.sql
+2022-01-27 13:27:18.601165 (Thread-112): 13:27:18  Parsing macros/internal/multikey.sql
+2022-01-27 13:27:18.606258 (Thread-112): 13:27:18  Parsing macros/internal/is_checks.sql
+2022-01-27 13:27:18.609223 (Thread-112): 13:27:18  Parsing macros/internal/expand_column_list.sql
+2022-01-27 13:27:18.612360 (Thread-112): 13:27:18  Parsing macros/internal/as_constant.sql
+2022-01-27 13:27:18.614487 (Thread-112): 13:27:18  Parsing macros/internal/check_required_parameters.sql
+2022-01-27 13:27:18.616132 (Thread-112): 13:27:18  Parsing macros/tables/link.sql
+2022-01-27 13:27:18.628713 (Thread-112): 13:27:18  Parsing macros/tables/sat.sql
+2022-01-27 13:27:18.637680 (Thread-112): 13:27:18  Parsing macros/tables/eff_sat.sql
+2022-01-27 13:27:18.650899 (Thread-112): 13:27:18  Parsing macros/tables/xts.sql
+2022-01-27 13:27:18.658254 (Thread-112): 13:27:18  Parsing macros/tables/hub.sql
+2022-01-27 13:27:18.669803 (Thread-112): 13:27:18  Parsing macros/tables/ma_sat.sql
+2022-01-27 13:27:18.681998 (Thread-112): 13:27:18  Parsing macros/tables/pit.sql
+2022-01-27 13:27:18.701846 (Thread-112): 13:27:18  Parsing macros/tables/bridge.sql
+2022-01-27 13:27:18.736496 (Thread-112): 13:27:18  Parsing macros/tables/t_link.sql
+2022-01-27 13:27:18.742074 (Thread-112): 13:27:18  Parsing macros/supporting/max_datetime.sql
+2022-01-27 13:27:18.743116 (Thread-112): 13:27:18  Parsing macros/supporting/current_timestamp.sql
+2022-01-27 13:27:18.744920 (Thread-112): 13:27:18  Parsing macros/supporting/prefix.sql
+2022-01-27 13:27:18.750245 (Thread-112): 13:27:18  Parsing macros/supporting/hash.sql
+2022-01-27 13:27:18.757004 (Thread-112): 13:27:18  Parsing macros/supporting/datatypes.sql
+2022-01-27 13:27:19.264170 (Thread-112): 13:27:19  1603: static parser failed on DQ_Models/DQ_Config_table_run.sql
+2022-01-27 13:27:19.269687 (Thread-112): 13:27:19  1602: parser fallback to jinja rendering on DQ_Models/DQ_Config_table_run.sql
+2022-01-27 13:27:19.270888 (Thread-112): 13:27:19  1603: static parser failed on stage/v_stg_inventory.sql
+2022-01-27 13:27:19.364050 (Thread-112): 13:27:19  1602: parser fallback to jinja rendering on stage/v_stg_inventory.sql
+2022-01-27 13:27:19.365282 (Thread-112): 13:27:19  1603: static parser failed on stage/v_stg_transactions.sql
+2022-01-27 13:27:19.374880 (Thread-112): 13:27:19  1602: parser fallback to jinja rendering on stage/v_stg_transactions.sql
+2022-01-27 13:27:19.376009 (Thread-112): 13:27:19  1603: static parser failed on stage/v_stg_orders.sql
+2022-01-27 13:27:19.405160 (Thread-112): 13:27:19  1602: parser fallback to jinja rendering on stage/v_stg_orders.sql
+2022-01-27 13:27:19.406613 (Thread-112): 13:27:19  1603: static parser failed on SCD2/sat_inv_part_scd2.sql
+2022-01-27 13:27:19.413664 (Thread-112): 13:27:19  1602: parser fallback to jinja rendering on SCD2/sat_inv_part_scd2.sql
+2022-01-27 13:27:19.414813 (Thread-112): 13:27:19  1603: static parser failed on raw_vault/t_links/t_link_transactions.sql
+2022-01-27 13:27:19.473350 (Thread-112): 13:27:19  1602: parser fallback to jinja rendering on raw_vault/t_links/t_link_transactions.sql
+2022-01-27 13:27:19.474540 (Thread-112): 13:27:19  1603: static parser failed on raw_vault/hubs/hub_supplier.sql
+2022-01-27 13:27:19.499613 (Thread-112): 13:27:19  1602: parser fallback to jinja rendering on raw_vault/hubs/hub_supplier.sql
+2022-01-27 13:27:19.500793 (Thread-112): 13:27:19  1603: static parser failed on raw_vault/hubs/hub_region.sql
+2022-01-27 13:27:19.508529 (Thread-112): 13:27:19  1602: parser fallback to jinja rendering on raw_vault/hubs/hub_region.sql
+2022-01-27 13:27:19.509656 (Thread-112): 13:27:19  1603: static parser failed on raw_vault/hubs/hub_order.sql
+2022-01-27 13:27:19.515897 (Thread-112): 13:27:19  1602: parser fallback to jinja rendering on raw_vault/hubs/hub_order.sql
+2022-01-27 13:27:19.517046 (Thread-112): 13:27:19  1603: static parser failed on raw_vault/hubs/hub_customer.sql
+2022-01-27 13:27:19.523072 (Thread-112): 13:27:19  1602: parser fallback to jinja rendering on raw_vault/hubs/hub_customer.sql
+2022-01-27 13:27:19.524224 (Thread-112): 13:27:19  1603: static parser failed on raw_vault/hubs/hub_nation.sql
+2022-01-27 13:27:19.532254 (Thread-112): 13:27:19  1602: parser fallback to jinja rendering on raw_vault/hubs/hub_nation.sql
+2022-01-27 13:27:19.533381 (Thread-112): 13:27:19  1603: static parser failed on raw_vault/hubs/hub_lineitem.sql
+2022-01-27 13:27:19.540356 (Thread-112): 13:27:19  1602: parser fallback to jinja rendering on raw_vault/hubs/hub_lineitem.sql
+2022-01-27 13:27:19.541472 (Thread-112): 13:27:19  1603: static parser failed on raw_vault/hubs/hub_part.sql
+2022-01-27 13:27:19.549198 (Thread-112): 13:27:19  1602: parser fallback to jinja rendering on raw_vault/hubs/hub_part.sql
+2022-01-27 13:27:19.550587 (Thread-112): 13:27:19  1603: static parser failed on raw_vault/links/link_customer_order.sql
+2022-01-27 13:27:19.574513 (Thread-112): 13:27:19  1602: parser fallback to jinja rendering on raw_vault/links/link_customer_order.sql
+2022-01-27 13:27:19.575648 (Thread-112): 13:27:19  1603: static parser failed on raw_vault/links/link_inventory_allocation.sql
+2022-01-27 13:27:19.582397 (Thread-112): 13:27:19  1602: parser fallback to jinja rendering on raw_vault/links/link_inventory_allocation.sql
+2022-01-27 13:27:19.583532 (Thread-112): 13:27:19  1603: static parser failed on raw_vault/links/link_inventory.sql
+2022-01-27 13:27:19.590194 (Thread-112): 13:27:19  1602: parser fallback to jinja rendering on raw_vault/links/link_inventory.sql
+2022-01-27 13:27:19.595447 (Thread-112): 13:27:19  1603: static parser failed on raw_vault/links/link_customer_nation.sql
+2022-01-27 13:27:19.602916 (Thread-112): 13:27:19  1602: parser fallback to jinja rendering on raw_vault/links/link_customer_nation.sql
+2022-01-27 13:27:19.604042 (Thread-112): 13:27:19  1603: static parser failed on raw_vault/links/link_order_lineitem.sql
+2022-01-27 13:27:19.610488 (Thread-112): 13:27:19  1602: parser fallback to jinja rendering on raw_vault/links/link_order_lineitem.sql
+2022-01-27 13:27:19.611600 (Thread-112): 13:27:19  1603: static parser failed on raw_vault/links/link_nation_region.sql
+2022-01-27 13:27:19.619561 (Thread-112): 13:27:19  1602: parser fallback to jinja rendering on raw_vault/links/link_nation_region.sql
+2022-01-27 13:27:19.620711 (Thread-112): 13:27:19  1603: static parser failed on raw_vault/links/link_supplier_nation.sql
+2022-01-27 13:27:19.627208 (Thread-112): 13:27:19  1602: parser fallback to jinja rendering on raw_vault/links/link_supplier_nation.sql
+2022-01-27 13:27:19.628373 (Thread-112): 13:27:19  1603: static parser failed on raw_vault/sats/sat_inv_inventory_details.sql
+2022-01-27 13:27:19.661697 (Thread-112): 13:27:19  1602: parser fallback to jinja rendering on raw_vault/sats/sat_inv_inventory_details.sql
+2022-01-27 13:27:19.663152 (Thread-112): 13:27:19  1603: static parser failed on raw_vault/sats/sat_order_cust_nation_details.sql
+2022-01-27 13:27:19.671783 (Thread-112): 13:27:19  1602: parser fallback to jinja rendering on raw_vault/sats/sat_order_cust_nation_details.sql
+2022-01-27 13:27:19.672962 (Thread-112): 13:27:19  1603: static parser failed on raw_vault/sats/sat_order_lineitem_details.sql
+2022-01-27 13:27:19.684839 (Thread-112): 13:27:19  1602: parser fallback to jinja rendering on raw_vault/sats/sat_order_lineitem_details.sql
+2022-01-27 13:27:19.685990 (Thread-112): 13:27:19  1603: static parser failed on raw_vault/sats/sat_inv_supplier_details.sql
+2022-01-27 13:27:19.696360 (Thread-112): 13:27:19  1602: parser fallback to jinja rendering on raw_vault/sats/sat_inv_supplier_details.sql
+2022-01-27 13:27:19.697506 (Thread-112): 13:27:19  1603: static parser failed on raw_vault/sats/sat_inv_supp_nation_details.sql
+2022-01-27 13:27:19.706173 (Thread-112): 13:27:19  1602: parser fallback to jinja rendering on raw_vault/sats/sat_inv_supp_nation_details.sql
+2022-01-27 13:27:19.707311 (Thread-112): 13:27:19  1603: static parser failed on raw_vault/sats/sat_inv_supp_region_details.sql
+2022-01-27 13:27:19.716036 (Thread-112): 13:27:19  1602: parser fallback to jinja rendering on raw_vault/sats/sat_inv_supp_region_details.sql
+2022-01-27 13:27:19.717203 (Thread-112): 13:27:19  1603: static parser failed on raw_vault/sats/sat_order_order_details.sql
+2022-01-27 13:27:19.727726 (Thread-112): 13:27:19  1602: parser fallback to jinja rendering on raw_vault/sats/sat_order_order_details.sql
+2022-01-27 13:27:19.728897 (Thread-112): 13:27:19  1603: static parser failed on raw_vault/sats/sat_inv_part_details.sql
+2022-01-27 13:27:19.740316 (Thread-112): 13:27:19  1602: parser fallback to jinja rendering on raw_vault/sats/sat_inv_part_details.sql
+2022-01-27 13:27:19.741462 (Thread-112): 13:27:19  1603: static parser failed on raw_vault/sats/sat_order_customer_details.sql
+2022-01-27 13:27:19.751554 (Thread-112): 13:27:19  1602: parser fallback to jinja rendering on raw_vault/sats/sat_order_customer_details.sql
+2022-01-27 13:27:19.752759 (Thread-112): 13:27:19  1603: static parser failed on raw_vault/sats/sat_order_cust_region_details.sql
+2022-01-27 13:27:19.761451 (Thread-112): 13:27:19  1602: parser fallback to jinja rendering on raw_vault/sats/sat_order_cust_region_details.sql
+2022-01-27 13:27:19.763437 (Thread-112): 13:27:19  1603: static parser failed on raw_stage/raw_transactions.sql
+2022-01-27 13:27:19.767400 (Thread-112): 13:27:19  1602: parser fallback to jinja rendering on raw_stage/raw_transactions.sql
+2022-01-27 13:27:19.768960 (Thread-112): 13:27:19  1603: static parser failed on raw_stage/raw_orders.sql
+2022-01-27 13:27:19.774566 (Thread-112): 13:27:19  1602: parser fallback to jinja rendering on raw_stage/raw_orders.sql
+2022-01-27 13:27:19.776061 (Thread-112): 13:27:19  1699: static parser successfully parsed raw_stage/raw_inventory.sql
+2022-01-27 13:27:19.938838 (Thread-115): handling status request
+2022-01-27 13:27:19.942832 (Thread-115): 13:27:19  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '243d172d-88b4-4cb5-a678-18d7a7b739e9', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fabfc1a3df0>]}
+2022-01-27 13:27:19.943286 (Thread-115): sending response (<Response 185 bytes [200 OK]>) to 10.0.15.206
+2022-01-27 13:27:19.970327 (Thread-116): handling status request
+2022-01-27 13:27:19.991018 (Thread-116): 13:27:19  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '243d172d-88b4-4cb5-a678-18d7a7b739e9', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fabfc284dc0>]}
+2022-01-27 13:27:19.996188 (Thread-116): sending response (<Response 185 bytes [200 OK]>) to 10.0.14.82
+2022-01-27 13:27:20.040464 (Thread-112): 13:27:20  Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '243d172d-88b4-4cb5-a678-18d7a7b739e9', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fabfc3800a0>]}
+2022-01-27 13:27:21.417636 (Thread-117): handling status request
+2022-01-27 13:27:21.418028 (Thread-117): 13:27:21  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '243d172d-88b4-4cb5-a678-18d7a7b739e9', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fabfc1edca0>]}
+2022-01-27 13:27:21.420344 (Thread-117): sending response (<Response 64564 bytes [200 OK]>) to 10.0.15.206
+2022-01-27 13:27:22.149231 (Thread-118): handling status request
+2022-01-27 13:27:22.149601 (Thread-118): 13:27:22  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '243d172d-88b4-4cb5-a678-18d7a7b739e9', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fabfc281ee0>]}
+2022-01-27 13:27:22.151852 (Thread-118): sending response (<Response 64564 bytes [200 OK]>) to 10.0.31.49
+2022-01-27 13:27:42.741224 (Thread-119): handling status request
+2022-01-27 13:27:42.741593 (Thread-119): 13:27:42  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '243d172d-88b4-4cb5-a678-18d7a7b739e9', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fabfc43cb20>]}
+2022-01-27 13:27:42.743833 (Thread-119): sending response (<Response 64564 bytes [200 OK]>) to 10.0.5.67
+2022-01-27 13:27:43.093622 (Thread-120): handling status request
+2022-01-27 13:27:43.093991 (Thread-120): 13:27:43  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '243d172d-88b4-4cb5-a678-18d7a7b739e9', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fabfc636550>]}
+2022-01-27 13:27:43.096235 (Thread-120): sending response (<Response 64564 bytes [200 OK]>) to 10.0.31.49
+2022-01-27 13:27:43.343017 (Thread-121): handling cli_args request
+2022-01-27 13:27:43.343397 (Thread-121): 13:27:43  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '243d172d-88b4-4cb5-a678-18d7a7b739e9', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fac0458da00>]}
+2022-01-27 13:27:45.512967 (Thread-121): sending response (<Response 138 bytes [200 OK]>) to 10.0.14.82
+2022-01-27 13:27:45.890990 (MainThread): 13:27:45  Partial parsing enabled: 0 files deleted, 0 files added, 0 files changed.
+2022-01-27 13:27:45.891409 (MainThread): 13:27:45  Partial parsing enabled, no changes found, skipping parsing
+2022-01-27 13:27:45.898954 (MainThread): 13:27:45  Sending event: {'category': 'dbt', 'action': 'load_project', 'label': 'a61d0a15-8103-483e-aef6-edcefc699bd0', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f538faedd60>]}
+2022-01-27 13:27:45.926821 (MainThread): 13:27:45  Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': 'a61d0a15-8103-483e-aef6-edcefc699bd0', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f538fbdac40>]}
+2022-01-27 13:27:45.927054 (MainThread): 13:27:45  Found 33 models, 0 tests, 1 snapshot, 0 analyses, 447 macros, 0 operations, 0 seed files, 8 sources, 0 exposures, 0 metrics
+2022-01-27 13:27:45.928601 (MainThread): 13:27:45  
+2022-01-27 13:27:45.928863 (MainThread): 13:27:45  Acquiring new snowflake connection "master"
+2022-01-27 13:27:45.929593 (ThreadPoolExecutor-0_0): 13:27:45  Acquiring new snowflake connection "list_DEMO_DB"
+2022-01-27 13:27:45.941968 (ThreadPoolExecutor-0_0): 13:27:45  Using snowflake connection "list_DEMO_DB"
+2022-01-27 13:27:45.942072 (ThreadPoolExecutor-0_0): 13:27:45  On list_DEMO_DB: /* {"app": "dbt", "dbt_version": "1.0.1", "profile_name": "user", "target_name": "default", "connection_name": "list_DEMO_DB"} */
+
+    show terse schemas in database DEMO_DB
+    limit 10000
+2022-01-27 13:27:45.942155 (ThreadPoolExecutor-0_0): 13:27:45  Opening a new connection, currently in state init
+2022-01-27 13:27:46.042951 (Thread-122): handling poll request
+2022-01-27 13:27:46.043366 (Thread-122): 13:27:46  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '243d172d-88b4-4cb5-a678-18d7a7b739e9', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fabfc36deb0>]}
+2022-01-27 13:27:46.044311 (Thread-122): sending response (<Response 4145 bytes [200 OK]>) to 10.0.3.212
+2022-01-27 13:27:46.618247 (ThreadPoolExecutor-0_0): 13:27:46  SQL status: SUCCESS 5 in 0.68 seconds
+2022-01-27 13:27:46.620190 (ThreadPoolExecutor-0_0): 13:27:46  On list_DEMO_DB: Close
+2022-01-27 13:27:46.810934 (ThreadPoolExecutor-2_0): 13:27:46  Acquiring new snowflake connection "list_DEMO_DB_snapshots"
+2022-01-27 13:27:46.812714 (ThreadPoolExecutor-2_1): 13:27:46  Acquiring new snowflake connection "list_DEMO_DB_DEMO"
+2022-01-27 13:27:46.822204 (ThreadPoolExecutor-2_0): 13:27:46  Using snowflake connection "list_DEMO_DB_snapshots"
+2022-01-27 13:27:46.822325 (ThreadPoolExecutor-2_0): 13:27:46  On list_DEMO_DB_snapshots: /* {"app": "dbt", "dbt_version": "1.0.1", "profile_name": "user", "target_name": "default", "connection_name": "list_DEMO_DB_snapshots"} */
+
+    show terse objects in DEMO_DB.snapshots
+2022-01-27 13:27:46.822425 (ThreadPoolExecutor-2_0): 13:27:46  Opening a new connection, currently in state closed
+2022-01-27 13:27:46.825411 (ThreadPoolExecutor-2_1): 13:27:46  Using snowflake connection "list_DEMO_DB_DEMO"
+2022-01-27 13:27:46.825517 (ThreadPoolExecutor-2_1): 13:27:46  On list_DEMO_DB_DEMO: /* {"app": "dbt", "dbt_version": "1.0.1", "profile_name": "user", "target_name": "default", "connection_name": "list_DEMO_DB_DEMO"} */
+
+    show terse objects in DEMO_DB.DEMO
+2022-01-27 13:27:46.825599 (ThreadPoolExecutor-2_1): 13:27:46  Opening a new connection, currently in state init
+2022-01-27 13:27:47.401494 (ThreadPoolExecutor-2_1): 13:27:47  SQL status: SUCCESS 6 in 0.58 seconds
+2022-01-27 13:27:47.403038 (ThreadPoolExecutor-2_1): 13:27:47  On list_DEMO_DB_DEMO: Close
+2022-01-27 13:27:47.520128 (Thread-123): handling poll request
+2022-01-27 13:27:47.520487 (Thread-123): 13:27:47  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '243d172d-88b4-4cb5-a678-18d7a7b739e9', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fabfc2db8b0>]}
+2022-01-27 13:27:47.521130 (Thread-123): sending response (<Response 4274 bytes [200 OK]>) to 10.0.32.193
+2022-01-27 13:27:47.595114 (ThreadPoolExecutor-2_0): 13:27:47  SQL status: SUCCESS 1 in 0.77 seconds
+2022-01-27 13:27:47.596434 (ThreadPoolExecutor-2_0): 13:27:47  On list_DEMO_DB_snapshots: Close
+2022-01-27 13:27:47.805588 (MainThread): 13:27:47  Concurrency: 7 threads (target='default')
+2022-01-27 13:27:47.805765 (MainThread): 13:27:47  
+2022-01-27 13:27:47.808628 (Thread-1): 13:27:47  Began running node model.dbtvault_snowflake_demo.sat_inv_part_scd2
+2022-01-27 13:27:47.808942 (Thread-1): 13:27:47  1 of 1 START table model DEMO.sat_inv_part_scd2................................. [RUN]
+2022-01-27 13:27:47.809209 (Thread-1): 13:27:47  Acquiring new snowflake connection "model.dbtvault_snowflake_demo.sat_inv_part_scd2"
+2022-01-27 13:27:47.809311 (Thread-1): 13:27:47  Began compiling node model.dbtvault_snowflake_demo.sat_inv_part_scd2
+2022-01-27 13:27:47.809415 (Thread-1): 13:27:47  Compiling model.dbtvault_snowflake_demo.sat_inv_part_scd2
+2022-01-27 13:27:47.816880 (Thread-1): 13:27:47  Using snowflake connection "model.dbtvault_snowflake_demo.sat_inv_part_scd2"
+2022-01-27 13:27:47.817007 (Thread-1): 13:27:47  On model.dbtvault_snowflake_demo.sat_inv_part_scd2: /* {"app": "dbt", "dbt_version": "1.0.1", "profile_name": "user", "target_name": "default", "node_id": "model.dbtvault_snowflake_demo.sat_inv_part_scd2"} */
+SELECT EXISTS ( SELECT * FROM information_schema.tables WHERE table_name = '!SAT_INV_PART_SCD2' )
+2022-01-27 13:27:47.817096 (Thread-1): 13:27:47  Opening a new connection, currently in state closed
+2022-01-27 13:27:48.901371 (Thread-1): 13:27:48  SQL status: SUCCESS 1 in 1.08 seconds
+2022-01-27 13:27:48.903100 (Thread-1): 13:27:48  Using snowflake connection "model.dbtvault_snowflake_demo.sat_inv_part_scd2"
+2022-01-27 13:27:48.903221 (Thread-1): 13:27:48  On model.dbtvault_snowflake_demo.sat_inv_part_scd2: /* {"app": "dbt", "dbt_version": "1.0.1", "profile_name": "user", "target_name": "default", "node_id": "model.dbtvault_snowflake_demo.sat_inv_part_scd2"} */
+SELECT sysdate()
+2022-01-27 13:27:48.967689 (Thread-1): 13:27:48  SQL status: SUCCESS 1 in 0.06 seconds
+2022-01-27 13:27:48.969179 (Thread-1): 13:27:48  Writing injected SQL for node "model.dbtvault_snowflake_demo.sat_inv_part_scd2"
+2022-01-27 13:27:48.981653 (Thread-1): 13:27:48  finished collecting timing info
+2022-01-27 13:27:48.981814 (Thread-1): 13:27:48  Began executing node model.dbtvault_snowflake_demo.sat_inv_part_scd2
+2022-01-27 13:27:49.005197 (Thread-1): 13:27:49  Writing runtime SQL for node "model.dbtvault_snowflake_demo.sat_inv_part_scd2"
+2022-01-27 13:27:49.017263 (Thread-124): handling poll request
+2022-01-27 13:27:49.017570 (Thread-124): 13:27:49  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '243d172d-88b4-4cb5-a678-18d7a7b739e9', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fabfc5d7d00>]}
+2022-01-27 13:27:49.018303 (Thread-124): sending response (<Response 8314 bytes [200 OK]>) to 10.0.5.67
+2022-01-27 13:27:49.018871 (Thread-1): 13:27:49  Using snowflake connection "model.dbtvault_snowflake_demo.sat_inv_part_scd2"
+2022-01-27 13:27:49.018985 (Thread-1): 13:27:49  On model.dbtvault_snowflake_demo.sat_inv_part_scd2: /* {"app": "dbt", "dbt_version": "1.0.1", "profile_name": "user", "target_name": "default", "node_id": "model.dbtvault_snowflake_demo.sat_inv_part_scd2"} */
+
+
+      create or replace transient table DEMO_DB.DEMO.sat_inv_part_scd2  as
+      (
+	Select PART_PK,PART_HASHDIFF,PART_NAME,PART_MFGR,PART_BRAND,PART_TYPE,PART_SIZE,PART_CONTAINER,PART_RETAILPRICE,PART_COMMENT,
+    sysdate() as VALID_FROM, Null as Valid_to 
+    from DEMO_DB.DEMO.v_stg_inventory
+    
+
+      );
+2022-01-27 13:27:50.245374 (Thread-1): 13:27:50  SQL status: SUCCESS 1 in 1.23 seconds
+2022-01-27 13:27:50.254590 (Thread-1): 13:27:50  finished collecting timing info
+2022-01-27 13:27:50.254752 (Thread-1): 13:27:50  On model.dbtvault_snowflake_demo.sat_inv_part_scd2: Close
+2022-01-27 13:27:50.475778 (Thread-1): 13:27:50  Sending event: {'category': 'dbt', 'action': 'run_model', 'label': 'a61d0a15-8103-483e-aef6-edcefc699bd0', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f538d75a6a0>]}
+2022-01-27 13:27:50.476209 (Thread-1): 13:27:50  1 of 1 OK created table model DEMO.sat_inv_part_scd2............................ [SUCCESS 1 in 2.67s]
+2022-01-27 13:27:50.476343 (Thread-1): 13:27:50  Finished running node model.dbtvault_snowflake_demo.sat_inv_part_scd2
+2022-01-27 13:27:50.477973 (MainThread): 13:27:50  Acquiring new snowflake connection "master"
+2022-01-27 13:27:50.478310 (MainThread): 13:27:50  
+2022-01-27 13:27:50.478419 (MainThread): 13:27:50  Finished running 1 table model in 4.55s.
+2022-01-27 13:27:50.478512 (MainThread): 13:27:50  Connection 'master' was properly closed.
+2022-01-27 13:27:50.478582 (MainThread): 13:27:50  Connection 'model.dbtvault_snowflake_demo.sat_inv_part_scd2' was properly closed.
+2022-01-27 13:27:50.478649 (MainThread): 13:27:50  Connection 'list_DEMO_DB_DEMO' was properly closed.
+2022-01-27 13:27:50.543468 (MainThread): 13:27:50  
+2022-01-27 13:27:50.543660 (MainThread): 13:27:50  Completed successfully
+2022-01-27 13:27:50.543761 (MainThread): 13:27:50  
+2022-01-27 13:27:50.543853 (MainThread): 13:27:50  Done. PASS=1 WARN=0 ERROR=0 SKIP=0 TOTAL=1
+2022-01-27 13:27:50.556794 (Thread-125): handling poll request
+2022-01-27 13:27:50.557081 (Thread-125): 13:27:50  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '243d172d-88b4-4cb5-a678-18d7a7b739e9', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fabfc268fa0>]}
+2022-01-27 13:27:50.557794 (Thread-125): sending response (<Response 7496 bytes [200 OK]>) to 10.0.17.152
+2022-01-27 13:27:52.054483 (Thread-126): handling poll request
+2022-01-27 13:27:52.054855 (Thread-126): 13:27:52  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '243d172d-88b4-4cb5-a678-18d7a7b739e9', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fabfc2688b0>]}
+2022-01-27 13:27:52.055699 (Thread-126): sending response (<Response 4716 bytes [200 OK]>) to 10.0.32.193
+2022-01-27 13:27:53.072427 (Thread-127): handling status request
+2022-01-27 13:27:53.072798 (Thread-127): 13:27:53  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '243d172d-88b4-4cb5-a678-18d7a7b739e9', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fabfc268520>]}
+2022-01-27 13:27:53.075694 (Thread-127): sending response (<Response 64564 bytes [200 OK]>) to 10.0.44.84
+2022-01-27 13:27:53.131868 (Thread-128): handling status request
+2022-01-27 13:27:53.132285 (Thread-128): 13:27:53  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '243d172d-88b4-4cb5-a678-18d7a7b739e9', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fac04317160>]}
+2022-01-27 13:27:53.134377 (Thread-128): sending response (<Response 64564 bytes [200 OK]>) to 10.0.44.84
+2022-01-27 13:36:22.240341 (Thread-129): handling status request
+2022-01-27 13:36:22.242122 (Thread-129): 13:36:22  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '243d172d-88b4-4cb5-a678-18d7a7b739e9', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fac04de1f70>]}
+2022-01-27 13:36:22.244252 (Thread-129): sending response (<Response 64564 bytes [200 OK]>) to 10.0.32.193
+2022-01-27 13:36:22.673255 (Thread-130): handling status request
+2022-01-27 13:36:22.673631 (Thread-130): 13:36:22  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '243d172d-88b4-4cb5-a678-18d7a7b739e9', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fac3ce3f8e0>]}
+2022-01-27 13:36:22.675657 (Thread-130): sending response (<Response 64564 bytes [200 OK]>) to 10.0.35.236
+2022-01-27 13:36:22.721145 (Thread-131): handling cli_args request
+2022-01-27 13:36:22.721399 (Thread-131): 13:36:22  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '243d172d-88b4-4cb5-a678-18d7a7b739e9', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fabfc268400>]}
+2022-01-27 13:36:24.919890 (Thread-131): sending response (<Response 138 bytes [200 OK]>) to 10.0.44.84
+2022-01-27 13:36:25.435260 (MainThread): 13:36:25  Partial parsing enabled: 0 files deleted, 0 files added, 0 files changed.
+2022-01-27 13:36:25.435692 (MainThread): 13:36:25  Partial parsing enabled, no changes found, skipping parsing
+2022-01-27 13:36:25.443617 (MainThread): 13:36:25  Sending event: {'category': 'dbt', 'action': 'load_project', 'label': 'a39f33f4-47a5-4d36-8b98-2c4f01c24df5', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fc028beee80>]}
+2022-01-27 13:36:25.477128 (MainThread): 13:36:25  Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': 'a39f33f4-47a5-4d36-8b98-2c4f01c24df5', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fc028cfbb50>]}
+2022-01-27 13:36:25.477398 (MainThread): 13:36:25  Found 33 models, 0 tests, 1 snapshot, 0 analyses, 447 macros, 0 operations, 0 seed files, 8 sources, 0 exposures, 0 metrics
+2022-01-27 13:36:25.479055 (MainThread): 13:36:25  
+2022-01-27 13:36:25.479356 (MainThread): 13:36:25  Acquiring new snowflake connection "master"
+2022-01-27 13:36:25.480171 (ThreadPoolExecutor-0_0): 13:36:25  Acquiring new snowflake connection "list_DEMO_DB"
+2022-01-27 13:36:25.492898 (ThreadPoolExecutor-0_0): 13:36:25  Using snowflake connection "list_DEMO_DB"
+2022-01-27 13:36:25.493007 (ThreadPoolExecutor-0_0): 13:36:25  On list_DEMO_DB: /* {"app": "dbt", "dbt_version": "1.0.1", "profile_name": "user", "target_name": "default", "connection_name": "list_DEMO_DB"} */
+
+    show terse schemas in database DEMO_DB
+    limit 10000
+2022-01-27 13:36:25.493092 (ThreadPoolExecutor-0_0): 13:36:25  Opening a new connection, currently in state init
+2022-01-27 13:36:25.589650 (Thread-132): handling poll request
+2022-01-27 13:36:25.590100 (Thread-132): 13:36:25  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '243d172d-88b4-4cb5-a678-18d7a7b739e9', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fac04339460>]}
+2022-01-27 13:36:25.590987 (Thread-132): sending response (<Response 4145 bytes [200 OK]>) to 10.0.5.67
+2022-01-27 13:36:26.299462 (ThreadPoolExecutor-0_0): 13:36:26  SQL status: SUCCESS 5 in 0.81 seconds
+2022-01-27 13:36:26.301389 (ThreadPoolExecutor-0_0): 13:36:26  On list_DEMO_DB: Close
+2022-01-27 13:36:26.419432 (ThreadPoolExecutor-2_0): 13:36:26  Acquiring new snowflake connection "list_DEMO_DB_snapshots"
+2022-01-27 13:36:26.421007 (ThreadPoolExecutor-2_1): 13:36:26  Acquiring new snowflake connection "list_DEMO_DB_DEMO"
+2022-01-27 13:36:26.427976 (ThreadPoolExecutor-2_1): 13:36:26  Using snowflake connection "list_DEMO_DB_DEMO"
+2022-01-27 13:36:26.428110 (ThreadPoolExecutor-2_1): 13:36:26  On list_DEMO_DB_DEMO: /* {"app": "dbt", "dbt_version": "1.0.1", "profile_name": "user", "target_name": "default", "connection_name": "list_DEMO_DB_DEMO"} */
+
+    show terse objects in DEMO_DB.DEMO
+2022-01-27 13:36:26.428214 (ThreadPoolExecutor-2_1): 13:36:26  Opening a new connection, currently in state init
+2022-01-27 13:36:26.431697 (ThreadPoolExecutor-2_0): 13:36:26  Using snowflake connection "list_DEMO_DB_snapshots"
+2022-01-27 13:36:26.431824 (ThreadPoolExecutor-2_0): 13:36:26  On list_DEMO_DB_snapshots: /* {"app": "dbt", "dbt_version": "1.0.1", "profile_name": "user", "target_name": "default", "connection_name": "list_DEMO_DB_snapshots"} */
+
+    show terse objects in DEMO_DB.snapshots
+2022-01-27 13:36:26.431910 (ThreadPoolExecutor-2_0): 13:36:26  Opening a new connection, currently in state closed
+2022-01-27 13:36:27.002554 (ThreadPoolExecutor-2_1): 13:36:27  SQL status: SUCCESS 7 in 0.57 seconds
+2022-01-27 13:36:27.004209 (ThreadPoolExecutor-2_1): 13:36:27  On list_DEMO_DB_DEMO: Close
+2022-01-27 13:36:27.047682 (Thread-133): handling poll request
+2022-01-27 13:36:27.048049 (Thread-133): 13:36:27  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '243d172d-88b4-4cb5-a678-18d7a7b739e9', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fac043398b0>]}
+2022-01-27 13:36:27.048698 (Thread-133): sending response (<Response 4273 bytes [200 OK]>) to 10.0.17.152
+2022-01-27 13:36:27.159629 (ThreadPoolExecutor-2_0): 13:36:27  SQL status: SUCCESS 1 in 0.73 seconds
+2022-01-27 13:36:27.161011 (ThreadPoolExecutor-2_0): 13:36:27  On list_DEMO_DB_snapshots: Close
+2022-01-27 13:36:27.499570 (MainThread): 13:36:27  Concurrency: 7 threads (target='default')
+2022-01-27 13:36:27.499738 (MainThread): 13:36:27  
+2022-01-27 13:36:27.502799 (Thread-1): 13:36:27  Began running node model.dbtvault_snowflake_demo.sat_inv_part_scd2
+2022-01-27 13:36:27.503136 (Thread-1): 13:36:27  1 of 1 START table model DEMO.sat_inv_part_scd2................................. [RUN]
+2022-01-27 13:36:27.503404 (Thread-1): 13:36:27  Acquiring new snowflake connection "model.dbtvault_snowflake_demo.sat_inv_part_scd2"
+2022-01-27 13:36:27.503508 (Thread-1): 13:36:27  Began compiling node model.dbtvault_snowflake_demo.sat_inv_part_scd2
+2022-01-27 13:36:27.503611 (Thread-1): 13:36:27  Compiling model.dbtvault_snowflake_demo.sat_inv_part_scd2
+2022-01-27 13:36:27.511085 (Thread-1): 13:36:27  Using snowflake connection "model.dbtvault_snowflake_demo.sat_inv_part_scd2"
+2022-01-27 13:36:27.511209 (Thread-1): 13:36:27  On model.dbtvault_snowflake_demo.sat_inv_part_scd2: /* {"app": "dbt", "dbt_version": "1.0.1", "profile_name": "user", "target_name": "default", "node_id": "model.dbtvault_snowflake_demo.sat_inv_part_scd2"} */
+SELECT EXISTS ( SELECT * FROM information_schema.tables WHERE table_name = '!SAT_INV_PART_SCD2' )
+2022-01-27 13:36:27.511298 (Thread-1): 13:36:27  Opening a new connection, currently in state closed
+2022-01-27 13:36:28.448182 (Thread-1): 13:36:28  SQL status: SUCCESS 1 in 0.94 seconds
+2022-01-27 13:36:28.449949 (Thread-1): 13:36:28  Using snowflake connection "model.dbtvault_snowflake_demo.sat_inv_part_scd2"
+2022-01-27 13:36:28.450062 (Thread-1): 13:36:28  On model.dbtvault_snowflake_demo.sat_inv_part_scd2: /* {"app": "dbt", "dbt_version": "1.0.1", "profile_name": "user", "target_name": "default", "node_id": "model.dbtvault_snowflake_demo.sat_inv_part_scd2"} */
+SELECT sysdate()
+2022-01-27 13:36:28.540199 (Thread-1): 13:36:28  SQL status: SUCCESS 1 in 0.09 seconds
+2022-01-27 13:36:28.541739 (Thread-1): 13:36:28  Writing injected SQL for node "model.dbtvault_snowflake_demo.sat_inv_part_scd2"
+2022-01-27 13:36:28.559446 (Thread-1): 13:36:28  finished collecting timing info
+2022-01-27 13:36:28.559614 (Thread-1): 13:36:28  Began executing node model.dbtvault_snowflake_demo.sat_inv_part_scd2
+2022-01-27 13:36:28.563058 (Thread-134): handling poll request
+2022-01-27 13:36:28.563377 (Thread-134): 13:36:28  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '243d172d-88b4-4cb5-a678-18d7a7b739e9', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fac0431a5e0>]}
+2022-01-27 13:36:28.564148 (Thread-134): sending response (<Response 7929 bytes [200 OK]>) to 10.0.34.212
+2022-01-27 13:36:28.583369 (Thread-1): 13:36:28  Writing runtime SQL for node "model.dbtvault_snowflake_demo.sat_inv_part_scd2"
+2022-01-27 13:36:28.600112 (Thread-1): 13:36:28  Using snowflake connection "model.dbtvault_snowflake_demo.sat_inv_part_scd2"
+2022-01-27 13:36:28.600227 (Thread-1): 13:36:28  On model.dbtvault_snowflake_demo.sat_inv_part_scd2: /* {"app": "dbt", "dbt_version": "1.0.1", "profile_name": "user", "target_name": "default", "node_id": "model.dbtvault_snowflake_demo.sat_inv_part_scd2"} */
+
+
+      create or replace transient table DEMO_DB.DEMO.sat_inv_part_scd2  as
+      (
+	Select PART_PK,PART_HASHDIFF,PART_NAME,PART_MFGR,PART_BRAND,PART_TYPE,PART_SIZE,PART_CONTAINER,PART_RETAILPRICE,PART_COMMENT,
+    sysdate() as VALID_FROM, Null as Valid_to 
+    from DEMO_DB.DEMO.v_stg_inventory
+    
+
+      );
+2022-01-27 13:36:29.695794 (Thread-1): 13:36:29  SQL status: SUCCESS 1 in 1.1 seconds
+2022-01-27 13:36:29.705124 (Thread-1): 13:36:29  finished collecting timing info
+2022-01-27 13:36:29.705287 (Thread-1): 13:36:29  On model.dbtvault_snowflake_demo.sat_inv_part_scd2: Close
+2022-01-27 13:36:29.831345 (Thread-1): 13:36:29  Sending event: {'category': 'dbt', 'action': 'run_model', 'label': 'a39f33f4-47a5-4d36-8b98-2c4f01c24df5', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fc028bf5ca0>]}
+2022-01-27 13:36:29.831744 (Thread-1): 13:36:29  1 of 1 OK created table model DEMO.sat_inv_part_scd2............................ [SUCCESS 1 in 2.33s]
+2022-01-27 13:36:29.831870 (Thread-1): 13:36:29  Finished running node model.dbtvault_snowflake_demo.sat_inv_part_scd2
+2022-01-27 13:36:29.833591 (MainThread): 13:36:29  Acquiring new snowflake connection "master"
+2022-01-27 13:36:29.833937 (MainThread): 13:36:29  
+2022-01-27 13:36:29.834071 (MainThread): 13:36:29  Finished running 1 table model in 4.35s.
+2022-01-27 13:36:29.834163 (MainThread): 13:36:29  Connection 'master' was properly closed.
+2022-01-27 13:36:29.834232 (MainThread): 13:36:29  Connection 'list_DEMO_DB_snapshots' was properly closed.
+2022-01-27 13:36:29.834299 (MainThread): 13:36:29  Connection 'model.dbtvault_snowflake_demo.sat_inv_part_scd2' was properly closed.
+2022-01-27 13:36:29.897650 (MainThread): 13:36:29  
+2022-01-27 13:36:29.897841 (MainThread): 13:36:29  Completed successfully
+2022-01-27 13:36:29.897941 (MainThread): 13:36:29  
+2022-01-27 13:36:29.898031 (MainThread): 13:36:29  Done. PASS=1 WARN=0 ERROR=0 SKIP=0 TOTAL=1
+2022-01-27 13:36:30.039650 (Thread-135): handling poll request
+2022-01-27 13:36:30.040028 (Thread-135): 13:36:30  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '243d172d-88b4-4cb5-a678-18d7a7b739e9', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fac04164610>]}
+2022-01-27 13:36:30.040776 (Thread-135): sending response (<Response 7885 bytes [200 OK]>) to 10.0.33.234
+2022-01-27 13:36:31.510951 (Thread-136): handling poll request
+2022-01-27 13:36:31.511318 (Thread-136): 13:36:31  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '243d172d-88b4-4cb5-a678-18d7a7b739e9', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fac041641f0>]}
+2022-01-27 13:36:31.512183 (Thread-136): sending response (<Response 4718 bytes [200 OK]>) to 10.0.34.212
+2022-01-27 13:36:32.444235 (Thread-137): handling status request
+2022-01-27 13:36:32.444897 (Thread-137): 13:36:32  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '243d172d-88b4-4cb5-a678-18d7a7b739e9', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fac04164df0>]}
+2022-01-27 13:36:32.445454 (Thread-138): handling status request
+2022-01-27 13:36:32.448875 (Thread-137): sending response (<Response 64564 bytes [200 OK]>) to 10.0.44.84
+2022-01-27 13:36:32.449218 (Thread-138): 13:36:32  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '243d172d-88b4-4cb5-a678-18d7a7b739e9', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fac041645b0>]}
+2022-01-27 13:36:32.451513 (Thread-138): sending response (<Response 64564 bytes [200 OK]>) to 10.0.31.49
+2022-01-27 13:37:36.920226 (Thread-139): 13:37:36  Unable to do partial parsing because a project config has changed
+2022-01-27 13:37:36.922795 (Thread-139): 13:37:36  Sending event: {'category': 'dbt', 'action': 'partial_parser', 'label': '243d172d-88b4-4cb5-a678-18d7a7b739e9', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fabfc5a4eb0>]}
+2022-01-27 13:37:37.353952 (Thread-139): 13:37:37  Parsing macros/catalog.sql
+2022-01-27 13:37:37.356322 (Thread-139): 13:37:37  Parsing macros/adapters.sql
+2022-01-27 13:37:37.393715 (Thread-139): 13:37:37  Parsing macros/materializations/merge.sql
+2022-01-27 13:37:37.397580 (Thread-139): 13:37:37  Parsing macros/materializations/table.sql
+2022-01-27 13:37:37.400718 (Thread-139): 13:37:37  Parsing macros/materializations/seed.sql
+2022-01-27 13:37:37.405794 (Thread-139): 13:37:37  Parsing macros/materializations/view.sql
+2022-01-27 13:37:37.407153 (Thread-139): 13:37:37  Parsing macros/materializations/snapshot.sql
+2022-01-27 13:37:37.408168 (Thread-139): 13:37:37  Parsing macros/materializations/incremental.sql
+2022-01-27 13:37:37.416674 (Thread-139): 13:37:37  Parsing macros/get_custom_name/get_custom_alias.sql
+2022-01-27 13:37:37.418208 (Thread-139): 13:37:37  Parsing macros/get_custom_name/get_custom_database.sql
+2022-01-27 13:37:37.428119 (Thread-139): 13:37:37  Parsing macros/get_custom_name/get_custom_schema.sql
+2022-01-27 13:37:37.430639 (Thread-139): 13:37:37  Parsing macros/generic_test_sql/accepted_values.sql
+2022-01-27 13:37:37.432044 (Thread-139): 13:37:37  Parsing macros/generic_test_sql/not_null.sql
+2022-01-27 13:37:37.432683 (Thread-139): 13:37:37  Parsing macros/generic_test_sql/relationships.sql
+2022-01-27 13:37:37.433586 (Thread-139): 13:37:37  Parsing macros/generic_test_sql/unique.sql
+2022-01-27 13:37:37.434291 (Thread-139): 13:37:37  Parsing macros/materializations/configs.sql
+2022-01-27 13:37:37.436668 (Thread-139): 13:37:37  Parsing macros/materializations/hooks.sql
+2022-01-27 13:37:37.440545 (Thread-139): 13:37:37  Parsing macros/materializations/snapshots/strategies.sql
+2022-01-27 13:37:37.457302 (Thread-139): 13:37:37  Parsing macros/materializations/snapshots/snapshot_merge.sql
+2022-01-27 13:37:37.458888 (Thread-139): 13:37:37  Parsing macros/materializations/snapshots/snapshot.sql
+2022-01-27 13:37:37.469689 (Thread-139): 13:37:37  Parsing macros/materializations/snapshots/helpers.sql
+2022-01-27 13:37:37.480269 (Thread-139): 13:37:37  Parsing macros/materializations/seeds/seed.sql
+2022-01-27 13:37:37.486049 (Thread-139): 13:37:37  Parsing macros/materializations/seeds/helpers.sql
+2022-01-27 13:37:37.501663 (Thread-139): 13:37:37  Parsing macros/materializations/models/view/create_view_as.sql
+2022-01-27 13:37:37.503939 (Thread-139): 13:37:37  Parsing macros/materializations/models/view/view.sql
+2022-01-27 13:37:37.511354 (Thread-139): 13:37:37  Parsing macros/materializations/models/view/create_or_replace_view.sql
+2022-01-27 13:37:37.513992 (Thread-139): 13:37:37  Parsing macros/materializations/models/view/helpers.sql
+2022-01-27 13:37:37.515274 (Thread-139): 13:37:37  Parsing macros/materializations/models/table/table.sql
+2022-01-27 13:37:37.522093 (Thread-139): 13:37:37  Parsing macros/materializations/models/table/create_table_as.sql
+2022-01-27 13:37:37.524876 (Thread-139): 13:37:37  Parsing macros/materializations/models/incremental/merge.sql
+2022-01-27 13:37:37.535736 (Thread-139): 13:37:37  Parsing macros/materializations/models/incremental/on_schema_change.sql
+2022-01-27 13:37:37.550224 (Thread-139): 13:37:37  Parsing macros/materializations/models/incremental/column_helpers.sql
+2022-01-27 13:37:37.554504 (Thread-139): 13:37:37  Parsing macros/materializations/models/incremental/incremental.sql
+2022-01-27 13:37:37.564191 (Thread-139): 13:37:37  Parsing macros/materializations/models/incremental/is_incremental.sql
+2022-01-27 13:37:37.565647 (Thread-139): 13:37:37  Parsing macros/materializations/tests/test.sql
+2022-01-27 13:37:37.569856 (Thread-139): 13:37:37  Parsing macros/materializations/tests/where_subquery.sql
+2022-01-27 13:37:37.571614 (Thread-139): 13:37:37  Parsing macros/materializations/tests/helpers.sql
+2022-01-27 13:37:37.573427 (Thread-139): 13:37:37  Parsing macros/etc/statement.sql
+2022-01-27 13:37:37.577651 (Thread-139): 13:37:37  Parsing macros/etc/datetime.sql
+2022-01-27 13:37:37.585617 (Thread-139): 13:37:37  Parsing macros/adapters/indexes.sql
+2022-01-27 13:37:37.588231 (Thread-139): 13:37:37  Parsing macros/adapters/persist_docs.sql
+2022-01-27 13:37:37.592435 (Thread-139): 13:37:37  Parsing macros/adapters/freshness.sql
+2022-01-27 13:37:37.595285 (Thread-139): 13:37:37  Parsing macros/adapters/relation.sql
+2022-01-27 13:37:37.604837 (Thread-139): 13:37:37  Parsing macros/adapters/metadata.sql
+2022-01-27 13:37:37.611622 (Thread-139): 13:37:37  Parsing macros/adapters/columns.sql
+2022-01-27 13:37:37.625744 (Thread-139): 13:37:37  Parsing macros/adapters/schema.sql
+2022-01-27 13:37:37.630936 (Thread-139): 13:37:37  Parsing tests/generic/builtin.sql
+2022-01-27 13:37:37.633896 (Thread-139): 13:37:37  Parsing macros/sql/pivot.sql
+2022-01-27 13:37:37.640858 (Thread-139): 13:37:37  Parsing macros/sql/star.sql
+2022-01-27 13:37:37.644742 (Thread-139): 13:37:37  Parsing macros/sql/surrogate_key.sql
+2022-01-27 13:37:37.648215 (Thread-139): 13:37:37  Parsing macros/sql/get_query_results_as_dict.sql
+2022-01-27 13:37:37.650550 (Thread-139): 13:37:37  Parsing macros/sql/date_spine.sql
+2022-01-27 13:37:37.655107 (Thread-139): 13:37:37  Parsing macros/sql/get_column_values.sql
+2022-01-27 13:37:37.664733 (Thread-139): 13:37:37  Parsing macros/sql/groupby.sql
+2022-01-27 13:37:37.666072 (Thread-139): 13:37:37  Parsing macros/sql/get_tables_by_pattern_sql.sql
+2022-01-27 13:37:37.671908 (Thread-139): 13:37:37  Parsing macros/sql/nullcheck_table.sql
+2022-01-27 13:37:37.674817 (Thread-139): 13:37:37  Parsing macros/sql/get_tables_by_prefix_sql.sql
+2022-01-27 13:37:37.676483 (Thread-139): 13:37:37  Parsing macros/sql/get_relations_by_pattern.sql
+2022-01-27 13:37:37.679771 (Thread-139): 13:37:37  Parsing macros/sql/get_relations_by_prefix.sql
+2022-01-27 13:37:37.688513 (Thread-139): 13:37:37  Parsing macros/sql/safe_add.sql
+2022-01-27 13:37:37.690114 (Thread-139): 13:37:37  Parsing macros/sql/haversine_distance.sql
+2022-01-27 13:37:37.695759 (Thread-139): 13:37:37  Parsing macros/sql/unpivot.sql
+2022-01-27 13:37:37.703096 (Thread-139): 13:37:37  Parsing macros/sql/generate_series.sql
+2022-01-27 13:37:37.707285 (Thread-139): 13:37:37  Parsing macros/sql/nullcheck.sql
+2022-01-27 13:37:37.708949 (Thread-139): 13:37:37  Parsing macros/sql/union.sql
+2022-01-27 13:37:37.716836 (Thread-139): 13:37:37  Parsing macros/materializations/insert_by_period_materialization.sql
+2022-01-27 13:37:37.722899 (Thread-140): handling status request
+2022-01-27 13:37:37.735726 (Thread-140): 13:37:37  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '243d172d-88b4-4cb5-a678-18d7a7b739e9', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fac041948e0>]}
+2022-01-27 13:37:37.741301 (Thread-140): sending response (<Response 185 bytes [200 OK]>) to 10.0.5.67
+2022-01-27 13:37:37.741939 (Thread-139): 13:37:37  Parsing macros/jinja_helpers/pretty_time.sql
+2022-01-27 13:37:37.743515 (Thread-139): 13:37:37  Parsing macros/jinja_helpers/slugify.sql
+2022-01-27 13:37:37.744827 (Thread-139): 13:37:37  Parsing macros/jinja_helpers/log_info.sql
+2022-01-27 13:37:37.746036 (Thread-139): 13:37:37  Parsing macros/jinja_helpers/pretty_log_format.sql
+2022-01-27 13:37:37.747212 (Thread-139): 13:37:37  Parsing macros/web/get_url_parameter.sql
+2022-01-27 13:37:37.748858 (Thread-139): 13:37:37  Parsing macros/web/get_url_path.sql
+2022-01-27 13:37:37.751319 (Thread-139): 13:37:37  Parsing macros/web/get_url_host.sql
+2022-01-27 13:37:37.753255 (Thread-139): 13:37:37  Parsing macros/schema_tests/expression_is_true.sql
+2022-01-27 13:37:37.755022 (Thread-139): 13:37:37  Parsing macros/schema_tests/not_constant.sql
+2022-01-27 13:37:37.756305 (Thread-139): 13:37:37  Parsing macros/schema_tests/sequential_values.sql
+2022-01-27 13:37:37.758986 (Thread-139): 13:37:37  Parsing macros/schema_tests/not_null_proportion.sql
+2022-01-27 13:37:37.761217 (Thread-139): 13:37:37  Parsing macros/schema_tests/at_least_one.sql
+2022-01-27 13:37:37.762669 (Thread-139): 13:37:37  Parsing macros/schema_tests/equality.sql
+2022-01-27 13:37:37.763238 (Thread-141): handling status request
+2022-01-27 13:37:37.766859 (Thread-139): 13:37:37  Parsing macros/schema_tests/test_not_null_where.sql
+2022-01-27 13:37:37.768486 (Thread-139): 13:37:37  Parsing macros/schema_tests/equal_rowcount.sql
+2022-01-27 13:37:37.768770 (Thread-141): 13:37:37  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '243d172d-88b4-4cb5-a678-18d7a7b739e9', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fac3ce64bb0>]}
+2022-01-27 13:37:37.770425 (Thread-139): 13:37:37  Parsing macros/schema_tests/not_accepted_values.sql
+2022-01-27 13:37:37.770856 (Thread-141): sending response (<Response 185 bytes [200 OK]>) to 10.0.26.16
+2022-01-27 13:37:37.773036 (Thread-139): 13:37:37  Parsing macros/schema_tests/test_unique_where.sql
+2022-01-27 13:37:37.774812 (Thread-139): 13:37:37  Parsing macros/schema_tests/mutually_exclusive_ranges.sql
+2022-01-27 13:37:37.783369 (Thread-139): 13:37:37  Parsing macros/schema_tests/relationships_where.sql
+2022-01-27 13:37:37.785642 (Thread-139): 13:37:37  Parsing macros/schema_tests/accepted_range.sql
+2022-01-27 13:37:37.788038 (Thread-139): 13:37:37  Parsing macros/schema_tests/fewer_rows_than.sql
+2022-01-27 13:37:37.789762 (Thread-139): 13:37:37  Parsing macros/schema_tests/unique_combination_of_columns.sql
+2022-01-27 13:37:37.792551 (Thread-139): 13:37:37  Parsing macros/schema_tests/recency.sql
+2022-01-27 13:37:37.794290 (Thread-139): 13:37:37  Parsing macros/schema_tests/cardinality_equality.sql
+2022-01-27 13:37:37.796259 (Thread-139): 13:37:37  Parsing macros/cross_db_utils/split_part.sql
+2022-01-27 13:37:37.798055 (Thread-139): 13:37:37  Parsing macros/cross_db_utils/length.sql
+2022-01-27 13:37:37.799337 (Thread-139): 13:37:37  Parsing macros/cross_db_utils/current_timestamp.sql
+2022-01-27 13:37:37.802810 (Thread-139): 13:37:37  Parsing macros/cross_db_utils/right.sql
+2022-01-27 13:37:37.805034 (Thread-139): 13:37:37  Parsing macros/cross_db_utils/hash.sql
+2022-01-27 13:37:37.806434 (Thread-139): 13:37:37  Parsing macros/cross_db_utils/replace.sql
+2022-01-27 13:37:37.807676 (Thread-139): 13:37:37  Parsing macros/cross_db_utils/cast_bool_to_text.sql
+2022-01-27 13:37:37.809116 (Thread-139): 13:37:37  Parsing macros/cross_db_utils/concat.sql
+2022-01-27 13:37:37.810114 (Thread-139): 13:37:37  Parsing macros/cross_db_utils/_is_relation.sql
+2022-01-27 13:37:37.811267 (Thread-139): 13:37:37  Parsing macros/cross_db_utils/identifier.sql
+2022-01-27 13:37:37.812956 (Thread-139): 13:37:37  Parsing macros/cross_db_utils/datediff.sql
+2022-01-27 13:37:37.822302 (Thread-139): 13:37:37  Parsing macros/cross_db_utils/dateadd.sql
+2022-01-27 13:37:37.825077 (Thread-139): 13:37:37  Parsing macros/cross_db_utils/datatypes.sql
+2022-01-27 13:37:37.830747 (Thread-139): 13:37:37  Parsing macros/cross_db_utils/position.sql
+2022-01-27 13:37:37.832294 (Thread-139): 13:37:37  Parsing macros/cross_db_utils/literal.sql
+2022-01-27 13:37:37.833276 (Thread-139): 13:37:37  Parsing macros/cross_db_utils/_is_ephemeral.sql
+2022-01-27 13:37:37.835113 (Thread-139): 13:37:37  Parsing macros/cross_db_utils/width_bucket.sql
+2022-01-27 13:37:37.839975 (Thread-139): 13:37:37  Parsing macros/cross_db_utils/date_trunc.sql
+2022-01-27 13:37:37.841453 (Thread-139): 13:37:37  Parsing macros/cross_db_utils/except.sql
+2022-01-27 13:37:37.842520 (Thread-139): 13:37:37  Parsing macros/cross_db_utils/safe_cast.sql
+2022-01-27 13:37:37.844513 (Thread-139): 13:37:37  Parsing macros/cross_db_utils/last_day.sql
+2022-01-27 13:37:37.847904 (Thread-139): 13:37:37  Parsing macros/cross_db_utils/intersect.sql
+2022-01-27 13:37:37.849008 (Thread-139): 13:37:37  Parsing macros/materialisations/incremental_pit_materialization.sql
+2022-01-27 13:37:37.854080 (Thread-139): 13:37:37  Parsing macros/materialisations/incremental_bridge_materialization.sql
+2022-01-27 13:37:37.859224 (Thread-139): 13:37:37  Parsing macros/materialisations/period_mat_helpers.sql
+2022-01-27 13:37:37.876615 (Thread-139): 13:37:37  Parsing macros/materialisations/vault_insert_by_period_materialization.sql
+2022-01-27 13:37:37.893610 (Thread-139): 13:37:37  Parsing macros/materialisations/incremental_bridge_helpers.sql
+2022-01-27 13:37:37.896238 (Thread-139): 13:37:37  Parsing macros/materialisations/rank_mat_helpers.sql
+2022-01-27 13:37:37.902528 (Thread-139): 13:37:37  Parsing macros/materialisations/incremental_pit_helper.sql
+2022-01-27 13:37:37.905126 (Thread-139): 13:37:37  Parsing macros/materialisations/shared_helpers.sql
+2022-01-27 13:37:37.907124 (Thread-139): 13:37:37  Parsing macros/materialisations/vault_insert_by_rank_materialization.sql
+2022-01-27 13:37:37.920747 (Thread-139): 13:37:37  Parsing macros/staging/hash_columns.sql
+2022-01-27 13:37:37.924408 (Thread-139): 13:37:37  Parsing macros/staging/stage.sql
+2022-01-27 13:37:37.934551 (Thread-139): 13:37:37  Parsing macros/staging/rank_columns.sql
+2022-01-27 13:37:37.942711 (Thread-139): 13:37:37  Parsing macros/staging/derive_columns.sql
+2022-01-27 13:37:37.948244 (Thread-139): 13:37:37  Parsing macros/staging/source_columns.sql
+2022-01-27 13:37:37.949479 (Thread-139): 13:37:37  Parsing macros/internal/alias_all.sql
+2022-01-27 13:37:37.951729 (Thread-139): 13:37:37  Parsing macros/internal/alias.sql
+2022-01-27 13:37:37.955074 (Thread-139): 13:37:37  Parsing macros/internal/prepend_generated_by.sql
+2022-01-27 13:37:37.955496 (Thread-139): 13:37:37  Parsing macros/internal/stage_processing_macros.sql
+2022-01-27 13:37:37.964403 (Thread-139): 13:37:37  Parsing macros/internal/multikey.sql
+2022-01-27 13:37:37.969358 (Thread-139): 13:37:37  Parsing macros/internal/is_checks.sql
+2022-01-27 13:37:37.972238 (Thread-139): 13:37:37  Parsing macros/internal/expand_column_list.sql
+2022-01-27 13:37:37.975358 (Thread-139): 13:37:37  Parsing macros/internal/as_constant.sql
+2022-01-27 13:37:37.977435 (Thread-139): 13:37:37  Parsing macros/internal/check_required_parameters.sql
+2022-01-27 13:37:37.979006 (Thread-139): 13:37:37  Parsing macros/tables/link.sql
+2022-01-27 13:37:37.991553 (Thread-139): 13:37:37  Parsing macros/tables/sat.sql
+2022-01-27 13:37:38.000371 (Thread-139): 13:37:38  Parsing macros/tables/eff_sat.sql
+2022-01-27 13:37:38.013352 (Thread-139): 13:37:38  Parsing macros/tables/xts.sql
+2022-01-27 13:37:38.022139 (Thread-139): 13:37:38  Parsing macros/tables/hub.sql
+2022-01-27 13:37:38.033929 (Thread-139): 13:37:38  Parsing macros/tables/ma_sat.sql
+2022-01-27 13:37:38.046129 (Thread-139): 13:37:38  Parsing macros/tables/pit.sql
+2022-01-27 13:37:38.065427 (Thread-139): 13:37:38  Parsing macros/tables/bridge.sql
+2022-01-27 13:37:38.099511 (Thread-139): 13:37:38  Parsing macros/tables/t_link.sql
+2022-01-27 13:37:38.105256 (Thread-139): 13:37:38  Parsing macros/supporting/max_datetime.sql
+2022-01-27 13:37:38.106261 (Thread-139): 13:37:38  Parsing macros/supporting/current_timestamp.sql
+2022-01-27 13:37:38.107954 (Thread-139): 13:37:38  Parsing macros/supporting/prefix.sql
+2022-01-27 13:37:38.113401 (Thread-139): 13:37:38  Parsing macros/supporting/hash.sql
+2022-01-27 13:37:38.120109 (Thread-139): 13:37:38  Parsing macros/supporting/datatypes.sql
+2022-01-27 13:37:38.628918 (Thread-139): 13:37:38  1603: static parser failed on DQ_Models/DQ_Config_table_run.sql
+2022-01-27 13:37:38.634576 (Thread-139): 13:37:38  1602: parser fallback to jinja rendering on DQ_Models/DQ_Config_table_run.sql
+2022-01-27 13:37:38.635781 (Thread-139): 13:37:38  1603: static parser failed on stage/v_stg_inventory.sql
+2022-01-27 13:37:38.658066 (Thread-139): 13:37:38  1602: parser fallback to jinja rendering on stage/v_stg_inventory.sql
+2022-01-27 13:37:38.659198 (Thread-139): 13:37:38  1603: static parser failed on stage/v_stg_transactions.sql
+2022-01-27 13:37:38.668796 (Thread-139): 13:37:38  1602: parser fallback to jinja rendering on stage/v_stg_transactions.sql
+2022-01-27 13:37:38.669935 (Thread-139): 13:37:38  1603: static parser failed on stage/v_stg_orders.sql
+2022-01-27 13:37:38.698612 (Thread-139): 13:37:38  1602: parser fallback to jinja rendering on stage/v_stg_orders.sql
+2022-01-27 13:37:38.700279 (Thread-139): 13:37:38  1603: static parser failed on SCD2/sat_inv_part_scd2.sql
+2022-01-27 13:37:38.707196 (Thread-139): 13:37:38  1602: parser fallback to jinja rendering on SCD2/sat_inv_part_scd2.sql
+2022-01-27 13:37:38.708370 (Thread-139): 13:37:38  1603: static parser failed on raw_vault/t_links/t_link_transactions.sql
+2022-01-27 13:37:38.715052 (Thread-139): 13:37:38  1602: parser fallback to jinja rendering on raw_vault/t_links/t_link_transactions.sql
+2022-01-27 13:37:38.716186 (Thread-139): 13:37:38  1603: static parser failed on raw_vault/hubs/hub_supplier.sql
+2022-01-27 13:37:38.724369 (Thread-139): 13:37:38  1602: parser fallback to jinja rendering on raw_vault/hubs/hub_supplier.sql
+2022-01-27 13:37:38.725488 (Thread-139): 13:37:38  1603: static parser failed on raw_vault/hubs/hub_region.sql
+2022-01-27 13:37:38.733433 (Thread-139): 13:37:38  1602: parser fallback to jinja rendering on raw_vault/hubs/hub_region.sql
+2022-01-27 13:37:38.734543 (Thread-139): 13:37:38  1603: static parser failed on raw_vault/hubs/hub_order.sql
+2022-01-27 13:37:38.740577 (Thread-139): 13:37:38  1602: parser fallback to jinja rendering on raw_vault/hubs/hub_order.sql
+2022-01-27 13:37:38.741686 (Thread-139): 13:37:38  1603: static parser failed on raw_vault/hubs/hub_customer.sql
+2022-01-27 13:37:38.747824 (Thread-139): 13:37:38  1602: parser fallback to jinja rendering on raw_vault/hubs/hub_customer.sql
+2022-01-27 13:37:38.748957 (Thread-139): 13:37:38  1603: static parser failed on raw_vault/hubs/hub_nation.sql
+2022-01-27 13:37:38.756550 (Thread-139): 13:37:38  1602: parser fallback to jinja rendering on raw_vault/hubs/hub_nation.sql
+2022-01-27 13:37:38.757656 (Thread-139): 13:37:38  1603: static parser failed on raw_vault/hubs/hub_lineitem.sql
+2022-01-27 13:37:38.764708 (Thread-139): 13:37:38  1602: parser fallback to jinja rendering on raw_vault/hubs/hub_lineitem.sql
+2022-01-27 13:37:38.765824 (Thread-139): 13:37:38  1603: static parser failed on raw_vault/hubs/hub_part.sql
+2022-01-27 13:37:38.773424 (Thread-139): 13:37:38  1602: parser fallback to jinja rendering on raw_vault/hubs/hub_part.sql
+2022-01-27 13:37:38.774565 (Thread-139): 13:37:38  1603: static parser failed on raw_vault/links/link_customer_order.sql
+2022-01-27 13:37:38.781200 (Thread-139): 13:37:38  1602: parser fallback to jinja rendering on raw_vault/links/link_customer_order.sql
+2022-01-27 13:37:38.782307 (Thread-139): 13:37:38  1603: static parser failed on raw_vault/links/link_inventory_allocation.sql
+2022-01-27 13:37:38.788871 (Thread-139): 13:37:38  1602: parser fallback to jinja rendering on raw_vault/links/link_inventory_allocation.sql
+2022-01-27 13:37:38.789973 (Thread-139): 13:37:38  1603: static parser failed on raw_vault/links/link_inventory.sql
+2022-01-27 13:37:38.796748 (Thread-139): 13:37:38  1602: parser fallback to jinja rendering on raw_vault/links/link_inventory.sql
+2022-01-27 13:37:38.797854 (Thread-139): 13:37:38  1603: static parser failed on raw_vault/links/link_customer_nation.sql
+2022-01-27 13:37:38.805018 (Thread-139): 13:37:38  1602: parser fallback to jinja rendering on raw_vault/links/link_customer_nation.sql
+2022-01-27 13:37:38.806125 (Thread-139): 13:37:38  1603: static parser failed on raw_vault/links/link_order_lineitem.sql
+2022-01-27 13:37:38.812542 (Thread-139): 13:37:38  1602: parser fallback to jinja rendering on raw_vault/links/link_order_lineitem.sql
+2022-01-27 13:37:38.813682 (Thread-139): 13:37:38  1603: static parser failed on raw_vault/links/link_nation_region.sql
+2022-01-27 13:37:38.821524 (Thread-139): 13:37:38  1602: parser fallback to jinja rendering on raw_vault/links/link_nation_region.sql
+2022-01-27 13:37:38.822627 (Thread-139): 13:37:38  1603: static parser failed on raw_vault/links/link_supplier_nation.sql
+2022-01-27 13:37:38.829145 (Thread-139): 13:37:38  1602: parser fallback to jinja rendering on raw_vault/links/link_supplier_nation.sql
+2022-01-27 13:37:38.830552 (Thread-139): 13:37:38  1603: static parser failed on raw_vault/sats/sat_inv_inventory_details.sql
+2022-01-27 13:37:38.840495 (Thread-139): 13:37:38  1602: parser fallback to jinja rendering on raw_vault/sats/sat_inv_inventory_details.sql
+2022-01-27 13:37:38.841629 (Thread-139): 13:37:38  1603: static parser failed on raw_vault/sats/sat_order_cust_nation_details.sql
+2022-01-27 13:37:38.850248 (Thread-139): 13:37:38  1602: parser fallback to jinja rendering on raw_vault/sats/sat_order_cust_nation_details.sql
+2022-01-27 13:37:38.851392 (Thread-139): 13:37:38  1603: static parser failed on raw_vault/sats/sat_order_lineitem_details.sql
+2022-01-27 13:37:38.863083 (Thread-139): 13:37:38  1602: parser fallback to jinja rendering on raw_vault/sats/sat_order_lineitem_details.sql
+2022-01-27 13:37:38.864258 (Thread-139): 13:37:38  1603: static parser failed on raw_vault/sats/sat_inv_supplier_details.sql
+2022-01-27 13:37:38.873825 (Thread-139): 13:37:38  1602: parser fallback to jinja rendering on raw_vault/sats/sat_inv_supplier_details.sql
+2022-01-27 13:37:38.874968 (Thread-139): 13:37:38  1603: static parser failed on raw_vault/sats/sat_inv_supp_nation_details.sql
+2022-01-27 13:37:38.884392 (Thread-139): 13:37:38  1602: parser fallback to jinja rendering on raw_vault/sats/sat_inv_supp_nation_details.sql
+2022-01-27 13:37:38.885526 (Thread-139): 13:37:38  1603: static parser failed on raw_vault/sats/sat_inv_supp_region_details.sql
+2022-01-27 13:37:38.894156 (Thread-139): 13:37:38  1602: parser fallback to jinja rendering on raw_vault/sats/sat_inv_supp_region_details.sql
+2022-01-27 13:37:38.895283 (Thread-139): 13:37:38  1603: static parser failed on raw_vault/sats/sat_order_order_details.sql
+2022-01-27 13:37:38.905672 (Thread-139): 13:37:38  1602: parser fallback to jinja rendering on raw_vault/sats/sat_order_order_details.sql
+2022-01-27 13:37:38.906812 (Thread-139): 13:37:38  1603: static parser failed on raw_vault/sats/sat_inv_part_details.sql
+2022-01-27 13:37:38.917293 (Thread-139): 13:37:38  1602: parser fallback to jinja rendering on raw_vault/sats/sat_inv_part_details.sql
+2022-01-27 13:37:38.919527 (Thread-139): 13:37:38  1603: static parser failed on raw_vault/sats/sat_order_customer_details.sql
+2022-01-27 13:37:38.929336 (Thread-139): 13:37:38  1602: parser fallback to jinja rendering on raw_vault/sats/sat_order_customer_details.sql
+2022-01-27 13:37:38.930470 (Thread-139): 13:37:38  1603: static parser failed on raw_vault/sats/sat_order_cust_region_details.sql
+2022-01-27 13:37:38.939110 (Thread-139): 13:37:38  1602: parser fallback to jinja rendering on raw_vault/sats/sat_order_cust_region_details.sql
+2022-01-27 13:37:38.940384 (Thread-139): 13:37:38  1603: static parser failed on raw_stage/raw_transactions.sql
+2022-01-27 13:37:38.944367 (Thread-139): 13:37:38  1602: parser fallback to jinja rendering on raw_stage/raw_transactions.sql
+2022-01-27 13:37:38.945891 (Thread-139): 13:37:38  1603: static parser failed on raw_stage/raw_orders.sql
+2022-01-27 13:37:38.951340 (Thread-139): 13:37:38  1602: parser fallback to jinja rendering on raw_stage/raw_orders.sql
+2022-01-27 13:37:38.953113 (Thread-139): 13:37:38  1699: static parser successfully parsed raw_stage/raw_inventory.sql
+2022-01-27 13:37:39.067906 (Thread-139): 13:37:39  Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '243d172d-88b4-4cb5-a678-18d7a7b739e9', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fabfc101d60>]}
+2022-01-27 13:37:39.245593 (Thread-142): handling status request
+2022-01-27 13:37:39.245865 (Thread-142): 13:37:39  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '243d172d-88b4-4cb5-a678-18d7a7b739e9', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fac0433c220>]}
+2022-01-27 13:37:39.247841 (Thread-142): sending response (<Response 64564 bytes [200 OK]>) to 10.0.15.206
+2022-01-27 13:37:40.260993 (Thread-143): handling status request
+2022-01-27 13:37:40.261377 (Thread-143): 13:37:40  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '243d172d-88b4-4cb5-a678-18d7a7b739e9', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fabfc4a10a0>]}
+2022-01-27 13:37:40.263362 (Thread-143): sending response (<Response 64564 bytes [200 OK]>) to 10.0.16.65
+2022-01-27 13:38:11.429497 (Thread-144): handling status request
+2022-01-27 13:38:11.429859 (Thread-144): 13:38:11  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '243d172d-88b4-4cb5-a678-18d7a7b739e9', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fabfc481100>]}
+2022-01-27 13:38:11.431788 (Thread-144): sending response (<Response 64564 bytes [200 OK]>) to 10.0.32.193
+2022-01-27 13:38:12.007582 (Thread-145): handling status request
+2022-01-27 13:38:12.007986 (Thread-145): 13:38:12  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '243d172d-88b4-4cb5-a678-18d7a7b739e9', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fabfc22e7c0>]}
+2022-01-27 13:38:12.009969 (Thread-145): sending response (<Response 64564 bytes [200 OK]>) to 10.0.8.119
+2022-01-27 13:38:12.098068 (Thread-146): handling cli_args request
+2022-01-27 13:38:12.098321 (Thread-146): 13:38:12  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '243d172d-88b4-4cb5-a678-18d7a7b739e9', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fabfc239280>]}
+2022-01-27 13:38:14.252127 (Thread-146): sending response (<Response 138 bytes [200 OK]>) to 10.0.8.119
+2022-01-27 13:38:14.656443 (MainThread): 13:38:14  Partial parsing enabled: 0 files deleted, 0 files added, 0 files changed.
+2022-01-27 13:38:14.656877 (MainThread): 13:38:14  Partial parsing enabled, no changes found, skipping parsing
+2022-01-27 13:38:14.664513 (MainThread): 13:38:14  Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '8c060517-3ba0-4fb0-a36e-f6becbf1fab5', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f870f12ed30>]}
+2022-01-27 13:38:14.676350 (Thread-147): handling poll request
+2022-01-27 13:38:14.676791 (Thread-147): 13:38:14  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '243d172d-88b4-4cb5-a678-18d7a7b739e9', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fabfc217c70>]}
+2022-01-27 13:38:14.677565 (Thread-147): sending response (<Response 1378 bytes [200 OK]>) to 10.0.3.212
+2022-01-27 13:38:14.699184 (MainThread): 13:38:14  Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': '8c060517-3ba0-4fb0-a36e-f6becbf1fab5', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f870f220c10>]}
+2022-01-27 13:38:14.699439 (MainThread): 13:38:14  Found 33 models, 0 tests, 1 snapshot, 0 analyses, 447 macros, 0 operations, 0 seed files, 8 sources, 0 exposures, 0 metrics
+2022-01-27 13:38:14.701075 (MainThread): 13:38:14  
+2022-01-27 13:38:14.701370 (MainThread): 13:38:14  Acquiring new snowflake connection "master"
+2022-01-27 13:38:14.702142 (ThreadPoolExecutor-0_0): 13:38:14  Acquiring new snowflake connection "list_DEMO_DB"
+2022-01-27 13:38:14.714590 (ThreadPoolExecutor-0_0): 13:38:14  Using snowflake connection "list_DEMO_DB"
+2022-01-27 13:38:14.714694 (ThreadPoolExecutor-0_0): 13:38:14  On list_DEMO_DB: /* {"app": "dbt", "dbt_version": "1.0.1", "profile_name": "user", "target_name": "default", "connection_name": "list_DEMO_DB"} */
+
+    show terse schemas in database DEMO_DB
+    limit 10000
+2022-01-27 13:38:14.714776 (ThreadPoolExecutor-0_0): 13:38:14  Opening a new connection, currently in state init
+2022-01-27 13:38:15.432388 (ThreadPoolExecutor-0_0): 13:38:15  SQL status: SUCCESS 5 in 0.72 seconds
+2022-01-27 13:38:15.434319 (ThreadPoolExecutor-0_0): 13:38:15  On list_DEMO_DB: Close
+2022-01-27 13:38:15.812516 (ThreadPoolExecutor-2_0): 13:38:15  Acquiring new snowflake connection "list_DEMO_DB_snapshots"
+2022-01-27 13:38:15.814354 (ThreadPoolExecutor-2_1): 13:38:15  Acquiring new snowflake connection "list_DEMO_DB_DEMO"
+2022-01-27 13:38:15.823627 (ThreadPoolExecutor-2_0): 13:38:15  Using snowflake connection "list_DEMO_DB_snapshots"
+2022-01-27 13:38:15.823745 (ThreadPoolExecutor-2_0): 13:38:15  On list_DEMO_DB_snapshots: /* {"app": "dbt", "dbt_version": "1.0.1", "profile_name": "user", "target_name": "default", "connection_name": "list_DEMO_DB_snapshots"} */
+
+    show terse objects in DEMO_DB.snapshots
+2022-01-27 13:38:15.823841 (ThreadPoolExecutor-2_0): 13:38:15  Opening a new connection, currently in state closed
+2022-01-27 13:38:15.826125 (ThreadPoolExecutor-2_1): 13:38:15  Using snowflake connection "list_DEMO_DB_DEMO"
+2022-01-27 13:38:15.826261 (ThreadPoolExecutor-2_1): 13:38:15  On list_DEMO_DB_DEMO: /* {"app": "dbt", "dbt_version": "1.0.1", "profile_name": "user", "target_name": "default", "connection_name": "list_DEMO_DB_DEMO"} */
+
+    show terse objects in DEMO_DB.DEMO
+2022-01-27 13:38:15.826343 (ThreadPoolExecutor-2_1): 13:38:15  Opening a new connection, currently in state init
+2022-01-27 13:38:16.421467 (ThreadPoolExecutor-2_1): 13:38:16  SQL status: SUCCESS 6 in 0.6 seconds
+2022-01-27 13:38:16.422939 (ThreadPoolExecutor-2_1): 13:38:16  On list_DEMO_DB_DEMO: Close
+2022-01-27 13:38:16.635062 (Thread-148): handling poll request
+2022-01-27 13:38:16.635421 (Thread-148): 13:38:16  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '243d172d-88b4-4cb5-a678-18d7a7b739e9', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fabfc481e20>]}
+2022-01-27 13:38:16.636143 (Thread-148): sending response (<Response 7040 bytes [200 OK]>) to 10.0.31.49
+2022-01-27 13:38:16.820018 (ThreadPoolExecutor-2_0): 13:38:16  SQL status: SUCCESS 1 in 1.0 seconds
+2022-01-27 13:38:16.821343 (ThreadPoolExecutor-2_0): 13:38:16  On list_DEMO_DB_snapshots: Close
+2022-01-27 13:38:17.031495 (MainThread): 13:38:17  Concurrency: 7 threads (target='default')
+2022-01-27 13:38:17.031660 (MainThread): 13:38:17  
+2022-01-27 13:38:17.034574 (Thread-1): 13:38:17  Began running node model.dbtvault_snowflake_demo.sat_inv_part_scd2
+2022-01-27 13:38:17.035012 (Thread-1): 13:38:17  1 of 1 START incremental model DEMO.sat_inv_part_scd2........................... [RUN]
+2022-01-27 13:38:17.035408 (Thread-1): 13:38:17  Acquiring new snowflake connection "model.dbtvault_snowflake_demo.sat_inv_part_scd2"
+2022-01-27 13:38:17.035532 (Thread-1): 13:38:17  Began compiling node model.dbtvault_snowflake_demo.sat_inv_part_scd2
+2022-01-27 13:38:17.035640 (Thread-1): 13:38:17  Compiling model.dbtvault_snowflake_demo.sat_inv_part_scd2
+2022-01-27 13:38:17.043268 (Thread-1): 13:38:17  Using snowflake connection "model.dbtvault_snowflake_demo.sat_inv_part_scd2"
+2022-01-27 13:38:17.043395 (Thread-1): 13:38:17  On model.dbtvault_snowflake_demo.sat_inv_part_scd2: /* {"app": "dbt", "dbt_version": "1.0.1", "profile_name": "user", "target_name": "default", "node_id": "model.dbtvault_snowflake_demo.sat_inv_part_scd2"} */
+SELECT EXISTS ( SELECT * FROM information_schema.tables WHERE table_name = '!SAT_INV_PART_SCD2' )
+2022-01-27 13:38:17.043486 (Thread-1): 13:38:17  Opening a new connection, currently in state closed
+2022-01-27 13:38:18.074672 (Thread-1): 13:38:18  SQL status: SUCCESS 1 in 1.03 seconds
+2022-01-27 13:38:18.076491 (Thread-1): 13:38:18  Using snowflake connection "model.dbtvault_snowflake_demo.sat_inv_part_scd2"
+2022-01-27 13:38:18.076614 (Thread-1): 13:38:18  On model.dbtvault_snowflake_demo.sat_inv_part_scd2: /* {"app": "dbt", "dbt_version": "1.0.1", "profile_name": "user", "target_name": "default", "node_id": "model.dbtvault_snowflake_demo.sat_inv_part_scd2"} */
+SELECT sysdate()
+2022-01-27 13:38:18.125252 (Thread-149): handling poll request
+2022-01-27 13:38:18.125585 (Thread-149): 13:38:18  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '243d172d-88b4-4cb5-a678-18d7a7b739e9', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fabfc29fc70>]}
+2022-01-27 13:38:18.126212 (Thread-149): sending response (<Response 6350 bytes [200 OK]>) to 10.0.5.67
+2022-01-27 13:38:18.652136 (Thread-1): 13:38:18  SQL status: SUCCESS 1 in 0.58 seconds
+2022-01-27 13:38:18.653824 (Thread-1): 13:38:18  Writing injected SQL for node "model.dbtvault_snowflake_demo.sat_inv_part_scd2"
+2022-01-27 13:38:18.667601 (Thread-1): 13:38:18  finished collecting timing info
+2022-01-27 13:38:18.667769 (Thread-1): 13:38:18  Began executing node model.dbtvault_snowflake_demo.sat_inv_part_scd2
+2022-01-27 13:38:18.707792 (Thread-1): 13:38:18  Writing runtime SQL for node "model.dbtvault_snowflake_demo.sat_inv_part_scd2"
+2022-01-27 13:38:18.721130 (Thread-1): 13:38:18  Using snowflake connection "model.dbtvault_snowflake_demo.sat_inv_part_scd2"
+2022-01-27 13:38:18.721255 (Thread-1): 13:38:18  On model.dbtvault_snowflake_demo.sat_inv_part_scd2: /* {"app": "dbt", "dbt_version": "1.0.1", "profile_name": "user", "target_name": "default", "node_id": "model.dbtvault_snowflake_demo.sat_inv_part_scd2"} */
+
+
+      create or replace transient table DEMO_DB.DEMO.sat_inv_part_scd2  as
+      (
+	Select PART_PK,PART_HASHDIFF,PART_NAME,PART_MFGR,PART_BRAND,PART_TYPE,PART_SIZE,PART_CONTAINER,PART_RETAILPRICE,PART_COMMENT,
+    sysdate() as VALID_FROM, Null as Valid_to 
+    from DEMO_DB.DEMO.v_stg_inventory
+    
+
+      );
+2022-01-27 13:38:19.554311 (Thread-150): handling poll request
+2022-01-27 13:38:19.554681 (Thread-150): 13:38:19  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '243d172d-88b4-4cb5-a678-18d7a7b739e9', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fabfc13ad30>]}
+2022-01-27 13:38:19.555238 (Thread-150): sending response (<Response 3518 bytes [200 OK]>) to 10.0.15.206
+2022-01-27 13:38:20.068167 (Thread-1): 13:38:20  SQL status: SUCCESS 1 in 1.35 seconds
+2022-01-27 13:38:20.081882 (Thread-1): 13:38:20  finished collecting timing info
+2022-01-27 13:38:20.082176 (Thread-1): 13:38:20  On model.dbtvault_snowflake_demo.sat_inv_part_scd2: Close
+2022-01-27 13:38:20.296313 (Thread-1): 13:38:20  Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '8c060517-3ba0-4fb0-a36e-f6becbf1fab5', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f870cdb6f40>]}
+2022-01-27 13:38:20.296924 (Thread-1): 13:38:20  1 of 1 OK created incremental model DEMO.sat_inv_part_scd2...................... [SUCCESS 1 in 3.26s]
+2022-01-27 13:38:20.297056 (Thread-1): 13:38:20  Finished running node model.dbtvault_snowflake_demo.sat_inv_part_scd2
+2022-01-27 13:38:20.298614 (MainThread): 13:38:20  Acquiring new snowflake connection "master"
+2022-01-27 13:38:20.298939 (MainThread): 13:38:20  
+2022-01-27 13:38:20.299043 (MainThread): 13:38:20  Finished running 1 incremental model in 5.60s.
+2022-01-27 13:38:20.299127 (MainThread): 13:38:20  Connection 'master' was properly closed.
+2022-01-27 13:38:20.299196 (MainThread): 13:38:20  Connection 'model.dbtvault_snowflake_demo.sat_inv_part_scd2' was properly closed.
+2022-01-27 13:38:20.299257 (MainThread): 13:38:20  Connection 'list_DEMO_DB_DEMO' was properly closed.
+2022-01-27 13:38:20.362341 (MainThread): 13:38:20  
+2022-01-27 13:38:20.362547 (MainThread): 13:38:20  Completed successfully
+2022-01-27 13:38:20.362642 (MainThread): 13:38:20  
+2022-01-27 13:38:20.362732 (MainThread): 13:38:20  Done. PASS=1 WARN=0 ERROR=0 SKIP=0 TOTAL=1
+2022-01-27 13:38:21.150834 (Thread-151): handling poll request
+2022-01-27 13:38:21.151199 (Thread-151): 13:38:21  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '243d172d-88b4-4cb5-a678-18d7a7b739e9', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fac0432fc40>]}
+2022-01-27 13:38:21.152240 (Thread-151): sending response (<Response 10922 bytes [200 OK]>) to 10.0.15.206
+2022-01-27 13:38:22.003302 (Thread-152): handling status request
+2022-01-27 13:38:22.003715 (Thread-152): 13:38:22  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '243d172d-88b4-4cb5-a678-18d7a7b739e9', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fac0432f220>]}
+2022-01-27 13:38:22.006595 (Thread-152): sending response (<Response 64564 bytes [200 OK]>) to 10.0.17.152
+2022-01-27 13:38:22.057511 (Thread-153): handling status request
+2022-01-27 13:38:22.057796 (Thread-153): 13:38:22  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '243d172d-88b4-4cb5-a678-18d7a7b739e9', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fabfc5d5220>]}
+2022-01-27 13:38:22.059822 (Thread-153): sending response (<Response 64564 bytes [200 OK]>) to 10.0.5.67
+2022-01-27 13:40:13.978529 (Thread-154): handling status request
+2022-01-27 13:40:13.980049 (Thread-154): 13:40:13  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '243d172d-88b4-4cb5-a678-18d7a7b739e9', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fabfc49e820>]}
+2022-01-27 13:40:13.982111 (Thread-154): sending response (<Response 64564 bytes [200 OK]>) to 10.0.32.193
+2022-01-27 13:40:14.495597 (Thread-155): handling compile_sql request
+2022-01-27 13:40:14.495980 (Thread-155): 13:40:14  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '243d172d-88b4-4cb5-a678-18d7a7b739e9', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fabfc49e460>]}
+2022-01-27 13:40:16.687578 (Thread-155): sending response (<Response 138 bytes [200 OK]>) to 10.0.35.131
+2022-01-27 13:40:16.725518 (MainThread): 13:40:16  Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': '00474141-2342-4109-8236-b90884337743', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f51d58311f0>]}
+2022-01-27 13:40:16.726022 (MainThread): 13:40:16  Found 33 models, 0 tests, 1 snapshot, 0 analyses, 447 macros, 0 operations, 0 seed files, 8 sources, 0 exposures, 0 metrics
+2022-01-27 13:40:16.726599 (Thread-1): 13:40:16  Acquiring new snowflake connection "rpc.dbtvault_snowflake_demo.request"
+2022-01-27 13:40:16.726732 (Thread-1): 13:40:16  Began compiling node rpc.dbtvault_snowflake_demo.request
+2022-01-27 13:40:16.726824 (Thread-1): 13:40:16  Compiling rpc.dbtvault_snowflake_demo.request
+2022-01-27 13:40:16.733868 (Thread-1): 13:40:16  Using snowflake connection "rpc.dbtvault_snowflake_demo.request"
+2022-01-27 13:40:16.733977 (Thread-1): 13:40:16  On rpc.dbtvault_snowflake_demo.request: SELECT EXISTS ( SELECT * FROM information_schema.tables WHERE table_name = '!SAT_INV_PART_SCD2' )
+2022-01-27 13:40:16.734062 (Thread-1): 13:40:16  Opening a new connection, currently in state init
+2022-01-27 13:40:17.151019 (Thread-156): handling poll request
+2022-01-27 13:40:17.151484 (Thread-156): 13:40:17  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '243d172d-88b4-4cb5-a678-18d7a7b739e9', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fac0432f490>]}
+2022-01-27 13:40:17.152411 (Thread-156): sending response (<Response 3096 bytes [200 OK]>) to 10.0.4.24
+2022-01-27 13:40:17.889811 (Thread-1): 13:40:17  SQL status: SUCCESS 1 in 1.16 seconds
+2022-01-27 13:40:17.892274 (Thread-1): 13:40:17  Using snowflake connection "rpc.dbtvault_snowflake_demo.request"
+2022-01-27 13:40:17.892393 (Thread-1): 13:40:17  On rpc.dbtvault_snowflake_demo.request: SELECT sysdate()
+2022-01-27 13:40:18.076998 (Thread-1): 13:40:18  SQL status: SUCCESS 1 in 0.18 seconds
+2022-01-27 13:40:18.078683 (Thread-1): 13:40:18  finished collecting timing info
+2022-01-27 13:40:18.078856 (Thread-1): 13:40:18  Began executing node rpc.dbtvault_snowflake_demo.request
+2022-01-27 13:40:18.078989 (Thread-1): 13:40:18  finished collecting timing info
+2022-01-27 13:40:18.079127 (Thread-1): 13:40:18  On rpc.dbtvault_snowflake_demo.request: Close
+2022-01-27 13:40:18.642357 (Thread-157): handling poll request
+2022-01-27 13:40:18.642731 (Thread-157): 13:40:18  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '243d172d-88b4-4cb5-a678-18d7a7b739e9', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fac04197dc0>]}
+2022-01-27 13:40:18.643322 (Thread-157): sending response (<Response 2986 bytes [200 OK]>) to 10.0.35.236
+2022-01-27 13:40:20.164065 (Thread-158): handling poll request
+2022-01-27 13:40:20.164477 (Thread-158): 13:40:20  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '243d172d-88b4-4cb5-a678-18d7a7b739e9', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fac041978b0>]}
+2022-01-27 13:40:20.165339 (Thread-158): sending response (<Response 6618 bytes [200 OK]>) to 10.0.4.24
+2022-01-27 13:40:48.684617 (Thread-159): 13:40:48  Partial parsing enabled: 0 files deleted, 0 files added, 1 files changed.
+2022-01-27 13:40:48.685238 (Thread-159): 13:40:48  Partial parsing: updated file: dbtvault_snowflake_demo://models/SCD2/sat_inv_part_scd2.sql
+2022-01-27 13:40:48.691514 (Thread-159): 13:40:48  1603: static parser failed on SCD2/sat_inv_part_scd2.sql
+2022-01-27 13:40:48.700158 (Thread-159): 13:40:48  1602: parser fallback to jinja rendering on SCD2/sat_inv_part_scd2.sql
+2022-01-27 13:40:48.767141 (Thread-159): 13:40:48  Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '243d172d-88b4-4cb5-a678-18d7a7b739e9', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fabe40a8580>]}
+2022-01-27 13:40:48.992617 (Thread-160): handling status request
+2022-01-27 13:40:48.993013 (Thread-160): 13:40:48  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '243d172d-88b4-4cb5-a678-18d7a7b739e9', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fabfc29f610>]}
+2022-01-27 13:40:49.019122 (Thread-160): sending response (<Response 1885 bytes [200 OK]>) to 10.0.8.119
+2022-01-27 13:40:49.037771 (Thread-161): handling status request
+2022-01-27 13:40:49.038061 (Thread-161): 13:40:49  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '243d172d-88b4-4cb5-a678-18d7a7b739e9', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fabfc109cd0>]}
+2022-01-27 13:40:49.038487 (Thread-161): sending response (<Response 1885 bytes [200 OK]>) to 10.0.4.24
+2022-01-27 13:40:54.667470 (Thread-162): handling status request
+2022-01-27 13:40:54.667887 (Thread-162): 13:40:54  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '243d172d-88b4-4cb5-a678-18d7a7b739e9', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fabe40e7d90>]}
+2022-01-27 13:40:54.668431 (Thread-162): sending response (<Response 1885 bytes [200 OK]>) to 10.0.33.234
+2022-01-27 13:40:55.156586 (Thread-163): handling compile_sql request
+2022-01-27 13:40:55.156953 (Thread-163): 13:40:55  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '243d172d-88b4-4cb5-a678-18d7a7b739e9', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fabe40e7b20>]}
+2022-01-27 13:40:57.312646 (Thread-163): sending response (<Response 138 bytes [200 OK]>) to 10.0.33.234
+2022-01-27 13:40:57.349577 (MainThread): 13:40:57  Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': '43a000ec-dc7d-499d-a442-caab3e847be4', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f32b4d62be0>]}
+2022-01-27 13:40:57.350096 (MainThread): 13:40:57  Found 33 models, 0 tests, 1 snapshot, 0 analyses, 447 macros, 0 operations, 0 seed files, 8 sources, 0 exposures, 0 metrics
+2022-01-27 13:40:57.350673 (Thread-1): 13:40:57  Acquiring new snowflake connection "rpc.dbtvault_snowflake_demo.request"
+2022-01-27 13:40:57.350806 (Thread-1): 13:40:57  Began compiling node rpc.dbtvault_snowflake_demo.request
+2022-01-27 13:40:57.350894 (Thread-1): 13:40:57  Compiling rpc.dbtvault_snowflake_demo.request
+2022-01-27 13:40:57.357598 (Thread-1): 13:40:57  Using snowflake connection "rpc.dbtvault_snowflake_demo.request"
+2022-01-27 13:40:57.357701 (Thread-1): 13:40:57  On rpc.dbtvault_snowflake_demo.request: SELECT EXISTS ( SELECT * FROM information_schema.tables WHERE table_name = '!SAT_INV_PART_SCD2' )
+2022-01-27 13:40:57.357782 (Thread-1): 13:40:57  Opening a new connection, currently in state init
+2022-01-27 13:40:57.745315 (Thread-164): handling poll request
+2022-01-27 13:40:57.745762 (Thread-164): 13:40:57  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '243d172d-88b4-4cb5-a678-18d7a7b739e9', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fabfc4a0070>]}
+2022-01-27 13:40:57.746651 (Thread-164): sending response (<Response 3095 bytes [200 OK]>) to 10.0.3.212
+2022-01-27 13:40:58.615565 (Thread-1): 13:40:58  SQL status: SUCCESS 1 in 1.26 seconds
+2022-01-27 13:40:58.617971 (Thread-1): 13:40:58  Using snowflake connection "rpc.dbtvault_snowflake_demo.request"
+2022-01-27 13:40:58.618093 (Thread-1): 13:40:58  On rpc.dbtvault_snowflake_demo.request: SELECT sysdate()
+2022-01-27 13:40:58.687717 (Thread-1): 13:40:58  SQL status: SUCCESS 1 in 0.07 seconds
+2022-01-27 13:40:58.689571 (Thread-1): 13:40:58  finished collecting timing info
+2022-01-27 13:40:58.689746 (Thread-1): 13:40:58  Began executing node rpc.dbtvault_snowflake_demo.request
+2022-01-27 13:40:58.689875 (Thread-1): 13:40:58  finished collecting timing info
+2022-01-27 13:40:58.690002 (Thread-1): 13:40:58  On rpc.dbtvault_snowflake_demo.request: Close
+2022-01-27 13:40:59.192685 (Thread-165): handling poll request
+2022-01-27 13:40:59.193091 (Thread-165): 13:40:59  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '243d172d-88b4-4cb5-a678-18d7a7b739e9', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fabfc600fa0>]}
+2022-01-27 13:40:59.194172 (Thread-165): sending response (<Response 11440 bytes [200 OK]>) to 10.0.26.16
+2022-01-27 13:41:05.208327 (Thread-166): handling status request
+2022-01-27 13:41:05.208746 (Thread-166): 13:41:05  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '243d172d-88b4-4cb5-a678-18d7a7b739e9', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fabfc497580>]}
+2022-01-27 13:41:05.209296 (Thread-166): sending response (<Response 1885 bytes [200 OK]>) to 10.0.16.65
+2022-01-27 13:41:05.510911 (Thread-167): handling status request
+2022-01-27 13:41:05.511330 (Thread-167): 13:41:05  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '243d172d-88b4-4cb5-a678-18d7a7b739e9', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fac0433c790>]}
+2022-01-27 13:41:05.511863 (Thread-167): sending response (<Response 1885 bytes [200 OK]>) to 10.0.16.65
+2022-01-27 13:41:05.692762 (Thread-168): handling cli_args request
+2022-01-27 13:41:05.693144 (Thread-168): 13:41:05  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '243d172d-88b4-4cb5-a678-18d7a7b739e9', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fabe40a82b0>]}
+2022-01-27 13:41:07.885390 (Thread-168): sending response (<Response 138 bytes [200 OK]>) to 10.0.33.234
+2022-01-27 13:41:08.250219 (MainThread): 13:41:08  Partial parsing enabled: 0 files deleted, 0 files added, 0 files changed.
+2022-01-27 13:41:08.250646 (MainThread): 13:41:08  Partial parsing enabled, no changes found, skipping parsing
+2022-01-27 13:41:08.258313 (MainThread): 13:41:08  Sending event: {'category': 'dbt', 'action': 'load_project', 'label': 'f31a5c82-bd7c-4343-a1c3-3f0b17d59386', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f62045160d0>]}
+2022-01-27 13:41:08.287988 (MainThread): 13:41:08  Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': 'f31a5c82-bd7c-4343-a1c3-3f0b17d59386', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f6204e2e8b0>]}
+2022-01-27 13:41:08.288317 (MainThread): 13:41:08  Found 33 models, 0 tests, 1 snapshot, 0 analyses, 447 macros, 0 operations, 0 seed files, 8 sources, 0 exposures, 0 metrics
+2022-01-27 13:41:08.290017 (MainThread): 13:41:08  
+2022-01-27 13:41:08.290336 (MainThread): 13:41:08  Acquiring new snowflake connection "master"
+2022-01-27 13:41:08.291165 (ThreadPoolExecutor-0_0): 13:41:08  Acquiring new snowflake connection "list_DEMO_DB"
+2022-01-27 13:41:08.303695 (ThreadPoolExecutor-0_0): 13:41:08  Using snowflake connection "list_DEMO_DB"
+2022-01-27 13:41:08.303805 (ThreadPoolExecutor-0_0): 13:41:08  On list_DEMO_DB: /* {"app": "dbt", "dbt_version": "1.0.1", "profile_name": "user", "target_name": "default", "connection_name": "list_DEMO_DB"} */
+
+    show terse schemas in database DEMO_DB
+    limit 10000
+2022-01-27 13:41:08.303888 (ThreadPoolExecutor-0_0): 13:41:08  Opening a new connection, currently in state init
+2022-01-27 13:41:08.478508 (Thread-169): handling poll request
+2022-01-27 13:41:08.478961 (Thread-169): 13:41:08  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '243d172d-88b4-4cb5-a678-18d7a7b739e9', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fabe40eb7f0>]}
+2022-01-27 13:41:08.479877 (Thread-169): sending response (<Response 4144 bytes [200 OK]>) to 10.0.31.169
+2022-01-27 13:41:09.057695 (ThreadPoolExecutor-0_0): 13:41:09  SQL status: SUCCESS 5 in 0.75 seconds
+2022-01-27 13:41:09.059730 (ThreadPoolExecutor-0_0): 13:41:09  On list_DEMO_DB: Close
+2022-01-27 13:41:09.206752 (ThreadPoolExecutor-2_0): 13:41:09  Acquiring new snowflake connection "list_DEMO_DB_snapshots"
+2022-01-27 13:41:09.208484 (ThreadPoolExecutor-2_1): 13:41:09  Acquiring new snowflake connection "list_DEMO_DB_DEMO"
+2022-01-27 13:41:09.217807 (ThreadPoolExecutor-2_0): 13:41:09  Using snowflake connection "list_DEMO_DB_snapshots"
+2022-01-27 13:41:09.217922 (ThreadPoolExecutor-2_0): 13:41:09  On list_DEMO_DB_snapshots: /* {"app": "dbt", "dbt_version": "1.0.1", "profile_name": "user", "target_name": "default", "connection_name": "list_DEMO_DB_snapshots"} */
+
+    show terse objects in DEMO_DB.snapshots
+2022-01-27 13:41:09.218016 (ThreadPoolExecutor-2_0): 13:41:09  Opening a new connection, currently in state closed
+2022-01-27 13:41:09.221031 (ThreadPoolExecutor-2_1): 13:41:09  Using snowflake connection "list_DEMO_DB_DEMO"
+2022-01-27 13:41:09.221143 (ThreadPoolExecutor-2_1): 13:41:09  On list_DEMO_DB_DEMO: /* {"app": "dbt", "dbt_version": "1.0.1", "profile_name": "user", "target_name": "default", "connection_name": "list_DEMO_DB_DEMO"} */
+
+    show terse objects in DEMO_DB.DEMO
+2022-01-27 13:41:09.221227 (ThreadPoolExecutor-2_1): 13:41:09  Opening a new connection, currently in state init
+2022-01-27 13:41:10.048189 (ThreadPoolExecutor-2_1): 13:41:10  SQL status: SUCCESS 7 in 0.83 seconds
+2022-01-27 13:41:10.049845 (ThreadPoolExecutor-2_1): 13:41:10  On list_DEMO_DB_DEMO: Close
+2022-01-27 13:41:10.056311 (ThreadPoolExecutor-2_0): 13:41:10  SQL status: SUCCESS 1 in 0.84 seconds
+2022-01-27 13:41:10.057508 (ThreadPoolExecutor-2_0): 13:41:10  On list_DEMO_DB_snapshots: Close
+2022-01-27 13:41:10.142321 (Thread-170): handling poll request
+2022-01-27 13:41:10.142705 (Thread-170): 13:41:10  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '243d172d-88b4-4cb5-a678-18d7a7b739e9', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fabe40ebfa0>]}
+2022-01-27 13:41:10.143381 (Thread-170): sending response (<Response 4855 bytes [200 OK]>) to 10.0.35.131
+2022-01-27 13:41:10.234249 (MainThread): 13:41:10  Concurrency: 7 threads (target='default')
+2022-01-27 13:41:10.234422 (MainThread): 13:41:10  
+2022-01-27 13:41:10.237307 (Thread-1): 13:41:10  Began running node model.dbtvault_snowflake_demo.sat_inv_part_scd2
+2022-01-27 13:41:10.237619 (Thread-1): 13:41:10  1 of 1 START incremental model DEMO.sat_inv_part_scd2........................... [RUN]
+2022-01-27 13:41:10.237876 (Thread-1): 13:41:10  Acquiring new snowflake connection "model.dbtvault_snowflake_demo.sat_inv_part_scd2"
+2022-01-27 13:41:10.237970 (Thread-1): 13:41:10  Began compiling node model.dbtvault_snowflake_demo.sat_inv_part_scd2
+2022-01-27 13:41:10.238074 (Thread-1): 13:41:10  Compiling model.dbtvault_snowflake_demo.sat_inv_part_scd2
+2022-01-27 13:41:10.245633 (Thread-1): 13:41:10  Using snowflake connection "model.dbtvault_snowflake_demo.sat_inv_part_scd2"
+2022-01-27 13:41:10.245760 (Thread-1): 13:41:10  On model.dbtvault_snowflake_demo.sat_inv_part_scd2: /* {"app": "dbt", "dbt_version": "1.0.1", "profile_name": "user", "target_name": "default", "node_id": "model.dbtvault_snowflake_demo.sat_inv_part_scd2"} */
+SELECT EXISTS ( SELECT * FROM information_schema.tables WHERE table_name = '!SAT_INV_PART_SCD2' )
+2022-01-27 13:41:10.245848 (Thread-1): 13:41:10  Opening a new connection, currently in state closed
+2022-01-27 13:41:11.520780 (Thread-1): 13:41:11  SQL status: SUCCESS 1 in 1.27 seconds
+2022-01-27 13:41:11.522594 (Thread-1): 13:41:11  Using snowflake connection "model.dbtvault_snowflake_demo.sat_inv_part_scd2"
+2022-01-27 13:41:11.522722 (Thread-1): 13:41:11  On model.dbtvault_snowflake_demo.sat_inv_part_scd2: /* {"app": "dbt", "dbt_version": "1.0.1", "profile_name": "user", "target_name": "default", "node_id": "model.dbtvault_snowflake_demo.sat_inv_part_scd2"} */
+SELECT sysdate()
+2022-01-27 13:41:11.596645 (Thread-171): handling poll request
+2022-01-27 13:41:11.597040 (Thread-171): 13:41:11  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '243d172d-88b4-4cb5-a678-18d7a7b739e9', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fabe40ea730>]}
+2022-01-27 13:41:11.597727 (Thread-171): sending response (<Response 5966 bytes [200 OK]>) to 10.0.16.65
+2022-01-27 13:41:11.598713 (Thread-1): 13:41:11  SQL status: SUCCESS 1 in 0.08 seconds
+2022-01-27 13:41:11.600499 (Thread-1): 13:41:11  Writing injected SQL for node "model.dbtvault_snowflake_demo.sat_inv_part_scd2"
+2022-01-27 13:41:11.614250 (Thread-1): 13:41:11  finished collecting timing info
+2022-01-27 13:41:11.614428 (Thread-1): 13:41:11  Began executing node model.dbtvault_snowflake_demo.sat_inv_part_scd2
+2022-01-27 13:41:11.655792 (Thread-1): 13:41:11  Using snowflake connection "model.dbtvault_snowflake_demo.sat_inv_part_scd2"
+2022-01-27 13:41:11.655934 (Thread-1): 13:41:11  On model.dbtvault_snowflake_demo.sat_inv_part_scd2: /* {"app": "dbt", "dbt_version": "1.0.1", "profile_name": "user", "target_name": "default", "node_id": "model.dbtvault_snowflake_demo.sat_inv_part_scd2"} */
+
+    
+
+      create or replace temporary table DEMO_DB.DEMO.sat_inv_part_scd2__dbt_tmp  as
+      (
+
+    select final.* from DEMO_DB.DEMO.sat_inv_part_scd2 as final
+    left outer join
+    DEMO_DB.DEMO.v_stg_inventory as delta
+    on final.PART_PK=delta.PART_PK
+    where delta.PART_PK is null
+    union all
+    select delta.*,2022-01-27 13:41:11.535000 as Valid_from,Null as Valid_to from DEMO_DB.DEMO.sat_inv_part_scd2 as final
+    Right outer join
+    DEMO_DB.DEMO.v_stg_inventory as delta
+    on final.PART_PK=delta.PART_PK
+    where final.PART_PK is null
+    union all
+    (
+    select final.* from DEMO_DB.DEMO.sat_inv_part_scd2 as final
+    inner join 
+    DEMO_DB.DEMO.v_stg_inventory as delta
+    on final.PART_PK=delta.PART_PK
+    where final.hashdiff = delta.hashdiff
+    union all
+    select delta.*,NULL as Valid_from,2022-01-27 13:41:11.535000 as Valid_to from DEMO_DB.DEMO.sat_inv_part_scd2 as final
+    inner join 
+    DEMO_DB.DEMO.v_stg_inventory as delta
+    on final.PART_PK=delta.PART_PK
+    where final.hashdiff <> delta.hashdiff
+    union all
+    select delta.*,final.Valid_from,2022-01-27 13:41:11.535000 as Valid_to from DEMO_DB.DEMO.sat_inv_part_scd2 as final
+    inner join 
+    DEMO_DB.DEMO.v_stg_inventory as delta
+    on final.PART_PK=delta.PART_PK
+    where final.hashdiff <> delta.hashdiff
+    )
+
+
+      );
+2022-01-27 13:41:11.785774 (Thread-1): 13:41:11  Snowflake adapter: Snowflake query id: 01a1e915-0b02-9324-0001-e4f600045106
+2022-01-27 13:41:11.785932 (Thread-1): 13:41:11  Snowflake adapter: Snowflake error: 001003 (42000): SQL compilation error:
+syntax error line 10 at position 30 unexpected '13'.
+syntax error line 23 at position 49 unexpected '13'.
+syntax error line 29 at position 47 unexpected '13'.
+2022-01-27 13:41:11.786105 (Thread-1): 13:41:11  finished collecting timing info
+2022-01-27 13:41:11.786244 (Thread-1): 13:41:11  On model.dbtvault_snowflake_demo.sat_inv_part_scd2: Close
+2022-01-27 13:41:12.251302 (Thread-1): 13:41:12  Database Error in model sat_inv_part_scd2 (models/SCD2/sat_inv_part_scd2.sql)
+  001003 (42000): SQL compilation error:
+  syntax error line 10 at position 30 unexpected '13'.
+  syntax error line 23 at position 49 unexpected '13'.
+  syntax error line 29 at position 47 unexpected '13'.
+2022-01-27 13:41:12.251594 (Thread-1): 13:41:12  Sending event: {'category': 'dbt', 'action': 'run_model', 'label': 'f31a5c82-bd7c-4343-a1c3-3f0b17d59386', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f61fe9bb940>]}
+2022-01-27 13:41:12.251966 (Thread-1): 13:41:12  1 of 1 ERROR creating incremental model DEMO.sat_inv_part_scd2.................. [ERROR in 2.01s]
+2022-01-27 13:41:12.252127 (Thread-1): 13:41:12  Finished running node model.dbtvault_snowflake_demo.sat_inv_part_scd2
+2022-01-27 13:41:12.254004 (MainThread): 13:41:12  Acquiring new snowflake connection "master"
+2022-01-27 13:41:12.254345 (MainThread): 13:41:12  
+2022-01-27 13:41:12.254448 (MainThread): 13:41:12  Finished running 1 incremental model in 3.96s.
+2022-01-27 13:41:12.254538 (MainThread): 13:41:12  Connection 'master' was properly closed.
+2022-01-27 13:41:12.254605 (MainThread): 13:41:12  Connection 'list_DEMO_DB_snapshots' was properly closed.
+2022-01-27 13:41:12.254672 (MainThread): 13:41:12  Connection 'model.dbtvault_snowflake_demo.sat_inv_part_scd2' was properly closed.
+2022-01-27 13:41:12.320374 (MainThread): 13:41:12  
+2022-01-27 13:41:12.320579 (MainThread): 13:41:12  Completed with 1 error and 0 warnings:
+2022-01-27 13:41:12.320668 (MainThread): 13:41:12  
+2022-01-27 13:41:12.320756 (MainThread): 13:41:12  Database Error in model sat_inv_part_scd2 (models/SCD2/sat_inv_part_scd2.sql)
+2022-01-27 13:41:12.320831 (MainThread): 13:41:12    001003 (42000): SQL compilation error:
+2022-01-27 13:41:12.320898 (MainThread): 13:41:12    syntax error line 10 at position 30 unexpected '13'.
+2022-01-27 13:41:12.320964 (MainThread): 13:41:12    syntax error line 23 at position 49 unexpected '13'.
+2022-01-27 13:41:12.321027 (MainThread): 13:41:12    syntax error line 29 at position 47 unexpected '13'.
+2022-01-27 13:41:12.321099 (MainThread): 13:41:12  
+2022-01-27 13:41:12.321182 (MainThread): 13:41:12  Done. PASS=0 WARN=0 ERROR=1 SKIP=0 TOTAL=1
+2022-01-27 13:41:13.064668 (Thread-172): handling poll request
+2022-01-27 13:41:13.065105 (Thread-172): 13:41:13  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '243d172d-88b4-4cb5-a678-18d7a7b739e9', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fabfc1714f0>]}
+2022-01-27 13:41:13.066475 (Thread-172): sending response (<Response 20089 bytes [200 OK]>) to 10.0.16.65
+2022-01-27 13:41:13.964114 (Thread-173): handling status request
+2022-01-27 13:41:13.964501 (Thread-173): 13:41:13  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '243d172d-88b4-4cb5-a678-18d7a7b739e9', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fabe4194040>]}
+2022-01-27 13:41:13.965050 (Thread-173): sending response (<Response 1885 bytes [200 OK]>) to 10.0.31.49
+2022-01-27 13:41:14.064599 (Thread-174): handling status request
+2022-01-27 13:41:14.064974 (Thread-174): 13:41:14  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '243d172d-88b4-4cb5-a678-18d7a7b739e9', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fabfc138f40>]}
+2022-01-27 13:41:14.065476 (Thread-174): sending response (<Response 1885 bytes [200 OK]>) to 10.0.44.84
+2022-01-27 13:44:50.090634 (Thread-175): 13:44:50  Partial parsing enabled: 0 files deleted, 0 files added, 1 files changed.
+2022-01-27 13:44:50.092257 (Thread-175): 13:44:50  Partial parsing: updated file: dbtvault_snowflake_demo://models/SCD2/sat_inv_part_scd2.sql
+2022-01-27 13:44:50.098922 (Thread-175): 13:44:50  1603: static parser failed on SCD2/sat_inv_part_scd2.sql
+2022-01-27 13:44:50.107321 (Thread-175): 13:44:50  1602: parser fallback to jinja rendering on SCD2/sat_inv_part_scd2.sql
+2022-01-27 13:44:50.159145 (Thread-175): 13:44:50  Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '243d172d-88b4-4cb5-a678-18d7a7b739e9', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fab97ea0f10>]}
+2022-01-27 13:44:50.424442 (Thread-176): handling status request
+2022-01-27 13:44:50.424840 (Thread-176): 13:44:50  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '243d172d-88b4-4cb5-a678-18d7a7b739e9', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fabfc023a60>]}
+2022-01-27 13:44:50.425375 (Thread-176): sending response (<Response 1885 bytes [200 OK]>) to 10.0.31.169
+2022-01-27 13:44:50.874471 (Thread-177): handling status request
+2022-01-27 13:44:50.874839 (Thread-177): 13:44:50  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '243d172d-88b4-4cb5-a678-18d7a7b739e9', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fabfc28eca0>]}
+2022-01-27 13:44:50.875316 (Thread-177): sending response (<Response 1885 bytes [200 OK]>) to 10.0.31.49
+2022-01-27 13:45:24.175667 (Thread-178): handling status request
+2022-01-27 13:45:24.176063 (Thread-178): 13:45:24  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '243d172d-88b4-4cb5-a678-18d7a7b739e9', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fabe40a63d0>]}
+2022-01-27 13:45:24.176617 (Thread-178): sending response (<Response 1885 bytes [200 OK]>) to 10.0.3.212
