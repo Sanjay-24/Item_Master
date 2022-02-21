@@ -13,3 +13,13 @@ sources:
       - name: PART
       - name: NATION
       - name: REGION
+      
+sources:
+  - name: inventory
+    database: Item_Master
+    schema: raw
+    tables:
+      - name: STG_JDE_F4101
+      - name: STG_JDE_F4102
+      - name: STG_JDE_F4105
+      - name: STG_JDE_F0006

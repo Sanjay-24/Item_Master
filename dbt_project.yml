@@ -1,5 +1,5 @@
-name: dbtvault_snowflake_demo
-profile: snowflake_demo
+name: item_master
+profile: snowflake
 version: '5.2.0'
 config-version: 2
 
@@ -20,16 +20,11 @@ test-paths:
 target-path: target
 
 vars:
-  load_date: '1992-01-09'
+  load_date: '2022-02-21'
   tpch_size: 10 #1, 10, 100, 1000, 10000
 
 models:
-  dbtvault_snowflake_demo:
-    SCD2 :
-      materialized: incremental
-    DQ_Models:
-      tags:
-        - 'dq_check'
+  item_master:
     raw_stage:
       tags:
         - 'raw'
@@ -39,7 +34,7 @@ models:
         - 'stage'
       enabled: true
       materialized: table
-    raw_vault:
+    vault:
       tags:
         - 'raw_vault'
       materialized: incremental
@@ -51,7 +46,4 @@ models:
           - 'link'
       sats:
         tags:
-          - 'satellite'
-      t_links:
-        tags:
-          - 't_link'
+          - 'sat'
