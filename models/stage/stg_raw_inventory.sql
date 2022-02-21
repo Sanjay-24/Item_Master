@@ -1,47 +1,45 @@
 {%- set yaml_metadata -%}
 source_model: 'raw_inventory'
 derived_columns:
-  primarykey: 'IMITM'
+  primarykey: 'ItemMaster_ItemNumber'
   RECORD_SOURCE: '!JDE'
   EFFECTIVE_FROM: '!21-Feb-2022'
 hashed_columns:
-  ItemNumber_HID: 'IMITM'
-  CostCenterID_HID: 'MCMCU'
-  ITEM_COST_HID: 'COITM'
-  ITEM_BRANCH_Item_HID: 'IBITM'
-  ITEM_BRANCH_Costcenter_HID: 'IBMCU'
+  ItemNumber_HID: 'ItemMaster_ItemNumber'
+  CostCenterID_HID: 'CostcenterID'
+  ITEM_COST_HID: 'ItemCost_ItemNumber'
+  ITEM_BRANCH_Item_HID: 'ItemBranch_ItemNumber'
+  ITEM_BRANCH_Costcenter_HID: 'ItemBranch_BusinessUnit'
   Item_CostCenter_HID:
-    - 'IMITM'
-    - 'MCMCU'
-  ITEM_MASTER_HASHDIFF:
+    - 'ItemMaster_ItemNumber'
+    - 'CostcenterID'
+  ITEM_HASHDIFF:
     is_hashdiff: true
     columns:
-      - 'IMITM'
-      - 'IMLITM'
-      - 'IMUPMJ'
-      - 'IMDSC1'
-      - 'IMDSC2'
-      - 'IMPRP2'
-      - 'IMPRP4'
-      - 'IMPRP6'
-      - 'IMPRP7'
-      - 'IMPRP8'
-      - 'IMUOM1'
-  ITEM_BRANCH_HASHDIFF:
+      - 'ItemMaster_ItemNumber'
+      - 'SecondItemNumber'
+      - 'SourceLastUpdateDate'
+      - 'ItemDescription1'
+      - 'ItemDescription2'
+      - 'ItemCommoditySubClass_Code'
+      - 'ItemFamilyGroup_Code'
+      - 'ItemDimensionGroup_Code'
+      - 'ItemWarehouseProcessGroup1_Code'
+      - 'ItemWarehouseProcessGroup2_Code'
+      - 'ItemUnitOfMeasure_Code'
+  Link_Item_CostCenter_HASHDIFF:
     is_hashdiff: true
     columns:
-      - 'IBPRP1'
-      - 'IBPRP2'
-      - 'IBPRP5'
-      - 'IBTX'
-      - 'IBUPMJ'
-      - 'IBUSER'
-      - 'IBITM'
-  Item_Cost_HASHDIFF:
-    is_hashdiff: true
-    columns:
-      - 'COUNCS'
-      - 'COITM'
+      - 'ItemCommodityClass_Code'
+      - 'CostcenterID'
+      - 'ItemMaster_ItemNumber'
+      - 'ItemBranch_ItemCommoditySubClass_Code'
+      - 'ItemInactiveStatus_Code'
+      - 'TaxFlag'
+      - 'ItemBranch_SourceLastUpdateDate'
+      - 'SourceLastUpdatedBy'
+      - 'IsActive'
+      - 'UnitCost'
 {%- endset -%}
 
 {% set metadata_dict = fromyaml(yaml_metadata) %}
