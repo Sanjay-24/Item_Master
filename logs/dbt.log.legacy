@@ -32193,3 +32193,648 @@ SELECT * FROM records_to_insert
 2022-02-21 08:06:58.859005 (Thread-913): handling status request
 2022-02-21 08:06:58.859402 (Thread-913): 08:06:58  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '47a58603-a309-4ce8-b4ef-bc451c33670c', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f5f24086700>]}
 2022-02-21 08:06:58.859910 (Thread-913): sending response (<Response 1912 bytes [200 OK]>) to 10.0.8.111
+2022-02-21 08:07:01.911477 (Thread-914): 08:07:01  Partial parsing enabled: 0 files deleted, 0 files added, 0 files changed.
+2022-02-21 08:07:01.911736 (Thread-914): 08:07:01  Partial parsing enabled, no changes found, skipping parsing
+2022-02-21 08:07:01.919715 (Thread-914): 08:07:01  Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '47a58603-a309-4ce8-b4ef-bc451c33670c', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f5f6454a6a0>]}
+2022-02-21 08:07:02.560819 (Thread-915): handling status request
+2022-02-21 08:07:02.561201 (Thread-915): 08:07:02  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '47a58603-a309-4ce8-b4ef-bc451c33670c', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f5f245a0b50>]}
+2022-02-21 08:07:02.561785 (Thread-915): sending response (<Response 1244 bytes [200 OK]>) to 10.0.36.42
+2022-02-21 08:07:02.584455 (Thread-916): handling status request
+2022-02-21 08:07:02.584817 (Thread-916): 08:07:02  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '47a58603-a309-4ce8-b4ef-bc451c33670c', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f5f24216130>]}
+2022-02-21 08:07:02.585324 (Thread-916): sending response (<Response 1244 bytes [200 OK]>) to 10.0.34.59
+2022-02-21 09:10:55.270387 (Thread-917): 09:10:55  Partial parsing enabled: 0 files deleted, 1 files added, 0 files changed.
+2022-02-21 09:10:55.271722 (Thread-917): 09:10:55  Partial parsing: added file: item_master://macros/GetJobStatisticsMacro.sql
+2022-02-21 09:10:55.271924 (Thread-917): 09:10:55  Parsing macros/GetJobStatisticsMacro.sql
+2022-02-21 09:10:55.345340 (Thread-917): 09:10:55  Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '47a58603-a309-4ce8-b4ef-bc451c33670c', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f5f4431d460>]}
+2022-02-21 09:10:56.039874 (Thread-918): handling status request
+2022-02-21 09:10:56.040291 (Thread-918): 09:10:56  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '47a58603-a309-4ce8-b4ef-bc451c33670c', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f5f443b7d60>]}
+2022-02-21 09:10:56.065928 (Thread-918): sending response (<Response 1542 bytes [200 OK]>) to 10.0.8.111
+2022-02-21 09:10:56.334029 (Thread-919): handling status request
+2022-02-21 09:10:56.334444 (Thread-919): 09:10:56  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '47a58603-a309-4ce8-b4ef-bc451c33670c', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f5f240eba90>]}
+2022-02-21 09:10:56.334945 (Thread-919): sending response (<Response 1542 bytes [200 OK]>) to 10.0.10.118
+2022-02-21 09:11:14.353005 (Thread-920): handling status request
+2022-02-21 09:11:14.353411 (Thread-920): 09:11:14  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '47a58603-a309-4ce8-b4ef-bc451c33670c', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f5f645aa190>]}
+2022-02-21 09:11:14.354062 (Thread-920): sending response (<Response 1542 bytes [200 OK]>) to 10.0.8.111
+2022-02-21 09:11:15.020541 (Thread-921): handling compile_sql request
+2022-02-21 09:11:15.021003 (Thread-921): 09:11:15  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '47a58603-a309-4ce8-b4ef-bc451c33670c', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f5f647eb130>]}
+2022-02-21 09:11:17.257055 (Thread-921): sending response (<Response 138 bytes [200 OK]>) to 10.0.34.59
+2022-02-21 09:11:17.291869 (MainThread): 09:11:17  Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': '0c077106-5aa4-4878-a94d-46554fc2baa2', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f0a21a9ed00>]}
+2022-02-21 09:11:17.292444 (MainThread): 09:11:17  Found 7 models, 0 tests, 0 snapshots, 0 analyses, 448 macros, 0 operations, 0 seed files, 4 sources, 0 exposures, 0 metrics
+2022-02-21 09:11:17.293058 (Thread-1): 09:11:17  Acquiring new snowflake connection "rpc.item_master.request"
+2022-02-21 09:11:17.293209 (Thread-1): 09:11:17  Began compiling node rpc.item_master.request
+2022-02-21 09:11:17.293385 (Thread-1): 09:11:17  Compiling rpc.item_master.request
+2022-02-21 09:11:17.295718 (Thread-1): 09:11:17  finished collecting timing info
+2022-02-21 09:11:17.295851 (Thread-1): 09:11:17  Began executing node rpc.item_master.request
+2022-02-21 09:11:17.295950 (Thread-1): 09:11:17  finished collecting timing info
+2022-02-21 09:11:17.913399 (Thread-922): handling poll request
+2022-02-21 09:11:17.913849 (Thread-922): 09:11:17  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '47a58603-a309-4ce8-b4ef-bc451c33670c', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f5f446d05b0>]}
+2022-02-21 09:11:17.915139 (Thread-922): sending response (<Response 5070 bytes [200 OK]>) to 10.0.22.63
+2022-02-21 09:11:23.846049 (Thread-923): 09:11:23  Partial parsing enabled: 0 files deleted, 0 files added, 1 files changed.
+2022-02-21 09:11:23.846573 (Thread-923): 09:11:23  Partial parsing: updated file: item_master://macros/GetJobStatisticsMacro.sql
+2022-02-21 09:11:23.846770 (Thread-923): 09:11:23  Parsing macros/GetJobStatisticsMacro.sql
+2022-02-21 09:11:23.903424 (Thread-923): 09:11:23  Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '47a58603-a309-4ce8-b4ef-bc451c33670c', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f5f446b4190>]}
+2022-02-21 09:11:24.724262 (Thread-924): handling status request
+2022-02-21 09:11:24.724649 (Thread-924): 09:11:24  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '47a58603-a309-4ce8-b4ef-bc451c33670c', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f5f645b22b0>]}
+2022-02-21 09:11:24.725216 (Thread-924): sending response (<Response 1544 bytes [200 OK]>) to 10.0.38.29
+2022-02-21 09:11:24.756444 (Thread-925): handling status request
+2022-02-21 09:11:24.756774 (Thread-925): 09:11:24  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '47a58603-a309-4ce8-b4ef-bc451c33670c', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f5f645b2880>]}
+2022-02-21 09:11:24.757253 (Thread-925): sending response (<Response 1544 bytes [200 OK]>) to 10.0.10.118
+2022-02-21 09:23:49.243048 (Thread-926): 09:23:49  Partial parsing enabled: 0 files deleted, 0 files added, 0 files changed.
+2022-02-21 09:23:49.244254 (Thread-926): 09:23:49  Partial parsing enabled, no changes found, skipping parsing
+2022-02-21 09:23:49.250324 (Thread-926): 09:23:49  Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '47a58603-a309-4ce8-b4ef-bc451c33670c', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f5f44390d60>]}
+2022-02-21 09:23:50.003364 (Thread-927): handling status request
+2022-02-21 09:23:50.003753 (Thread-927): 09:23:50  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '47a58603-a309-4ce8-b4ef-bc451c33670c', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f5f6448fcd0>]}
+2022-02-21 09:23:50.004261 (Thread-927): sending response (<Response 1244 bytes [200 OK]>) to 10.0.6.248
+2022-02-21 09:23:50.116617 (Thread-928): handling status request
+2022-02-21 09:23:50.117008 (Thread-928): 09:23:50  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '47a58603-a309-4ce8-b4ef-bc451c33670c', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f5f245081f0>]}
+2022-02-21 09:23:50.117536 (Thread-928): sending response (<Response 1244 bytes [200 OK]>) to 10.0.6.248
+2022-02-21 09:24:02.347233 (Thread-929): 09:24:02  Partial parsing enabled: 0 files deleted, 0 files added, 1 files changed.
+2022-02-21 09:24:02.347682 (Thread-929): 09:24:02  Partial parsing: updated file: item_master://models/raw_stage/raw_inventory.sql
+2022-02-21 09:24:02.354413 (Thread-929): 09:24:02  1699: static parser successfully parsed raw_stage/raw_inventory.sql
+2022-02-21 09:24:02.405577 (Thread-929): 09:24:02  Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '47a58603-a309-4ce8-b4ef-bc451c33670c', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f5f4428e970>]}
+2022-02-21 09:24:03.168171 (Thread-930): handling status request
+2022-02-21 09:24:03.168558 (Thread-930): 09:24:03  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '47a58603-a309-4ce8-b4ef-bc451c33670c', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f5f442e4610>]}
+2022-02-21 09:24:03.169078 (Thread-930): sending response (<Response 1573 bytes [200 OK]>) to 10.0.10.60
+2022-02-21 09:24:03.222046 (Thread-931): handling status request
+2022-02-21 09:24:03.222414 (Thread-931): 09:24:03  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '47a58603-a309-4ce8-b4ef-bc451c33670c', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f5f442e42b0>]}
+2022-02-21 09:24:03.222890 (Thread-931): sending response (<Response 1573 bytes [200 OK]>) to 10.0.18.116
+2022-02-21 09:25:35.445477 (Thread-932): handling status request
+2022-02-21 09:25:35.446886 (Thread-932): 09:25:35  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '47a58603-a309-4ce8-b4ef-bc451c33670c', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f5f44573160>]}
+2022-02-21 09:25:35.447393 (Thread-932): sending response (<Response 1573 bytes [200 OK]>) to 10.0.36.42
+2022-02-21 09:25:35.933013 (Thread-933): handling status request
+2022-02-21 09:25:35.933415 (Thread-933): 09:25:35  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '47a58603-a309-4ce8-b4ef-bc451c33670c', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f5f046c4e20>]}
+2022-02-21 09:25:35.933884 (Thread-933): sending response (<Response 1573 bytes [200 OK]>) to 10.0.26.218
+2022-02-21 09:25:36.138215 (Thread-934): handling cli_args request
+2022-02-21 09:25:36.138614 (Thread-934): 09:25:36  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '47a58603-a309-4ce8-b4ef-bc451c33670c', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f5f046c4bb0>]}
+2022-02-21 09:25:38.392275 (Thread-934): sending response (<Response 138 bytes [200 OK]>) to 10.0.8.111
+2022-02-21 09:25:38.794106 (MainThread): 09:25:38  Partial parsing enabled: 0 files deleted, 0 files added, 0 files changed.
+2022-02-21 09:25:38.794546 (MainThread): 09:25:38  Partial parsing enabled, no changes found, skipping parsing
+2022-02-21 09:25:38.801700 (MainThread): 09:25:38  Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '998df8e0-df90-49fd-8039-4bcccb0ff251', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7efe4f479910>]}
+2022-02-21 09:25:38.833116 (MainThread): 09:25:38  Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': '998df8e0-df90-49fd-8039-4bcccb0ff251', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7efe4f51c490>]}
+2022-02-21 09:25:38.833419 (MainThread): 09:25:38  Found 7 models, 0 tests, 0 snapshots, 0 analyses, 448 macros, 0 operations, 0 seed files, 4 sources, 0 exposures, 0 metrics
+2022-02-21 09:25:38.834636 (MainThread): 09:25:38  
+2022-02-21 09:25:38.834936 (MainThread): 09:25:38  Acquiring new snowflake connection "master"
+2022-02-21 09:25:38.836178 (ThreadPoolExecutor-0_0): 09:25:38  Acquiring new snowflake connection "list_ITEM_MASTER"
+2022-02-21 09:25:38.849477 (ThreadPoolExecutor-0_0): 09:25:38  Using snowflake connection "list_ITEM_MASTER"
+2022-02-21 09:25:38.849589 (ThreadPoolExecutor-0_0): 09:25:38  On list_ITEM_MASTER: /* {"app": "dbt", "dbt_version": "1.0.1", "profile_name": "user", "target_name": "default", "connection_name": "list_ITEM_MASTER"} */
+
+    show terse schemas in database ITEM_MASTER
+    limit 10000
+2022-02-21 09:25:38.849675 (ThreadPoolExecutor-0_0): 09:25:38  Opening a new connection, currently in state init
+2022-02-21 09:25:39.087109 (Thread-935): handling poll request
+2022-02-21 09:25:39.087564 (Thread-935): 09:25:39  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '47a58603-a309-4ce8-b4ef-bc451c33670c', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f5f442e4130>]}
+2022-02-21 09:25:39.088523 (Thread-935): sending response (<Response 4150 bytes [200 OK]>) to 10.0.26.218
+2022-02-21 09:25:39.589877 (ThreadPoolExecutor-0_0): 09:25:39  SQL status: SUCCESS 7 in 0.74 seconds
+2022-02-21 09:25:39.591939 (ThreadPoolExecutor-0_0): 09:25:39  On list_ITEM_MASTER: Close
+2022-02-21 09:25:40.370146 (ThreadPoolExecutor-0_0): 09:25:40  Acquiring new snowflake connection "create_ITEM_MASTER_Dev"
+2022-02-21 09:25:40.370526 (ThreadPoolExecutor-0_0): 09:25:40  Acquiring new snowflake connection "create_ITEM_MASTER_Dev"
+2022-02-21 09:25:40.370930 (ThreadPoolExecutor-0_0): 09:25:40  Creating schema "_ReferenceKey(database='item_master', schema='dev', identifier=None)"
+2022-02-21 09:25:40.380157 (ThreadPoolExecutor-0_0): 09:25:40  Using snowflake connection "create_ITEM_MASTER_Dev"
+2022-02-21 09:25:40.380331 (ThreadPoolExecutor-0_0): 09:25:40  On create_ITEM_MASTER_Dev: /* {"app": "dbt", "dbt_version": "1.0.1", "profile_name": "user", "target_name": "default", "connection_name": "create_ITEM_MASTER_Dev"} */
+create schema if not exists ITEM_MASTER.Dev
+2022-02-21 09:25:40.380479 (ThreadPoolExecutor-0_0): 09:25:40  Opening a new connection, currently in state closed
+2022-02-21 09:25:40.787000 (Thread-936): handling poll request
+2022-02-21 09:25:40.787424 (Thread-936): 09:25:40  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '47a58603-a309-4ce8-b4ef-bc451c33670c', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f5f442e4670>]}
+2022-02-21 09:25:40.788001 (Thread-936): sending response (<Response 2948 bytes [200 OK]>) to 10.0.25.65
+2022-02-21 09:25:41.316153 (ThreadPoolExecutor-0_0): 09:25:41  SQL status: SUCCESS 1 in 0.94 seconds
+2022-02-21 09:25:41.317043 (ThreadPoolExecutor-0_0): 09:25:41  On create_ITEM_MASTER_Dev: Close
+2022-02-21 09:25:41.455936 (ThreadPoolExecutor-2_0): 09:25:41  Acquiring new snowflake connection "list_ITEM_MASTER_Dev"
+2022-02-21 09:25:41.463008 (ThreadPoolExecutor-2_0): 09:25:41  Using snowflake connection "list_ITEM_MASTER_Dev"
+2022-02-21 09:25:41.463149 (ThreadPoolExecutor-2_0): 09:25:41  On list_ITEM_MASTER_Dev: /* {"app": "dbt", "dbt_version": "1.0.1", "profile_name": "user", "target_name": "default", "connection_name": "list_ITEM_MASTER_Dev"} */
+
+    show terse objects in ITEM_MASTER.Dev
+2022-02-21 09:25:41.463237 (ThreadPoolExecutor-2_0): 09:25:41  Opening a new connection, currently in state closed
+2022-02-21 09:25:41.927788 (ThreadPoolExecutor-2_0): 09:25:41  SQL status: SUCCESS 0 in 0.46 seconds
+2022-02-21 09:25:41.929040 (ThreadPoolExecutor-2_0): 09:25:41  On list_ITEM_MASTER_Dev: Close
+2022-02-21 09:25:42.070603 (MainThread): 09:25:42  Concurrency: 4 threads (target='default')
+2022-02-21 09:25:42.070791 (MainThread): 09:25:42  
+2022-02-21 09:25:42.073497 (Thread-1): 09:25:42  Began running node model.item_master.raw_inventory
+2022-02-21 09:25:42.073827 (Thread-1): 09:25:42  1 of 7 START table model Dev.raw_inventory...................................... [RUN]
+2022-02-21 09:25:42.074102 (Thread-1): 09:25:42  Acquiring new snowflake connection "model.item_master.raw_inventory"
+2022-02-21 09:25:42.074207 (Thread-1): 09:25:42  Began compiling node model.item_master.raw_inventory
+2022-02-21 09:25:42.074330 (Thread-1): 09:25:42  Compiling model.item_master.raw_inventory
+2022-02-21 09:25:42.078824 (Thread-1): 09:25:42  Writing injected SQL for node "model.item_master.raw_inventory"
+2022-02-21 09:25:42.094998 (Thread-1): 09:25:42  finished collecting timing info
+2022-02-21 09:25:42.095177 (Thread-1): 09:25:42  Began executing node model.item_master.raw_inventory
+2022-02-21 09:25:42.119245 (Thread-1): 09:25:42  Writing runtime SQL for node "model.item_master.raw_inventory"
+2022-02-21 09:25:42.135588 (Thread-1): 09:25:42  Using snowflake connection "model.item_master.raw_inventory"
+2022-02-21 09:25:42.135726 (Thread-1): 09:25:42  On model.item_master.raw_inventory: /* {"app": "dbt", "dbt_version": "1.0.1", "profile_name": "user", "target_name": "default", "node_id": "model.item_master.raw_inventory"} */
+
+
+      create or replace transient table ITEM_MASTER.Dev.raw_inventory  as
+      (Select Distinct
+Item.IMUOM1 as ItemUnitOfMeasure_Code ,
+Item.IMLITM as SecondItemNumber,
+Item.IMUPMJ as SourceLastUpdateDate,
+Item.IMDSC1 as ItemDescription1,
+Item.IMDSC2 as ItemDescription2,
+Item.IMPRP2 as ItemCommoditySubClass_Code,
+Item.IMPRP4 as ItemFamilyGroup_Code,
+Item.IMPRP6 as ItemDimensionGroup_Code,
+Item.IMPRP7 as ItemWarehouseProcessGroup1_Code,
+Item.IMPRP8 as ItemWarehouseProcessGroup2_Code,
+Item.IMITM as ItemMaster_ItemNumber,
+CostCenter.MCMCU as CostcenterID,
+Branch.IBMCU as ItemBranch_BusinessUnit,
+Branch.IBPRP1 as ItemCommodityClass_Code,
+Branch.IBPRP2 as ItemBranch_ItemCommoditySubClass_Code,
+Branch.IBPRP5 as ItemInactiveStatus_Code,
+Branch.IBTX as TaxFlag,
+Branch.IBUPMJ as ItemBranch_SourceLastUpdateDate,
+Branch.IBUSER as SourceLastUpdatedBy,
+IFF(IBPRP5='', 1, 0) AS IsActive,
+Branch.IBITM as ItemBranch_ItemNumber,
+ItemCost.COUNCS as UnitCost,
+ItemCost.COITM as ItemCost_ItemNumber,
+ItemCost.COMCU as ItemCost_BusinessUnit,
+'JDE' as RECORD_SOURCE
+from 
+Item_Master.raw.STG_JDE_F4101 as Item
+left join 
+Item_Master.raw.STG_JDE_F4102 as Branch
+on Item.IMITM = Branch.IBITM
+left join
+Item_Master.raw.STG_JDE_F0006 as CostCenter
+on Branch.IBMCU = CostCenter.MCMCU
+left join
+Item_Master.raw.STG_JDE_F4105 as ItemCost
+on ItemCost.COITM = Item.IMITM and ItemCost.COMCU = CostCenter.MCMCU
+      );
+2022-02-21 09:25:42.135817 (Thread-1): 09:25:42  Opening a new connection, currently in state closed
+2022-02-21 09:25:42.358096 (Thread-937): handling poll request
+2022-02-21 09:25:42.358489 (Thread-937): 09:25:42  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '47a58603-a309-4ce8-b4ef-bc451c33670c', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f5f446e3ac0>]}
+2022-02-21 09:25:42.359328 (Thread-937): sending response (<Response 9807 bytes [200 OK]>) to 10.0.18.116
+2022-02-21 09:25:43.953047 (Thread-938): handling poll request
+2022-02-21 09:25:43.953491 (Thread-938): 09:25:43  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '47a58603-a309-4ce8-b4ef-bc451c33670c', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f5f6403bac0>]}
+2022-02-21 09:25:43.953984 (Thread-938): sending response (<Response 286 bytes [200 OK]>) to 10.0.38.29
+2022-02-21 09:25:44.312247 (Thread-1): 09:25:44  SQL status: SUCCESS 1 in 2.18 seconds
+2022-02-21 09:25:44.321965 (Thread-1): 09:25:44  finished collecting timing info
+2022-02-21 09:25:44.322147 (Thread-1): 09:25:44  On model.item_master.raw_inventory: Close
+2022-02-21 09:25:44.420226 (Thread-1): 09:25:44  Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '998df8e0-df90-49fd-8039-4bcccb0ff251', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7efe4c8ebb50>]}
+2022-02-21 09:25:44.420682 (Thread-1): 09:25:44  1 of 7 OK created table model Dev.raw_inventory................................. [SUCCESS 1 in 2.35s]
+2022-02-21 09:25:44.420817 (Thread-1): 09:25:44  Finished running node model.item_master.raw_inventory
+2022-02-21 09:25:44.421926 (Thread-3): 09:25:44  Began running node model.item_master.stg_raw_inventory
+2022-02-21 09:25:44.422197 (Thread-3): 09:25:44  2 of 7 START table model Dev.stg_raw_inventory.................................. [RUN]
+2022-02-21 09:25:44.422491 (Thread-3): 09:25:44  Acquiring new snowflake connection "model.item_master.stg_raw_inventory"
+2022-02-21 09:25:44.422586 (Thread-3): 09:25:44  Began compiling node model.item_master.stg_raw_inventory
+2022-02-21 09:25:44.422675 (Thread-3): 09:25:44  Compiling model.item_master.stg_raw_inventory
+2022-02-21 09:25:44.512669 (Thread-3): 09:25:44  Using snowflake connection "model.item_master.stg_raw_inventory"
+2022-02-21 09:25:44.512825 (Thread-3): 09:25:44  On model.item_master.stg_raw_inventory: /* {"app": "dbt", "dbt_version": "1.0.1", "profile_name": "user", "target_name": "default", "node_id": "model.item_master.stg_raw_inventory"} */
+
+    describe table ITEM_MASTER.Dev.raw_inventory
+2022-02-21 09:25:44.512915 (Thread-3): 09:25:44  Opening a new connection, currently in state init
+2022-02-21 09:25:44.931840 (Thread-3): 09:25:44  SQL status: SUCCESS 25 in 0.42 seconds
+2022-02-21 09:25:44.962477 (Thread-3): 09:25:44  Using snowflake connection "model.item_master.stg_raw_inventory"
+2022-02-21 09:25:44.962634 (Thread-3): 09:25:44  On model.item_master.stg_raw_inventory: /* {"app": "dbt", "dbt_version": "1.0.1", "profile_name": "user", "target_name": "default", "node_id": "model.item_master.stg_raw_inventory"} */
+
+    describe table ITEM_MASTER.Dev.raw_inventory
+2022-02-21 09:25:45.014376 (Thread-3): 09:25:45  SQL status: SUCCESS 25 in 0.05 seconds
+2022-02-21 09:25:45.054808 (Thread-3): 09:25:45  Writing injected SQL for node "model.item_master.stg_raw_inventory"
+2022-02-21 09:25:45.089526 (Thread-3): 09:25:45  finished collecting timing info
+2022-02-21 09:25:45.089726 (Thread-3): 09:25:45  Began executing node model.item_master.stg_raw_inventory
+2022-02-21 09:25:45.093011 (Thread-3): 09:25:45  Writing runtime SQL for node "model.item_master.stg_raw_inventory"
+2022-02-21 09:25:45.124843 (Thread-3): 09:25:45  Using snowflake connection "model.item_master.stg_raw_inventory"
+2022-02-21 09:25:45.124991 (Thread-3): 09:25:45  On model.item_master.stg_raw_inventory: /* {"app": "dbt", "dbt_version": "1.0.1", "profile_name": "user", "target_name": "default", "node_id": "model.item_master.stg_raw_inventory"} */
+
+
+      create or replace transient table ITEM_MASTER.Dev.stg_raw_inventory  as
+      (
+
+
+
+
+
+
+
+WITH staging AS (
+-- Generated by dbtvault.
+
+
+
+WITH source_data AS (
+
+    SELECT
+
+    ITEMUNITOFMEASURE_CODE,
+    SECONDITEMNUMBER,
+    SOURCELASTUPDATEDATE,
+    ITEMDESCRIPTION1,
+    ITEMDESCRIPTION2,
+    ITEMCOMMODITYSUBCLASS_CODE,
+    ITEMFAMILYGROUP_CODE,
+    ITEMDIMENSIONGROUP_CODE,
+    ITEMWAREHOUSEPROCESSGROUP1_CODE,
+    ITEMWAREHOUSEPROCESSGROUP2_CODE,
+    ITEMMASTER_ITEMNUMBER,
+    COSTCENTERID,
+    ITEMBRANCH_BUSINESSUNIT,
+    ITEMCOMMODITYCLASS_CODE,
+    ITEMBRANCH_ITEMCOMMODITYSUBCLASS_CODE,
+    ITEMINACTIVESTATUS_CODE,
+    TAXFLAG,
+    ITEMBRANCH_SOURCELASTUPDATEDATE,
+    SOURCELASTUPDATEDBY,
+    ISACTIVE,
+    ITEMBRANCH_ITEMNUMBER,
+    UNITCOST,
+    ITEMCOST_ITEMNUMBER,
+    ITEMCOST_BUSINESSUNIT,
+    RECORD_SOURCE
+
+    FROM ITEM_MASTER.Dev.raw_inventory
+),
+
+derived_columns AS (
+
+    SELECT
+
+    ITEMUNITOFMEASURE_CODE,
+    SECONDITEMNUMBER,
+    SOURCELASTUPDATEDATE,
+    ITEMDESCRIPTION1,
+    ITEMDESCRIPTION2,
+    ITEMCOMMODITYSUBCLASS_CODE,
+    ITEMFAMILYGROUP_CODE,
+    ITEMDIMENSIONGROUP_CODE,
+    ITEMWAREHOUSEPROCESSGROUP1_CODE,
+    ITEMWAREHOUSEPROCESSGROUP2_CODE,
+    ITEMMASTER_ITEMNUMBER,
+    COSTCENTERID,
+    ITEMBRANCH_BUSINESSUNIT,
+    ITEMCOMMODITYCLASS_CODE,
+    ITEMBRANCH_ITEMCOMMODITYSUBCLASS_CODE,
+    ITEMINACTIVESTATUS_CODE,
+    TAXFLAG,
+    ITEMBRANCH_SOURCELASTUPDATEDATE,
+    SOURCELASTUPDATEDBY,
+    ISACTIVE,
+    ITEMBRANCH_ITEMNUMBER,
+    UNITCOST,
+    ITEMCOST_ITEMNUMBER,
+    ITEMCOST_BUSINESSUNIT,
+    ItemMaster_ItemNumber AS primarykey,
+    'JDE' AS RECORD_SOURCE,
+    '21-Feb-2022' AS EFFECTIVE_FROM
+
+    FROM source_data
+),
+
+hashed_columns AS (
+
+    SELECT
+
+    ITEMUNITOFMEASURE_CODE,
+    SECONDITEMNUMBER,
+    SOURCELASTUPDATEDATE,
+    ITEMDESCRIPTION1,
+    ITEMDESCRIPTION2,
+    ITEMCOMMODITYSUBCLASS_CODE,
+    ITEMFAMILYGROUP_CODE,
+    ITEMDIMENSIONGROUP_CODE,
+    ITEMWAREHOUSEPROCESSGROUP1_CODE,
+    ITEMWAREHOUSEPROCESSGROUP2_CODE,
+    ITEMMASTER_ITEMNUMBER,
+    COSTCENTERID,
+    ITEMBRANCH_BUSINESSUNIT,
+    ITEMCOMMODITYCLASS_CODE,
+    ITEMBRANCH_ITEMCOMMODITYSUBCLASS_CODE,
+    ITEMINACTIVESTATUS_CODE,
+    TAXFLAG,
+    ITEMBRANCH_SOURCELASTUPDATEDATE,
+    SOURCELASTUPDATEDBY,
+    ISACTIVE,
+    ITEMBRANCH_ITEMNUMBER,
+    UNITCOST,
+    ITEMCOST_ITEMNUMBER,
+    ITEMCOST_BUSINESSUNIT,
+    RECORD_SOURCE,
+    primarykey,
+    EFFECTIVE_FROM,
+
+    CAST((MD5_BINARY(NULLIF(UPPER(TRIM(CAST(ItemMaster_ItemNumber AS VARCHAR))), ''))) AS BINARY(16)) AS ItemNumber_HID,
+    CAST((MD5_BINARY(NULLIF(UPPER(TRIM(CAST(CostcenterID AS VARCHAR))), ''))) AS BINARY(16)) AS CostCenterID_HID,
+    CAST((MD5_BINARY(NULLIF(UPPER(TRIM(CAST(ItemCost_ItemNumber AS VARCHAR))), ''))) AS BINARY(16)) AS ITEM_COST_HID,
+    CAST((MD5_BINARY(NULLIF(UPPER(TRIM(CAST(ItemBranch_ItemNumber AS VARCHAR))), ''))) AS BINARY(16)) AS ITEM_BRANCH_Item_HID,
+    CAST((MD5_BINARY(NULLIF(UPPER(TRIM(CAST(ItemBranch_BusinessUnit AS VARCHAR))), ''))) AS BINARY(16)) AS ITEM_BRANCH_Costcenter_HID,
+    CAST(MD5_BINARY(NULLIF(CONCAT_WS('||',
+        IFNULL(NULLIF(UPPER(TRIM(CAST(ItemMaster_ItemNumber AS VARCHAR))), ''), '^^'),
+        IFNULL(NULLIF(UPPER(TRIM(CAST(CostcenterID AS VARCHAR))), ''), '^^')
+    ), '^^||^^')) AS BINARY(16)) AS Item_CostCenter_HID,
+    CAST(MD5_BINARY(CONCAT_WS('||',
+        IFNULL(NULLIF(UPPER(TRIM(CAST(ItemCommoditySubClass_Code AS VARCHAR))), ''), '^^'),
+        IFNULL(NULLIF(UPPER(TRIM(CAST(ItemDescription1 AS VARCHAR))), ''), '^^'),
+        IFNULL(NULLIF(UPPER(TRIM(CAST(ItemDescription2 AS VARCHAR))), ''), '^^'),
+        IFNULL(NULLIF(UPPER(TRIM(CAST(ItemDimensionGroup_Code AS VARCHAR))), ''), '^^'),
+        IFNULL(NULLIF(UPPER(TRIM(CAST(ItemFamilyGroup_Code AS VARCHAR))), ''), '^^'),
+        IFNULL(NULLIF(UPPER(TRIM(CAST(ItemMaster_ItemNumber AS VARCHAR))), ''), '^^'),
+        IFNULL(NULLIF(UPPER(TRIM(CAST(ItemUnitOfMeasure_Code AS VARCHAR))), ''), '^^'),
+        IFNULL(NULLIF(UPPER(TRIM(CAST(ItemWarehouseProcessGroup1_Code AS VARCHAR))), ''), '^^'),
+        IFNULL(NULLIF(UPPER(TRIM(CAST(ItemWarehouseProcessGroup2_Code AS VARCHAR))), ''), '^^'),
+        IFNULL(NULLIF(UPPER(TRIM(CAST(SecondItemNumber AS VARCHAR))), ''), '^^'),
+        IFNULL(NULLIF(UPPER(TRIM(CAST(SourceLastUpdateDate AS VARCHAR))), ''), '^^')
+    )) AS BINARY(16)) AS ITEM_HASHDIFF,
+    CAST(MD5_BINARY(CONCAT_WS('||',
+        IFNULL(NULLIF(UPPER(TRIM(CAST(CostcenterID AS VARCHAR))), ''), '^^'),
+        IFNULL(NULLIF(UPPER(TRIM(CAST(IsActive AS VARCHAR))), ''), '^^'),
+        IFNULL(NULLIF(UPPER(TRIM(CAST(ItemBranch_ItemCommoditySubClass_Code AS VARCHAR))), ''), '^^'),
+        IFNULL(NULLIF(UPPER(TRIM(CAST(ItemBranch_SourceLastUpdateDate AS VARCHAR))), ''), '^^'),
+        IFNULL(NULLIF(UPPER(TRIM(CAST(ItemCommodityClass_Code AS VARCHAR))), ''), '^^'),
+        IFNULL(NULLIF(UPPER(TRIM(CAST(ItemInactiveStatus_Code AS VARCHAR))), ''), '^^'),
+        IFNULL(NULLIF(UPPER(TRIM(CAST(ItemMaster_ItemNumber AS VARCHAR))), ''), '^^'),
+        IFNULL(NULLIF(UPPER(TRIM(CAST(SourceLastUpdatedBy AS VARCHAR))), ''), '^^'),
+        IFNULL(NULLIF(UPPER(TRIM(CAST(TaxFlag AS VARCHAR))), ''), '^^'),
+        IFNULL(NULLIF(UPPER(TRIM(CAST(UnitCost AS VARCHAR))), ''), '^^')
+    )) AS BINARY(16)) AS Link_Item_CostCenter_HASHDIFF
+
+    FROM derived_columns
+),
+
+columns_to_select AS (
+
+    SELECT
+
+    ITEMUNITOFMEASURE_CODE,
+    SECONDITEMNUMBER,
+    SOURCELASTUPDATEDATE,
+    ITEMDESCRIPTION1,
+    ITEMDESCRIPTION2,
+    ITEMCOMMODITYSUBCLASS_CODE,
+    ITEMFAMILYGROUP_CODE,
+    ITEMDIMENSIONGROUP_CODE,
+    ITEMWAREHOUSEPROCESSGROUP1_CODE,
+    ITEMWAREHOUSEPROCESSGROUP2_CODE,
+    ITEMMASTER_ITEMNUMBER,
+    COSTCENTERID,
+    ITEMBRANCH_BUSINESSUNIT,
+    ITEMCOMMODITYCLASS_CODE,
+    ITEMBRANCH_ITEMCOMMODITYSUBCLASS_CODE,
+    ITEMINACTIVESTATUS_CODE,
+    TAXFLAG,
+    ITEMBRANCH_SOURCELASTUPDATEDATE,
+    SOURCELASTUPDATEDBY,
+    ISACTIVE,
+    ITEMBRANCH_ITEMNUMBER,
+    UNITCOST,
+    ITEMCOST_ITEMNUMBER,
+    ITEMCOST_BUSINESSUNIT,
+    primarykey,
+    RECORD_SOURCE,
+    EFFECTIVE_FROM,
+    ItemNumber_HID,
+    CostCenterID_HID,
+    ITEM_COST_HID,
+    ITEM_BRANCH_Item_HID,
+    ITEM_BRANCH_Costcenter_HID,
+    Item_CostCenter_HID,
+    ITEM_HASHDIFF,
+    Link_Item_CostCenter_HASHDIFF
+
+    FROM hashed_columns
+)
+
+SELECT * FROM columns_to_select
+)
+
+SELECT *,
+       TO_DATE('2022-02-21') AS LOAD_DATE
+FROM staging
+      );
+2022-02-21 09:25:45.549715 (Thread-939): handling poll request
+2022-02-21 09:25:45.550097 (Thread-939): 09:25:45  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '47a58603-a309-4ce8-b4ef-bc451c33670c', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f5f44173ac0>]}
+2022-02-21 09:25:45.550937 (Thread-939): sending response (<Response 16654 bytes [200 OK]>) to 10.0.34.59
+2022-02-21 09:25:46.128724 (Thread-3): 09:25:46  SQL status: SUCCESS 1 in 1.0 seconds
+2022-02-21 09:25:46.130203 (Thread-3): 09:25:46  finished collecting timing info
+2022-02-21 09:25:46.130370 (Thread-3): 09:25:46  On model.item_master.stg_raw_inventory: Close
+2022-02-21 09:25:46.722703 (Thread-3): 09:25:46  Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '998df8e0-df90-49fd-8039-4bcccb0ff251', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7efe4c0a7550>]}
+2022-02-21 09:25:46.723135 (Thread-3): 09:25:46  2 of 7 OK created table model Dev.stg_raw_inventory............................. [SUCCESS 1 in 2.30s]
+2022-02-21 09:25:46.723269 (Thread-3): 09:25:46  Finished running node model.item_master.stg_raw_inventory
+2022-02-21 09:25:46.724419 (Thread-2): 09:25:46  Began running node model.item_master.hub_costcenter
+2022-02-21 09:25:46.724692 (Thread-2): 09:25:46  3 of 7 START incremental model Dev.hub_costcenter............................... [RUN]
+2022-02-21 09:25:46.724980 (Thread-2): 09:25:46  Acquiring new snowflake connection "model.item_master.hub_costcenter"
+2022-02-21 09:25:46.725083 (Thread-2): 09:25:46  Began compiling node model.item_master.hub_costcenter
+2022-02-21 09:25:46.725175 (Thread-2): 09:25:46  Compiling model.item_master.hub_costcenter
+2022-02-21 09:25:46.729490 (Thread-1): 09:25:46  Began running node model.item_master.hub_item
+2022-02-21 09:25:46.729718 (Thread-1): 09:25:46  4 of 7 START incremental model Dev.hub_item..................................... [RUN]
+2022-02-21 09:25:46.729969 (Thread-1): 09:25:46  Acquiring new snowflake connection "model.item_master.hub_item"
+2022-02-21 09:25:46.730077 (Thread-1): 09:25:46  Began compiling node model.item_master.hub_item
+2022-02-21 09:25:46.730160 (Thread-1): 09:25:46  Compiling model.item_master.hub_item
+2022-02-21 09:25:46.734570 (Thread-4): 09:25:46  Began running node model.item_master.link_item_costcenter
+2022-02-21 09:25:46.734813 (Thread-4): 09:25:46  5 of 7 START incremental model Dev.link_item_costcenter......................... [RUN]
+2022-02-21 09:25:46.735096 (Thread-4): 09:25:46  Acquiring new snowflake connection "model.item_master.link_item_costcenter"
+2022-02-21 09:25:46.735190 (Thread-4): 09:25:46  Began compiling node model.item_master.link_item_costcenter
+2022-02-21 09:25:46.735273 (Thread-4): 09:25:46  Compiling model.item_master.link_item_costcenter
+2022-02-21 09:25:46.739660 (Thread-3): 09:25:46  Began running node model.item_master.sat_item
+2022-02-21 09:25:46.739892 (Thread-3): 09:25:46  6 of 7 START incremental model Dev.sat_item..................................... [RUN]
+2022-02-21 09:25:46.740135 (Thread-3): 09:25:46  Acquiring new snowflake connection "model.item_master.sat_item"
+2022-02-21 09:25:46.740223 (Thread-3): 09:25:46  Began compiling node model.item_master.sat_item
+2022-02-21 09:25:46.740311 (Thread-3): 09:25:46  Compiling model.item_master.sat_item
+2022-02-21 09:25:46.922503 (Thread-1): 09:25:46  Writing injected SQL for node "model.item_master.hub_item"
+2022-02-21 09:25:46.926222 (Thread-4): 09:25:46  Writing injected SQL for node "model.item_master.link_item_costcenter"
+2022-02-21 09:25:46.926787 (Thread-2): 09:25:46  Writing injected SQL for node "model.item_master.hub_costcenter"
+2022-02-21 09:25:46.936644 (Thread-3): 09:25:46  Writing injected SQL for node "model.item_master.sat_item"
+2022-02-21 09:25:46.942233 (Thread-2): 09:25:46  finished collecting timing info
+2022-02-21 09:25:46.942428 (Thread-2): 09:25:46  Began executing node model.item_master.hub_costcenter
+2022-02-21 09:25:46.947543 (Thread-1): 09:25:46  finished collecting timing info
+2022-02-21 09:25:46.947682 (Thread-1): 09:25:46  Began executing node model.item_master.hub_item
+2022-02-21 09:25:46.952846 (Thread-4): 09:25:46  finished collecting timing info
+2022-02-21 09:25:46.952986 (Thread-4): 09:25:46  Began executing node model.item_master.link_item_costcenter
+2022-02-21 09:25:46.997069 (Thread-2): 09:25:46  Writing runtime SQL for node "model.item_master.hub_costcenter"
+2022-02-21 09:25:46.999198 (Thread-4): 09:25:46  Writing runtime SQL for node "model.item_master.link_item_costcenter"
+2022-02-21 09:25:46.999970 (Thread-1): 09:25:46  Writing runtime SQL for node "model.item_master.hub_item"
+2022-02-21 09:25:47.004342 (Thread-3): 09:25:47  finished collecting timing info
+2022-02-21 09:25:47.004495 (Thread-3): 09:25:47  Began executing node model.item_master.sat_item
+2022-02-21 09:25:47.007316 (Thread-3): 09:25:47  Writing runtime SQL for node "model.item_master.sat_item"
+2022-02-21 09:25:47.013952 (Thread-2): 09:25:47  Using snowflake connection "model.item_master.hub_costcenter"
+2022-02-21 09:25:47.014075 (Thread-2): 09:25:47  On model.item_master.hub_costcenter: /* {"app": "dbt", "dbt_version": "1.0.1", "profile_name": "user", "target_name": "default", "node_id": "model.item_master.hub_costcenter"} */
+
+
+      create or replace transient table ITEM_MASTER.Dev.hub_costcenter  as
+      (-- Generated by dbtvault.
+
+WITH row_rank_1 AS (
+    SELECT rr.CostCenterID_HID, rr.CostcenterID, rr.LOAD_DATE, rr.RECORD_SOURCE,
+           ROW_NUMBER() OVER(
+               PARTITION BY rr.CostCenterID_HID
+               ORDER BY rr.LOAD_DATE
+           ) AS row_number
+    FROM ITEM_MASTER.Dev.stg_raw_inventory AS rr
+    WHERE rr.CostCenterID_HID IS NOT NULL
+    QUALIFY row_number = 1
+),
+
+records_to_insert AS (
+    SELECT a.CostCenterID_HID, a.CostcenterID, a.LOAD_DATE, a.RECORD_SOURCE
+    FROM row_rank_1 AS a
+)
+
+SELECT * FROM records_to_insert
+      );
+2022-02-21 09:25:47.014167 (Thread-2): 09:25:47  Opening a new connection, currently in state init
+2022-02-21 09:25:47.015306 (Thread-1): 09:25:47  Using snowflake connection "model.item_master.hub_item"
+2022-02-21 09:25:47.015415 (Thread-1): 09:25:47  On model.item_master.hub_item: /* {"app": "dbt", "dbt_version": "1.0.1", "profile_name": "user", "target_name": "default", "node_id": "model.item_master.hub_item"} */
+
+
+      create or replace transient table ITEM_MASTER.Dev.hub_item  as
+      (-- Generated by dbtvault.
+
+WITH row_rank_1 AS (
+    SELECT rr.ItemNumber_HID, rr.ItemMaster_ItemNumber, rr.LOAD_DATE, rr.RECORD_SOURCE,
+           ROW_NUMBER() OVER(
+               PARTITION BY rr.ItemNumber_HID
+               ORDER BY rr.LOAD_DATE
+           ) AS row_number
+    FROM ITEM_MASTER.Dev.stg_raw_inventory AS rr
+    WHERE rr.ItemNumber_HID IS NOT NULL
+    QUALIFY row_number = 1
+),
+
+records_to_insert AS (
+    SELECT a.ItemNumber_HID, a.ItemMaster_ItemNumber, a.LOAD_DATE, a.RECORD_SOURCE
+    FROM row_rank_1 AS a
+)
+
+SELECT * FROM records_to_insert
+      );
+2022-02-21 09:25:47.015497 (Thread-1): 09:25:47  Opening a new connection, currently in state closed
+2022-02-21 09:25:47.017149 (Thread-4): 09:25:47  Using snowflake connection "model.item_master.link_item_costcenter"
+2022-02-21 09:25:47.017278 (Thread-4): 09:25:47  On model.item_master.link_item_costcenter: /* {"app": "dbt", "dbt_version": "1.0.1", "profile_name": "user", "target_name": "default", "node_id": "model.item_master.link_item_costcenter"} */
+
+
+      create or replace transient table ITEM_MASTER.Dev.link_item_costcenter  as
+      (-- Generated by dbtvault.
+
+WITH row_rank_1 AS (
+    SELECT rr.Item_CostCenter_HID, rr.ItemNumber_HID, rr.CostCenterID_HID, rr.LOAD_DATE, rr.RECORD_SOURCE,
+           ROW_NUMBER() OVER(
+               PARTITION BY rr.Item_CostCenter_HID
+               ORDER BY rr.LOAD_DATE
+           ) AS row_number
+    FROM ITEM_MASTER.Dev.stg_raw_inventory AS rr
+    WHERE rr.Item_CostCenter_HID IS NOT NULL
+    AND rr.ItemNumber_HID IS NOT NULL
+    AND rr.CostCenterID_HID IS NOT NULL
+    QUALIFY row_number = 1
+),
+
+records_to_insert AS (
+    SELECT a.Item_CostCenter_HID, a.ItemNumber_HID, a.CostCenterID_HID, a.LOAD_DATE, a.RECORD_SOURCE
+    FROM row_rank_1 AS a
+)
+
+SELECT * FROM records_to_insert
+      );
+2022-02-21 09:25:47.017365 (Thread-4): 09:25:47  Opening a new connection, currently in state init
+2022-02-21 09:25:47.026182 (Thread-3): 09:25:47  Using snowflake connection "model.item_master.sat_item"
+2022-02-21 09:25:47.026307 (Thread-3): 09:25:47  On model.item_master.sat_item: /* {"app": "dbt", "dbt_version": "1.0.1", "profile_name": "user", "target_name": "default", "node_id": "model.item_master.sat_item"} */
+
+
+      create or replace transient table ITEM_MASTER.Dev.sat_item  as
+      (-- Generated by dbtvault.
+
+WITH source_data AS (
+    SELECT a.ItemNumber_HID, a.ITEM_HASHDIFF, a.ItemUnitOfMeasure_Code, a.SecondItemNumber, a.SourceLastUpdateDate, a.ItemDescription1, a.ItemDescription2, a.ItemCommoditySubClass_Code, a.ItemFamilyGroup_Code, a.ItemDimensionGroup_Code, a.ItemWarehouseProcessGroup1_Code, a.ItemWarehouseProcessGroup2_Code, a.EFFECTIVE_FROM, a.LOAD_DATE, a.RECORD_SOURCE
+    FROM ITEM_MASTER.Dev.stg_raw_inventory AS a
+    WHERE a.ItemNumber_HID IS NOT NULL
+),
+
+records_to_insert AS (
+    SELECT DISTINCT stage.ItemNumber_HID, stage.ITEM_HASHDIFF, stage.ItemUnitOfMeasure_Code, stage.SecondItemNumber, stage.SourceLastUpdateDate, stage.ItemDescription1, stage.ItemDescription2, stage.ItemCommoditySubClass_Code, stage.ItemFamilyGroup_Code, stage.ItemDimensionGroup_Code, stage.ItemWarehouseProcessGroup1_Code, stage.ItemWarehouseProcessGroup2_Code, stage.EFFECTIVE_FROM, stage.LOAD_DATE, stage.RECORD_SOURCE
+    FROM source_data AS stage
+)
+
+SELECT * FROM records_to_insert
+      );
+2022-02-21 09:25:47.026391 (Thread-3): 09:25:47  Opening a new connection, currently in state closed
+2022-02-21 09:25:47.109835 (Thread-940): handling poll request
+2022-02-21 09:25:47.110203 (Thread-940): 09:25:47  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '47a58603-a309-4ce8-b4ef-bc451c33670c', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f5f645dabb0>]}
+2022-02-21 09:25:47.111719 (Thread-940): sending response (<Response 25150 bytes [200 OK]>) to 10.0.7.232
+2022-02-21 09:25:48.739059 (Thread-1): 09:25:48  SQL status: SUCCESS 1 in 1.72 seconds
+2022-02-21 09:25:48.740580 (Thread-1): 09:25:48  finished collecting timing info
+2022-02-21 09:25:48.740747 (Thread-1): 09:25:48  On model.item_master.hub_item: Close
+2022-02-21 09:25:48.818072 (Thread-1): 09:25:48  Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '998df8e0-df90-49fd-8039-4bcccb0ff251', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7efe36743bb0>]}
+2022-02-21 09:25:48.818497 (Thread-1): 09:25:48  4 of 7 OK created incremental model Dev.hub_item................................ [SUCCESS 1 in 2.09s]
+2022-02-21 09:25:48.818650 (Thread-1): 09:25:48  Finished running node model.item_master.hub_item
+2022-02-21 09:25:48.818849 (Thread-1): 09:25:48  Began running node model.item_master.sat_link_item_costcenter
+2022-02-21 09:25:48.819072 (Thread-1): 09:25:48  7 of 7 START incremental model Dev.sat_link_item_costcenter..................... [RUN]
+2022-02-21 09:25:48.819351 (Thread-1): 09:25:48  Acquiring new snowflake connection "model.item_master.sat_link_item_costcenter"
+2022-02-21 09:25:48.819449 (Thread-1): 09:25:48  Began compiling node model.item_master.sat_link_item_costcenter
+2022-02-21 09:25:48.819541 (Thread-1): 09:25:48  Compiling model.item_master.sat_link_item_costcenter
+2022-02-21 09:25:48.829147 (Thread-941): handling poll request
+2022-02-21 09:25:48.829496 (Thread-941): 09:25:48  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '47a58603-a309-4ce8-b4ef-bc451c33670c', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f5f6403b1f0>]}
+2022-02-21 09:25:48.830132 (Thread-941): sending response (<Response 4917 bytes [200 OK]>) to 10.0.44.46
+2022-02-21 09:25:48.831054 (Thread-1): 09:25:48  Writing injected SQL for node "model.item_master.sat_link_item_costcenter"
+2022-02-21 09:25:48.844904 (Thread-1): 09:25:48  finished collecting timing info
+2022-02-21 09:25:48.845078 (Thread-1): 09:25:48  Began executing node model.item_master.sat_link_item_costcenter
+2022-02-21 09:25:48.847830 (Thread-1): 09:25:48  Writing runtime SQL for node "model.item_master.sat_link_item_costcenter"
+2022-02-21 09:25:48.860754 (Thread-1): 09:25:48  Using snowflake connection "model.item_master.sat_link_item_costcenter"
+2022-02-21 09:25:48.860885 (Thread-1): 09:25:48  On model.item_master.sat_link_item_costcenter: /* {"app": "dbt", "dbt_version": "1.0.1", "profile_name": "user", "target_name": "default", "node_id": "model.item_master.sat_link_item_costcenter"} */
+
+
+      create or replace transient table ITEM_MASTER.Dev.sat_link_item_costcenter  as
+      (-- Generated by dbtvault.
+
+WITH source_data AS (
+    SELECT a.Item_CostCenter_HID, a.Link_Item_CostCenter_HASHDIFF, a.ItemCommodityClass_Code, a.ItemBranch_ItemCommoditySubClass_Code, a.ItemInactiveStatus_Code, a.TaxFlag, a.ItemBranch_SourceLastUpdateDate, a.SourceLastUpdatedBy, a.IsActive, a.UnitCost, a.EFFECTIVE_FROM, a.LOAD_DATE, a.RECORD_SOURCE
+    FROM ITEM_MASTER.Dev.stg_raw_inventory AS a
+    WHERE a.Item_CostCenter_HID IS NOT NULL
+),
+
+records_to_insert AS (
+    SELECT DISTINCT stage.Item_CostCenter_HID, stage.Link_Item_CostCenter_HASHDIFF, stage.ItemCommodityClass_Code, stage.ItemBranch_ItemCommoditySubClass_Code, stage.ItemInactiveStatus_Code, stage.TaxFlag, stage.ItemBranch_SourceLastUpdateDate, stage.SourceLastUpdatedBy, stage.IsActive, stage.UnitCost, stage.EFFECTIVE_FROM, stage.LOAD_DATE, stage.RECORD_SOURCE
+    FROM source_data AS stage
+)
+
+SELECT * FROM records_to_insert
+      );
+2022-02-21 09:25:48.860975 (Thread-1): 09:25:48  Opening a new connection, currently in state closed
+2022-02-21 09:25:48.878289 (Thread-4): 09:25:48  SQL status: SUCCESS 1 in 1.86 seconds
+2022-02-21 09:25:48.879623 (Thread-4): 09:25:48  finished collecting timing info
+2022-02-21 09:25:48.879774 (Thread-4): 09:25:48  On model.item_master.link_item_costcenter: Close
+2022-02-21 09:25:48.978154 (Thread-4): 09:25:48  Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '998df8e0-df90-49fd-8039-4bcccb0ff251', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7efe36753820>]}
+2022-02-21 09:25:48.978548 (Thread-4): 09:25:48  5 of 7 OK created incremental model Dev.link_item_costcenter.................... [SUCCESS 1 in 2.24s]
+2022-02-21 09:25:48.978670 (Thread-4): 09:25:48  Finished running node model.item_master.link_item_costcenter
+2022-02-21 09:25:49.649114 (Thread-3): 09:25:49  SQL status: SUCCESS 1 in 2.62 seconds
+2022-02-21 09:25:49.650655 (Thread-3): 09:25:49  finished collecting timing info
+2022-02-21 09:25:49.650817 (Thread-3): 09:25:49  On model.item_master.sat_item: Close
+2022-02-21 09:25:49.743427 (Thread-3): 09:25:49  Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '998df8e0-df90-49fd-8039-4bcccb0ff251', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7efe4c04c640>]}
+2022-02-21 09:25:49.743839 (Thread-3): 09:25:49  6 of 7 OK created incremental model Dev.sat_item................................ [SUCCESS 1 in 3.00s]
+2022-02-21 09:25:49.743969 (Thread-3): 09:25:49  Finished running node model.item_master.sat_item
+2022-02-21 09:25:49.751777 (Thread-2): 09:25:49  SQL status: SUCCESS 1 in 2.74 seconds
+2022-02-21 09:25:49.753154 (Thread-2): 09:25:49  finished collecting timing info
+2022-02-21 09:25:49.753334 (Thread-2): 09:25:49  On model.item_master.hub_costcenter: Close
+2022-02-21 09:25:50.108868 (Thread-2): 09:25:50  Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '998df8e0-df90-49fd-8039-4bcccb0ff251', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7efe367df400>]}
+2022-02-21 09:25:50.109375 (Thread-2): 09:25:50  3 of 7 OK created incremental model Dev.hub_costcenter.......................... [SUCCESS 1 in 3.38s]
+2022-02-21 09:25:50.109512 (Thread-2): 09:25:50  Finished running node model.item_master.hub_costcenter
+2022-02-21 09:25:50.403046 (Thread-942): handling poll request
+2022-02-21 09:25:50.403456 (Thread-942): 09:25:50  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '47a58603-a309-4ce8-b4ef-bc451c33670c', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f5f647cde20>]}
+2022-02-21 09:25:50.404260 (Thread-942): sending response (<Response 11494 bytes [200 OK]>) to 10.0.10.118
+2022-02-21 09:25:51.218534 (Thread-1): 09:25:51  SQL status: SUCCESS 1 in 2.36 seconds
+2022-02-21 09:25:51.220141 (Thread-1): 09:25:51  finished collecting timing info
+2022-02-21 09:25:51.220300 (Thread-1): 09:25:51  On model.item_master.sat_link_item_costcenter: Close
+2022-02-21 09:25:51.312655 (Thread-1): 09:25:51  Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '998df8e0-df90-49fd-8039-4bcccb0ff251', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7efe366ef6d0>]}
+2022-02-21 09:25:51.313124 (Thread-1): 09:25:51  7 of 7 OK created incremental model Dev.sat_link_item_costcenter................ [SUCCESS 1 in 2.49s]
+2022-02-21 09:25:51.313293 (Thread-1): 09:25:51  Finished running node model.item_master.sat_link_item_costcenter
+2022-02-21 09:25:51.314866 (MainThread): 09:25:51  Acquiring new snowflake connection "master"
+2022-02-21 09:25:51.315241 (MainThread): 09:25:51  
+2022-02-21 09:25:51.315347 (MainThread): 09:25:51  Finished running 2 table models, 5 incremental models in 12.48s.
+2022-02-21 09:25:51.315432 (MainThread): 09:25:51  Connection 'master' was properly closed.
+2022-02-21 09:25:51.315501 (MainThread): 09:25:51  Connection 'model.item_master.sat_link_item_costcenter' was properly closed.
+2022-02-21 09:25:51.315565 (MainThread): 09:25:51  Connection 'model.item_master.sat_item' was properly closed.
+2022-02-21 09:25:51.315628 (MainThread): 09:25:51  Connection 'model.item_master.hub_costcenter' was properly closed.
+2022-02-21 09:25:51.315689 (MainThread): 09:25:51  Connection 'model.item_master.link_item_costcenter' was properly closed.
+2022-02-21 09:25:51.408819 (MainThread): 09:25:51  
+2022-02-21 09:25:51.409029 (MainThread): 09:25:51  Completed successfully
+2022-02-21 09:25:51.409133 (MainThread): 09:25:51  
+2022-02-21 09:25:51.409227 (MainThread): 09:25:51  Done. PASS=7 WARN=0 ERROR=0 SKIP=0 TOTAL=7
+2022-02-21 09:25:51.986788 (Thread-943): handling poll request
+2022-02-21 09:25:51.987180 (Thread-943): 09:25:51  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '47a58603-a309-4ce8-b4ef-bc451c33670c', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f5f442cca00>]}
+2022-02-21 09:25:51.988926 (Thread-943): sending response (<Response 41454 bytes [200 OK]>) to 10.0.31.140
+2022-02-21 09:25:53.098001 (Thread-944): handling status request
+2022-02-21 09:25:53.098407 (Thread-944): 09:25:53  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '47a58603-a309-4ce8-b4ef-bc451c33670c', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f5f442cc4c0>]}
+2022-02-21 09:25:53.098940 (Thread-944): sending response (<Response 1573 bytes [200 OK]>) to 10.0.7.232
+2022-02-21 09:25:53.158599 (Thread-945): handling status request
+2022-02-21 09:25:53.158988 (Thread-945): 09:25:53  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '47a58603-a309-4ce8-b4ef-bc451c33670c', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f5f442cc070>]}
+2022-02-21 09:25:53.159462 (Thread-945): sending response (<Response 1573 bytes [200 OK]>) to 10.0.8.111
+2022-02-21 09:29:42.730579 (Thread-946): handling status request
+2022-02-21 09:29:42.731830 (Thread-946): 09:29:42  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '47a58603-a309-4ce8-b4ef-bc451c33670c', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f5f442ccfd0>]}
+2022-02-21 09:29:42.732312 (Thread-946): sending response (<Response 1573 bytes [200 OK]>) to 10.0.19.0

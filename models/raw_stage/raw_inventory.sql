@@ -1,4 +1,4 @@
-Select 
+Select Distinct
 Item.IMUOM1 as ItemUnitOfMeasure_Code ,
 Item.IMLITM as SecondItemNumber,
 Item.IMUPMJ as SourceLastUpdateDate,
