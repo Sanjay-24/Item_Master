@@ -95,10 +95,12 @@ on ItemCost.COITM = Item.IMITM and ItemCost.COMCU = CostCenter.MCMCU
 
 AND UPPER('{{Last_Job_Status}}')<>'SUCCESS'
 
+{{ GetJobStatisticMacro(Job_id,table_name) }}
 
 {% else %}
 -- this part is there in the code else there would be no ouput for the model so the create statement will fail
 -- the below code will ensure that the table wil have the data as is 
     select * from {{this}} 
+{{ GetJobStatisticMacro(Job_id,table_name) }}
 
 {% endif %}

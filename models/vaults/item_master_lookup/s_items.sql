@@ -73,9 +73,13 @@ WHERE UPPER('{{Last_Job_Status}}')<>'SUCCESS'
 )
 Select *,'{{Job_id}}' as job_id,'{{var('batch_id')}}' as batch_id,'{{table_name}}' as model_name from temp_table
 
+{{ GetJobStatisticMacro(Job_id,table_name) }}
+
 {% else %}
 -- this part is there in the code else there would be no ouput for the model so the create statement will fail
 -- the below code will ensure that the table wil have the data as is 
     select * from {{this}} 
+
+{{ GetJobStatisticMacro(Job_id,table_name) }}
 
 {% endif %}                
