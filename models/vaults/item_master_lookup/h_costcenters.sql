@@ -1,7 +1,10 @@
 
 {{ config(
     materialized='table',
-    tags=["Source_system_orders"]
+    tags=["Source_system_orders"],
+    post_hook=[
+      "{{ GetJobStatisticsMacro(job_id,table_name) }}"
+    ]
 ) }}
 
 ---definitions

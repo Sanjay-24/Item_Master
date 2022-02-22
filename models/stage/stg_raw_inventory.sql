@@ -1,4 +1,4 @@
-
+ -- depends_on: {{ ref('dq_error_raw') }}
 {{ config(
     materialized='table',
     tags=["Source_system_orders"]
@@ -119,7 +119,9 @@ SELECT *,TO_DATE('{{ var('load_date') }}') AS LOAD_DATE,
 FROM staging 
 
 WHERE  UPPER('{{Last_Job_Status}}')<>'SUCCESS'
-and not exists ( select 1 from {{ref('dq_error_raw')}} where 1=2 )
+and (ITEMMASTER_ITEMNUMBER,ITEMCOST_BUSINESSUNIT) not in 
+(select ITEMMASTER_ITEMNUMBER,ITEMCOST_BUSINESSUNIT from "ITEM_MASTER"."DEV"."RAW_INVENTORY_DISCARDED" )
+
 
 
 {% else %}
