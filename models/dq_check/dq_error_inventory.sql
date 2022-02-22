@@ -1,7 +1,7 @@
 {{ 
     config(
         materialized='table',
-        tags=["test_tag"]
+        tags=["Source_system_orders"]
         )
 }}
 -- check for unique key
