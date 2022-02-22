@@ -62,10 +62,13 @@
 {%- set src_ldts = "LOAD_DATE" -%}
 {%- set src_source = "RECORD_SOURCE" -%}
 
+WITH temp_table AS (
 {{ dbtvault.link(src_pk=src_pk, src_fk=src_fk, src_ldts=src_ldts,
                  src_source=src_source, source_model=source_model) }}
 WHERE UPPER('{{Last_Job_Status}}')<>'SUCCESS'
+)
 
+Select *,'{{Job_id}}' as job_id,'{{var('batch_id')}}' as batch_id,'{{table_name}}' as model_name from temp_table
 
 {% else %}
 -- this part is there in the code else there would be no ouput for the model so the create statement will fail

@@ -113,8 +113,8 @@ WITH staging AS (
                   ranked_columns=none) }}
 )
 
-SELECT *,
-       TO_DATE('{{ var('load_date') }}') AS LOAD_DATE
+SELECT *,TO_DATE('{{ var('load_date') }}') AS LOAD_DATE,
+'{{Job_id}}' as job_id,'{{var('batch_id')}}' as batch_id,'{{table_name}}' as model_name
 FROM staging
 
 WHERE  UPPER('{{Last_Job_Status}}')<>'SUCCESS'
