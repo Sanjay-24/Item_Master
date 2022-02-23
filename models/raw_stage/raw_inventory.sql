@@ -80,7 +80,10 @@ Branch.IBITM as ItemBranch_ItemNumber,
 ItemCost.COUNCS as UnitCost,
 ItemCost.COITM as ItemCost_ItemNumber,
 ItemCost.COMCU as ItemCost_BusinessUnit,
-'JDE' as RECORD_SOURCE
+'JDE' as RECORD_SOURCE,
+'{{Job_id}}' as job_id,
+'{{var('batch_id')}}' as batch_id,
+'{{table_name}}' as model_name
 from 
 {{ source('inventory', 'STG_JDE_F4101') }} as Item
 left join 
