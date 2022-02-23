@@ -5,8 +5,8 @@
         tags=["Source_system_orders"]
         )
 }}
-select {{dq_unique_macro('raw_inventory','ITEMMASTER_ITEMNUMBER') }} union all
-select {{dq_null_macro('raw_inventory','ITEMMASTER_ITEMNUMBER') }} union all
-select {{dq_null_macro('raw_inventory','ITEMCOST_BUSINESSUNIT') }}
+select {{dq_composite_unique_macro('raw_inventory','ITEMMASTER_ITEMNUMBER','ITEMCOST_BUSINESSUNIT') }} union all
+select {{dq_composite_null_macro('raw_inventory','ITEMMASTER_ITEMNUMBER','ITEMCOST_BUSINESSUNIT') }} 
+
            
      
