@@ -57,8 +57,8 @@
 
 
 {%- set source_model = "stg_raw_inventory" -%}
-{%- set src_pk = "CostCenterID_HID" -%}
-{%- set src_nk = "CostcenterID" -%}
+{%- set src_pk = "BusinessUnit_HID" -%}
+{%- set src_nk = "BusinessUnit" -%}
 {%- set src_ldts = "LOAD_DATE" -%}
 {%- set src_source = "RECORD_SOURCE" -%}
 

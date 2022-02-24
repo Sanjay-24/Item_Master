@@ -4,6 +4,7 @@
     tags=["Source_system_orders"]
 ) }}
 
+
 ---definitions
 --- Batch_Id is the one that is provided to dbt by ADF
 --- Model_Name is the name of the fully qualified name : <Database_name>.<Schema_name>.<table_name>. Equivalent of dbt {{this}}
@@ -57,8 +58,8 @@
 
 
 {%- set source_model = "stg_raw_inventory" -%}
-{%- set src_pk = "Item_CostCenter_HID" -%}
-{%- set src_fk = ["ItemNumber_HID", "CostCenterID_HID"] -%}
+{%- set src_pk = "BusinessUnit_Item_HID" -%}
+{%- set src_fk = ["ItemNumber_HID", "BusinessUnit_HID"] -%}
 {%- set src_ldts = "LOAD_DATE" -%}
 {%- set src_source = "RECORD_SOURCE" -%}
 

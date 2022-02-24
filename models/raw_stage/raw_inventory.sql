@@ -66,8 +66,8 @@ Item.IMPRP4 as ItemFamilyGroup_Code,
 Item.IMPRP6 as ItemDimensionGroup_Code,
 Item.IMPRP7 as ItemWarehouseProcessGroup1_Code,
 Item.IMPRP8 as ItemWarehouseProcessGroup2_Code,
-Item.IMITM as ItemMaster_ItemNumber,
-CostCenter.MCMCU as CostcenterID,
+Item.IMITM as ItemNumber,
+BusinessUnit.MCMCU as BusinessUnit,
 Branch.IBMCU as ItemBranch_BusinessUnit,
 Branch.IBPRP1 as ItemCommodityClass_Code,
 Branch.IBPRP2 as ItemBranch_ItemCommoditySubClass_Code,
@@ -75,11 +75,11 @@ Branch.IBPRP5 as ItemInactiveStatus_Code,
 Branch.IBTX as TaxFlag,
 Branch.IBUPMJ as ItemBranch_SourceLastUpdateDate,
 Branch.IBUSER as SourceLastUpdatedBy,
-IFF(IBPRP5='', 1, 0) AS IsActive,
+IFF(RTRIM(LTRIM(Branch.IBPRP5)) ='', 1, 0) AS IsActive,
 Branch.IBITM as ItemBranch_ItemNumber,
-ItemCost.COUNCS as UnitCost,
-ItemCost.COITM as ItemCost_ItemNumber,
-ItemCost.COMCU as ItemCost_BusinessUnit,
+ItemBU.COUNCS as UnitCost,
+ItemBU.COITM as ItemBU_ItemNumber,
+ItemBU.COMCU as ItemBU_BusinessUnit,
 'JDE' as RECORD_SOURCE,
 '{{Job_id}}' as job_id,
 '{{var('batch_id')}}' as batch_id,
@@ -90,11 +90,11 @@ left join
 {{ source('inventory', 'STG_JDE_F4102') }} as Branch
 on Item.IMITM = Branch.IBITM
 left join
-{{ source('inventory', 'STG_JDE_F0006') }} as CostCenter
-on Branch.IBMCU = CostCenter.MCMCU
+{{ source('inventory', 'STG_JDE_F0006') }} as BusinessUnit
+on Branch.IBMCU = BusinessUnit.MCMCU
 left join
-{{ source('inventory', 'STG_JDE_F4105') }} as ItemCost
-on ItemCost.COITM = Item.IMITM and ItemCost.COMCU = CostCenter.MCMCU
+{{ source('inventory', 'STG_JDE_F4105') }} as ItemBU
+on ItemBU.COITM = Item.IMITM and ItemBU.COMCU = BusinessUnit.MCMCU
 
 AND UPPER('{{Last_Job_Status}}')<>'SUCCESS'
 
