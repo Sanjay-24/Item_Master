@@ -4,6 +4,6 @@ target/
 *.log
 
 .idea/
-logs/
-dbt_packages/
+logs/*.*
+dbt_packages/*
 dbt_modules
