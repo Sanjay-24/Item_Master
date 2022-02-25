@@ -57,7 +57,7 @@
 
 {%- set source_model = "stg_raw_inventory" -%}
 {%- set src_pk = "ItemNumber_HID" -%}
-{%- set src_nk = "ItemMaster_ItemNumber" -%}
+{%- set src_nk = "ItemNumber" -%}
 {%- set src_ldts = "LOAD_DATE" -%}
 {%- set src_source = "RECORD_SOURCE" -%}
 

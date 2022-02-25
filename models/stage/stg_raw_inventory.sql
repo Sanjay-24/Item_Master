@@ -9,7 +9,7 @@
 --- Model_Name is the name of the fully qualified name : <Database_name>.<Schema_name>.<table_name>. Equivalent of dbt {{this}}
 --- Job_Id is the one that we generate by MD5(BatchId+ModelName)
 --- Table_Name is just the table name without any database and schema names
-cost
+
 
 {%- call statement('model_name', fetch_result=True) -%}
         Select  LOWER('{{this}}') as model_name
@@ -57,22 +57,22 @@ cost
 {%- set yaml_metadata -%}
 source_model: 'raw_inventory'
 derived_columns:
-  primarykey: 'ItemMaster_ItemNumber'
+  primarykey: 'ItemNumber'
   RECORD_SOURCE: '!JDE'
   EFFECTIVE_FROM: '!21-Feb-2022'
 hashed_columns:
-  ItemNumber_HID: 'ItemMaster_ItemNumber'
+  ItemNumber_HID: 'ItemNumber'
   BusinessUnit_HID: 'BusinessUnit'
   ITEM_BU_HID: 'ItemBU_ItemNumber'
   ITEM_BRANCH_Item_HID: 'ItemBranch_ItemNumber'
   ITEM_BRANCH_BusinessUnit_HID: 'ItemBranch_BusinessUnit'
   BusinessUnit_Item_HID:
-    - 'ItemMaster_ItemNumber'
+    - 'ItemNumber'
     - 'BusinessUnit'
   ITEM_HASHDIFF:
     is_hashdiff: true
     columns:
-      - 'ItemMaster_ItemNumber'
+      - 'ItemNumber'
       - 'SecondItemNumber'
       - 'SourceLastUpdateDate'
       - 'ItemDescription1'
@@ -88,7 +88,7 @@ hashed_columns:
     columns:
       - 'ItemCommodityClass_Code'
       - 'BusinessUnit'
-      - 'ItemMaster_ItemNumber'
+      - 'ItemNumber'
       - 'ItemBranch_ItemCommoditySubClass_Code'
       - 'ItemInactiveStatus_Code'
       - 'TaxFlag'
@@ -116,7 +116,7 @@ WITH staging AS (
 
 SELECT ITEMUNITOFMEASURE_CODE,SECONDITEMNUMBER,SOURCELASTUPDATEDATE,ITEMDESCRIPTION1,ITEMDESCRIPTION2,ITEMCOMMODITYSUBCLASS_CODE,
 ITEMFAMILYGROUP_CODE,ITEMDIMENSIONGROUP_CODE,ITEMWAREHOUSEPROCESSGROUP1_CODE,ITEMWAREHOUSEPROCESSGROUP2_CODE,
-ITEMMASTER_ITEMNUMBER,BUSINESSUNIT,ITEMBRANCH_BUSINESSUNIT,ITEMCOMMODITYCLASS_CODE,ITEMBRANCH_ITEMCOMMODITYSUBCLASS_CODE,
+ITEMNUMBER,BUSINESSUNIT,ITEMBRANCH_BUSINESSUNIT,ITEMCOMMODITYCLASS_CODE,ITEMBRANCH_ITEMCOMMODITYSUBCLASS_CODE,
 ITEMINACTIVESTATUS_CODE,TAXFLAG,ITEMBRANCH_SOURCELASTUPDATEDATE,SOURCELASTUPDATEDBY,ISACTIVE,ITEMBRANCH_ITEMNUMBER,UNITCOST,
 ITEMBU_ITEMNUMBER,ITEMBU_BUSINESSUNIT,primarykey,RECORD_SOURCE,EFFECTIVE_FROM,ItemNumber_HID,BusinessUnit_HID,ITEM_BU_HID,
 ITEM_BRANCH_Item_HID,ITEM_BRANCH_BusinessUnit_HID,BusinessUnit_Item_HID,ITEM_HASHDIFF,Link_BusinessUnit_Item_HASHDIFF,
@@ -125,9 +125,9 @@ TO_DATE('{{ var('load_date') }}') AS LOAD_DATE,
 FROM staging 
 
 WHERE  UPPER('{{Last_Job_Status}}')<>'SUCCESS'
-AND concat( nvl(to_char(ITEMMASTER_ITEMNUMBER),'null'),',',nvl(ITEMBU_BUSINESSUNIT,'null'))
+AND concat( nvl(to_char(ITEMNUMBER),'null'),',',nvl(BUSINESSUNIT,'null'))
              not in ( select KEYVALUE from {{ref('dq_error_raw')}} where ERRORCLASSIFICATION = 'Error'
-             and KEYNAME = 'ITEMMASTER_ITEMNUMBER,ITEMBU_BUSINESSUNIT' ) 
+             and KEYNAME = 'ITEMNUMBER,BUSINESSUNIT' ) 
 
 
 
