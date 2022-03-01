@@ -1,4 +1,4 @@
-{% macro dq_unique_macro(table_name,column_name) %}
+{% macro dq_unique_macro1(table_name,column_name) %}
    BATCH_ID, MODEL_NAME,'{{column_name}}' AS KEYNAME,
 			 to_varchar({{column_name}}) AS KEYVALUE, 
             '{{column_name}}' AS FIELDANME, to_varchar({{column_name}}) as FIELDVALUE, 
@@ -6,7 +6,7 @@
 		   ( select BATCH_ID, MODEL_NAME,{{column_name}},count(*) from {{table_name}}
            group by BATCH_ID, MODEL_NAME,{{column_name}} having count(*) >1 )   
 {% endmacro %}  
-{% macro dq_null_macro(table_name,column_name) %}  
+{% macro dq_null_macro1(table_name,column_name) %}  
              BATCH_ID,  MODEL_NAME,'{{column_name}}' AS KEYNAME,
 			 to_varchar({{column_name}}) AS KEYVALUE, 
             '{{column_name}}' AS FIELDANME, to_varchar({{column_name}}) as FIELDVALUE, 

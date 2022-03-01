@@ -7,7 +7,7 @@
 {{ 
     config(
         materialized='table',
-        tags=["Source_system_orders"]
+        tags=["tag_test"]
         )
 }}
 select {{dq_unique_macro('h_BusinessUnit','COSTCENTERID_HID') }} union all

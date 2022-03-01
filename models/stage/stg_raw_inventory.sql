@@ -1,6 +1,6 @@
  -- depends_on: {{ ref('dq_error_raw') }}
 {{ config(
-    materialized='table',
+    materialized='view',
     tags=["Source_system_orders"]
 ) }}
 

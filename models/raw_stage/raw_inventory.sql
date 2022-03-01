@@ -1,5 +1,5 @@
 {{ config(
-    materialized='table',
+    materialized='view',
     tags=["Source_system_orders"]
 ) }}
 
@@ -67,6 +67,7 @@ Item.IMPRP6 as ItemDimensionGroup_Code,
 Item.IMPRP7 as ItemWarehouseProcessGroup1_Code,
 Item.IMPRP8 as ItemWarehouseProcessGroup2_Code,
 Item.IMITM as ItemNumber,
+Item.IMUSER as SourceLastUpdatedBy,
 BusinessUnit.MCMCU as BusinessUnit,
 Branch.IBMCU as ItemBranch_BusinessUnit,
 Branch.IBPRP1 as ItemCommodityClass_Code,
@@ -74,7 +75,7 @@ Branch.IBPRP2 as ItemBranch_ItemCommoditySubClass_Code,
 Branch.IBPRP5 as ItemInactiveStatus_Code,
 Branch.IBTX as TaxFlag,
 Branch.IBUPMJ as ItemBranch_SourceLastUpdateDate,
-Branch.IBUSER as SourceLastUpdatedBy,
+Branch.IBUSER as ItemBranch_SourceLastUpdatedBy,
 IFF(RTRIM(LTRIM(Branch.IBPRP5)) ='', 1, 0) AS IsActive,
 Branch.IBITM as ItemBranch_ItemNumber,
 ItemBU.COUNCS as UnitCost,

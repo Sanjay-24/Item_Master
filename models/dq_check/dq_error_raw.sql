@@ -2,11 +2,11 @@
 {{ 
     config(
         materialized='table',
-        tags=["Source_system_orders"]
+        tags=["tag_test"]
         )
 }}
-select {{dq_composite_unique_macro('raw_inventory','ITEMMASTER_ITEMNUMBER','ITEMCOST_BUSINESSUNIT') }} union all
-select {{dq_composite_null_macro('raw_inventory','ITEMMASTER_ITEMNUMBER','ITEMCOST_BUSINESSUNIT') }} 
+select {{dq_unique_macro('raw_inventory','ItemBU_ItemNumber,ItemBU_BusinessUnit') }} union all
+select {{dq_null_macro('raw_inventory','ItemBU_ItemNumber,ItemBU_BusinessUnit') }} 
 
            
      
